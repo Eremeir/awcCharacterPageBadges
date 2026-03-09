@@ -1,0 +1,15 @@
+{
+	"challenges": [
+		{	//Rainbow Challenge
+			//https://anilist.co/forum/thread/7738
+			"id": "rainbow",
+			"name": "Rainbow Challenge",
+			"characters": [
+				16055,	//Shuuichi Nitori
+				16327	//Yoshino Takatsuki
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/specials/rainbow/tdf/Rainbow.png",
+			"thread": 7738
+		}
+	]
+}
