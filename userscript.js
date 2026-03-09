@@ -1,12 +1,15 @@
 // ==UserScript==
 // @name         AWC Character Page Badges
-// @namespace    https://awc.moe/
-// @version      1.3
+// @namespace    https://github.com/Eremeir
+// @version      1.0.3
 // @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover zoom
-// @author       https://github.com/Eremeir
+// @author       Eremeir
+// @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
+// @supportURL   https://github.com/Eremeir/awcCharacterPageBadges/issues
 // @match        https://anilist.co/character/*
 // @grant        GM_xmlhttpRequest
 // @connect      raw.githubusercontent.com
+// @license      Unilicense
 // ==/UserScript==
 
 (function () {
@@ -16,7 +19,7 @@
 const DB_URL = "https://raw.githubusercontent.com/Eremeir/awcCharacterPageBadges/master/badges.jsonc";
 const CACHE_ENABLED = true;
 const CACHE_KEY = "awc_badges_cache";
-const CACHE_TTL = 24 * 60 * 60 * 1000; //24 hours
+const CACHE_TTL = 7 * 24 * 60 * 60 * 1000; //7 Days
 
 /* ---------------- JSONC STRIPPER ---------------- */
 function parseJSONC(text) {	//Strip comments from JSONC
