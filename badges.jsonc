@@ -9,7 +9,7 @@
 			"characters": [
 				497	//Artoria Pendragon
 			],
-			"image": "https://postimg.cc/WdZ12nqc",
+			"image": "https://i.postimg.cc/bwCD9Vzr/2018-End-of-Year.gif",
 			"thread": 4449	//About thread for threadless badges
 		},
 		/* ---------------- ANIME BADGES ---------------- */
@@ -21,7 +21,7 @@
 			"characters": [
 				4304	//Doraemon
 			],
-			"image": "https://postimg.cc/k2Y46MRH",
+			"image": "https://i.postimg.cc/VNmbhdfz/100-Year-Classic.png",
 			"thread": 75538
 		},
 		/* ANIME COLLECTION BADGES */
@@ -33,7 +33,7 @@
 			//"characters": [ 	NO CHARACTER PAGE
 			//	xx	//Dangobei
 			//],
-			//"image": "https://postimg.cc/Q9VWm9hL",
+			//"image": "https://i.postimg.cc/MTmbWVLG/Collection-Anthology-JAFC.png",
 			//"thread": 50869
 		//},
 			/* Franchise */
@@ -48,7 +48,7 @@
 			"characters": [
 				128986	//Bocchi Hitori
 			],
-			"image": "https://postimg.cc/QFz5XJdQ",
+			"image": "https://i.postimg.cc/VNfFW7yV/Event-Badge-Battle-1.png",
 			"thread": 75538
 		},
 			/* Raffle */
@@ -61,7 +61,7 @@
 			"characters": [
 				73205	//Chiaki Nanami
 			],
-			"image": "https://postimg.cc/sBdVf7tb",
+			"image": "https://i.postimg.cc/mrhhwSVZ/Gacha-Chiaki-Nanami-N.png",
 			"thread": 67067
 		},
 		/* ANIME GENRE BADGES */
@@ -102,7 +102,7 @@
 			"characters": [
 				121514	//Mitsuha Miyamizu
 			],
-			"image": "https://postimg.cc/fS3RRKDL",
+			"image": "https://i.postimg.cc/PJypK37m/Monthly-2018-August-Easy.gif",
 			"thread": 4728
 		},
 			/* 2019 */
@@ -121,19 +121,19 @@
 			"characters": [
 				88673	//Kongou
 			],
-			"image": "https://postimg.cc/ph0bRKLT",
+			"image": "https://i.postimg.cc/brPz0TXQ/Puzzle-Battleship.png",
 			"thread": 30744
 		},
 		/* ANIME SEASONAL BADGES */
 			/* 2019 */
 		{	//Winter 2019 Seasonal
 			//https://anilist.co/forum/thread/6207
-			"id": "battleship",
-			"name": "Puzzle Challenge - Battleship",
+			"id": "seasonal2019Winter",
+			"name": "Winter 2019 Seasonal Challenge",
 			"characters": [
 				14864	//Hyakkimaru
 			],
-			"image": "https://postimg.cc/Vr6R236Z",
+			"image": "https://i.postimg.cc/xCG4NQSQ/Seasonal-2019-Winter.gif",
 			"thread": 6207
 		},
 			/* 2020 */
@@ -167,7 +167,7 @@
 			"characters": [
 				40	//Luffy D. Monkey
 			],
-			"image": "https://postimg.cc/grKTBdVF",
+			"image": "https://i.postimg.cc/VLyPvk56/Tier-Anime-Beginners.png",
 			"thread": 4448
 		},
 		/* ---------------- MANGA BADGES ---------------- */
@@ -177,9 +177,9 @@
 			"id": "mangaCollection",
 			"name": "Akira Toriyama Collection Challenge",
 			"characters": [
-				40	//Luffy D. Monkey
+				3182	//Arale Norimaki
 			],
-			"image": "https://postimg.cc/Fd0Wh7XN",
+			"image": "https://i.postimg.cc/4dSrb987/Collection-Akira-Toriyama.png",
 			"thread": 75691
 		},
 		/* MANGA CITY BADGES */
@@ -190,7 +190,7 @@
 			"characters": [
 				539	//Nausicaä
 			],
-			"image": "https://postimg.cc/Jy664kFY",
+			"image": "https://i.postimg.cc/DZFt6QPh/Manga-City-Airport.png",
 			"thread": 11261
 		},
 		/* MANGA SPECIAL BADGES */
@@ -202,7 +202,7 @@
 			"characters": [
 				173093	//Monica
 			],
-			"image": "https://postimg.cc/4KRrtV48",
+			"image": "https://i.postimg.cc/5tX1hShM/Special-Explorers-Ocean.png",
 			"thread": 9960
 		},
 		/* MANGA TIER BADGES */
@@ -213,7 +213,7 @@
 			"characters": [
 				55132	//Akame ga KILL!
 			],
-			"image": "https://postimg.cc/c65z08bj",
+			"image": "https://i.postimg.cc/QxXZgQkX/Tier-Manga-Advanced.png",
 			"thread": 51476
 		}
 	]
