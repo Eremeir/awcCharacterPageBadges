@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AWC Character Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.0.3
+// @version      1.0.4
 // @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover zoom
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
@@ -123,7 +123,7 @@ function renderBadges(data, characterId, characterDiv) {
 	container.className = "awc-badge-container";
 
 	const title = document.createElement("h2");	//Create header
-	title.textContent = "Featured AWC Challenges";
+	title.textContent = "Featuring AWC Challenges";
 	title.style.margin = "25px 0";
 	container.appendChild(title);
 

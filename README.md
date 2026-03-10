@@ -4,6 +4,8 @@
 ## Description
 This userscript injects a section to display [Anime Watch Club](https://awc.moe/) badges on [AniList](anilist.co) character pages, showing any and all badges that feature that character, with a link to the challenge thread if available.
 
+![Doraemon Badge](https://i.imgur.com/4CwWEwz.png)
+
 ## Features
 - Loads only on **AniList character pages** (`https://anilist.co/character/*`)
 - Supports **PNG and GIF badges**
@@ -67,4 +69,4 @@ To maintain consistency with AWC.moe leaderboard listings, badges should be grou
   - Special
   - Tier
 
-In a perfect world, the db matches AWC Laderboard listings element for element. Newly added badges are added towards the end of their group.
+In a perfect world, the db matches AWC Laderboard listings element for element. Newly added badges are added towards the end of their group. I've added a lot of section headers and a few example badges but there are still hundreds left to impliment.

@@ -3,14 +3,55 @@
 		/* ---------------- SPECIAL ---------------- */
 		/* END OF YEAR BADGES */
 		{	//2018 Yearly
-			//no thread
+			//https://anilist.co/forum/thread/6208
 			"id": "animeYearly2018",
 			"name": "2018 Yearly Challenge",
 			"characters": [
 				497	//Artoria Pendragon
 			],
 			"image": "https://i.postimg.cc/bwCD9Vzr/2018-End-of-Year.gif",
-			"thread": 4449	//About thread for threadless badges
+			"thread": 6208
+		},
+		{	//2019 Yearly: Hard Mode
+			//https://anilist.co/forum/thread/10335
+			"id": "animeYearly2019Hard",
+			"name": "2019 Yearly Challenge: Hard Mode",
+			"characters": [
+				13701	//Mikoto Misaka
+			],
+			"image": "https://i.postimg.cc/d16ybNJb/End-of-Year-2019-Hard.png",
+			"thread": 10335
+		},
+		{	//2020 Yearly: Hard Mode
+			//https://anilist.co/forum/thread/21554
+			"id": "animeYearly2020Hard",
+			"name": "2020 Yearly Challenge: Hard Mode",
+			"characters": [
+				88892	//Katsuki Bakugou
+			],
+			"image": "https://i.postimg.cc/pdvwCrW6/End-of-Year-2020-Hard.png",
+			"thread": 21554
+		},
+		{	//2021 Yearly: Hard Mode
+			//https://anilist.co/forum/thread/48603
+			"id": "animeYearly2021Hard",
+			"name": "2021 Yearly Challenge: Hard Mode",
+			"characters": [
+				127318,	//Emilico
+				127319	//Kate
+			],
+			"image": "https://i.postimg.cc/Y0SK0PnD/2021-End-of-Year-Hard.png",
+			"thread": 48603
+		},
+		{	//2022 Yearly: Hard Mode
+			//https://anilist.co/forum/thread/62191
+			"id": "animeYearly2022Hard",
+			"name": "2022 Yearly Challenge: Hard Mode",
+			"characters": [
+				168774	//Nazuna Nanakusa
+			],
+			"image": "https://i.postimg.cc/W3QcGNXm/2022-End-of-Year-Hard.png",
+			"thread": 62191
 		},
 		/* ---------------- ANIME BADGES ---------------- */
 		/* ANIME CLASSIC BADGES */
@@ -24,6 +65,16 @@
 			"image": "https://i.postimg.cc/VNmbhdfz/100-Year-Classic.png",
 			"thread": 75538
 		},
+		//{	//Pioneers' Classic
+		//	//https://anilist.co/forum/thread/51196
+		//	"id": "pioneersClassic",
+		//	"name": "Pioneers' Classic Challenge",
+		//	"characters": [
+		//		xx	//NO CHARACTER PAGE
+		//	],
+		//	"image": "https://i.postimg.cc/JntTv8Bj/Pioneers-Classic.png",
+		//	"thread": 51196
+		//},
 		/* ANIME COLLECTION BADGES */
 			/* Anthology */
 		//{	//Japanese Animated Film Classics Collection
@@ -37,6 +88,56 @@
 			//"thread": 50869
 		//},
 			/* Franchise */
+		{	//Cardcaptor Sakura Collection
+			//https://anilist.co/forum/thread/44858
+			"id": "cardcaptorCollection",
+			"name": "Cardcaptor Sakura Collection Challenge",
+			"characters": [
+				2671	//Sakura Kinomoto
+			],
+			"image": "https://i.postimg.cc/nzBPrJYT/Collection-Franchise-Cardcaptor-Sakura.png",
+			"thread": 44858
+		},
+		{	//Evangelion Collection
+			//https://anilist.co/forum/thread/40441
+			"id": "evangelionCollection",
+			"name": "Evangelion Collection Challenge",
+			"characters": [
+				94	//Asuka Langley Souryuu
+			],
+			"image": "https://i.postimg.cc/0QSTJVPj/Collection-Franchise-Evangelion.png",
+			"thread": 40441
+		},
+		{	//Fate Collection
+			//https://anilist.co/forum/thread/77041
+			"id": "fateCollection",
+			"name": "Fate Collection Challenge",
+			"characters": [
+				497	//Artoria Pendragon
+			],
+			"image": "https://i.postimg.cc/Yqxn772j/Collection-Franchise-Fate.png",
+			"thread": 77041
+		},
+		{	//Gintama Collection
+			//https://anilist.co/forum/thread/25322
+			"id": "gintamaCollection",
+			"name": "Gintama Collection Challenge",
+			"characters": [
+				674	//Kagura
+			],
+			"image": "https://i.postimg.cc/025c4JVP/Collection-Franchise-Gintama.png",
+			"thread": 25322
+		},
+		{	//Inuyasha Collection
+			//https://anilist.co/forum/thread/59212
+			"id": "inuyashaCollection",
+			"name": "Inuyasha Collection Challenge",
+			"characters": [
+				1353	//Inuyasha
+			],
+			"image": "https://i.postimg.cc/fTnZrPX2/Collection-Franchise-Inuyasha.png",
+			"thread": 59212
+		},
 			/* Legend */
 			/* Studio */
 		/* ANIME EVENT BADGES */
@@ -53,6 +154,16 @@
 		},
 			/* Raffle */
 			/* Special */
+		{	//Advent Calendar Challenge
+			//https://anilist.co/forum/thread/5926
+			"id": "advent",
+			"name": "Advent Calendar Challenge",
+			"characters": [
+				497	//Artoria Pendragon
+			],
+			"image": "https://i.postimg.cc/6Qdv07sN/Event-Others-Advent.png",
+			"thread": 5926
+		},
 		/* ANIME GACHA BADGES */
 		{	//AWC Gacha
 			//https://anilist.co/forum/thread/67067
@@ -66,12 +177,62 @@
 		},
 		/* ANIME GENRE BADGES */
 			/* Action */
-		{	//Action Genre
+		{	//Action Genre: Easy
 			//https://anilist.co/forum/thread/5288
 			"id": "genreActionEasy",
 			"name": "Action Genre: Easy",
 			"characters": [
 				45627	//Levi
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
+			"thread": 5288
+		},
+		{	//Action Genre: Normal
+			//https://anilist.co/forum/thread/5288
+			"id": "genreActionNormal",
+			"name": "Action Genre: Normal",
+			"characters": [
+				89220	//Shouto Todoroki
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
+			"thread": 5288
+		},
+		{	//Action Genre: Hard
+			//https://anilist.co/forum/thread/5288
+			"id": "genreActionHard",
+			"name": "Action Genre: Hard",
+			"characters": [
+				27	//Killua Zoldyck
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
+			"thread": 5288
+		},
+		{	//Action Genre: Easy (Legacy)
+			//https://anilist.co/forum/thread/5288
+			"id": "genreActionEasyLGCY",
+			"name": "Action Genre: Easy (Legacy)",
+			"characters": [
+				45627	//Levi
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
+			"thread": 5288
+		},
+		{	//Action Genre: Normal (Legacy)
+			//https://anilist.co/forum/thread/5288
+			"id": "genreActionNormalLGCY",
+			"name": "Action Genre: Normal (Legacy)",
+			"characters": [
+				89220	//Shouto Todoroki
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
+			"thread": 5288
+		},
+		{	//Action Genre: Hard (Legacy)
+			//https://anilist.co/forum/thread/5288
+			"id": "genreActionHardLGCY",
+			"name": "Action Genre: Hard (Legacy)",
+			"characters": [
+				27	//Killua Zoldyck
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
 			"thread": 5288
@@ -95,14 +256,24 @@
 			/* Thriller */
 		/* ANIME MONTHLY 2018–20XX BADGES */
 			/* 2018 */
-		{	//Rainbow
+		{	//Aug 2018 Monthly: Easy
 			//https://anilist.co/forum/thread/4728
-			"id": "monthly2018Aug",
-			"name": "Aug 2018 Monthly Challenge: Easy Mode",
+			"id": "monthly2018AugEasy",
+			"name": "Aug 2018 Monthly Challenge: Easy",
 			"characters": [
 				121514	//Mitsuha Miyamizu
 			],
 			"image": "https://i.postimg.cc/PJypK37m/Monthly-2018-August-Easy.gif",
+			"thread": 4728
+		},
+		{	//Aug 2018 Monthly: Hard
+			//https://anilist.co/forum/thread/4728
+			"id": "monthly2018AugHard",
+			"name": "Aug 2018 Monthly Challenge: Hard",
+			"characters": [
+				121514	//Mitsuha Miyamizu
+			],
+			"image": "https://i.postimg.cc/CLWYXHVD/Monthly-2018-August-Hard.gif",
 			"thread": 4728
 		},
 			/* 2019 */
@@ -206,12 +377,32 @@
 			"thread": 9960
 		},
 		/* MANGA TIER BADGES */
+		{	//Manga Tier: Beginner
+			//https://anilist.co/forum/thread/6395
+			"id": "mangaTierBeginner",
+			"name": "Manga: Beginner's Challenge",
+			"characters": [
+				73935	//Saitama
+			],
+			"image": "https://i.postimg.cc/Dw0fdhy6/Tier-Manga-Beginners.png",
+			"thread": 6395
+		},
+		{	//Manga Tier: Intermediate
+			//https://anilist.co/forum/thread/10665
+			"id": "mangaTierBeginner",
+			"name": "Manga: Intermediate Challenge",
+			"characters": [
+				17	//Naruto Uzumaki
+			],
+			"image": "https://i.postimg.cc/t4cqBcsj/Tier-Mange-Intermediate.png",
+			"thread": 10665
+		},
 		{	//Manga Tier: Advanced
 			//https://anilist.co/forum/thread/51476
 			"id": "mangaTierAdvanced",
 			"name": "Manga: Advanced Challenge",
 			"characters": [
-				55132	//Akame ga KILL!
+				63351	//Akame
 			],
 			"image": "https://i.postimg.cc/QxXZgQkX/Tier-Manga-Advanced.png",
 			"thread": 51476
