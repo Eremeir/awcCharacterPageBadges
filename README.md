@@ -2,7 +2,7 @@
 **Display Anime Watch Club badges on AniList Character pages for any and all badges that character is featured in.**
 
 ## Description
-This userscript injects a section to display [Anime Watch Club](https://awc.moe/) badges on [AniList](anilist.co) character pages, showing any and all badges that feature that character, with a link to the challenge thread if available.
+This third-party userscript injects a section to display [Anime Watch Club](https://awc.moe/) badges on [AniList](anilist.co) character pages, showing any and all badges that feature that character, with a link to the challenge thread if available.
 
 ![Doraemon Badge](https://i.imgur.com/4CwWEwz.png)
 
@@ -18,7 +18,7 @@ This userscript injects a section to display [Anime Watch Club](https://awc.moe/
   - Attempting to group by badge type then by release date but it's imperfect. Characters should rarely if ever have more than one badge anyway.
 
 ## Usage
-1. Install via [GreasyFork](https://greasyfork.org/en/scripts/569079-awc-character-page-badges) or GitHub.
+1. Install via [GreasyFork](https://greasyfork.org/en/scripts/569079-awc-character-page-badges) or [GitHub](https://github.com/Eremeir/awcCharacterPageBadges).
 2. Open any AniList character page to see badges for that character (If they've ever featured on one).
 3. Clicking a badge opens the corresponding AWC challenge forum thread in a new tab.
 
@@ -26,6 +26,15 @@ This userscript injects a section to display [Anime Watch Club](https://awc.moe/
 - The script caches badge data from GitHub for **7 Days** for faster loading. Badges are seldom released more often.
 - Works with AniList’s SPA (Single-Page-Application) navigation; switching pages using forward/back buttons injects badges automatically and shouldn't require a page refresh.
 - Styling attempts to match AniList’s layout and color scheme by barely having any color scheme to begin with.
+
+## Disclaimer
+
+This userscript is an unofficial community project and is **not affiliated with, endorsed by, or supported by**:
+
+- **awc.moe or the Anime Watch Club (AWC) team**
+- **AniList**
+
+It only displays publicly available AWC badge information on AniList character pages for convenience and doesn't host any content itself. All challenge content, badge art, and forum threads belong to their respective creators. The intended usecase is just to show off the incredible badge art in more places and give an idea as to what badges feature different characters if you wanted to try to collect badges that depict characters you like, like I do. Still waiting on more OVERLORD badges, thx.
 
 ## DB Style guide for updates
 This guide explains how to format and organize new AWC challenge entries in the `badges.jsonc` database.

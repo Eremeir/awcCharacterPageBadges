@@ -177,6 +177,36 @@
 		},
 		/* ANIME GENRE BADGES */
 			/* Action */
+		{	//Action Genre: Easy (Legacy)
+			//https://anilist.co/forum/thread/5288
+			"id": "genreActionEasyLGCY",
+			"name": "Action Genre: Easy (Legacy)",
+			"characters": [
+				45627	//Levi
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Legacy-Action-Easy.png",
+			"thread": 5288
+		},
+		{	//Action Genre: Normal (Legacy)
+			//https://anilist.co/forum/thread/5288
+			"id": "genreActionNormalLGCY",
+			"name": "Action Genre: Normal (Legacy)",
+			"characters": [
+				89220	//Shouto Todoroki
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Legacy-Action-Normal.png",
+			"thread": 5288
+		},
+		{	//Action Genre: Hard (Legacy)
+			//https://anilist.co/forum/thread/5288
+			"id": "genreActionHardLGCY",
+			"name": "Action Genre: Hard (Legacy)",
+			"characters": [
+				27	//Killua Zoldyck
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Legacy-Action-Hard.png",
+			"thread": 5288
+		},
 		{	//Action Genre: Easy
 			//https://anilist.co/forum/thread/5288
 			"id": "genreActionEasy",
@@ -201,36 +231,6 @@
 			//https://anilist.co/forum/thread/5288
 			"id": "genreActionHard",
 			"name": "Action Genre: Hard",
-			"characters": [
-				27	//Killua Zoldyck
-			],
-			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
-			"thread": 5288
-		},
-		{	//Action Genre: Easy (Legacy)
-			//https://anilist.co/forum/thread/5288
-			"id": "genreActionEasyLGCY",
-			"name": "Action Genre: Easy (Legacy)",
-			"characters": [
-				45627	//Levi
-			],
-			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
-			"thread": 5288
-		},
-		{	//Action Genre: Normal (Legacy)
-			//https://anilist.co/forum/thread/5288
-			"id": "genreActionNormalLGCY",
-			"name": "Action Genre: Normal (Legacy)",
-			"characters": [
-				89220	//Shouto Todoroki
-			],
-			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
-			"thread": 5288
-		},
-		{	//Action Genre: Hard (Legacy)
-			//https://anilist.co/forum/thread/5288
-			"id": "genreActionHardLGCY",
-			"name": "Action Genre: Hard (Legacy)",
 			"characters": [
 				27	//Killua Zoldyck
 			],
