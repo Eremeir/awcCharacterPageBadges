@@ -1,6 +1,153 @@
 {
 	"challenges": [
-		{	//Rainbow Challenge
+		/* ---------------- SPECIAL ---------------- */
+		/* END OF YEAR BADGES */
+		{	//2018 Yearly
+			//no thread
+			"id": "animeYearly2018",
+			"name": "2018 Yearly Challenge",
+			"characters": [
+				497	//Artoria Pendragon
+			],
+			"image": "https://postimg.cc/WdZ12nqc",
+			"thread": 4449	//About thread for threadless badges
+		},
+		/* ---------------- ANIME BADGES ---------------- */
+		/* ANIME CLASSIC BADGES */
+		{	//100 Year Classic
+			//https://anilist.co/forum/thread/75538
+			"id": "animeClassic100",
+			"name": "100 Year Classic Challenge",
+			"characters": [
+				4304	//Doraemon
+			],
+			"image": "https://postimg.cc/k2Y46MRH",
+			"thread": 75538
+		},
+		/* ANIME COLLECTION BADGES */
+			/* Anthology */
+		//{	//Japanese Animated Film Classics Collection
+			//https://anilist.co/forum/thread/50869
+			//"id": "jpAnimatedClassics",
+			//"name": "Japanese Animated Film Classics Collection Challenge",
+			//"characters": [ 	NO CHARACTER PAGE
+			//	xx	//Dangobei
+			//],
+			//"image": "https://postimg.cc/Q9VWm9hL",
+			//"thread": 50869
+		//},
+			/* Franchise */
+			/* Legend */
+			/* Studio */
+		/* ANIME EVENT BADGES */
+			/* Badge Battle */
+		{	//Badge Battle #1: Bocchi vs Senko
+			//https://anilist.co/forum/thread/75538
+			"id": "badgeBattle01",
+			"name": "Badge Battle #1: Bocchi vs Senko",
+			"characters": [
+				128986	//Bocchi Hitori
+			],
+			"image": "https://postimg.cc/QFz5XJdQ",
+			"thread": 75538
+		},
+			/* Raffle */
+			/* Special */
+		/* ANIME GACHA BADGES */
+		{	//AWC Gacha
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaVideoGamesChiakiN",
+			"name": "Quarter Banner: Video Games!",
+			"characters": [
+				73205	//Chiaki Nanami
+			],
+			"image": "https://postimg.cc/sBdVf7tb",
+			"thread": 67067
+		},
+		/* ANIME GENRE BADGES */
+			/* Action */
+		{	//Action Genre
+			//https://anilist.co/forum/thread/5288
+			"id": "genreActionEasy",
+			"name": "Action Genre: Easy",
+			"characters": [
+				45627	//Levi
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
+			"thread": 5288
+		},
+			/* Adventure */
+			/* Comedy */
+			/* Drama */
+			/* Ecchi */
+			/* Fantasy */
+			/* Hentai */
+			/* Horror */
+			/* Mahou Shoujo */
+			/* Mecha */
+			/* Music */
+			/* Mystery */
+			/* Romance */
+			/* Sci-Fi */
+			/* Slice of Life */
+			/* Sports */
+			/* Supernatural */
+			/* Thriller */
+		/* ANIME MONTHLY 2018–20XX BADGES */
+			/* 2018 */
+		{	//Rainbow
+			//https://anilist.co/forum/thread/4728
+			"id": "monthly2018Aug",
+			"name": "Aug 2018 Monthly Challenge: Easy Mode",
+			"characters": [
+				121514	//Mitsuha Miyamizu
+			],
+			"image": "https://postimg.cc/fS3RRKDL",
+			"thread": 4728
+		},
+			/* 2019 */
+			/* 2020 */
+			/* 2021 */
+			/* 2022 */
+			/* 2023 */
+			/* 2024 */
+			/* 2025 */
+			/* 2026 */
+		/* ANIME PUZZLE BADGES */
+		{	//Battleship
+			//https://anilist.co/forum/thread/30744
+			"id": "battleship",
+			"name": "Puzzle Challenge - Battleship",
+			"characters": [
+				88673	//Kongou
+			],
+			"image": "https://postimg.cc/ph0bRKLT",
+			"thread": 30744
+		},
+		/* ANIME SEASONAL BADGES */
+			/* 2019 */
+		{	//Winter 2019 Seasonal
+			//https://anilist.co/forum/thread/6207
+			"id": "battleship",
+			"name": "Puzzle Challenge - Battleship",
+			"characters": [
+				14864	//Hyakkimaru
+			],
+			"image": "https://postimg.cc/Vr6R236Z",
+			"thread": 6207
+		},
+			/* 2020 */
+			/* 2021 */
+			/* 2022 */
+			/* 2023 */
+			/* 2024 */
+			/* 2025 */
+			/* 2026 */
+		/* ANIME SPECIAL BADGES */
+			/* Dungeon */
+			/* Staff Picks */
+			/* Special */
+		{	//Rainbow
 			//https://anilist.co/forum/thread/7738
 			"id": "rainbow",
 			"name": "Rainbow Challenge",
@@ -10,6 +157,64 @@
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/specials/rainbow/tdf/Rainbow.png",
 			"thread": 7738
+		},
+			/* Gambler's */
+		/* ANIME TIER BADGES */
+		{	//Anime Tier: Beginners
+			//https://anilist.co/forum/thread/4448
+			"id": "animeTierBeginners",
+			"name": "Anime: Beginner's Challenge",
+			"characters": [
+				40	//Luffy D. Monkey
+			],
+			"image": "https://postimg.cc/grKTBdVF",
+			"thread": 4448
+		},
+		/* ---------------- MANGA BADGES ---------------- */
+		/* MANGA COLLECTION BADGES */
+		{	//Manga Collection: Akira Toriyama
+			//https://anilist.co/forum/thread/75691
+			"id": "mangaCollection",
+			"name": "Akira Toriyama Collection Challenge",
+			"characters": [
+				40	//Luffy D. Monkey
+			],
+			"image": "https://postimg.cc/Fd0Wh7XN",
+			"thread": 75691
+		},
+		/* MANGA CITY BADGES */
+		{	//Manga City: Airport
+			//https://anilist.co/forum/thread/11261
+			"id": "mangaCollection",
+			"name": "Manga City - Airport",
+			"characters": [
+				539	//Nausicaä
+			],
+			"image": "https://postimg.cc/Jy664kFY",
+			"thread": 11261
+		},
+		/* MANGA SPECIAL BADGES */
+			/* Explorer's's */
+		{	//Explorer's Challenge: Ocean Path
+			//https://anilist.co/forum/thread/9960
+			"id": "mangaExplorerOcean",
+			"name": "Explorer's Challenge: Ocean Path",
+			"characters": [
+				173093	//Monica
+			],
+			"image": "https://postimg.cc/4KRrtV48",
+			"thread": 9960
+		},
+		/* MANGA TIER BADGES */
+		{	//Manga Tier: Advanced
+			//https://anilist.co/forum/thread/51476
+			"id": "mangaTierAdvanced",
+			"name": "Manga: Advanced Challenge",
+			"characters": [
+				55132	//Akame ga KILL!
+			],
+			"image": "https://postimg.cc/c65z08bj",
+			"thread": 51476
 		}
 	]
 }
