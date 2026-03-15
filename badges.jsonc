@@ -1,6 +1,16 @@
 {
 	"challenges": [
 		/* ---------------- SPECIAL ---------------- */
+		{	//Placeholder
+			//https://anilist.co/forum/thread/4449
+			"id": "placeholder",
+			"name": "Placeholder Badge",
+			"characters": [
+				46163	//Nico Yazawa
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 4449
+		},
 		/* END OF YEAR BADGES */
 		{	//2018 Yearly
 			//https://anilist.co/forum/thread/6208
@@ -87,6 +97,16 @@
 			//"image": "https://i.postimg.cc/MTmbWVLG/Collection-Anthology-JAFC.png",
 			//"thread": 50869
 		//},
+		{	//Sanrio Collection
+			//https://anilist.co/forum/thread/70097
+			"id": "sanrioCollection",
+			"name": "Sanrio Collection Challenge",
+			"characters": [
+				7312	//Kitty White
+			],
+			"image": "https://i.postimg.cc/gjGCDV3G/Collection-Anthology-Sanrio.png",
+			"thread": 70097
+		},
 			/* Franchise */
 		{	//Cardcaptor Sakura Collection
 			//https://anilist.co/forum/thread/44858
@@ -138,8 +158,61 @@
 			"image": "https://i.postimg.cc/fTnZrPX2/Collection-Franchise-Inuyasha.png",
 			"thread": 59212
 		},
+		{	//Isekai Quartet Collection
+			//https://anilist.co/forum/thread/88268
+			"id": "isekaiQuartetCollection",
+			"name": "Isekai Quartet Collection Challenge",
+			"characters": [
+				89103,	//Momonga
+				89364,	//Kazuma Satou
+				88573,	//Subaru Natsuki
+				121052	//Tanya Degurechaff
+			],
+			"image": "https://i.postimg.cc/VNjMV2RB/Collection-Franchise-Isekai-Quartet.png",
+			"thread": 88268
+		},
 			/* Legend */
 			/* Studio */
+		{	//Gainax Studio Collection: Line
+			//https://anilist.co/forum/thread/73456
+			"id": "gainaxLine",
+			"name": "Gainax Studio Collection Challenge: Line",
+			"characters": [
+				32801	//Stocking Anarchy
+			],
+			"image": "https://i.postimg.cc/kGqfPDLz/Collection-Studio-Gainax-Line.png",
+			"thread": 73456
+		},
+		{	//Gainax Studio Collection: Board
+			//https://anilist.co/forum/thread/73456
+			"id": "gainaxBoard",
+			"name": "Gainax Studio Collection Challenge: Board",
+			"characters": [
+				32801	//Stocking Anarchy
+			],
+			"image": "https://i.postimg.cc/J0pcwxNH/Collection-Studio-Gainax-Board.png",
+			"thread": 73456
+		},
+		{	//MADHOUSE Studio Collection: Line
+			//https://anilist.co/forum/thread/36321
+			"id": "madhouseLine",
+			"name": "MADHOUSE Studio Collection Challenge: Line",
+			"characters": [
+				89122	//Albedo
+			],
+			"image": "https://i.postimg.cc/wjhtDxxj/Collection-Studio-Madhouse-Line.png",
+			"thread": 36321
+		},
+		{	//MADHOUSE Studio Collection: Board
+			//https://anilist.co/forum/thread/36321
+			"id": "madhouseBoard",
+			"name": "MADHOUSE Studio Collection Challenge: Board",
+			"characters": [
+				89122	//Albedo
+			],
+			"image": "https://i.postimg.cc/wBg12K3c/Collection-Studio-Madhouse-Board.png",
+			"thread": 36321
+		},
 		/* ANIME EVENT BADGES */
 			/* Badge Battle */
 		{	//Badge Battle #1: Bocchi vs Senko
@@ -153,8 +226,28 @@
 			"thread": 75538
 		},
 			/* Raffle */
+		{	//Community Raffle 1
+			//https://anilist.co/forum/thread/6715
+			"id": "eventRaffle1",
+			"name": "Community Raffle Challenge #1",
+			"characters": [
+				47167	//Taichi Mashima
+			],
+			"image": "https://i.postimg.cc/KvXpMSfG/Event-Raffle-1.png",
+			"thread": 6715
+		},
+		{	//Community Raffle 2
+			//https://anilist.co/forum/thread/10745
+			"id": "eventRaffle2",
+			"name": "Community Raffle Challenge #2",
+			"characters": [
+				601	//Alucard
+			],
+			"image": "https://i.postimg.cc/L6zCkCQz/Event-Raffle-2.png",
+			"thread": 10745
+		},
 			/* Special */
-		{	//Advent Calendar Challenge
+		{	//Advent Calendar
 			//https://anilist.co/forum/thread/5926
 			"id": "advent",
 			"name": "Advent Calendar Challenge",
@@ -177,67 +270,147 @@
 		},
 		/* ANIME GENRE BADGES */
 			/* Action */
-		{	//Action Genre: Easy (Legacy)
+		{	//Action Genre: Easy Mode (Legacy)
 			//https://anilist.co/forum/thread/5288
 			"id": "genreActionEasyLGCY",
-			"name": "Action Genre: Easy (Legacy)",
+			"name": "Action Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
 				45627	//Levi
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Legacy-Action-Easy.png",
 			"thread": 5288
 		},
-		{	//Action Genre: Normal (Legacy)
+		{	//Action Genre: Normal Mode (Legacy)
 			//https://anilist.co/forum/thread/5288
 			"id": "genreActionNormalLGCY",
-			"name": "Action Genre: Normal (Legacy)",
+			"name": "Action Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
 				89220	//Shouto Todoroki
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Legacy-Action-Normal.png",
 			"thread": 5288
 		},
-		{	//Action Genre: Hard (Legacy)
+		{	//Action Genre: Hard Mode (Legacy)
 			//https://anilist.co/forum/thread/5288
 			"id": "genreActionHardLGCY",
-			"name": "Action Genre: Hard (Legacy)",
+			"name": "Action Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
 				27	//Killua Zoldyck
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Legacy-Action-Hard.png",
 			"thread": 5288
 		},
-		{	//Action Genre: Easy
+		{	//Action Genre: Easy Mode
 			//https://anilist.co/forum/thread/5288
 			"id": "genreActionEasy",
-			"name": "Action Genre: Easy",
+			"name": "Action Genre Challenge: Easy Mode",
 			"characters": [
 				45627	//Levi
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
 			"thread": 5288
 		},
-		{	//Action Genre: Normal
+		{	//Action Genre: Normal Mode
 			//https://anilist.co/forum/thread/5288
 			"id": "genreActionNormal",
-			"name": "Action Genre: Normal",
+			"name": "Action Genre Challenge: Normal Mode",
 			"characters": [
 				89220	//Shouto Todoroki
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
 			"thread": 5288
 		},
-		{	//Action Genre: Hard
+		{	//Action Genre: Hard Mode
 			//https://anilist.co/forum/thread/5288
 			"id": "genreActionHard",
-			"name": "Action Genre: Hard",
+			"name": "Action Genre Challenge: Hard Mode",
 			"characters": [
 				27	//Killua Zoldyck
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
 			"thread": 5288
 		},
+		{	//Action Genre: Mastery
+			//https://anilist.co/forum/thread/5288
+			"id": "genreActionMastery",
+			"name": "Action Genre Challenge: Mastery",
+			"characters": [
+				390	//Mugen
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Mastery-Static.png",
+			"thread": 5288
+		},
 			/* Adventure */
+		{	//Adventure Genre: Easy Mode (Legacy)
+			//https://anilist.co/forum/thread/6111
+			"id": "genreAdventureEasyLGCY",
+			"name": "Adventure Genre Challenge: Easy Mode (Legacy)",
+			"characters": [
+				246	//Gokuu Son
+			],
+			"image": "https://i.postimg.cc/xTR6qyws/Legacy-Adventure-Easy.png",
+			"thread": 6111
+		},
+		{	//Adventure Genre: Normal Mode (Legacy)
+			//https://anilist.co/forum/thread/6111
+			"id": "genreAdventureNormalLGCY",
+			"name": "Adventure Genre Challenge: Normal Mode (Legacy)",
+			"characters": [
+				41949	//Aladdin
+			],
+			"image": "https://i.postimg.cc/wBSVnWNB/Legacy-Adventure-Normal.png",
+			"thread": 6111
+		},
+		{	//Adventure Genre: Hard Mode (Legacy)
+			//https://anilist.co/forum/thread/6111
+			"id": "genreAdventureHardLGCY",
+			"name": "Adventure Genre Challenge: Hard Mode (Legacy)",
+			"characters": [
+				4003	//Joutarou Kuujou
+			],
+			"image": "https://i.postimg.cc/NFtxj5pq/Legacy-Adventure-Hard.png",
+			"thread": 6111
+		},
+		{	//Adventure Genre: Easy Mode
+			//https://anilist.co/forum/thread/6111
+			"id": "genreAdventureEasy",
+			"name": "Adventure Genre Challenge: Easy Mode",
+			"characters": [
+				246	//Gokuu Son
+			],
+			"image": "https://i.postimg.cc/hjCf4qkp/Genre-Adventure-Easy.png",
+			"thread": 6111
+		},
+		{	//Adventure Genre: Normal Mode
+			//https://anilist.co/forum/thread/6111
+			"id": "genreAdventureNormal",
+			"name": "Adventure Genre Challenge: Normal Mode",
+			"characters": [
+				41949	//Aladdin
+			],
+			"image": "https://i.postimg.cc/xTNcQht3/Genre-Adventure-Normal.png",
+			"thread": 6111
+		},
+		{	//Adventure Genre: Hard Mode
+			//https://anilist.co/forum/thread/6111
+			"id": "genreAdventureHard",
+			"name": "Adventure Genre Challenge: Hard Mode",
+			"characters": [
+				4003	//Joutarou Kuujou
+			],
+			"image": "https://i.postimg.cc/RCyZgG46/Genre-Adventure-Hard.png",
+			"thread": 6111
+		},
+		{	//Adventure Genre: Mastery
+			//https://anilist.co/forum/thread/6111
+			"id": "genreAdventureMastery",
+			"name": "Adventure Genre Challenge: Mastery",
+			"characters": [
+				7373	//Holo
+			],
+			"image": "https://i.postimg.cc/zBXbWpfm/AWC-Genre-Adventure-Mastery-Static.png",
+			"thread": 6111
+		},
 			/* Comedy */
 			/* Drama */
 			/* Ecchi */
@@ -256,20 +429,20 @@
 			/* Thriller */
 		/* ANIME MONTHLY 2018–20XX BADGES */
 			/* 2018 */
-		{	//Aug 2018 Monthly: Easy
+		{	//August 2018 Monthly: Easy Mode
 			//https://anilist.co/forum/thread/4728
 			"id": "monthly2018AugEasy",
-			"name": "Aug 2018 Monthly Challenge: Easy",
+			"name": "August 2018 Monthly Challenge: Easy Mode",
 			"characters": [
 				121514	//Mitsuha Miyamizu
 			],
 			"image": "https://i.postimg.cc/PJypK37m/Monthly-2018-August-Easy.gif",
 			"thread": 4728
 		},
-		{	//Aug 2018 Monthly: Hard
+		{	//August 2018 Monthly: Hard
 			//https://anilist.co/forum/thread/4728
 			"id": "monthly2018AugHard",
-			"name": "Aug 2018 Monthly Challenge: Hard",
+			"name": "August 2018 Monthly Challenge: Hard Mode",
 			"characters": [
 				121514	//Mitsuha Miyamizu
 			],
@@ -284,16 +457,106 @@
 			/* 2024 */
 			/* 2025 */
 			/* 2026 */
+		{	//January 2026 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/86816
+			"id": "monthly2026JanEasy",
+			"name": "January 2026 Monthly Challenge: Easy Mode",
+			"characters": [
+				183024	//Himeno Toyokawa
+			],
+			"image": "https://i.postimg.cc/g2wLk0nh/Monthly-2026-January-Easy-Static.png",
+			"thread": 86816
+		},
+		{	//January 2026 Monthly: Hard Mode
+			//https://anilist.co/forum/thread/86816
+			"id": "monthly2026JanHard",
+			"name": "January 2026 Monthly Challenge: Hard Mode",
+			"characters": [
+				183024	//Himeno Toyokawa
+			],
+			"image": "https://i.postimg.cc/2SPbqfWN/Monthly-2026-January-Hard-Static.png",
+			"thread": 86816
+		},
+		{	//February 2026 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/87467
+			"id": "monthly2026FebEasy",
+			"name": "February 2026 Monthly Challenge: Easy Mode",
+			"characters": [
+				285560	//Anzu Hoshino
+			],
+			"image": "https://i.postimg.cc/15v6nxzX/Monthly-2026-February-Easy-Static.png",
+			"thread": 87467
+		},
+		{	//February 2026 Monthly: Hard
+			//https://anilist.co/forum/thread/87467
+			"id": "monthly2026FebHard",
+			"name": "February 2026 Monthly Challenge: Hard Mode",
+			"characters": [
+				285560	//Anzu Hoshino
+			],
+			"image": "https://i.postimg.cc/Gpys5Hxr/Monthly-2026-February-Hard-Static.png",
+			"thread": 87467
+		},
+		{	//March 2026 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/88014
+			"id": "monthly2026MarEasy",
+			"name": "March 2026 Monthly Challenge: Easy Mode",
+			"characters": [
+				203922	//Machi Kugui
+			],
+			"image": "https://i.postimg.cc/LX8xd68x/Monthly-2026-March-Easy-Static.png",
+			"thread": 88014
+		},
+		{	//March 2026 Monthly: Hard
+			//https://anilist.co/forum/thread/88014
+			"id": "monthly2026MarHard",
+			"name": "March 2026 Monthly Challenge: Hard Mode",
+			"characters": [
+				203922	//Machi Kugui
+			],
+			"image": "https://i.postimg.cc/MZ4d4w27/Monthly-2026-March-Hard-Static.png",
+			"thread": 88014
+		},
 		/* ANIME PUZZLE BADGES */
 		{	//Battleship
 			//https://anilist.co/forum/thread/30744
-			"id": "battleship",
+			"id": "puzzleBattleship",
 			"name": "Puzzle Challenge - Battleship",
 			"characters": [
 				88673	//Kongou
 			],
 			"image": "https://i.postimg.cc/brPz0TXQ/Puzzle-Battleship.png",
 			"thread": 30744
+		},
+		{	//Chess
+			//https://anilist.co/forum/thread/71984
+			"id": "puzzleChess",
+			"name": "Puzzle Challenge - Chess",
+			"characters": [
+				123690	//Schwi Dola
+			],
+			"image": "https://i.postimg.cc/50WZ8sKh/Puzzle-Chess.png",
+			"thread": 71984
+		},
+		{	//Tag Domino
+			//https://anilist.co/forum/thread/17048
+			"id": "puzzleTagDomino",
+			"name": "Puzzle Challenge - Tag Domino",
+			"characters": [
+				145699	//Emilia
+			],
+			"image": "https://i.postimg.cc/vBfY6KKY/Puzzle-Tag-Domino.png",
+			"thread": 17048
+		},
+		{	//Tetris
+			//https://anilist.co/forum/thread/56903
+			"id": "puzzleTetris",
+			"name": "Puzzle Challenge - Tetris",
+			"characters": [
+				124690	//Henry Legolant
+			],
+			"image": "https://i.postimg.cc/QtLpPVZC/Puzzle-Tetris.png",
+			"thread": 56903
 		},
 		/* ANIME SEASONAL BADGES */
 			/* 2019 */
@@ -314,10 +577,51 @@
 			/* 2024 */
 			/* 2025 */
 			/* 2026 */
+		{	//Winter 2026 Seasonal
+			//https://anilist.co/forum/thread/86865
+			"id": "seasonal2026Winter",
+			"name": "Winter 2026 Seasonal Challenge PLACEHOLDER",
+			"characters": [
+				46163	//Placeholder
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 86865
+		},
 		/* ANIME SPECIAL BADGES */
 			/* Dungeon */
 			/* Staff Picks */
 			/* Special */
+		{	//Arcade
+			//https://anilist.co/forum/thread/76134
+			"id": "arcade",
+			"name": "Arcade Challenge",
+			"characters": [
+				126962	//Akira Oono
+			],
+			"image": "https://i.postimg.cc/wv86jJtf/Special-Arcade.png",
+			"thread": 76134
+		},
+		{	//Archaeologist
+			//https://anilist.co/forum/thread/9282
+			"id": "archaeologist",
+			"name": "Archaeologist’s Challenge",
+			"characters": [
+				122443	//Riko
+			],
+			"image": "https://i.postimg.cc/c4YGdzzT/Special-Archaeologists.png",
+			"thread": 9282
+		},
+		{	//Rainbow (Legacy)
+			//https://anilist.co/forum/thread/7738
+			"id": "rainbow",
+			"name": "Rainbow Challenge",
+			"characters": [
+				16055,	//Shuuichi Nitori
+				16327	//Yoshino Takatsuki
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/specials/rainbow/tdf/Rainbow-Legacy.png",
+			"thread": 7738
+		},
 		{	//Rainbow
 			//https://anilist.co/forum/thread/7738
 			"id": "rainbow",
@@ -329,17 +633,98 @@
 			"image": "https://cdn.awc.moe/static/badges/anime/specials/rainbow/tdf/Rainbow.png",
 			"thread": 7738
 		},
+		{	//Trick or Treat
+			//https://anilist.co/forum/thread/77815
+			"id": "trickOrTreat",
+			"name": "Trick or Treat Challenge",
+			"characters": [
+				89121	//Shalltear Bloodfallen
+			],
+			"image": "https://i.postimg.cc/gjgWn2pV/Special-Trick-or-Treat.png",
+			"thread": 77815
+		},
 			/* Gambler's */
+			/* Zodiac's */
+		{	//Zodiac I: Chinese
+			//https://anilist.co/forum/thread/6553
+			"id": "zodiacCN",
+			"name": "Chinese Zodiac Challenge",
+			"characters": [
+				124093	//Xiu Ye
+			],
+			"image": "https://i.postimg.cc/dVjMyywy/Special-Zodiac.png",
+			"thread": 6553
+		},
+		{	//Zodiac II: Western
+			//https://anilist.co/forum/thread/40936
+			"id": "zodiacWest",
+			"name": "Western Zodiac Challenge",
+			"characters": [
+				28887	//Naoshi Haruki
+			],
+			"image": "https://i.postimg.cc/RZKLfNS2/Special-Zodiac-II.png",
+			"thread": 40936
+		},
+		{	//Zodiac III: Tarot (Upright)
+			//https://anilist.co/forum/thread/40936
+			"id": "zodiacTarot",
+			"name": "Tarot Zodiac Challenge (Upright)",
+			"characters": [
+				46169	//Nozomi Toujou
+			],
+			"image": "https://i.postimg.cc/mD7D5qD2/Special-Zodiac-III-Upright.png",
+			"thread": 40936
+		},
+		{	//Zodiac III: Tarot (Reversed)
+			//https://anilist.co/forum/thread/40936
+			"id": "zodiacTarotReversed",
+			"name": "Tarot Zodiac Challenge (Reversed)",
+			"characters": [
+				121430	//Elias Ainsworth
+			],
+			"image": "https://i.postimg.cc/fR0JdJN9/Special-Zodiac-III-Reverse.png",
+			"thread": 40936
+		},
 		/* ANIME TIER BADGES */
 		{	//Anime Tier: Beginners
 			//https://anilist.co/forum/thread/4448
 			"id": "animeTierBeginners",
-			"name": "Anime: Beginner's Challenge",
+			"name": "Anime Tier: Beginner's Challenge",
 			"characters": [
 				40	//Luffy D. Monkey
 			],
 			"image": "https://i.postimg.cc/VLyPvk56/Tier-Anime-Beginners.png",
 			"thread": 4448
+		},
+		{	//Anime Tier: Intermediate
+			//https://anilist.co/forum/thread/5027
+			"id": "animeTierIntermediate",
+			"name": "Anime Tier: Intermediate Challenge",
+			"characters": [
+				87275	//Ken Kaneki
+			],
+			"image": "https://i.postimg.cc/L5mT1nTx/Tier-Anime-Intermediate.png",
+			"thread": 5027
+		},
+		{	//Anime Tier: Advanced
+			//https://anilist.co/forum/thread/8462
+			"id": "animeTierAdvanced",
+			"name": "Anime Tier: Advanced Challenge",
+			"characters": [
+				81367	//Shiroe
+			],
+			"image": "https://i.postimg.cc/DZvJQs94/Tier-Anime-Advanced.png",
+			"thread": 8462
+		},
+		{	//Anime Tier: Expert
+			//https://anilist.co/forum/thread/38849
+			"id": "animeTierExpert",
+			"name": "Anime Tier: Expert Challenge",
+			"characters": [
+				8439	//Maka Albarn
+			],
+			"image": "https://i.postimg.cc/RFcMj5jn/Tier-Anime-Expert.png",
+			"thread": 38849
 		},
 		/* ---------------- MANGA BADGES ---------------- */
 		/* MANGA COLLECTION BADGES */
@@ -380,7 +765,7 @@
 		{	//Manga Tier: Beginner
 			//https://anilist.co/forum/thread/6395
 			"id": "mangaTierBeginner",
-			"name": "Manga: Beginner's Challenge",
+			"name": "Manga Tier: Beginner's Challenge",
 			"characters": [
 				73935	//Saitama
 			],
@@ -390,7 +775,7 @@
 		{	//Manga Tier: Intermediate
 			//https://anilist.co/forum/thread/10665
 			"id": "mangaTierBeginner",
-			"name": "Manga: Intermediate Challenge",
+			"name": "Manga Tier: Intermediate Challenge",
 			"characters": [
 				17	//Naruto Uzumaki
 			],
@@ -400,7 +785,7 @@
 		{	//Manga Tier: Advanced
 			//https://anilist.co/forum/thread/51476
 			"id": "mangaTierAdvanced",
-			"name": "Manga: Advanced Challenge",
+			"name": "Manga Tier: Advanced Challenge",
 			"characters": [
 				63351	//Akame
 			],

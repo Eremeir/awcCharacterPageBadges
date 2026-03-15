@@ -28,8 +28,8 @@ function parseJSONC(text) {	//Strip comments from JSONC
 		let inString = false;
 		let result = "";
 		for(let i = 0; i < line.length; i++) {
-			if (line[i] === '"' && line[i-1] !== "\\") inString = !inString;
-			if (!inString && line[i] === "/" && line[i+1] === "/") break;
+			if(line[i] === '"' && line[i-1] !== "\\") inString = !inString;
+			if(!inString && line[i] === "/" && line[i+1] === "/") break;
 			result += line[i];
 		}
 		return result;
@@ -44,7 +44,7 @@ async function loadDB() {
 			const cached = localStorage.getItem(CACHE_KEY);
 			if(cached) {
 				const parsed = JSON.parse(cached);
-				if (Date.now() - parsed.timestamp < CACHE_TTL) return parsed.data;
+				if(Date.now() - parsed.timestamp < CACHE_TTL) return parsed.data;
 			}
 		} catch {}
 	}
@@ -127,7 +127,6 @@ function renderBadges(data, characterId, characterDiv) {
 	title.style.margin = "25px 0";
 	container.appendChild(title);
 
-
 	const holder = document.createElement("div");	//Create badge holder flex container
 	holder.style.display = "flex";
 	holder.style.flexWrap = "wrap";
@@ -157,7 +156,7 @@ function renderBadges(data, characterId, characterDiv) {
 			if(w === 720 && h === 720) {	//Standard size badges
 				img.width = 250;
 				img.height = 250;
-			} else if (w === 520 && h === 720) {	//Legacy badges
+			} else if(w === 520 && h === 720) {	//Legacy badges
 				img.width = 180.55;
 				img.height = 250;
 			} else {	// Scale proportionally for other dimensions
@@ -183,7 +182,6 @@ function renderBadges(data, characterId, characterDiv) {
 async function init() {
 	const characterId = getCharacterId();
 	if(!characterId) return;
-
 	try {
 		const db = await loadDB();
 		const characterDiv = await waitForCharacter();
