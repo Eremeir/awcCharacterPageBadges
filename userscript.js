@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AWC Character Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.0.4
+// @version      1.0.5
 // @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover zoom
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
@@ -111,6 +111,7 @@ function injectHoverZoom() {
 
 /* ---------------- RENDER BADGES ---------------- */
 function renderBadges(data, characterId, characterDiv) {
+	if(document.querySelector(".awc-badge-container")) return;	//Avoid duplicate injection
 	let matches = data.challenges.filter(c => c.characters.includes(characterId));	//Filter challenges that include this character
 	if(!matches.length) return;
 
@@ -193,17 +194,21 @@ async function init() {
 
 /* ---------------- SPA NAVIGATION HANDLER ---------------- */
 
-let lastUrl = location.href;	//Handle Vue SPA navigation weirdness
-setInterval(() => {
-	if(location.href !== lastUrl) {
-		lastUrl = location.href;
-		const existing = document.querySelector(".awc-badge-container");
-		if(existing) existing.remove();
-		init();
-	}
-}, 500);
+function watchForCharacterPage() {	//Handle Vue SPA navigation weirdness
+	const observer = new MutationObserver(() => {
+	const characterDiv = document.querySelector(".character");
+		if(characterDiv && !document.querySelector(".awc-badge-container")) {
+			init();
+		}
+	});
+	observer.observe(document.body, {
+		childList: true,
+		subtree: true
+	});
+}
 
 // ---------------- INITIAL RUN ----------------
+watchForCharacterPage();
 init();
 
 })();
