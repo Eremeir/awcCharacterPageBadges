@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         AWC Character Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.0.5
+// @version      1.0.6
 // @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover zoom
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
 // @supportURL   https://github.com/Eremeir/awcCharacterPageBadges/issues
-// @match        https://anilist.co/character/*
+// @match        https://anilist.co/*
 // @grant        GM_xmlhttpRequest
 // @connect      raw.githubusercontent.com
 // @license      Unilicense
@@ -28,8 +28,8 @@ function parseJSONC(text) {	//Strip comments from JSONC
 		let inString = false;
 		let result = "";
 		for(let i = 0; i < line.length; i++) {
-			if(line[i] === '"' && line[i-1] !== "\\") inString = !inString;
-			if(!inString && line[i] === "/" && line[i+1] === "/") break;
+			if(line[i] === '"' && line[i - 1] !== "\\") inString = !inString;
+			if(!inString && line[i] === "/" && line[i + 1] === "/") break;
 			result += line[i];
 		}
 		return result;
@@ -78,16 +78,39 @@ function getCharacterId() {
 	return Number(parts[2]);
 }
 
+/* ---------------- ROUTE HELPERS ---------------- */
+function isCharacterPage() {	//Script loads site-wide, but only renders on real character pages
+	return /^\/character\/\d+/.test(location.pathname);
+}
+
+function removeBadges() {	//Remove old badges before rerendering after SPA navigation
+	const elem = document.querySelector(".awc-badge-container");
+	if(elem) elem.remove();
+}
+
 /* ---------------- WAIT FOR CHARACTER DIV ---------------- */
-function waitForCharacter() {	//Wait for Vue to load the character div
-	return new Promise(resolve => {
-		const interval = setInterval(() => {
+function waitForCharacter(maxAttempts = 40, delay = 250) {	//Wait for Vue to finish mounting the character page
+	return new Promise((resolve, reject) => {
+		let attempts = 0;
+
+		const check = () => {
 			const elem = document.querySelector(".character");
-			if(elem) {
-				clearInterval(interval);
+
+			if(elem && elem.isConnected) {	//Require a live connected character div
 				resolve(elem);
+				return;
 			}
-		}, 300);
+
+			attempts++;
+			if(attempts >= maxAttempts) {
+				reject(new Error("Timed out waiting for character div."));
+				return;
+			}
+
+			setTimeout(check, delay);
+		};
+
+		check();
 	});
 }
 
@@ -115,9 +138,6 @@ function renderBadges(data, characterId, characterDiv) {
 	let matches = data.challenges.filter(c => c.characters.includes(characterId));	//Filter challenges that include this character
 	if(!matches.length) return;
 
-	//Sort alphabetically by badge ID, nonsensical in practice
-	//matches.sort((a, b) => a.id.localeCompare(b.id));
-
 	const container = document.createElement("div");	//Create container div
 	container.style.maxWidth = "1300px";	//Match page layout
 	container.style.margin = "0 auto";	//Center horizontally
@@ -138,8 +158,7 @@ function renderBadges(data, characterId, characterDiv) {
 
 	injectHoverZoom();	//Inject hover zoom effect
 
-
-	matches.forEach(challenge => {	//Add each badge
+	matches.forEach(challenge => {	//Add each badge in DB order
 		const link = document.createElement("a");
 		link.href = `https://anilist.co/forum/thread/${challenge.thread}`;
 		link.target = "_blank";
@@ -160,7 +179,7 @@ function renderBadges(data, characterId, characterDiv) {
 			} else if(w === 520 && h === 720) {	//Legacy badges
 				img.width = 180.55;
 				img.height = 250;
-			} else {	// Scale proportionally for other dimensions
+			} else {	//Scale proportionally for other dimensions
 				const maxWidth = 250;
 				const maxHeight = 250;
 				const aspect = w / h;
@@ -180,35 +199,64 @@ function renderBadges(data, characterId, characterDiv) {
 }
 
 /* ---------------- MAIN ---------------- */
-async function init() {
+let lastRenderedCharacterId = null;
+let initInProgress = false;
+
+async function init(force = false) {
+	if(!isCharacterPage()) {	//Clear badges when leaving character pages
+		removeBadges();
+		lastRenderedCharacterId = null;
+		return;
+	}
+
 	const characterId = getCharacterId();
 	if(!characterId) return;
+
+	if(!force && lastRenderedCharacterId === characterId && document.querySelector(".awc-badge-container")) return;	//Avoid rerendering same character
+	if(initInProgress) return;	//Avoid overlapping runs during quick SPA navigation
+	initInProgress = true;
+
 	try {
+		removeBadges();
+
 		const db = await loadDB();
 		const characterDiv = await waitForCharacter();
 		renderBadges(db, characterId, characterDiv);
+
+		lastRenderedCharacterId = characterId;
 	} catch (err) {
 		console.error("AWC Badge script error:", err);
+	} finally {
+		initInProgress = false;
 	}
 }
 
 /* ---------------- SPA NAVIGATION HANDLER ---------------- */
+function onRouteChange() {	//AniList uses Vue routing, so navigation usually does not refresh the page
+	setTimeout(() => init(true), 50);	//Brief delay gives Vue time to begin mounting the next page
+}
 
-function watchForCharacterPage() {	//Handle Vue SPA navigation weirdness
-	const observer = new MutationObserver(() => {
-	const characterDiv = document.querySelector(".character");
-		if(characterDiv && !document.querySelector(".awc-badge-container")) {
-			init();
-		}
-	});
-	observer.observe(document.body, {
-		childList: true,
-		subtree: true
-	});
+function installRouteHooks() {	//Hook history navigation so clicking links and back/forward rerenders badges
+	const originalPushState = history.pushState;
+	const originalReplaceState = history.replaceState;
+
+	history.pushState = function(...args) {
+		const result = originalPushState.apply(this, args);
+		onRouteChange();
+		return result;
+	};
+
+	history.replaceState = function(...args) {
+		const result = originalReplaceState.apply(this, args);
+		onRouteChange();
+		return result;
+	};
+
+	window.addEventListener("popstate", onRouteChange);
 }
 
 // ---------------- INITIAL RUN ----------------
-watchForCharacterPage();
-init();
+installRouteHooks();
+init(true);
 
 })();

@@ -7,7 +7,6 @@ This third-party userscript injects a section to display [Anime Watch Club](http
 ![Doraemon Badge](https://i.imgur.com/4CwWEwz.png)
 
 ## Features
-- Loads only on **AniList character pages** (`https://anilist.co/character/*`)
 - Supports **PNG and GIF badges**
 - Badges are sized proportionally based on their source dimensions and won't blot out half the screen:
   - Modern 720×720 badges → 250×250px
