@@ -201,6 +201,7 @@ function renderBadges(data, characterId, characterDiv) {
 /* ---------------- MAIN ---------------- */
 let lastRenderedCharacterId = null;
 let initInProgress = false;
+let scriptLogged = false;
 
 async function init(force = false) {
 	if(!isCharacterPage()) {	//Clear badges when leaving character pages
@@ -220,6 +221,11 @@ async function init(force = false) {
 		removeBadges();
 
 		const db = await loadDB();
+		if(!scriptLogged) {
+			console.info(`AWC Character Page Badges: ${db.challenges.length} badges loaded in database.`);
+			scriptLogged = true;
+		}
+
 		const characterDiv = await waitForCharacter();
 		renderBadges(db, characterId, characterDiv);
 

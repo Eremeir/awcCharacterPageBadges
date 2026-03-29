@@ -74,29 +74,30 @@
 			],
 			"image": "https://i.postimg.cc/VNmbhdfz/100-Year-Classic.png",
 			"thread": 75538
-		},
-		//{	//Pioneers' Classic
-		//	//https://anilist.co/forum/thread/51196
-		//	"id": "pioneersClassic",
-		//	"name": "Pioneers' Classic Challenge",
-		//	"characters": [
-		//		xx	//NO CHARACTER PAGE
-		//	],
-		//	"image": "https://i.postimg.cc/JntTv8Bj/Pioneers-Classic.png",
-		//	"thread": 51196
-		//},
+		}, /*
+		{	//Pioneers' Classic
+			//https://anilist.co/forum/thread/51196
+			"id": "pioneersClassic",
+			"name": "Pioneers' Classic Challenge",
+			"characters": [
+				xx	//NO CHARACTER PAGE
+			],
+			"image": "https://i.postimg.cc/JntTv8Bj/Pioneers-Classic.png",
+			"thread": 51196
+		},*/
 		/* ANIME COLLECTION BADGES */
 			/* Anthology */
-		//{	//Japanese Animated Film Classics Collection
+		/*
+		{	//Japanese Animated Film Classics Collection
 			//https://anilist.co/forum/thread/50869
-			//"id": "jpAnimatedClassics",
-			//"name": "Japanese Animated Film Classics Collection Challenge",
-			//"characters": [ 	NO CHARACTER PAGE
-			//	xx	//Dangobei
-			//],
-			//"image": "https://i.postimg.cc/MTmbWVLG/Collection-Anthology-JAFC.png",
-			//"thread": 50869
-		//},
+			"id": "jpAnimatedClassics",
+			"name": "Japanese Animated Film Classics Collection Challenge",
+			"characters": [ 	NO CHARACTER PAGE
+				xx	//Dangobei
+			],
+			"image": "https://i.postimg.cc/MTmbWVLG/Collection-Anthology-JAFC.png",
+			"thread": 50869
+		},*/
 		{	//Sanrio Collection
 			//https://anilist.co/forum/thread/70097
 			"id": "sanrioCollection",
@@ -317,7 +318,7 @@
 			"characters": [
 				89220	//Shouto Todoroki
 			],
-			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Normal.png",
 			"thread": 5288
 		},
 		{	//Action Genre: Hard Mode
@@ -327,7 +328,7 @@
 			"characters": [
 				27	//Killua Zoldyck
 			],
-			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Hard.png",
 			"thread": 5288
 		},
 		{	//Action Genre: Mastery
@@ -338,6 +339,16 @@
 				390	//Mugen
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Mastery-Static.png",
+			"thread": 5288
+		},
+		{	//Action Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/5288
+			"id": "genreActionMasteryAnim",
+			"name": "Action Genre Challenge: Mastery (Animated)",
+			"characters": [
+				390	//Mugen
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Mastery-Animated.png",
 			"thread": 5288
 		},
 			/* Adventure */
@@ -409,6 +420,16 @@
 				7373	//Holo
 			],
 			"image": "https://i.postimg.cc/zBXbWpfm/AWC-Genre-Adventure-Mastery-Static.png",
+			"thread": 6111
+		},
+		{	//Adventure Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/6111
+			"id": "genreAdventureMasteryAnim",
+			"name": "Adventure Genre Challenge: Mastery (Animated)",
+			"characters": [
+				7373	//Holo
+			],
+			"image": "https://i.postimg.cc/vH9rGqgX/AWC-Genre-Adventure-Mastery-Animated.png",
 			"thread": 6111
 		},
 			/* Comedy */
@@ -483,8 +504,19 @@
 			"image": "https://i.postimg.cc/RVYFvPXq/AWC-Genre-Comedy-Mastery-Static.png",
 			"thread": 5289
 		},
+		{	//Comedy Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/5289
+			"id": "genreComedyMasteryAnim",
+			"name": "Comedy Genre Challenge: Mastery (Animated)",
+			"characters": [
+				10422,	//Nano Shinonome
+				41069	//Sakamoto
+			],
+			"image": "https://i.postimg.cc/85wp9w7p/AWC-Genre-Comedy-Mastery-Animated.png",
+			"thread": 5289
+		},
 			/* Drama */
-				{	//Drama Genre: Easy Mode (Legacy)
+		{	//Drama Genre: Easy Mode (Legacy)
 			//https://anilist.co/forum/thread/5875
 			"id": "genreDramaEasyLGCY",
 			"name": "Drama Genre Challenge: Easy Mode (Legacy)",
@@ -552,6 +584,16 @@
 				43009	//Himari Takakura
 			],
 			"image": "https://i.postimg.cc/J4PP0Hzx/AWC-Genre-Drama-Mastery-Static.png",
+			"thread": 5875
+		},
+		{	//Drama Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/5875
+			"id": "genreDramaMasteryAnim",
+			"name": "Drama Genre Challenge: Mastery (Animated",
+			"characters": [
+				43009	//Himari Takakura
+			],
+			"image": "https://i.postimg.cc/cHRcSrzQ/AWC-Genre-Drama-Mastery-Animated.png",
 			"thread": 5875
 		},
 			/* Ecchi */
@@ -623,6 +665,16 @@
 				83797	//Ryuuko Matoi
 			],
 			"image": "https://i.postimg.cc/j2R4dRVB/AWC-Genre-Ecchi-Mastery-Static.png",
+			"thread": 6631
+		},
+		{	//Ecchi Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/6631
+			"id": "genreEcchiMasteryAnim",
+			"name": "Ecchi Genre Challenge: Mastery (Animated)",
+			"characters": [
+				83797	//Ryuuko Matoi
+			],
+			"image": "https://i.postimg.cc/ZnjFWX4n/AWC-Genre-Ecchi-Mastery-Animated.png",
 			"thread": 6631
 		},
 			/* Fantasy */
@@ -697,6 +749,17 @@
 			"image": "https://i.postimg.cc/bvMXy1Cg/AWC-Genre-Fantasy-Mastery-Static.png",
 			"thread": 5290
 		},
+		{	//Fantasy Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/5290
+			"id": "genreFantasyMasteryAnim",
+			"name": "Fantasy Genre Challenge: Mastery (Animated)",
+			"characters": [
+				384,	//Chihiro Ogino
+				385		//Haku
+			],
+			"image": "https://i.postimg.cc/zvFPghj9/AWC-Genre-Fantasy-Mastery-Animated.png",
+			"thread": 5290
+		},
 			/* Hentai */
 		{	//Hentai Genre: Easy Mode (Legacy)
 			//https://anilist.co/forum/thread/5559
@@ -768,8 +831,18 @@
 			"image": "https://i.postimg.cc/y6Sy7TK6/AWC-Genre-Hentai-Mastery-Static.png",
 			"thread": 5559
 		},
+		{	//Hentai Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/5559
+			"id": "genreHentaiMasteryAnim",
+			"name": "Hentai Genre Challenge: Mastery (Animated)",
+			"characters": [
+				4316		//Sawa
+			],
+			"image": "https://i.postimg.cc/Pqx19WKj/AWC-Genre-Hentai-Mastery-Animated.png",
+			"thread": 5559
+		},
 			/* Horror */
-				{	//Horror Genre: Easy Mode (Legacy)
+		{	//Horror Genre: Easy Mode (Legacy)
 			//https://anilist.co/forum/thread/5558
 			"id": "genreHorrorEasyLGCY",
 			"name": "Horror Genre Challenge: Easy Mode (Legacy)",
@@ -839,14 +912,575 @@
 			"image": "https://i.postimg.cc/NjK70NVG/AWC-Genre-Horror-Mastery-Static.png",
 			"thread": 5558
 		},
+		{	//Horror Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/5558
+			"id": "genreHorrorMasteryAnim",
+			"name": "Horror Genre Challenge: Mastery (Animated)",
+			"characters": [
+				4866		//Mima Kirigoe
+			],
+			"image": "https://i.postimg.cc/7Lv7Zq0X/AWC-Genre-Horror-Mastery-Animated.png",
+			"thread": 5558
+		},
 			/* Mahou Shoujo */
+		{	//Mahou Shoujo Genre: Easy Mode (Legacy)
+			//https://anilist.co/forum/thread/6376
+			"id": "genreMahouEasyLGCY",
+			"name": "Mahou Shoujo Genre Challenge: Easy Mode (Legacy)",
+			"characters": [
+				2030		//Usagi Tsukino
+			],
+			"image": "https://i.postimg.cc/0jrHs6Qk/Legacy-Mahou-Shoujo-Easy.png",
+			"thread": 6376
+		},
+		{	//Mahou Shoujo Genre: Normal Mode (Legacy)
+			//https://anilist.co/forum/thread/6376
+			"id": "genreMahouNormalLGCY",
+			"name": "Mahou Shoujo Genre Challenge: Normal Mode (Legacy)",
+			"characters": [
+				2671		//Sakura Kinomoto
+			],
+			"image": "https://i.postimg.cc/sx8HDVQp/Legacy-Mahou-Shoujo-Normal.png",
+			"thread": 6376
+		},
+		{	//Mahou Shoujo Genre: Hard Mode (Legacy)
+			//https://anilist.co/forum/thread/6376
+			"id": "genreMahouHardLGCY",
+			"name": "Mahou Shoujo Genre Challenge: Hard Mode (Legacy)",
+			"characters": [
+				38194		//Mami Tomoe
+			],
+			"image": "https://i.postimg.cc/2jXKxxcV/Legacy-Mahou-Shoujo-Hard.png",
+			"thread": 6376
+		},
+		{	//Mahou Shoujo Genre: Easy Mode
+			//https://anilist.co/forum/thread/6376
+			"id": "genreMahouEasy",
+			"name": "Mahou Shoujo Genre Challenge: Easy Mode",
+			"characters": [
+				2030		//Usagi Tsukino
+			],
+			"image": "https://i.postimg.cc/zGDpJ3zT/Genre-Mahou-Shoujo-Easy.png",
+			"thread": 6376
+		},
+		{	//Mahou Shoujo Genre: Normal Mode
+			//https://anilist.co/forum/thread/6376
+			"id": "genreMahouNormal",
+			"name": "Mahou Shoujo Genre Challenge: Normal Mode",
+			"characters": [
+				503		//Illyasviel von Einzbern
+			],
+			"image": "https://i.postimg.cc/CxdDP8Mr/Genre-Mahou-Shoujo-Normal.png",
+			"thread": 6376
+		},
+		{	//Mahou Shoujo Genre: Hard Mode
+			//https://anilist.co/forum/thread/6376
+			"id": "genreMahouHard",
+			"name": "Mahou Shoujo Genre Challenge: Hard Mode",
+			"characters": [
+				38194		//Mami Tomoe
+			],
+			"image": "https://i.postimg.cc/28t35KmT/Genre-Mahou-Shoujo-Hard.png",
+			"thread": 6376
+		},
+		{	//Mahou Shoujo Genre: Mastery
+			//https://anilist.co/forum/thread/6376
+			"id": "genreMahouMastery",
+			"name": "Mahou Shoujo Genre Challenge: Mastery",
+			"characters": [
+				5449		//Nagisa Misumi
+			],
+			"image": "https://i.postimg.cc/sfnhZY5M/AWC-Genre-Mahou-Shoujo-Mastery-Static.png",
+			"thread": 6376
+		},
+		{	//Mahou Shoujo Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/6376
+			"id": "genreMahouMasteryAnim",
+			"name": "Mahou Shoujo Genre Challenge: Mastery (Animated)",
+			"characters": [
+				5449		//Nagisa Misumi
+			],
+			"image": "https://i.postimg.cc/0jrrC47b/AWC-Genre-Mahou-Shoujo-Mastery-Animated.png",
+			"thread": 6376
+		},
 			/* Mecha */
+		{	//Mecha Genre: Easy Mode (Legacy)
+			//https://anilist.co/forum/thread/6112
+			"id": "genreMechaEasyLGCY",
+			"name": "Mecha Genre Challenge: Easy Mode (Legacy)",
+			"characters": [
+				3497		//Noriko Takaya
+			],
+			"image": "https://i.postimg.cc/vHJ2JZdy/Legacy-Mecha-Easy.png",
+			"thread": 6112
+		},
+		{	//Mecha Genre: Normal Mode (Legacy)
+			//https://anilist.co/forum/thread/6112
+			"id": "genreMechaNormalLGCY",
+			"name": "Mecha Genre Challenge: Normal Mode (Legacy)",
+			"characters": [
+				2075		//Kamina
+			],
+			"image": "https://i.postimg.cc/RZwp4xMH/Legacy-Mecha-Normal.png",
+			"thread": 6112
+		},
+		{	//Mecha Genre: Hard Mode (Legacy)
+			//https://anilist.co/forum/thread/6112
+			"id": "genreMechaHardLGCY",
+			"name": "Mecha Genre Challenge: Hard Mode (Legacy)",
+			"characters": [
+				1336		//Char Aznable
+			],
+			"image": "https://i.postimg.cc/q70b7DRZ/Legacy-Mecha-Hard.png",
+			"thread": 6112
+		},
+		{	//Mecha Genre: Easy Mode
+			//https://anilist.co/forum/thread/6112
+			"id": "genreMechaEasy",
+			"name": "Mecha Genre Challenge: Easy Mode",
+			"characters": [
+				3497		//Noriko Takaya
+			],
+			"image": "https://i.postimg.cc/JnRjQ2sZ/Genre-Mecha-Easy.png",
+			"thread": 6112
+		},
+		{	//Mecha Genre: Normal Mode
+			//https://anilist.co/forum/thread/6112
+			"id": "genreMechaNormal",
+			"name": "Mecha Genre Challenge: Normal Mode",
+			"characters": [
+				2075		//Kamina
+			],
+			"image": "https://i.postimg.cc/0NzN1GhF/Genre-Mecha-Normal.png",
+			"thread": 6112
+		},
+		{	//Mecha Genre: Hard Mode
+			//https://anilist.co/forum/thread/6112
+			"id": "genreMechaHard",
+			"name": "Mecha Genre Challenge: Hard Mode",
+			"characters": [
+				1336		//Char Aznable
+			],
+			"image": "https://i.postimg.cc/NFMJdMK6/Genre-Mecha-Hard.png",
+			"thread": 6112
+		},
+		/*
+		{	//Mecha Genre: Mastery
+			//https://anilist.co/forum/thread/6112
+			"id": "genreMechaMastery",
+			"name": "Mecha Genre Challenge: Mastery",
+			"characters": [ NO CHARACTER PAGE
+				xx		//Evangelion Unit-01
+			],
+			"image": "https://i.postimg.cc/jqvzPN0F/AWC-Genre-Mecha-Mastery-Static.png",
+			"thread": 6112
+		},
+		{	//Mecha Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/6112
+			"id": "genreMechaMasteryAnim",
+			"name": "Mecha Genre Challenge: Mastery (Animated)",
+			"characters": [ NO CHARACTER PAGE
+				xx		//Evangelion Unit-01
+			],
+			"image": "https://i.postimg.cc/NFP9V6QG/AWC-Genre-Mecha-Mastery-Animated.png",
+			"thread": 6112
+		},*/
 			/* Music */
+		{	//Music Genre: Easy Mode (Legacy)
+			//https://anilist.co/forum/thread/6375
+			"id": "genreMusicEasyLGCY",
+			"name": "Music Genre Challenge: Easy Mode (Legacy)",
+			"characters": [
+				46163		//Nico Yazawa
+			],
+			"image": "https://i.postimg.cc/hjt2LJVL/Legacy-Music-Easy.png",
+			"thread": 6375
+		},
+		{	//Music Genre: Normal Mode (Legacy)
+			//https://anilist.co/forum/thread/6375
+			"id": "genreMusicNormalLGCY",
+			"name": "Music Genre Challenge: Normal Mode (Legacy)",
+			"characters": [
+				126664		//Junna Hoshimi
+			],
+			"image": "https://i.postimg.cc/DZpBB2ct/Legacy-Music-Normal.png",
+			"thread": 6375
+		},
+		{	//Music Genre: Hard Mode (Legacy)
+			//https://anilist.co/forum/thread/6375
+			"id": "genreMusicHardLGCY",
+			"name": "Music Genre Challenge: Hard Mode (Legacy)",
+			"characters": [
+				88708		//Kumiko Oumae
+			],
+			"image": "https://i.postimg.cc/GtBzfZ79/Legacy-Music-Hard.png",
+			"thread": 6375
+		},
+		{	//Music Genre: Easy Mode
+			//https://anilist.co/forum/thread/6375
+			"id": "genreMusicEasy",
+			"name": "Music Genre Challenge: Easy Mode",
+			"characters": [
+				46163		//Nico Yazawa
+			],
+			"image": "https://i.postimg.cc/Px3nVRQ0/Genre-Music-Easy.png",
+			"thread": 6375
+		},
+		{	//Music Genre: Normal Mode
+			//https://anilist.co/forum/thread/6375
+			"id": "genreMusicNormal",
+			"name": "Music Genre Challenge: Normal Mode",
+			"characters": [
+				126664		//Junna Hoshimi
+			],
+			"image": "https://i.postimg.cc/gcLGBG1D/Genre-Music-Normal.png",
+			"thread": 6375
+		},
+		{	//Music Genre: Hard Mode
+			//https://anilist.co/forum/thread/6375
+			"id": "genreMusicHard",
+			"name": "Music Genre Challenge: Hard Mode",
+			"characters": [
+				88708		//Kumiko Oumae
+			],
+			"image": "https://i.postimg.cc/CK2WjqMV/Genre-Music-Hard.png",
+			"thread": 6375
+		},
+		{	//Music Genre: Mastery
+			//https://anilist.co/forum/thread/6375
+			"id": "genreMusicMastery",
+			"name": "Music Genre Challenge: Mastery",
+			"characters": [
+				69411		//Kaori Miyazono
+			],
+			"image": "https://i.postimg.cc/g23j48Lq/AWC-Genre-Music-Mastery-Static.png",
+			"thread": 6375
+		},
+		{	//Music Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/6375
+			"id": "genreMusicMasteryAnim",
+			"name": "Music Genre Challenge: Mastery (Animated)",
+			"characters": [
+				69411		//Kaori Miyazono
+			],
+			"image": "https://i.postimg.cc/sf82rwp4/AWC-Genre-Music-Mastery-Animated.png",
+			"thread": 6375
+		},
 			/* Mystery */
+		{	//Mystery Genre: Easy Mode (Legacy)
+			//https://anilist.co/forum/thread/5557
+			"id": "genreMysteryEasyLGCY",
+			"name": "Mystery Genre Challenge: Easy Mode (Legacy)",
+			"characters": [
+				1742		//Conan Edogawa
+			],
+			"image": "https://i.postimg.cc/mk0VW8Jj/Legacy-Mystery-Easy.png",
+			"thread": 5557
+		},
+		{	//Mystery Genre: Normal Mode (Legacy)
+			//https://anilist.co/forum/thread/5557
+			"id": "genreMysteryNormalLGCY",
+			"name": "Mystery Genre Challenge: Normal Mode (Legacy)",
+			"characters": [
+				89201		//Ranpo Edogawa
+			],
+			"image": "https://i.postimg.cc/WpK5Z1zZ/Legacy-Mystery-Normal.png",
+			"thread": 5557
+		},
+		{	//Mystery Genre: Hard Mode (Legacy)
+			//https://anilist.co/forum/thread/5557
+			"id": "genreMysteryHardLGCY",
+			"name": "Mystery Genre Challenge: Hard Mode (Legacy)",
+			"characters": [
+				55133		//Eru Chitanda
+			],
+			"image": "https://i.postimg.cc/t4GDrvhC/Legacy-Mystery-Hard.png",
+			"thread": 5557
+		},
+		{	//Mystery Genre: Easy Mode
+			//https://anilist.co/forum/thread/5557
+			"id": "genreMysteryEasy",
+			"name": "Mystery Genre Challenge: Easy Mode",
+			"characters": [
+				1742		//Conan Edogawa
+			],
+			"image": "https://i.postimg.cc/76VtKJw6/Genre-Mystery-Easy.png",
+			"thread": 5557
+		},
+		{	//Mystery Genre: Normal Mode
+			//https://anilist.co/forum/thread/5557
+			"id": "genreMysteryNormal",
+			"name": "Mystery Genre Challenge: Normal Mode",
+			"characters": [
+				89201		//Ranpo Edogawa
+			],
+			"image": "https://i.postimg.cc/NGnkBkJt/Genre-Mystery-Normal.png",
+			"thread": 5557
+		},
+		{	//Mystery Genre: Hard Mode
+			//https://anilist.co/forum/thread/5557
+			"id": "genreMysteryHard",
+			"name": "Mystery Genre Challenge: Hard Mode",
+			"characters": [
+				55133		//Eru Chitanda
+			],
+			"image": "https://i.postimg.cc/8zNH0PXf/Genre-Mystery-Hard.png",
+			"thread": 5557
+		},
+		{	//Mystery Genre: Mastery
+			//https://anilist.co/forum/thread/5557
+			"id": "genreMysteryMastery",
+			"name": "Mystery Genre Challenge: Mastery",
+			"characters": [
+				20170		//Victorique de Blois
+			],
+			"image": "https://i.postimg.cc/xCZ991b1/AWC-Genre-Mystery-Mastery-Static.png",
+			"thread": 5557
+		},
+		{	//Mystery Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/5557
+			"id": "genreMysteryMasteryAnim",
+			"name": "Mystery Genre Challenge: Mastery (Animated)",
+			"characters": [
+				20170		//Victorique de Blois
+			],
+			"image": "https://i.postimg.cc/PqrLxNNW/AWC-Genre-Mystery-Mastery-Animated.png",
+			"thread": 5557
+		},
 			/* Romance */
+		{	//Romance Genre: Easy Mode (Legacy)
+			//https://anilist.co/forum/thread/5291
+			"id": "genreRomanceEasyLGCY",
+			"name": "Romance Genre Challenge: Easy Mode (Legacy)",
+			"characters": [
+				12064		//Taiga Aisaka
+			],
+			"image": "https://i.postimg.cc/zvRS7Tvg/Legacy-Romance-Easy.png",
+			"thread": 5291
+		},
+		{	//Romance Genre: Normal Mode (Legacy)
+			//https://anilist.co/forum/thread/5291
+			"id": "genreRomanceNormalLGCY",
+			"name": "Romance Genre Challenge: Normal Mode (Legacy)",
+			"characters": [
+				87271		//Chiyo Sakura
+			],
+			"image": "https://i.postimg.cc/2jqPMJB4/Legacy-Romance-Normal.png",
+			"thread": 5291
+		},
+		{	//Romance Genre: Hard Mode (Legacy)
+			//https://anilist.co/forum/thread/5291
+			"id": "genreRomanceHardLGCY",
+			"name": "Romance Genre Challenge: Hard Mode (Legacy)",
+			"characters": [
+				4604		//Nagisa Furukawa
+			],
+			"image": "https://i.postimg.cc/qB99TL8W/Legacy-Romance-Hard.png",
+			"thread": 5291
+		},
+		{	//Romance Genre: Easy Mode
+			//https://anilist.co/forum/thread/5291
+			"id": "genreRomanceEasy",
+			"name": "Romance Genre Challenge: Easy Mode",
+			"characters": [
+				12064		//Taiga Aisaka
+			],
+			"image": "https://i.postimg.cc/sDQYHGJ2/Genre-Romance-Easy.png",
+			"thread": 5291
+		},
+		{	//Romance Genre: Normal Mode
+			//https://anilist.co/forum/thread/5291
+			"id": "genreRomanceNormal",
+			"name": "Romance Genre Challenge: Normal Mode",
+			"characters": [
+				87271		//Chiyo Sakura
+			],
+			"image": "https://i.postimg.cc/Bt9XVbq8/Genre-Romance-Normal.png",
+			"thread": 5291
+		},
+		{	//Romance Genre: Hard Mode
+			//https://anilist.co/forum/thread/5291
+			"id": "genreRomanceHard",
+			"name": "Romance Genre Challenge: Hard Mode",
+			"characters": [
+				4604		//Nagisa Furukawa
+			],
+			"image": "https://i.postimg.cc/Bt9XVbq8/Genre-Romance-Normal.png",
+			"thread": 5291
+		},
+		{	//Romance Genre: Mastery
+			//https://anilist.co/forum/thread/5291
+			"id": "genreRomanceMastery",
+			"name": "Romance Genre Challenge: Mastery",
+			"characters": [
+				207		//Tooru Honda
+			],
+			"image": "https://i.postimg.cc/5NBjS8C5/AWC-Genre-Romance-Mastery-Static.png",
+			"thread": 5291
+		},
+		{	//Romance Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/5291
+			"id": "genreRomanceMasteryAnim",
+			"name": "Romance Genre Challenge: Mastery (Animated)",
+			"characters": [
+				207		//Tooru Honda
+			],
+			"image": "https://i.postimg.cc/wBvvzPbF/AWC-Genre-Romance-Mastery-Animated.png",
+			"thread": 5291
+		},
 			/* Sci-Fi */
+		{	//Sci-Fi Genre: Easy Mode (Legacy)
+			//https://anilist.co/forum/thread/5292
+			"id": "genreSciFiEasy",
+			"name": "Sci-Fi Genre Challenge: Easy Mode (Legacy)",
+			"characters": [
+				1		//Spike Spiegel
+			],
+			"image": "https://i.postimg.cc/pXz3XFCr/Legacy-Sci-Fi-Easy.png",
+			"thread": 5292
+		},
+		{	//Sci-Fi Genre: Normal Mode (Legacy)
+			//https://anilist.co/forum/thread/5292
+			"id": "genreSciFiNormal",
+			"name": "Sci-Fi Genre Challenge: Normal Mode (Legacy)",
+			"characters": [
+				68315		//Shinya Kougami
+			],
+			"image": "https://i.postimg.cc/CKL2N6gn/Legacy-Sci-Fi-Normal.png",
+			"thread": 5292
+		},
+		{	//Sci-Fi Genre: Hard Mode (Legacy)
+			//https://anilist.co/forum/thread/5292
+			"id": "genreSciFiHard",
+			"name": "Sci-Fi Genre Challenge: Hard Mode (Legacy)",
+			"characters": [
+				1795		//Motoko Kusanagi
+			],
+			"image": "https://i.postimg.cc/261Kpb3z/Legacy-Sci-Fi-Hard.png",
+			"thread": 5292
+		},
+		{	//Sci-Fi Genre: Easy Mode
+			//https://anilist.co/forum/thread/5292
+			"id": "genreSciFiEasy",
+			"name": "Sci-Fi Genre Challenge: Easy Mode",
+			"characters": [
+				1		//Spike Spiegel
+			],
+			"image": "https://i.postimg.cc/hPv0T3YN/Genre-Sci-Fi-Easy.png",
+			"thread": 5292
+		},
+		{	//Sci-Fi Genre: Normal Mode
+			//https://anilist.co/forum/thread/5292
+			"id": "genreSciFiNormal",
+			"name": "Sci-Fi Genre Challenge: Normal Mode",
+			"characters": [
+				1695		//Priscilla S. Asagiri
+			],
+			"image": "https://i.postimg.cc/ZqwPDGC8/Genre-Sci-Fi-Normal.png",
+			"thread": 5292
+		},
+		{	//Sci-Fi Genre: Hard Mode
+			//https://anilist.co/forum/thread/5292
+			"id": "genreSciFiHard",
+			"name": "Sci-Fi Genre Challenge: Hard Mode",
+			"characters": [
+				1795		//Motoko Kusanagi
+			],
+			"image": "https://i.postimg.cc/G2kLpCGY/Genre-Sci-Fi-Hard.png",
+			"thread": 5292
+		},
+		{	//Sci-Fi Genre: Mastery
+			//https://anilist.co/forum/thread/5292
+			"id": "genreSciFiMastery",
+			"name": "Sci-Fi Genre Challenge: Mastery",
+			"characters": [
+				35252		//Rintarou Okabe
+			],
+			"image": "https://i.postimg.cc/4yN7TQVx/AWC-Genre-Sci-Fi-Mastery-Static.png",
+			"thread": 5292
+		},
+		{	//Sci-Fi Genre: Mastery (Animated)
+			//https://anilist.co/forum/thread/5292
+			"id": "genreSciFiMasteryAnim",
+			"name": "Sci-Fi Genre Challenge: Mastery (Animated)",
+			"characters": [
+				35252		//Rintarou Okabe
+			],
+			"image": "https://i.postimg.cc/5tDWJ4zY/AWC-Genre-Sci-Fi-Mastery-Animated.png",
+			"thread": 5292
+		},
 			/* Slice of Life */
 			/* Sports */
+		{	//Sports Genre: Easy Mode (Legacy)
+			//https://anilist.co/forum/thread/5876
+			"id": "genreSportsEasyLGCY",
+			"name": "Sports Genre Challenge: Easy Mode (Legacy)",
+			"characters": [
+				18769		//Tetsuya Kuroko
+			],
+			"image": "https://i.postimg.cc/zXZPMfNr/Legacy-Sports-Easy.png",
+			"thread": 5876
+		},
+		{	//Sports Genre: Normal Mode (Legacy)
+			//https://anilist.co/forum/thread/5876
+			"id": "genreSportsNormalLGCY",
+			"name": "Sports Genre Challenge: Normal Mode (Legacy)",
+			"characters": [
+				67327		//Yuu Nishinoya
+			],
+			"image": "https://i.postimg.cc/gkVBPPc6/Legacy-Sports-Normal.png",
+			"thread": 5876
+		},
+		{	//Sports Genre: Hard Mode (Legacy)
+			//https://anilist.co/forum/thread/5876
+			"id": "genreSportsHardLGCY",
+			"name": "Sports Genre Challenge: Hard Mode (Legacy)",
+			"characters": [
+				11804		//Joe Yabuki
+			],
+			"image": "https://i.postimg.cc/cLdkx56k/Legacy-Sports-Hard.png",
+			"thread": 5876
+		},
+		{	//Sports Genre: Easy Mode
+			//https://anilist.co/forum/thread/5876
+			"id": "genreSportsEasy",
+			"name": "Sports Genre Challenge: Easy Mode",
+			"characters": [
+				18769		//Tetsuya Kuroko
+			],
+			"image": "https://i.postimg.cc/FsjD9nYS/Genre-Sports-Easy.png",
+			"thread": 5876
+		},
+		{	//Sports Genre: Normal Mode
+			//https://anilist.co/forum/thread/5876
+			"id": "genreSportsNormal",
+			"name": "Sports Genre Challenge: Normal Mode",
+			"characters": [
+				67327		//Yuu Nishinoya
+			],
+			"image": "https://i.postimg.cc/fT3ggpfm/Genre-Sports-Normal.png",
+			"thread": 5876
+		},
+		{	//Sports Genre: Hard Mode
+			//https://anilist.co/forum/thread/5876
+			"id": "genreSportsHard",
+			"name": "Sports Genre Challenge: Hard Mode",
+			"characters": [
+				11804		//Joe Yabuki
+			],
+			"image": "https://i.postimg.cc/kX4gCL11/Genre-Sports-Hard.png",
+			"thread": 5876
+		},
+		{	//Sports Genre: Mastery
+			//https://anilist.co/forum/thread/5876
+			"id": "genreSportsMastery",
+			"name": "Sports Genre Challenge: Mastery",
+			"characters": [
+				47163		//Chihaya Ayase
+			],
+			"image": "https://i.postimg.cc/9fjVXRnT/AWC-Genre-Sports-Mastery-Static.png",
+			"thread": 5876
+		},
 			/* Supernatural */
 			/* Thriller */
 		/* ANIME MONTHLY 2018–20XX BADGES */
