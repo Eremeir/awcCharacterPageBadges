@@ -85,6 +85,228 @@
 			"image": "https://i.postimg.cc/JntTv8Bj/Pioneers-Classic.png",
 			"thread": 51196
 		},*/
+		{	//Retro Classic
+			//https://anilist.co/forum/thread/63239
+			"id": "animeClassicRetro",
+			"name": "Retro Classic Challenge",
+			"characters": [
+				11686	//Atom Tetsuwan
+			],
+			"image": "https://i.postimg.cc/fLYmb36S/Retro-Classic.png",
+			"thread": 63239
+		},
+		{	//1980s Classic
+			//https://anilist.co/forum/thread/69471
+			"id": "animeClassic1980",
+			"name": "1980s Classic Challenge",
+			"characters": [
+				269	//Totoro
+			],
+			"image": "https://i.postimg.cc/zGK7MFVY/1980s-Classic.png",
+			"thread": 69471
+		},
+		{	//1990s Classic
+			//https://anilist.co/forum/thread/73776
+			"id": "animeClassic1990",
+			"name": "1990s Classic Challenge",
+			"characters": [
+				731	//Kurama
+			],
+			"image": "https://i.postimg.cc/sx6J5RNV/1990s-Classic.png",
+			"thread": 73776
+		},
+		{	//2000 Classic
+			//https://anilist.co/forum/thread/77975
+			"id": "animeClassic2000",
+			"name": "2000 Classic Challenge",
+			"characters": [
+				15	//Ippo Makunouchi
+			],
+			"image": "https://i.postimg.cc/qRhNjvs1/2000-Classic.png",
+			"thread": 77975
+		},
+		{	//2001 Classic
+			//https://anilist.co/forum/thread/84831
+			"id": "animeClassic2001",
+			"name": "2001 Classic Challenge",
+			"characters": [
+				167	//Yoh Asakura
+			],
+			"image": "https://i.postimg.cc/154VdpNw/2001-Classic.png",
+			"thread": 84831
+		},
+		{	//2008 Classic
+			//https://anilist.co/forum/thread/85800
+			"id": "animeClassic2008",
+			"name": "2008 Classic Challenge",
+			"characters": [
+				10863	//Sebastian Michaelis
+			],
+			"image": "https://i.postimg.cc/28bLK3yL/2008-Classic.png",
+			"thread": 85800
+		},
+		{	//2009 Classic
+			//https://anilist.co/forum/thread/82627
+			"id": "animeClassic2009",
+			"name": "2009 Classic Challenge",
+			"characters": [
+				5187,	//Natsu Dragneel
+				5188	//Happy
+			],
+			"image": "https://i.postimg.cc/259k7M7J/2009-Classic.png",
+			"thread": 82627
+		},
+		{	//2010 Classic
+			//https://anilist.co/forum/thread/76893
+			"id": "animeClassic2010",
+			"name": "2010 Classic Challenge",
+			"characters": [
+				24544	//Kirino Kousaka
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2010/U7g/2010-Classic.png",
+			"thread": 76893
+		},
+		{	//2012 Classic
+			//https://anilist.co/forum/thread/68020
+			"id": "animeClassic2012",
+			"name": "2012 Classic Challenge",
+			"characters": [
+				65865	//Rikka Takanashi
+			],
+			"image": "https://i.postimg.cc/hvzx9ks6/2012-Classic.png",
+			"thread": 68020
+		},
+		{	//2013 Classic
+			//https://anilist.co/forum/thread/65978
+			"id": "animeClassic2013",
+			"name": "2013 Classic Challenge",
+			"characters": [
+				70733	//Satan Jacob
+			],
+			"image": "https://i.postimg.cc/3x78bXHy/2013-Classic.png",
+			"thread": 65978
+		},
+		{	//2014 Classic
+			//https://anilist.co/forum/thread/59780
+			"id": "animeClassic2014",
+			"name": "2014 Classic Challenge",
+			"characters": [
+				52723	//Kosaki Onodera
+			],
+			"image": "https://i.postimg.cc/bdXLhptg/2014-Classic.png",
+			"thread": 59780
+		},
+		{	//2015 Classic
+			//https://anilist.co/forum/thread/57229
+			"id": "animeClassic2015",
+			"name": "2015 Classic Challenge",
+			"characters": [
+				87654	//Hestia
+			],
+			"image": "https://i.postimg.cc/KcMpp7f0/2015-Classic.png",
+			"thread": 57229
+		},
+		{	//2016 Classic
+			//https://anilist.co/forum/thread/39961
+			"id": "animeClassic2016",
+			"name": "2016 Classic Challenge",
+			"characters": [
+				90225	//Victor Nikiforov
+			],
+			"image": "https://i.postimg.cc/sfZrGbfy/2016-Classic.png",
+			"thread": 39961
+		},
+		{	//2017 Classic
+			//https://anilist.co/forum/thread/13347
+			"id": "animeClassic2017",
+			"name": "2017 Classic Challenge",
+			"characters": [
+				121052	//Tanya Degurechaff
+			],
+			"image": "https://i.postimg.cc/pT280h0F/2017-Classic.png",
+			"thread": 13347
+		},
+		{	//2018 Classic
+			//https://anilist.co/forum/thread/7104
+			"id": "animeClassic2018",
+			"name": "2018 Classic Challenge",
+			"characters": [
+				127613	//Kaede Azusagawa
+			],
+			"image": "https://i.postimg.cc/tC16mHz2/2018-Classic.png",
+			"thread": 7104
+		},
+		{	//2019 Classic
+			//https://anilist.co/forum/thread/10377
+			"id": "animeClassic2019",
+			"name": "2019 Classic Challenge",
+			"characters": [
+				133661,	//Carole Stanley
+				133660	//Tuesday Simmons
+			],
+			"image": "https://i.postimg.cc/268bdp6d/2019-Classic.png",
+			"thread": 10377
+		},
+		{	//2020 Classic
+			//https://anilist.co/forum/thread/22395
+			"id": "animeClassic2020",
+			"name": "2020 Classic Challenge",
+			"characters": [
+				132799	//Ai Miyashita
+			],
+			"image": "https://i.postimg.cc/nrmc88KR/2020-Classic.png",
+			"thread": 22395
+		},
+		{	//2021 Classic
+			//https://anilist.co/forum/thread/49205
+			"id": "animeClassic2021",
+			"name": "2021 Classic Challenge",
+			"characters": [
+				123962	//Rimuru Tempest
+			],
+			"image": "https://i.postimg.cc/Jz9KSdx9/2021-Classic.png",
+			"thread": 49205
+		},
+		{	//2022 Classic
+			//https://anilist.co/forum/thread/61944
+			"id": "animeClassic2022",
+			"name": "2022 Classic Challenge",
+			"characters": [
+				256379	//Eiko Tsukimi
+			],
+			"image": "https://i.postimg.cc/900XLzsy/2022-Classic.png",
+			"thread": 61944
+		},
+		{	//2023 Classic
+			//https://anilist.co/forum/thread/70733
+			"id": "animeClassic2023",
+			"name": "2023 Classic Challenge",
+			"characters": [
+				81737	//Ann Halford
+			],
+			"image": "https://i.postimg.cc/VNV9R11K/2023-Classic.png",
+			"thread": 70733
+		},
+		{	//2024 Classic
+			//https://anilist.co/forum/thread/79260
+			"id": "animeClassic2024",
+			"name": "2024 Classic Challenge",
+			"characters": [
+				127292	//Marcille Donato
+			],
+			"image": "https://i.postimg.cc/J4TGJTpw/2024-Classic.png",
+			"thread": 79260
+		},
+		{	//2025 Classic
+			//https://anilist.co/forum/thread/86978
+			"id": "animeClassic2025",
+			"name": "2025 Classic Challenge",
+			"characters": [
+				356984	//Tina Isemi
+			],
+			"image": "https://i.postimg.cc/2SjK6s9n/2025-Classic.png",
+			"thread": 86978
+		},
 		/* ANIME COLLECTION BADGES */
 			/* Anthology */
 		/*
@@ -98,6 +320,26 @@
 			"image": "https://i.postimg.cc/MTmbWVLG/Collection-Anthology-JAFC.png",
 			"thread": 50869
 		},*/
+		{	//Masterpiece
+			//https://anilist.co/forum/thread/28916
+			"id": "masterpiece",
+			"name": "Masterpiece Challenge",
+			"characters": [
+				128436	//Suzuka Nagami
+			],
+			"image": "https://i.postimg.cc/cLTpbTQH/Collection-Anthology-Masterpiece.png",
+			"thread": 28916
+		},
+		{	//Masterpiece II
+			//https://anilist.co/forum/thread/81003
+			"id": "masterpiece2",
+			"name": "Masterpiece II Challenge",
+			"characters": [
+				129904	//Ai Mie
+			],
+			"image": "https://i.postimg.cc/CKK33hJy/Collection-Anthology-Masterpiece-II.png",
+			"thread": 81003
+		},
 		{	//Sanrio Collection
 			//https://anilist.co/forum/thread/70097
 			"id": "sanrioCollection",
@@ -107,6 +349,26 @@
 			],
 			"image": "https://i.postimg.cc/gjGCDV3G/Collection-Anthology-Sanrio.png",
 			"thread": 70097
+		},
+		{	//World Masterpiece Theater Collection
+			//https://anilist.co/forum/thread/82042
+			"id": "worldMasterpiece",
+			"name": "World Masterpiece Theater Collection Challenge",
+			"characters": [
+				8827	//Heidi
+			],
+			"image": "https://i.postimg.cc/NF4XHcGs/Collection-Anthology-WMT.png",
+			"thread": 82042
+		},
+		{	//Live-Action Collection
+			//https://anilist.co/forum/thread/88752
+			"id": "liveActionCollection",
+			"name": "Live-Action Collection Challenge",
+			"characters": [
+				246	//Gokuu Son
+			],
+			"image": "https://i.postimg.cc/ZYwjhvcb/Special-Live-Action.png",
+			"thread": 88752
 		},
 			/* Franchise */
 		{	//Cardcaptor Sakura Collection
@@ -173,6 +435,86 @@
 			"thread": 88268
 		},
 			/* Legend */
+		{	//Gen Urobuchi: Legend Collection
+			//https://anilist.co/forum/thread/68813
+			"id": "legendGenUrobuchi",
+			"name": "Gen Urobuchi: Legend Collection Challenge",
+			"characters": [
+				38395	//Sayaka Miki
+			],
+			"image": "https://i.postimg.cc/cHjVxGvc/Collection-Legend-Gen-Urobuchi.png",
+			"thread": 68813
+		},
+		{	//Hiroyuki Imaishi: Legend Collection
+			//https://anilist.co/forum/thread/74955
+			"id": "legendHiroyukiImaishi",
+			"name": "Hiroyuki Imaishi: Legend Collection Challenge",
+			"characters": [
+				134523	//Lio Fotia
+			],
+			"image": "https://i.postimg.cc/ZRPK8hxt/Collection-Legend-Hiroyuki-Imaishi.png",
+			"thread": 74955
+		},
+		{	//Isao Takahata: Legend Collection
+			//https://anilist.co/forum/thread/16264
+			"id": "legendIsaoTakahata",
+			"name": "Isao Takahata: Legend Collection Challenge",
+			"characters": [
+				16661	//Anne Shirley
+			],
+			"image": "https://i.postimg.cc/HLVQNc4n/Collection-Legend-Isao-Takahata.png",
+			"thread": 16264
+		},
+		{	//Kunihiko Ikuhara: Legend Collection
+			//https://anilist.co/forum/thread/19773
+			"id": "legendKunihikoIkuhara",
+			"name": "Kunihiko Ikuhara: Legend Collection Challenge",
+			"characters": [
+				747	//Utena Tenjou
+			],
+			"image": "https://i.postimg.cc/dtjmZKVs/Collection-Legend-Kunihiko-Ikuhara.png",
+			"thread": 19773
+		},
+		{	//Makoto Shinkai: Legend Collection
+			//https://anilist.co/forum/thread/9002
+			"id": "legendMakotoShinkai",
+			"name": "Makoto Shinkai: Legend Collection Challenge",
+			"characters": [
+				139710	//Hina Amano
+			],
+			"image": "https://i.postimg.cc/3JTFww7f/Collection-Legend-Makoto-Shinkai.png",
+			"thread": 9002
+		},
+		{	//Mitsuru Adachi: Legend Collection
+			//https://anilist.co/forum/thread/58423
+			"id": "legendMitsuruAdachi",
+			"name": "Mitsuru Adachi: Legend Collection Challenge",
+			"characters": [
+				7207	//Tatsuya Uesugi
+			],
+			"image": "https://i.postimg.cc/J4B5wFTH/Collection-Legend-Mitsuru-Adachi.png",
+			"thread": 58423
+		},
+		{	//Satoshi Kon: Legend Collection
+			//https://anilist.co/forum/thread/7567
+			"id": "legendSatoshiKon",
+			"name": "Satoshi Kon: Legend Collection Challenge",
+			"characters": [
+				3725	//Chiyoko Fujiwara
+			],
+			"image": "https://i.postimg.cc/YqcmCcZ6/Collection-Legend-Satoshi-Kon.png",
+			"thread": 7567
+		},
+		{	//Youko Kanno: Legend Collection
+			//https://anilist.co/forum/thread/71579
+			"id": "legendYoukoKanno",
+			"name": "Youko Kanno: Legend Collection Challenge",
+			"characters": [
+				56861	//Sentarou Kawabuchi
+			],
+			"image": "https://i.postimg.cc/DwVM9FgL/Collection-Legend-Youko-Kanno.png",
+			"thread": 71579
+		},
 			/* Studio */
 		{	//Gainax Studio Collection: Line
 			//https://anilist.co/forum/thread/73456
@@ -442,7 +784,7 @@
 		{	//Hero’s War (Challenge Clan)
 			//https://anilist.co/forum/thread/57577
 			"id": "herosWarChallenge",
-			"name": "Hero's War Challenge (Challenge)",
+			"name": "Hero's War Challenge (Challenge Clan)",
 			"characters": [
 				75450	//Alice Zuberg
 			],
@@ -2084,7 +2426,7 @@
 			],
 			"image": "https://i.postimg.cc/Fsm57JCK/Monthly-2026-April-Easy-Static.png",
 			"thread": 88791
-		}, /*
+		},
 		{	//April 2026 Monthly: Easy Mode (Animated)
 			//https://anilist.co/forum/thread/88791
 			"id": "monthly2026AprEasyAnim",
@@ -2092,9 +2434,9 @@
 			"characters": [
 				207175	//Yuki
 			],
-			"image": "https://i.postimg.cc/Fsm57JCK/Monthly-2026-April-Easy-Static.png",
+			"image": "https://i.postimg.cc/3NFqgnf7/Monthly-2026-April-Easy-Animated.png",
 			"thread": 88791
-		}, */
+		},
 		{	//April 2026 Monthly: Hard Mode
 			//https://anilist.co/forum/thread/88791
 			"id": "monthly2026AprHard",
@@ -2104,7 +2446,7 @@
 			],
 			"image": "https://i.postimg.cc/jSdphYb5/Monthly-2026-April-Hard-Static.png",
 			"thread": 88791
-		}, /*
+		},
 		{	//April 2026 Monthly: Hard Mode (Animated)
 			//https://anilist.co/forum/thread/88791
 			"id": "monthly2026AprHardAnim",
@@ -2112,9 +2454,9 @@
 			"characters": [
 				207175	//Yuki
 			],
-			"image": "https://i.postimg.cc/jSdphYb5/Monthly-2026-April-Hard-Static.png",
+			"image": "https://i.postimg.cc/yY7tVCWv/Monthly-2026-April-Hard-Animated.png",
 			"thread": 88791
-		}, */
+		},
 		/* ANIME PUZZLE BADGES */
 		{	//Battleship
 			//https://anilist.co/forum/thread/30744
@@ -2275,6 +2617,16 @@
 			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 86865
 		},
+		{	//Spring 2026 Seasonal
+			//https://anilist.co/forum/thread/88866
+			"id": "seasonal2026Spring",
+			"name": "Spring 2026 Seasonal Challenge PLACEHOLDER",
+			"characters": [
+				46163	//Placeholder
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 88866
+		},
 		/* ANIME SPECIAL BADGES */
 			/* Dungeon */
 		{	//Dungeon: Training Grounds
@@ -2338,16 +2690,6 @@
 			],
 			"image": "https://i.postimg.cc/DwpzkQkb/Special-Community-Workshop.png",
 			"thread": 68462
-		},
-		{	//Live-Action Collection
-			//https://anilist.co/forum/thread/88752
-			"id": "liveActionCollection",
-			"name": "Live-Action Collection Challenge",
-			"characters": [
-				246	//Gokuu Son
-			],
-			"image": "https://i.postimg.cc/ZYwjhvcb/Special-Live-Action.png",
-			"thread": 88752
 		},
 		{	//Marathon
 			//https://anilist.co/forum/thread/27098
