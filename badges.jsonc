@@ -11,6 +11,19 @@
 			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 4449
 		},
+			/*SUPPORTER*/
+		/*
+		{	//Supporter: Koopz
+			//https://anilist.co/forum/thread/xx
+			"id": "supporterKoopz",
+			"name": "AL AWC Supporter: Koopz",
+			"characters": [
+				xx	//AWC Chan
+			],
+			"image": "https://i.postimg.cc/HLtD7BdT/AWC-Supporter-Koopz.png",
+			"thread": xx
+		},
+		*/
 		/* END OF YEAR BADGES */
 		{	//2018 Yearly
 			//https://anilist.co/forum/thread/6208
@@ -22,6 +35,26 @@
 			"image": "https://i.postimg.cc/bwCD9Vzr/2018-End-of-Year.gif",
 			"thread": 6208
 		},
+		{	//2019 Yearly: Participation
+			//https://anilist.co/forum/thread/10335
+			"id": "animeYearly2019Part",
+			"name": "2019 Yearly Challenge: Participation",
+			"characters": [
+				13701	//Mikoto Misaka
+			],
+			"image": "https://i.postimg.cc/yNF9PYtY/End-of-Year-2019-Participation.png",
+			"thread": 10335
+		},
+		{	//2019 Yearly: Easy Mode
+			//https://anilist.co/forum/thread/10335
+			"id": "animeYearly2019Easy",
+			"name": "2019 Yearly Challenge: Easy Mode",
+			"characters": [
+				13701	//Mikoto Misaka
+			],
+			"image": "https://i.postimg.cc/KzxTshh7/End-of-Year-2019-Easy.png",
+			"thread": 10335
+		},
 		{	//2019 Yearly: Hard Mode
 			//https://anilist.co/forum/thread/10335
 			"id": "animeYearly2019Hard",
@@ -32,6 +65,26 @@
 			"image": "https://i.postimg.cc/d16ybNJb/End-of-Year-2019-Hard.png",
 			"thread": 10335
 		},
+		{	//2020 Yearly: Participation
+			//https://anilist.co/forum/thread/21554
+			"id": "animeYearly2020Part",
+			"name": "2020 Yearly Challenge: Participation",
+			"characters": [
+				88892	//Katsuki Bakugou
+			],
+			"image": "https://i.postimg.cc/T3bxQBrp/End-of-Year-2020-Participation.png",
+			"thread": 21554
+		},
+		{	//2020 Yearly: Easy Mode
+			//https://anilist.co/forum/thread/21554
+			"id": "animeYearly2020Easy",
+			"name": "2020 Yearly Challenge: Easy Mode",
+			"characters": [
+				88892	//Katsuki Bakugou
+			],
+			"image": "https://i.postimg.cc/gcBPpGsx/End-of-Year-2020-Easy.png",
+			"thread": 21554
+		},
 		{	//2020 Yearly: Hard Mode
 			//https://anilist.co/forum/thread/21554
 			"id": "animeYearly2020Hard",
@@ -41,6 +94,28 @@
 			],
 			"image": "https://i.postimg.cc/pdvwCrW6/End-of-Year-2020-Hard.png",
 			"thread": 21554
+		},
+		{	//2021 Yearly: Participation
+			//https://anilist.co/forum/thread/48603
+			"id": "animeYearly2021Part",
+			"name": "2021 Yearly Challenge: Participation",
+			"characters": [
+				127318,	//Emilico
+				127319	//Kate
+			],
+			"image": "https://i.postimg.cc/KvHFkZyP/2021-End-of-Year-Participation.png",
+			"thread": 48603
+		},
+		{	//2021 Yearly: Easy Mode
+			//https://anilist.co/forum/thread/48603
+			"id": "animeYearly2021Easy",
+			"name": "2021 Yearly Challenge: Easy Mode",
+			"characters": [
+				127318,	//Emilico
+				127319	//Kate
+			],
+			"image": "https://i.postimg.cc/5tkNLSJ7/2021-End-of-Year-Easy.png",
+			"thread": 48603
 		},
 		{	//2021 Yearly: Hard Mode
 			//https://anilist.co/forum/thread/48603
@@ -53,6 +128,26 @@
 			"image": "https://i.postimg.cc/Y0SK0PnD/2021-End-of-Year-Hard.png",
 			"thread": 48603
 		},
+		{	//2022 Yearly: Participation
+			//https://anilist.co/forum/thread/62191
+			"id": "animeYearly2022Part",
+			"name": "2022 Yearly Challenge: Participation",
+			"characters": [
+				168774	//Nazuna Nanakusa
+			],
+			"image": "https://i.postimg.cc/mg1KTfwK/2022-End-of-Year-Participation.png",
+			"thread": 62191
+		},
+		{	//2022 Yearly: Easy Mode
+			//https://anilist.co/forum/thread/62191
+			"id": "animeYearly2022Easy",
+			"name": "2022 Yearly Challenge: Easy Mode",
+			"characters": [
+				168774	//Nazuna Nanakusa
+			],
+			"image": "https://i.postimg.cc/NMBn8ycw/2022-End-of-Year-Easy.png",
+			"thread": 62191
+		},
 		{	//2022 Yearly: Hard Mode
 			//https://anilist.co/forum/thread/62191
 			"id": "animeYearly2022Hard",
@@ -62,6 +157,96 @@
 			],
 			"image": "https://i.postimg.cc/W3QcGNXm/2022-End-of-Year-Hard.png",
 			"thread": 62191
+		},
+		{	//2023 Yearly: Participation
+			//https://anilist.co/forum/thread/70655
+			"id": "animeYearly2023Part",
+			"name": "2023 Yearly Challenge: Participation PLACEHOLDER",
+			"characters": [
+				46163	//Nico Yazawa
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 70655
+		},
+		{	//2023 Yearly: Easy Mode
+			//https://anilist.co/forum/thread/70655
+			"id": "animeYearly2023Easy",
+			"name": "2023 Yearly Challenge: Easy Mode PLACEHOLDER",
+			"characters": [
+				46163	//Nico Yazawa
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 70655
+		},
+		{	//2023 Yearly: Hard Mode
+			//https://anilist.co/forum/thread/70655
+			"id": "animeYearly2023Hard",
+			"name": "2023 Yearly Challenge: Hard Mode PLACEHOLDER",
+			"characters": [
+				46163	//Nico Yazawa
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 70655
+		},
+		{	//2024 Yearly: Participation
+			//https://anilist.co/forum/thread/79053
+			"id": "animeYearly2024Part",
+			"name": "2024 Yearly Challenge: Participation PLACEHOLDER",
+			"characters": [
+				46163	//Nico Yazawa
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 79053
+		},
+		{	//2024 Yearly: Easy Mode
+			//https://anilist.co/forum/thread/79053
+			"id": "animeYearly2024Easy",
+			"name": "2024 Yearly Challenge: Easy Mode PLACEHOLDER",
+			"characters": [
+				46163	//Nico Yazawa
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 79053
+		},
+		{	//2024 Yearly: Hard Mode
+			//https://anilist.co/forum/thread/79053
+			"id": "animeYearly2024Hard",
+			"name": "2024 Yearly Challenge: Hard Mode PLACEHOLDER",
+			"characters": [
+				46163	//Nico Yazawa
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 79053
+		},
+		{	//2025 Yearly: Participation
+			//https://anilist.co/forum/thread/86815
+			"id": "animeYearly2025Part",
+			"name": "2025 Yearly Challenge: Participation PLACEHOLDER",
+			"characters": [
+				46163	//Nico Yazawa
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 86815
+		},
+		{	//2025 Yearly: Easy Mode
+			//https://anilist.co/forum/thread/86815
+			"id": "animeYearly2025Easy",
+			"name": "2025 Yearly Challenge: Easy Mode PLACEHOLDER",
+			"characters": [
+				46163	//Nico Yazawa
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 86815
+		},
+		{	//2025 Yearly: Hard Mode
+			//https://anilist.co/forum/thread/86815
+			"id": "animeYearly2025Hard",
+			"name": "2025 Yearly Challenge: Hard Mode PLACEHOLDER",
+			"characters": [
+				46163	//Nico Yazawa
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 86815
 		},
 		/* ---------------- ANIME BADGES ---------------- */
 		/* ANIME CLASSIC BADGES */
@@ -371,6 +556,16 @@
 			"thread": 88752
 		},
 			/* Franchise */
+		{	//Aria Collection
+			//https://anilist.co/forum/thread/47806
+			"id": "ariaCollection",
+			"name": "Aria Collection Challenge",
+			"characters": [
+				378	//Akari Mizunashi
+			],
+			"image": "https://i.postimg.cc/qvYG9PYQ/Collection-Franchise-Aria.png",
+			"thread": 47806
+		},
 		{	//Cardcaptor Sakura Collection
 			//https://anilist.co/forum/thread/44858
 			"id": "cardcaptorCollection",
@@ -411,6 +606,26 @@
 			"image": "https://i.postimg.cc/025c4JVP/Collection-Franchise-Gintama.png",
 			"thread": 25322
 		},
+		{	//Higurashi Collection
+			//https://anilist.co/forum/thread/17846
+			"id": "gintamaCollection",
+			"name": "Gintama Collection Challenge",
+			"characters": [
+				1427	//Rena Ryuuguu
+			],
+			"image": "https://i.postimg.cc/k4t8s0Np/Collection-Franchise-Higurashi.png",
+			"thread": 17846
+		},
+		{	//Initial D Collection
+			//https://anilist.co/forum/thread/12963
+			"id": "gintamaCollection",
+			"name": "Gintama Collection Challenge",
+			"characters": [
+				2819	//Takumi Fujiwara
+			],
+			"image": "https://i.postimg.cc/YqBNnCsf/Collection-Franchise-Initial-D.png",
+			"thread": 12963
+		},
 		{	//Inuyasha Collection
 			//https://anilist.co/forum/thread/59212
 			"id": "inuyashaCollection",
@@ -433,6 +648,77 @@
 			],
 			"image": "https://i.postimg.cc/VNjMV2RB/Collection-Franchise-Isekai-Quartet.png",
 			"thread": 88268
+		},
+		{	//JoJo's Bizarre Adventure Collection
+			//https://anilist.co/forum/thread/59212
+			"id": "jojoollection",
+			"name": "JoJo's Bizarre Adventure Collection Challenge",
+			"characters": [
+				6356	//Joseph Joestar
+			],
+			"image": "https://i.postimg.cc/g0tqNyCn/Collection-Franchise-Jojo-s.png",
+			"thread": 59212
+		},
+		{	//Love Live! Collection
+			//https://anilist.co/forum/thread/25914
+			"id": "loveliveCollection",
+			"name": "Love Live! Collection Challenge",
+			"characters": [
+				89849	//Yoshiko Tsushima
+			],
+			"image": "https://i.postimg.cc/85KKtL7n/Collection-Franchise-Love-Live.png",
+			"thread": 25914
+		},
+		{	//Monogatari Collection
+			//https://anilist.co/forum/thread/7566
+			"id": "monogatariCollection",
+			"name": "Monogatari Collection Challenge",
+			"characters": [
+				23602	//Shinobu Oshino
+			],
+			"image": "https://i.postimg.cc/h4zMZwPg/Collection-Franchise-Monogatari.png",
+			"thread": 7566
+		},
+		{	//Pretty Cure Collection
+			//https://anilist.co/forum/thread/58215
+			"id": "prettyCureCollection",
+			"name": "Pretty Cure Collection Challenge",
+			"characters": [
+				29507,	//Tsubomi Hanasaki
+				30246	//Chypre
+			],
+			"image": "https://i.postimg.cc/jqgsdTPW/Collection-Franchise-Pretty-Cure.png",
+			"thread": 58215
+		},
+		{	//Slayers Collection
+			//https://anilist.co/forum/thread/66523
+			"id": "slayersCollection",
+			"name": "Slayers Collection Challenge",
+			"characters": [
+				1169	//Lina Inverse
+			],
+			"image": "https://i.postimg.cc/7hSfdDjY/Collection-Franchise-Slayers.png",
+			"thread": 66523
+		},
+		{	//THE iDOLM@STER Collection
+			//https://anilist.co/forum/thread/78423
+			"id": "idolmasterCollection",
+			"name": "The iDOLM@STER Collection Challenge",
+			"characters": [
+				2759	//Haruka Amami
+			],
+			"image": "https://i.postimg.cc/zfr80brp/Collection-Franchise-Idolmaster.png",
+			"thread": 78423
+		},
+		{	//Urusei Yatsura Collection
+			//https://anilist.co/forum/thread/53566
+			"id": "uruseiYatsuraCollection",
+			"name": "Urusei Yatsura Collection Challenge",
+			"characters": [
+				4835	//Lum
+			],
+			"image": "https://i.postimg.cc/JzY1TN8x/Collection-Franchise-Urusei-Yatsura.png",
+			"thread": 53566
 		},
 			/* Legend */
 		{	//Gen Urobuchi: Legend Collection
@@ -536,6 +822,26 @@
 			"image": "https://i.postimg.cc/J0pcwxNH/Collection-Studio-Gainax-Board.png",
 			"thread": 73456
 		},
+		{	//Kyoto Animation Collection: Line
+			//https://anilist.co/forum/thread/9352
+			"id": "kyotoLine",
+			"name": "Kyoto Animation Collection Challenge: Line",
+			"characters": [
+				19567	//Ritsu Tainaka
+			],
+			"image": "https://i.postimg.cc/JnRRnJ64/Collection-Studio-Kyoto-Animation-Line.png",
+			"thread": 9352
+		},
+		{	//Gainax Studio Collection: Board
+			//https://anilist.co/forum/thread/9352
+			"id": "kyotoBoard",
+			"name": "Kyoto Animation Collection Challenge: Board",
+			"characters": [
+				19567	//Ritsu Tainaka
+			],
+			"image": "https://i.postimg.cc/gJ4m6JQy/Collection-Studio-Kyoto-Animation-Board.png",
+			"thread": 9352
+		},
 		{	//MADHOUSE Studio Collection: Line
 			//https://anilist.co/forum/thread/36321
 			"id": "madhouseLine",
@@ -555,6 +861,48 @@
 			],
 			"image": "https://i.postimg.cc/wBg12K3c/Collection-Studio-Madhouse-Board.png",
 			"thread": 36321
+		},
+		{	//Studio Ghibli Collection: Line
+			//https://anilist.co/forum/thread/7284
+			"id": "ghibliLine",
+			"name": "Studio Ghibli Collection Challenge: Line",
+			"characters": [
+				6866,	//Kiki
+				3133	//Jiji
+			],
+			"image": "https://i.postimg.cc/W4L2Bx0Z/Collection-Studio-Studio-Ghibli-Line.png",
+			"thread": 7284
+		},
+		{	//Studio Ghibli Collection: Board
+			//https://anilist.co/forum/thread/7284
+			"id": "ghibliBoard",
+			"name": "Studio Ghibli Collection Challenge: Board",
+			"characters": [
+				6866,	//Kiki
+				3133	//Jiji
+			],
+			"image": "https://i.postimg.cc/fbcwD5vr/Collection-Studio-Studio-Ghibli-Board.png",
+			"thread": 7284
+		},
+		{	//Wit Studio Collection: Line
+			//https://anilist.co/forum/thread/13775
+			"id": "witLine",
+			"name": "Wit Studio Collection Challenge: Line",
+			"characters": [
+				40881	//Mikasa Ackerman
+			],
+			"image": "https://i.postimg.cc/RhF91mxk/Collection-Studio-Wit-Studio-Line.png",
+			"thread": 13775
+		},
+		{	//Wit Studio Collection: Board
+			//https://anilist.co/forum/thread/13775
+			"id": "witBoard",
+			"name": "Wit Studio Collection Challenge: Board",
+			"characters": [
+				40881	//Mikasa Ackerman
+			],
+			"image": "https://i.postimg.cc/NGJQsK1B/Collection-Studio-Wit-Studio-Board.png",
+			"thread": 13775
 		},
 		/* ANIME EVENT BADGES */
 			/* Badge Battle */
@@ -2289,6 +2637,66 @@
 			"image": "https://i.postimg.cc/CLWYXHVD/Monthly-2018-August-Hard.gif",
 			"thread": 4728
 		},
+		{	//September 2018 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/5110
+			"id": "monthly2018SepEasy",
+			"name": "September 2018 Monthly Challenge: Easy Mode",
+			"characters": [
+				65643	//Koro-sensei
+			],
+			"image": "https://i.postimg.cc/sfLRG9x8/Monthly-2018-September-Easy.gif",
+			"thread": 4728
+		},
+		{	//September 2018 Monthly: Hard
+			//https://anilist.co/forum/thread/5110
+			"id": "monthly2018SepHard",
+			"name": "September 2018 Monthly Challenge: Hard Mode",
+			"characters": [
+				65643	//Koro-sensei
+			],
+			"image": "https://i.postimg.cc/yYSCmgSN/Monthly-2018-September-Hard.gif",
+			"thread": 4728
+		},
+		{	//October 2018 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/5372
+			"id": "monthly2018OctEasy",
+			"name": "October 2018 Monthly Challenge: Easy Mode",
+			"characters": [
+				2456	//Akira Fudou
+			],
+			"image": "https://i.postimg.cc/vDwH1TcP/Monthly-2018-October-Easy.gif",
+			"thread": 5372
+		},
+		{	//October 2018 Monthly: Hard
+			//https://anilist.co/forum/thread/5372
+			"id": "monthly2018OctHard",
+			"name": "October 2018 Monthly Challenge: Hard Mode",
+			"characters": [
+				2456	//Akira Fudou
+			],
+			"image": "https://i.postimg.cc/G3HzrQG7/Monthly-2018-October-Hard.gif",
+			"thread": 5372
+		},
+		{	//November 2018 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/5696
+			"id": "monthly2018NovEasy",
+			"name": "November 2018 Monthly Challenge: Easy Mode",
+			"characters": [
+				124576	//Nadeshiko Kagamihara
+			],
+			"image": "https://i.postimg.cc/bJBkjFgp/Monthly-2018-November-Easy.gif",
+			"thread": 5696
+		},
+		{	//November 2018 Monthly: Hard
+			//https://anilist.co/forum/thread/5696
+			"id": "monthly2018NovHard",
+			"name": "November 2018 Monthly Challenge: Hard Mode",
+			"characters": [
+				124576	//Nadeshiko Kagamihara
+			],
+			"image": "https://i.postimg.cc/C5nDMHrD/Monthly-2018-November-Hard.gif",
+			"thread": 5696
+		},
 			/* 2019 */
 			/* 2020 */
 			/* 2021 */
@@ -2691,6 +3099,26 @@
 			"image": "https://i.postimg.cc/DwpzkQkb/Special-Community-Workshop.png",
 			"thread": 68462
 		},
+		{	//Hero’s Dawn
+			//https://anilist.co/forum/thread/45664
+			"id": "herosDawn",
+			"name": "Hero's Dawn Challenge",
+			"characters": [
+				43814	//Yona
+			],
+			"image": "https://i.postimg.cc/pT7LnL51/Special-Heros-Dawn.png",
+			"thread": 45664
+		},
+		{	//Hidden Gems
+			//https://anilist.co/forum/thread/63608
+			"id": "hiddenGems",
+			"name": "Hidden Gems Challenge",
+			"characters": [
+				53373	//Akari Acura
+			],
+			"image": "https://i.postimg.cc/XqCZ2k48/Special-Hidden-Gems.png",
+			"thread": 63608
+		},
 		{	//Marathon
 			//https://anilist.co/forum/thread/27098
 			"id": "marathon",
@@ -2971,6 +3399,30 @@
 			],
 			"image": "https://i.postimg.cc/QxXZgQkX/Tier-Manga-Advanced.png",
 			"thread": 51476
+		},
+		/* ---------------- UNOFFICIAL BADGES ---------------- */
+		/*
+		{	//Flo's Unofficial Mecha
+			//xx
+			"id": "unofficialFloMecha",
+			"name": "Flo's Unofficial Mecha Challenge",
+			"characters": [
+				xx	//
+			],
+			"image": "https://i.postimg.cc/pyNNF2Rv/KNnp4Td.png",	//https://i.imgur.com/PY6RHnU_d.webp?maxwidth=760&fidelity=grand
+			"thread": xx,
+			"unofficial" : true
+		}, */
+		{	//Lili's Unofficial Bread
+			//https://docs.google.com/document/d/1U3tiqFXox8on5puL59WS5XfgmHAzMyOwdQhugF39288/edit?tab=t.0
+			"id": "unofficialLiliBread",
+			"name": "Lili's Unofficial Bread Challenge",
+			"characters": [
+				10765	//Chi Yamada
+			],
+			"image": "https://cdn.discordapp.com/attachments/468670391045455875/1170686499616981023/SPOILER_BREADGE.png?ex=69e36b43&is=69e219c3&hm=5e1a1399cd13ee3d9e2303e8a63f0fd1d2662ead19929b6b7eaf0ab4996276c3&",
+			"thread": 4449,	//Generic About
+			"unofficial" : true
 		}
 	]
 }

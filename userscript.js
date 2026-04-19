@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AWC Character Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.0.6
+// @version      1.0.7
 // @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover zoom
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
@@ -20,6 +20,7 @@ const DB_URL = "https://raw.githubusercontent.com/Eremeir/awcCharacterPageBadges
 const CACHE_ENABLED = true;
 const CACHE_KEY = "awc_badges_cache";
 const CACHE_TTL = 7 * 24 * 60 * 60 * 1000; //7 Days
+const SHOW_UNOFFICIAL = false;	//Unofficial Community Badges
 
 /* ---------------- JSONC STRIPPER ---------------- */
 function parseJSONC(text) {	//Strip comments from JSONC
@@ -135,7 +136,7 @@ function injectHoverZoom() {
 /* ---------------- RENDER BADGES ---------------- */
 function renderBadges(data, characterId, characterDiv) {
 	if(document.querySelector(".awc-badge-container")) return;	//Avoid duplicate injection
-	let matches = data.challenges.filter(c => c.characters.includes(characterId));	//Filter challenges that include this character
+	let matches = data.challenges.filter(c => c.characters.includes(characterId) && (SHOW_UNOFFICIAL || !c.unofficial));	//Filter challenges that include this character
 	if(!matches.length) return;
 
 	const container = document.createElement("div");	//Create container div
@@ -168,6 +169,7 @@ function renderBadges(data, characterId, characterDiv) {
 		img.src = challenge.image;
 		img.title = challenge.name;
 		img.style.borderRadius = "6px";
+		if(challenge.unofficial) { img.style.outline =  "2px dashed #888"; }	//Add unofficial badge border
 
 		img.onload = () => {	//Resize after image loads based on natural dimensions
 			const w = img.naturalWidth;
@@ -222,7 +224,7 @@ async function init(force = false) {
 
 		const db = await loadDB();
 		if(!scriptLogged) {
-			console.info(`AWC Character Page Badges: ${db.challenges.length} badges loaded in database.`);
+			console.info(`AWC Character Page Badges: ${db.challenges.length} badges loaded in database. Unofficial Badges are ${SHOW_UNOFFICIAL ? "enabled." : "disabled."}`);
 			scriptLogged = true;
 		}
 
