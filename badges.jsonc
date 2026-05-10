@@ -320,6 +320,16 @@
 			"image": "https://i.postimg.cc/154VdpNw/2001-Classic.png",
 			"thread": 84831
 		},
+		{	//2007 Classic
+			//https://anilist.co/forum/thread/89679
+			"id": "animeClassic2007",
+			"name": "2007 Classic Challenge",
+			"characters": [
+				5424	//Amu Hinamori
+			],
+			"image": "https://i.postimg.cc/FRvF4K23/2007-Classic.png",
+			"thread": 89679
+		},
 		{	//2008 Classic
 			//https://anilist.co/forum/thread/85800
 			"id": "animeClassic2008",
@@ -401,6 +411,16 @@
 			"image": "https://i.postimg.cc/sfZrGbfy/2016-Classic.png",
 			"thread": 39961
 		},
+		{	//2017 Classic (Legacy)
+			//https://anilist.co/forum/thread/13347
+			"id": "animeClassic2017LGCY",
+			"name": "2017 Classic Challenge (Legacy)",
+			"characters": [
+				121052	//Tanya Degurechaff
+			],
+			"image": "https://i.postimg.cc/pLDXZPP9/2017-Classic-Legacy.png",
+			"thread": 13347
+		},
 		{	//2017 Classic
 			//https://anilist.co/forum/thread/13347
 			"id": "animeClassic2017",
@@ -411,6 +431,16 @@
 			"image": "https://i.postimg.cc/pT280h0F/2017-Classic.png",
 			"thread": 13347
 		},
+		{	//2018 Classic (Legacy)
+			//https://anilist.co/forum/thread/7104
+			"id": "animeClassic2018LGCY",
+			"name": "2018 Classic Challenge (Legacy)",
+			"characters": [
+				127613	//Kaede Azusagawa
+			],
+			"image": "https://i.postimg.cc/50Jz3PcJ/2018-Classic-Legacy.png",
+			"thread": 7104
+		},
 		{	//2018 Classic
 			//https://anilist.co/forum/thread/7104
 			"id": "animeClassic2018",
@@ -420,6 +450,17 @@
 			],
 			"image": "https://i.postimg.cc/tC16mHz2/2018-Classic.png",
 			"thread": 7104
+		},
+		{	//2019 Classic (Legacy)
+			//https://anilist.co/forum/thread/10377
+			"id": "animeClassic2019LGCY",
+			"name": "2019 Classic Challenge (Legacy)",
+			"characters": [
+				133661,	//Carole Stanley
+				133660	//Tuesday Simmons
+			],
+			"image": "https://i.postimg.cc/nc9LXv5G/2019-Classic-Legacy.png",
+			"thread": 10377
 		},
 		{	//2019 Classic
 			//https://anilist.co/forum/thread/10377
@@ -608,8 +649,8 @@
 		},
 		{	//Higurashi Collection
 			//https://anilist.co/forum/thread/17846
-			"id": "gintamaCollection",
-			"name": "Gintama Collection Challenge",
+			"id": "higurashiCollection",
+			"name": "Higurashi Collection Challenge",
 			"characters": [
 				1427	//Rena Ryuuguu
 			],
@@ -618,8 +659,8 @@
 		},
 		{	//Initial D Collection
 			//https://anilist.co/forum/thread/12963
-			"id": "gintamaCollection",
-			"name": "Gintama Collection Challenge",
+			"id": "initialDCollection",
+			"name": "Initial D Collection Challenge",
 			"characters": [
 				2819	//Takumi Fujiwara
 			],
@@ -1061,7 +1102,7 @@
 		{	//Anniversary Boss Battle (First Gigamech Plusho)
 			//https://anilist.co/forum/thread/14634
 			"id": "anniversaryBossBattleFirPlu",
-			"name": "AWC Anniversary Boss Battle (First Gigamech  Plusho)",
+			"name": "AWC Anniversary Boss Battle (First Gigamech Plusho)",
 			"characters": [
 				xxx	//Red Eyes Black Dragon
 			],
@@ -1181,7 +1222,7 @@
 		},
 		{	//Hero’s War (Review Clan)
 			//https://anilist.co/forum/thread/57577
-			"id": "herosWarList",
+			"id": "herosWarReview",
 			"name": "Hero's War Challenge (Review Clan)",
 			"characters": [
 				75450	//Alice Zuberg
@@ -2293,7 +2334,7 @@
 			/* Sci-Fi */
 		{	//Sci-Fi Genre: Easy Mode (Legacy)
 			//https://anilist.co/forum/thread/5292
-			"id": "genreSciFiEasy",
+			"id": "genreSciFiEasyLGCY",
 			"name": "Sci-Fi Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
 				1		//Spike Spiegel
@@ -2303,7 +2344,7 @@
 		},
 		{	//Sci-Fi Genre: Normal Mode (Legacy)
 			//https://anilist.co/forum/thread/5292
-			"id": "genreSciFiNormal",
+			"id": "genreSciFiNormalLGCY",
 			"name": "Sci-Fi Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
 				68315		//Shinya Kougami
@@ -2313,7 +2354,7 @@
 		},
 		{	//Sci-Fi Genre: Hard Mode (Legacy)
 			//https://anilist.co/forum/thread/5292
-			"id": "genreSciFiHard",
+			"id": "genreSciFiHardLGCY",
 			"name": "Sci-Fi Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
 				1795		//Motoko Kusanagi
@@ -2697,7 +2738,127 @@
 			"image": "https://i.postimg.cc/C5nDMHrD/Monthly-2018-November-Hard.gif",
 			"thread": 5696
 		},
+		{	//December 2018 Monthly: Easy
+			//https://anilist.co/forum/thread/5927
+			"id": "monthly2018DecEasy",
+			"name": "December 2018 Monthly Challenge: Easy Mode",
+			"characters": [
+				19565	//Yui Hirasawa
+			],
+			"image": "https://i.postimg.cc/j2FjxfCG/Monthly-2018-December-Easy.png",
+			"thread": 5927
+		},
+		{	//December 2018 Monthly: Easy (Wreathe)
+			//https://anilist.co/forum/thread/5927
+			"id": "monthly2018DecEasyWreathe",
+			"name": "December 2018 Monthly Challenge: Easy Mode (Wreathe)",
+			"characters": [
+				19565	//Yui Hirasawa
+			],
+			"image": "https://i.postimg.cc/N0cjjBff/Monthly-2018-December-Easy-Wreath.png",
+			"thread": 5927
+		},
+		{	//December 2018 Monthly: Easy (Animated)
+			//https://anilist.co/forum/thread/5927
+			"id": "monthly2018DecEasyAnim",
+			"name": "December 2018 Monthly Challenge: Easy Mode (Animated)",
+			"characters": [
+				19565	//Yui Hirasawa
+			],
+			"image": "https://i.postimg.cc/5yTxdMRJ/Monthly-2018-December-Easy.gif",
+			"thread": 5927
+		},
+		{	//December 2018 Monthly: Easy (Wreathe Animated)
+			//https://anilist.co/forum/thread/5927
+			"id": "monthly2018DecEasyWreatheAnim",
+			"name": "December 2018 Monthly Challenge: Easy Mode (Wreathe Animated)",
+			"characters": [
+				19565	//Yui Hirasawa
+			],
+			"image": "https://i.postimg.cc/K4SdDcW1/Monthly-2018-December-Easy-Wreath.gif",
+			"thread": 5927
+		},
+		{	//December 2018 Monthly: Hard
+			//https://anilist.co/forum/thread/5927
+			"id": "monthly2018DecHard",
+			"name": "December 2018 Monthly Challenge: Hard Mode",
+			"characters": [
+				19565	//Yui Hirasawa
+			],
+			"image": "https://i.postimg.cc/ZY7nFGjV/Monthly-2018-December-Hard.png",
+			"thread": 5927
+		},
+		{	//December 2018 Monthly: Hard (Wreathe)
+			//https://anilist.co/forum/thread/5927
+			"id": "monthly2018DecHardWreathe",
+			"name": "December 2018 Monthly Challenge: Hard Mode (Wreathe)",
+			"characters": [
+				19565	//Yui Hirasawa
+			],
+			"image": "https://i.postimg.cc/9Mxmb9Pr/Monthly-2018-December-Hard-Wreath.png",
+			"thread": 5927
+		},
+		{	//December 2018 Monthly: Hard (Animated)
+			//https://anilist.co/forum/thread/5927
+			"id": "monthly2018DecHardAnim",
+			"name": "December 2018 Monthly Challenge: Hard Mode (Animated)",
+			"characters": [
+				19565	//Yui Hirasawa
+			],
+			"image": "https://i.postimg.cc/x8bwmN6r/Monthly-2018-December-Hard.gif",
+			"thread": 5927
+		},
+		{	//December 2018 Monthly: Hard (Wreathe Animated)
+			//https://anilist.co/forum/thread/5927
+			"id": "monthly2018DecHardWreatheAnim",
+			"name": "December 2018 Monthly Challenge: Hard Mode (Wreathe Animated)",
+			"characters": [
+				19565	//Yui Hirasawa
+			],
+			"image": "https://i.postimg.cc/447yP8MG/Monthly-2018-December-Hard-Wreath.gif",
+			"thread": 5927
+		},
 			/* 2019 */
+		{	//January 2019 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/6206
+			"id": "monthly2019JanEasy",
+			"name": "January 2019 Monthly Challenge: Easy Mode",
+			"characters": [
+				89616	//Shigeo Kageyama
+			],
+			"image": "https://i.postimg.cc/G2rFDF5D/Monthly-2019-January-Easy.png",
+			"thread": 6206
+		},
+		{	//January 2019 Monthly: Easy Mode (Animated)
+			//https://anilist.co/forum/thread/6206
+			"id": "monthly2019JanEasyAnim",
+			"name": "January 2019 Monthly Challenge: Easy Mode (Animated)",
+			"characters": [
+				89616	//Shigeo Kageyama
+			],
+			"image": "https://i.postimg.cc/Kc0PKgrK/Monthly-2019-January-Easy.gif",
+			"thread": 6206
+		},
+		{	//January 2019 Monthly: Hard Mode
+			//https://anilist.co/forum/thread/6206
+			"id": "monthly2019JanHard",
+			"name": "January 2019 Monthly Challenge: Hard Mode",
+			"characters": [
+				89616	//Shigeo Kageyama
+			],
+			"image": "https://i.postimg.cc/MHp1PWxK/Monthly-2019-January-Hard.png",
+			"thread": 6206
+		},
+		{	//January 2019 Monthly: Hard Mode (Animated)
+			//https://anilist.co/forum/thread/6206
+			"id": "monthly2019JanHardAnim",
+			"name": "January 2019 Monthly Challenge: Hard Mode (Animated)",
+			"characters": [
+				89616	//Shigeo Kageyama
+			],
+			"image": "https://i.postimg.cc/7YcS98Rw/Monthly-2019-January-Hard.gif",
+			"thread": 6206
+		},
 			/* 2020 */
 			/* 2021 */
 			/* 2022 */
@@ -2864,6 +3025,46 @@
 			],
 			"image": "https://i.postimg.cc/yY7tVCWv/Monthly-2026-April-Hard-Animated.png",
 			"thread": 88791
+		},
+		{	//May 2026 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/89523
+			"id": "monthly2026MayEasy",
+			"name": "May 2026 Monthly Challenge: Easy Mode",
+			"characters": [
+				88520	//Ushio Hinomaru
+			],
+			"image": "https://i.postimg.cc/zBYZgP7r/Monthly-2026-May-Easy-Static.png",
+			"thread": 89523
+		},
+		{	//May 2026 Monthly: Easy Mode (Animated)
+			//https://anilist.co/forum/thread/89523
+			"id": "monthly2026MayEasyAnim",
+			"name": "May 2026 Monthly Challenge: Easy Mode (Animated)",
+			"characters": [
+				88520	//Ushio Hinomaru
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 89523
+		},
+		{	//May 2026 Monthly: Hard Mode
+			//https://anilist.co/forum/thread/89523
+			"id": "monthly2026MayHard",
+			"name": "May 2026 Monthly Challenge: Hard Mode",
+			"characters": [
+				88520	//Ushio Hinomaru
+			],
+			"image": "https://i.postimg.cc/Y28ZrS5B/Monthly-2026-May-Hard-Static.png",
+			"thread": 89523
+		},
+		{	//May 2026 Monthly: Hard Mode (Animated)
+			//https://anilist.co/forum/thread/89523
+			"id": "monthly2026MayHardAnim",
+			"name": "May 2026 Monthly Challenge: Hard Mode (Animated)",
+			"characters": [
+				88520	//Ushio Hinomaru
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 89523
 		},
 		/* ANIME PUZZLE BADGES */
 		{	//Battleship
@@ -3182,7 +3383,7 @@
 		{	//Rainbow (Legacy)
 			//https://anilist.co/forum/thread/7738
 			"id": "rainbowLGCY",
-			"name": "Rainbow Challenge",
+			"name": "Rainbow Challenge (Legacy)",
 			"characters": [
 				16055,	//Shuuichi Nitori
 				16327	//Yoshino Takatsuki
@@ -3203,7 +3404,7 @@
 		},
 		{	//Recommendations
 			//https://anilist.co/forum/thread/14236
-			"id": "rainbow",
+			"id": "reccomendation",
 			"name": "Recommendations Challenge",
 			"characters": [
 				120649	//Kaguya Shinomiya
@@ -3294,6 +3495,16 @@
 			"thread": 40936
 		},
 		/* ANIME TIER BADGES */
+		{	//Anime Tier: Beginners (Legacy)
+			//https://anilist.co/forum/thread/4448
+			"id": "animeTierBeginnersLGCY",
+			"name": "Anime Tier: Beginner's Challenge (Legacy)",
+			"characters": [
+				40	//Luffy D. Monkey
+			],
+			"image": "https://i.postimg.cc/VLyPvk56/Tier-Anime-Beginners.png",
+			"thread": 4448
+		},
 		{	//Anime Tier: Beginners
 			//https://anilist.co/forum/thread/4448
 			"id": "animeTierBeginners",
@@ -3301,8 +3512,18 @@
 			"characters": [
 				40	//Luffy D. Monkey
 			],
-			"image": "https://i.postimg.cc/VLyPvk56/Tier-Anime-Beginners.png",
+			"image": "https://i.postimg.cc/cJ9hsx4N/Tier-Anime-Beginners.png",
 			"thread": 4448
+		},
+		{	//Anime Tier: Intermediate (Legacy)
+			//https://anilist.co/forum/thread/5027
+			"id": "animeTierIntermediateLGCY",
+			"name": "Anime Tier: Intermediate Challenge (Legacy)",
+			"characters": [
+				87275	//Ken Kaneki
+			],
+			"image": "https://i.postimg.cc/L5mT1nTx/Tier-Anime-Intermediate.png",
+			"thread": 5027
 		},
 		{	//Anime Tier: Intermediate
 			//https://anilist.co/forum/thread/5027
@@ -3311,8 +3532,18 @@
 			"characters": [
 				87275	//Ken Kaneki
 			],
-			"image": "https://i.postimg.cc/L5mT1nTx/Tier-Anime-Intermediate.png",
+			"image": "https://i.postimg.cc/RFpff7m3/Tier-Anime-Intermediate.png",
 			"thread": 5027
+		},
+		{	//Anime Tier: Advanced (Legacy)
+			//https://anilist.co/forum/thread/8462
+			"id": "animeTierAdvancedLGCY",
+			"name": "Anime Tier: Advanced Challenge (Legacy)",
+			"characters": [
+				81367	//Shiroe
+			],
+			"image": "https://i.postimg.cc/DZvJQs94/Tier-Anime-Advanced.png",
+			"thread": 8462
 		},
 		{	//Anime Tier: Advanced
 			//https://anilist.co/forum/thread/8462
@@ -3321,7 +3552,7 @@
 			"characters": [
 				81367	//Shiroe
 			],
-			"image": "https://i.postimg.cc/DZvJQs94/Tier-Anime-Advanced.png",
+			"image": "https://i.postimg.cc/R0rZHVC5/Tier-Anime-Advanced.png",
 			"thread": 8462
 		},
 		{	//Anime Tier: Expert
@@ -3338,7 +3569,7 @@
 		/* MANGA COLLECTION BADGES */
 		{	//Manga Collection: Akira Toriyama
 			//https://anilist.co/forum/thread/75691
-			"id": "mangaCollection",
+			"id": "mangaCollectionAkiraToriyama",
 			"name": "Akira Toriyama Collection Challenge",
 			"characters": [
 				3182	//Arale Norimaki
@@ -3346,10 +3577,20 @@
 			"image": "https://i.postimg.cc/4dSrb987/Collection-Akira-Toriyama.png",
 			"thread": 75691
 		},
+		{	//Manga Collection: Naoki Urasawa
+			//https://anilist.co/forum/thread/62321
+			"id": "mangaCollectionNaokiUrasawa",
+			"name": "Naoki Urasawa Collection Challenge",
+			"characters": [
+				14314	//Tomodachi
+			],
+			"image": "https://i.postimg.cc/zGYdjqsK/Collection-Naoki-Urasawa.png",
+			"thread": 62321
+		},
 		/* MANGA CITY BADGES */
 		{	//Manga City: Airport
 			//https://anilist.co/forum/thread/11261
-			"id": "mangaCollection",
+			"id": "mangaCityAirport",
 			"name": "Manga City - Airport",
 			"characters": [
 				539	//Nausicaä
@@ -3357,8 +3598,48 @@
 			"image": "https://i.postimg.cc/DZFt6QPh/Manga-City-Airport.png",
 			"thread": 11261
 		},
+		{	//Manga City: Dagashiya
+			//https://anilist.co/forum/thread/68974
+			"id": "mangaCityDagashiya",
+			"name": "Manga City - Dagashiya",
+			"characters": [
+				89272	//Tsumugi Inuzuka
+			],
+			"image": "https://i.postimg.cc/yYJyhC0w/Manga-City-Dagashiya.png",
+			"thread": 68974
+		},
 		/* MANGA SPECIAL BADGES */
+		{	//Art & Artists
+			//https://anilist.co/forum/thread/38004
+			"id": "mangaArtists",
+			"name": "Manga Art & Artists Challenge",
+			"characters": [
+				144674	//Yatora Yaguchi
+			],
+			"image": "https://i.postimg.cc/MKssGkLQ/Special-Art-Artists.png",
+			"thread": 38004
+		},
 			/* Explorer's's */
+		{	//Explorer's Challenge: Field Path
+			//https://anilist.co/forum/thread/9960
+			"id": "mangaExplorerField",
+			"name": "Explorer's Challenge: Field Path",
+			"characters": [
+				4201	//Link
+			],
+			"image": "https://i.postimg.cc/9Q8CgnNp/Special-Explorers-Field.png",
+			"thread": 9960
+		},
+		{	//Explorer's Challenge: Mountain Path
+			//https://anilist.co/forum/thread/9960
+			"id": "mangaExplorerMountain",
+			"name": "Explorer's Challenge: Mountain Path",
+			"characters": [
+				35510	//Buntarou Mori
+			],
+			"image": "https://i.postimg.cc/HksT2g3n/Special-Explorers-Mountain.png",
+			"thread": 9960
+		},
 		{	//Explorer's Challenge: Ocean Path
 			//https://anilist.co/forum/thread/9960
 			"id": "mangaExplorerOcean",
@@ -3368,6 +3649,96 @@
 			],
 			"image": "https://i.postimg.cc/5tX1hShM/Special-Explorers-Ocean.png",
 			"thread": 9960
+		},
+		{	//Formula 1
+			//https://anilist.co/forum/thread/46422
+			"id": "mangaFormula1",
+			"name": "Formula 1 Challenge",
+			"characters": [
+				7161	//Capeta Taira
+			],
+			"image": "https://i.postimg.cc/R08njhBn/Special-Formula1.png",
+			"thread": 46422
+		},
+		{	//Library of Alexandria
+			//https://anilist.co/forum/thread/87218
+			"id": "mangaAlexandria",
+			"name": "Library of Alexandria Challenge",
+			"characters": [
+				162068	//Sedona Bleu
+			],
+			"image": "https://i.postimg.cc/RZB33pfr/Special-Library-of-Alexandria.png",
+			"thread": 87218
+		},
+		{	//Light Novel
+			//https://anilist.co/forum/thread/61414
+			"id": "mangaLightNovel",
+			"name": "Light Novel Challenge",
+			"characters": [
+				126156	//Myne
+			],
+			"image": "https://i.postimg.cc/kgyjdqfj/Special-Light-Novel.png",
+			"thread": 61414
+		},
+		{	//Lottery
+			//https://anilist.co/forum/thread/23111
+			"id": "mangaLottery",
+			"name": "Manga Lottery Challenge",
+			"characters": [
+				73227	//Nagito Komaeda
+			],
+			"image": "https://i.postimg.cc/gJRpJkcS/Special-Manga-Lottery.png",
+			"thread": 23111
+		},
+		{	//Magazines
+			//https://anilist.co/forum/thread/71107
+			"id": "mangaMagazines",
+			"name": "Manga Magazines Challenge",
+			"characters": [
+				120797	//Akiko Hayashi
+			],
+			"image": "https://i.postimg.cc/k4rQ7jwH/Special-Manga-Magazines.png",
+			"thread": 71107
+		},
+		{	//One-Shot Roulette
+			//https://anilist.co/forum/thread/65513
+			"id": "mangaOneShotRoulette",
+			"name": "One-Shot Roulette Challenge",
+			"characters": [
+				185726	//Tao Saotome
+			],
+			"image": "https://i.postimg.cc/G3T7rnv2/Special-One-Shot-Roulette.png",
+			"thread": 65513
+		},
+		{	//Recipe
+			//https://anilist.co/forum/thread/79505
+			"id": "mangaRecipe",
+			"name": "Manga Recipe Challenge",
+			"characters": [
+				26189	//Ichigo Amano
+			],
+			"image": "https://i.postimg.cc/C1XTtkZR/Special-Recipe.png",
+			"thread": 79505
+		},
+		{	//Space Adventurer’s (Voyager)
+			//https://anilist.co/forum/thread/16045
+			"id": "spaceAdventurerVoyager",
+			"name": "Space Adventurer’s Challenge (Voyager Path)",
+			"characters": [
+				122753	//Kanata Hoshijima
+			],
+			"image": "https://i.postimg.cc/cJPZ08Wt/Special-Space-Adventurers-Voyager.png",
+			"thread": 16045
+		},
+		{	//Space Adventurer’s (Invader)
+			//https://anilist.co/forum/thread/16045
+			"id": "spaceAdventurerInvader",
+			"name": "Space Adventurer’s Challenge (Invader Path)",
+			"characters": [
+				3694	//Freeza
+			],
+			"image": "https://i.postimg.cc/rF98xm17/Special-Space-Adventurers-Invader.png",
+			"thread": 16045
 		},
 		/* MANGA TIER BADGES */
 		{	//Manga Tier: Beginner
@@ -3382,7 +3753,7 @@
 		},
 		{	//Manga Tier: Intermediate
 			//https://anilist.co/forum/thread/10665
-			"id": "mangaTierBeginner",
+			"id": "mangaTierIntermediate",
 			"name": "Manga Tier: Intermediate Challenge",
 			"characters": [
 				17	//Naruto Uzumaki
@@ -3399,7 +3770,7 @@
 			],
 			"image": "https://i.postimg.cc/QxXZgQkX/Tier-Manga-Advanced.png",
 			"thread": 51476
-		},
+		}
 		/* ---------------- UNOFFICIAL BADGES ---------------- */
 		/*
 		{	//Flo's Unofficial Mecha
@@ -3412,7 +3783,7 @@
 			"image": "https://i.postimg.cc/pyNNF2Rv/KNnp4Td.png",	//https://i.imgur.com/PY6RHnU_d.webp?maxwidth=760&fidelity=grand
 			"thread": xx,
 			"unofficial" : true
-		}, */
+		},
 		{	//Lili's Unofficial Bread
 			//https://docs.google.com/document/d/1U3tiqFXox8on5puL59WS5XfgmHAzMyOwdQhugF39288/edit?tab=t.0
 			"id": "unofficialLiliBread",
@@ -3423,6 +3794,6 @@
 			"image": "https://cdn.discordapp.com/attachments/468670391045455875/1170686499616981023/SPOILER_BREADGE.png?ex=69e36b43&is=69e219c3&hm=5e1a1399cd13ee3d9e2303e8a63f0fd1d2662ead19929b6b7eaf0ab4996276c3&",
 			"thread": 4449,	//Generic About
 			"unofficial" : true
-		}
+		} */
 	]
 }
