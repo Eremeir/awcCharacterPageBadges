@@ -691,14 +691,14 @@
 			"thread": 88268
 		},
 		{	//JoJo's Bizarre Adventure Collection
-			//https://anilist.co/forum/thread/59212
+			//https://anilist.co/forum/thread/8037
 			"id": "jojoollection",
 			"name": "JoJo's Bizarre Adventure Collection Challenge",
 			"characters": [
 				6356	//Joseph Joestar
 			],
 			"image": "https://i.postimg.cc/g0tqNyCn/Collection-Franchise-Jojo-s.png",
-			"thread": 59212
+			"thread": 8037
 		},
 		{	//Love Live! Collection
 			//https://anilist.co/forum/thread/25914
@@ -948,14 +948,14 @@
 		/* ANIME EVENT BADGES */
 			/* Badge Battle */
 		{	//Badge Battle #1: Bocchi vs Senko
-			//https://anilist.co/forum/thread/75538
+			//https://anilist.co/forum/thread/8579
 			"id": "badgeBattle01",
 			"name": "Badge Battle #1: Bocchi vs Senko",
 			"characters": [
 				128986	//Bocchi Hitori
 			],
 			"image": "https://i.postimg.cc/VNfFW7yV/Event-Badge-Battle-1.png",
-			"thread": 75538
+			"thread": 8579
 		},
 		{	//Badge Battle #2: Chise vs. Mikoto
 			//https://anilist.co/forum/thread/10132
@@ -1231,7 +1231,7 @@
 			"thread": 57577
 		},
 		{	//Murder Mystery
-			//https://anilist.co/forum/thread/57577
+			//https://anilist.co/forum/thread/85436
 			"id": "murderMystery",
 			"name": "Murder Mystery",
 			"characters": [
@@ -1239,7 +1239,7 @@
 				14040	//Battler Ushiromiya
 			],
 			"image": "https://i.postimg.cc/wjMT5wkX/Special-Murder-Mystery.png",
-			"thread": 57577
+			"thread": 85436
 		},
 		{	//Valentine's
 			//https://anilist.co/forum/thread/11041
@@ -2859,6 +2859,246 @@
 			"image": "https://i.postimg.cc/7YcS98Rw/Monthly-2019-January-Hard.gif",
 			"thread": 6206
 		},
+		{	//February 2019 Monthly: Easy
+			//https://anilist.co/forum/thread/6517
+			"id": "monthly2019FebEasy",
+			"name": "February 2019 Monthly Challenge: Easy Mode",
+			"characters": [
+				122190	//Narumi Momose
+			],
+			"image": "https://i.postimg.cc/mDDrKhcq/Monthly-2019-February-Easy.png",
+			"thread": 6517
+		},
+		{	//February 2019 Monthly: Easy (Wreathe)
+			//https://anilist.co/forum/thread/6517
+			"id": "monthly2019FebEasyWreathe",
+			"name": "February 2019 Monthly Challenge: Easy Mode (Wreathe)",
+			"characters": [
+				122190	//Narumi Momose
+			],
+			"image": "https://i.postimg.cc/d3ZVtXjj/Monthly-2019-February-Easy-Wreath.png",
+			"thread": 6517
+		},
+		{	//February 2019 Monthly: Easy (Animated)
+			//https://anilist.co/forum/thread/6517
+			"id": "monthly2019FebEasyAnim",
+			"name": "February 2019 Monthly Challenge: Easy Mode (Animated)",
+			"characters": [
+				122190	//Narumi Momose
+			],
+			"image": "https://i.postimg.cc/fW1xjQpZ/Monthly-2019-February-Easy.gif",
+			"thread": 6517
+		},
+		{	//February 2019 Monthly: Easy (Wreathe Animated)
+			//https://anilist.co/forum/thread/6517
+			"id": "monthly2019FebEasyWreatheAnim",
+			"name": "February 2019 Monthly Challenge: Easy Mode (Wreathe Animated)",
+			"characters": [
+				122190	//Narumi Momose
+			],
+			"image": "https://i.postimg.cc/CLDbc6p8/Monthly-2019-February-Easy-Wreath.gif",
+			"thread": 6517
+		},
+		{	//February 2019 Monthly: Hard
+			//https://anilist.co/forum/thread/6517
+			"id": "monthly2019FebHard",
+			"name": "February 2019 Monthly Challenge: Hard Mode",
+			"characters": [
+				122190	//Narumi Momose
+			],
+			"image": "https://i.postimg.cc/hj5GngTG/Monthly-2019-February-Hard.png",
+			"thread": 6517
+		},
+		{	//February 2019 Monthly: Hard (Wreathe)
+			//https://anilist.co/forum/thread/6517
+			"id": "monthly2019FebHardWreathe",
+			"name": "February 2019 Monthly Challenge: Hard Mode (Wreathe)",
+			"characters": [
+				122190	//Narumi Momose
+			],
+			"image": "https://i.postimg.cc/Lhd6qTyK/Monthly-2019-February-Hard-Wreath.png",
+			"thread": 6517
+		},
+		{	//February 2019 Monthly: Hard (Animated)
+			//https://anilist.co/forum/thread/6517
+			"id": "monthly2019FebHardAnim",
+			"name": "February 2019 Monthly Challenge: Hard Mode (Animated)",
+			"characters": [
+				122190	//Narumi Momose
+			],
+			"image": "https://i.postimg.cc/HWrwykSB/Monthly-2019-February-Hard.gif",
+			"thread": 6517
+		},
+		{	//February 2019 Monthly: Hard (Wreathe Animated)
+			//https://anilist.co/forum/thread/6517
+			"id": "monthly2019FebHardWreatheAnim",
+			"name": "February 2019 Monthly Challenge: Hard Mode (Wreathe Animated)",
+			"characters": [
+				122190	//Narumi Momose
+			],
+			"image": "https://i.postimg.cc/3xTmVC3c/Monthly-2019-February-Hard-Wreath.gif",
+			"thread": 6517
+		},
+		{	//March 2019 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/6711
+			"id": "monthly2019MarEasy",
+			"name": "March 2019 Monthly Challenge: Easy Mode",
+			"characters": [
+				35256	//Rumiho Akiha
+			],
+			"image": "https://i.postimg.cc/3rDNfwsk/Monthly-2019-March-Easy.png",
+			"thread": 6711
+		},
+		{	//March 2019 Monthly: Easy Mode (Animated)
+			//https://anilist.co/forum/thread/6711
+			"id": "monthly2019MarEasyAnim",
+			"name": "March 2019 Monthly Challenge: Easy Mode (Animated)",
+			"characters": [
+				35256	//Rumiho Akiha
+			],
+			"image": "https://i.postimg.cc/HnQpYrm3/Monthly-2019-March-Easy.gif",
+			"thread": 6711
+		},
+		{	//March 2019 Monthly: Hard Mode
+			//https://anilist.co/forum/thread/6711
+			"id": "monthly2019MarHard",
+			"name": "March 2019 Monthly Challenge: Hard Mode",
+			"characters": [
+				35256	//Rumiho Akiha
+			],
+			"image": "https://i.postimg.cc/jd05pbTZ/Monthly-2019-March-Hard.png",
+			"thread": 6711
+		},
+		{	//March 2019 Monthly: Hard Mode (Animated)
+			//https://anilist.co/forum/thread/6711
+			"id": "monthly2019MarHardAnim",
+			"name": "March 2019 Monthly Challenge: Hard Mode (Animated)",
+			"characters": [
+				35256	//Rumiho Akiha
+			],
+			"image": "https://i.postimg.cc/c1Y1Mb3Y/Monthly-2019-March-Hard.gif",
+			"thread": 6711
+		},
+		{	//April 2019 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/6976
+			"id": "monthly2019AprEasy",
+			"name": "April 2019 Monthly Challenge: Easy Mode",
+			"characters": [
+				2169	//Konata Izumi
+			],
+			"image": "https://i.postimg.cc/nLCpsRZX/Monthly-2019-April-Easy.png",
+			"thread": 6976
+		},
+		{	//April 2019 Monthly: Easy Mode (Animated)
+			//https://anilist.co/forum/thread/6976
+			"id": "monthly2019AprEasyAnim",
+			"name": "April 2019 Monthly Challenge: Easy Mode (Animated)",
+			"characters": [
+				2169	//Konata Izumi
+			],
+			"image": "https://i.postimg.cc/T1X64Tbb/Monthly-2019-April-Easy.gif",
+			"thread": 6976
+		},
+		{	//April 2019 Monthly: Hard Mode
+			//https://anilist.co/forum/thread/6976
+			"id": "monthly2019AprHard",
+			"name": "April 2019 Monthly Challenge: Hard Mode",
+			"characters": [
+				2169	//Konata Izumi
+			],
+			"image": "https://i.postimg.cc/0NFx7Y2c/Monthly-2019-April-Hard.png",
+			"thread": 6976
+		},
+		{	//April 2019 Monthly: Hard Mode (Animated)
+			//https://anilist.co/forum/thread/6976
+			"id": "monthly2019AprHardAnim",
+			"name": "April 2019 Monthly Challenge: Hard Mode (Animated)",
+			"characters": [
+				2169	//Konata Izumi
+			],
+			"image": "https://i.postimg.cc/1XcQxb0j/Monthly-2019-April-Hard.gif",
+			"thread": 6976
+		},
+		{	//May 2019 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/7349
+			"id": "monthly2019MayEasy",
+			"name": "May 2019 Monthly Challenge: Easy Mode",
+			"characters": [
+				3797	//Paprika
+			],
+			"image": "https://i.postimg.cc/rstDSykt/Monthly-2019-May-Easy.png",
+			"thread": 7349
+		},
+		{	//May 2019 Monthly: Easy Mode (Animated)
+			//https://anilist.co/forum/thread/7349
+			"id": "monthly2019MayEasyAnim",
+			"name": "May 2019 Monthly Challenge: Easy Mode (Animated)",
+			"characters": [
+				3797	//Paprika
+			],
+			"image": "https://i.postimg.cc/MpwYKN7Y/Monthly-2019-May-Easy.gif",
+			"thread": 7349
+		},
+		{	//May 2019 Monthly: Hard Mode
+			//https://anilist.co/forum/thread/7349
+			"id": "monthly2019MayHard",
+			"name": "May 2019 Monthly Challenge: Hard Mode",
+			"characters": [
+				3797	//Paprika
+			],
+			"image": "https://i.postimg.cc/HjDV3GYv/Monthly-2019-May-Hard.png",
+			"thread": 7349
+		},
+		{	//May 2019 Monthly: Hard Mode (Animated)
+			//https://anilist.co/forum/thread/7349
+			"id": "monthly2019MayHardAnim",
+			"name": "May 2019 Monthly Challenge: Hard Mode (Animated)",
+			"characters": [
+				3797	//Paprika
+			],
+			"image": "https://i.postimg.cc/rw9Ndjg2/Monthly-2019-May-Hard.gif",
+			"thread": 7349
+		},
+		{	//June 2019 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/7737
+			"id": "monthly2019MJunEasy",
+			"name": "June 2019 Monthly Challenge: Easy Mode",
+			"characters": [
+				54151	//Renge Miyauchi
+			],
+			"image": "https://i.postimg.cc/YqRvYPcR/Monthly-2019-June-Easy.png",
+			"thread": 7737
+		},
+		{	//June 2019 Monthly: Easy Mode (Animated)
+			//https://anilist.co/forum/thread/7737
+			"id": "monthly2019JunEasyAnim",
+			"name": "June 2019 Monthly Challenge: Easy Mode (Animated)",
+			"characters": [
+				54151	//Renge Miyauchi
+			],
+			"image": "https://i.postimg.cc/59qyWrtJ/Monthly-2019-June-Easy.gif",
+			"thread": 7737
+		},
+		{	//June 2019 Monthly: Hard Mode
+			//https://anilist.co/forum/thread/7737
+			"id": "monthly2019JunHard",
+			"name": "June 2019 Monthly Challenge: Hard Mode",
+			"characters": [
+				54151	//Renge Miyauchi
+			],
+			"image": "https://i.postimg.cc/jSjLXhtb/Monthly-2019-June-Hard.png",
+			"thread": 7737
+		},
+		{	//June 2019 Monthly: Hard Mode (Animated)
+			//https://anilist.co/forum/thread/7737
+			"id": "monthly2019JunHardAnim",
+			"name": "June 2019 Monthly Challenge: Hard Mode (Animated)",
+			"characters": [
+				54151	//Renge Miyauchi
+			],
+			"image": "https://i.postimg.cc/wTqvqktm/Monthly-2019-June-Hard.gif",
+			"thread": 7737
+		},
 			/* 2020 */
 			/* 2021 */
 			/* 2022 */
@@ -3043,7 +3283,7 @@
 			"characters": [
 				88520	//Ushio Hinomaru
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"image": "https://i.postimg.cc/cJQkV1RD/Monthly-2026-May-Easy-Animated.png",
 			"thread": 89523
 		},
 		{	//May 2026 Monthly: Hard Mode
@@ -3063,7 +3303,7 @@
 			"characters": [
 				88520	//Ushio Hinomaru
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"image": "https://i.postimg.cc/9Xxg3n9j/Monthly-2026-May-Hard-Animated.png",
 			"thread": 89523
 		},
 		/* ANIME PUZZLE BADGES */
@@ -3209,7 +3449,57 @@
 			"image": "https://i.postimg.cc/xCG4NQSQ/Seasonal-2019-Winter.gif",
 			"thread": 6207
 		},
+		{	//Spring 2019 Seasonal
+			//https://anilist.co/forum/thread/6991
+			"id": "seasonal2019Spring",
+			"name": "Spring 2019 Seasonal Challenge",
+			"characters": [
+				126071	//Tanjirou Kamado
+			],
+			"image": "https://i.postimg.cc/XqQ1xgJD/Seasonal-2019-Spring.gif",
+			"thread": 6991
+		},
+		{	//Summer 2019 Seasonal
+			//https://anilist.co/forum/thread/8191
+			"id": "seasonal2019Summer",
+			"name": "Summer 2019 Seasonal Challenge",
+			"characters": [
+				10138	//Thorfinn Karlsefni
+			],
+			"image": "https://i.postimg.cc/Y23Ppt3f/Seasonal-2019-Summer.gif",
+			"thread": 8191
+		},
+		{	//Fall 2019 Seasonal
+			//https://anilist.co/forum/thread/9459
+			"id": "seasonal2019Fall",
+			"name": "Fall 2019 Seasonal Challenge",
+			"characters": [
+				125168	//Legoshi
+			],
+			"image": "https://i.postimg.cc/MKpFHg3k/Seasonal-2019-Fall.gif",
+			"thread": 9459
+		},
 			/* 2020 */
+		{	//Winter 2020 Seasonal
+			//https://anilist.co/forum/thread/10477
+			"id": "seasonal2020Winter",
+			"name": "Winter 2020 Seasonal Challenge",
+			"characters": [
+				149676	//Midori Asakusa
+			],
+			"image": "https://i.postimg.cc/WbqyLC9s/Seasonal-2020-Winter.gif",
+			"thread": 10477
+		},
+		{	//Spring 2020 Seasonal
+			//https://anilist.co/forum/thread/11630
+			"id": "seasonal2020Spring",
+			"name": "Spring 2020 Seasonal Challenge",
+			"characters": [
+				121101	//Miyuki Shirogane
+			],
+			"image": "https://i.postimg.cc/Y2WPTTDM/Seasonal-2020-Spring.gif",
+			"thread": 11630
+		},
 			/* 2021 */
 			/* 2022 */
 			/* 2023 */
@@ -3219,11 +3509,11 @@
 		{	//Winter 2026 Seasonal
 			//https://anilist.co/forum/thread/86865
 			"id": "seasonal2026Winter",
-			"name": "Winter 2026 Seasonal Challenge PLACEHOLDER",
+			"name": "Winter 2026 Seasonal Challenge",
 			"characters": [
-				46163	//Placeholder
+				281250	//Miyu Suzuki
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"image": "https://i.postimg.cc/k5cZL266/Seasonal-2026-Winter-Animated.png",
 			"thread": 86865
 		},
 		{	//Spring 2026 Seasonal
@@ -3291,14 +3581,14 @@
 			"thread": 68462
 		},
 		{	//Community Workshop
-			//https://anilist.co/forum/thread/68462
+			//https://anilist.co/forum/thread/59986
 			"id": "commWorkshop",
 			"name": "Community Workshop Challenge",
 			"characters": [
 				10765	//Chi Yamada
 			],
 			"image": "https://i.postimg.cc/DwpzkQkb/Special-Community-Workshop.png",
-			"thread": 68462
+			"thread": 59986
 		},
 		{	//Hero’s Dawn
 			//https://anilist.co/forum/thread/45664
@@ -3591,22 +3881,292 @@
 		{	//Manga City: Airport
 			//https://anilist.co/forum/thread/11261
 			"id": "mangaCityAirport",
-			"name": "Manga City - Airport",
+			"name": "Manga City - Airport Challenge",
 			"characters": [
 				539	//Nausicaä
 			],
 			"image": "https://i.postimg.cc/DZFt6QPh/Manga-City-Airport.png",
 			"thread": 11261
 		},
+		{	//Manga City: Amusement Park
+			//https://anilist.co/forum/thread/19440
+			"id": "mangaCityAmusementPark",
+			"name": "Manga City - Amusement Park Challenge",
+			"characters": [
+				140632	//Ashe
+			],
+			"image": "https://i.postimg.cc/TPjsKLM4/Manga-City-Amusement-Park.png",
+			"thread": 19440
+		},
+		{	//Manga City: Aquarium
+			//https://anilist.co/forum/thread/84195
+			"id": "mangaCityAquarium",
+			"name": "Manga City - Aquarium Challenge",
+			"characters": [
+				128856	//Konatsu Amano
+			],
+			"image": "https://i.postimg.cc/mZJ4dtSc/Manga-City-Aquarium.png",
+			"thread": 84195
+		},
+		{	//Manga City: Bank
+			//https://anilist.co/forum/thread/86052
+			"id": "mangaCityBank",
+			"name": "Manga City - Bank Challenge",
+			"characters": [
+				161843	//Mitsuha Yamano
+			],
+			"image": "https://i.postimg.cc/J7J1tt3V/Manga-City-Bank.png",
+			"thread": 86052
+		},
+		{	//Manga City: Beach
+			//https://anilist.co/forum/thread/8889
+			"id": "mangaCityBeach",
+			"name": "Manga City - Beach Challenge",
+			"characters": [
+				123182	//Iori Kitahara
+			],
+			"image": "https://i.postimg.cc/K83S8886/Manga-City-Beach.png",
+			"thread": 8889
+		},
+		{	//Manga City: Casino
+			//https://anilist.co/forum/thread/12658
+			"id": "mangaCityCasino",
+			"name": "Manga City - Casino Challenge",
+			"characters": [
+				5578	//Kaiji Itou
+			],
+			"image": "https://i.postimg.cc/HnkFDpNP/Manga-City-Casino.png",
+			"thread": 12658
+		},
+		{	//Manga City: Cemetery
+			//https://anilist.co/forum/thread/9675
+			"id": "mangaCityCemetery",
+			"name": "Manga City - Cemetery Challenge",
+			"characters": [
+				12564	//Fran Madaraki
+			],
+			"image": "https://i.postimg.cc/HLGGc1JV/Manga-City-Cemetery.png",
+			"thread": 9675
+		},
+		{	//Manga City: Concert Hall
+			//https://anilist.co/forum/thread/70272
+			"id": "mangaCityConcertHall",
+			"name": "Manga City - Concert Hall Challenge",
+			"characters": [
+				702	//Nana Oosaki
+			],
+			"image": "https://i.postimg.cc/QtNjgtQt/Manga-City-Concert-Hall.png",
+			"thread": 70272
+		},
+		{	//Manga City: Construction Site
+			//https://anilist.co/forum/thread/60670
+			"id": "mangaCityConstructionSite",
+			"name": "Manga City - Construction Site Challenge",
+			"characters": [
+				203559	//Kesshouban
+			],
+			"image": "https://i.postimg.cc/8cb42cNc/Manga-City-Construction-Site.png",
+			"thread": 60670
+		},
 		{	//Manga City: Dagashiya
 			//https://anilist.co/forum/thread/68974
 			"id": "mangaCityDagashiya",
-			"name": "Manga City - Dagashiya",
+			"name": "Manga City - Dagashiya Challenge",
 			"characters": [
 				89272	//Tsumugi Inuzuka
 			],
 			"image": "https://i.postimg.cc/yYJyhC0w/Manga-City-Dagashiya.png",
 			"thread": 68974
+		},
+		{	//Manga City: Embassy
+			//https://anilist.co/forum/thread/77544
+			"id": "mangaCityEmbassy",
+			"name": "Manga City - Embassy Challenge",
+			"characters": [
+				157887	//Sylvia Sherwood
+			],
+			"image": "https://cdn.awc.moe/static/badges/manga/city/embassy/kb6/Manga-City-Embassy.png",
+			"thread": 77544
+		},
+		{	//Manga City: Garage
+			//https://anilist.co/forum/thread/26466
+			"id": "mangaCityGarage",
+			"name": "Manga City - Garage Challenge",
+			"characters": [
+				90019	//Kazuichi Souda
+			],
+			"image": "https://i.postimg.cc/HnNZqbXV/Manga-City-Garage.png",
+			"thread": 26466
+		},
+		{	//Manga City: Gym
+			//https://anilist.co/forum/thread/81431
+			"id": "mangaCityGym",
+			"name": "Manga City - Gym Challenge",
+			"characters": [
+				132856	//Hibiki Sakura
+			],
+			"image": "https://i.postimg.cc/FHrxQB5f/Manga-City-Gym.png",
+			"thread": 81431
+		},
+		{	//Manga City: Home
+			//https://anilist.co/forum/thread/55870
+			"id": "mangaCityHome",
+			"name": "Manga City - Home Challenge",
+			"characters": [
+				134828	//Miko Sonoda
+			],
+			"image": "https://i.postimg.cc/J42PS8NS/Manga-City-Home.png",
+			"thread": 55870
+		},
+		{	//Manga City: Hospital
+			//https://anilist.co/forum/thread/49909
+			"id": "mangaCityHospital",
+			"name": "Manga City - Hospital Challenge",
+			"characters": [
+				16204	//Ryutarou Asada
+			],
+			"image": "https://i.postimg.cc/0N8pTH9K/Manga-City-Hospital.png",
+			"thread": 49909
+		},
+		{	//Manga City: Konbini
+			//https://anilist.co/forum/thread/32949
+			"id": "mangaCityKonbini",
+			"name": "Manga City - Konbini Challenge",
+			"characters": [
+				131519	//Tatsu
+			],
+			"image": "https://i.postimg.cc/VL3Z4Bzh/Manga-City-Konbini.png",
+			"thread": 32949
+		},
+		{	//Manga City: Library
+			//https://anilist.co/forum/thread/65821
+			"id": "mangaCityLibrary",
+			"name": "Manga City - Library Challenge",
+			"characters": [
+				249	//Yuki Nagato
+			],
+			"image": "https://i.postimg.cc/N0bV4d27/Manga-City-Library.png",
+			"thread": 65821
+		},
+		{	//Manga City: Mall
+			//https://anilist.co/forum/thread/63781
+			"id": "mangaCityMall",
+			"name": "Manga City - Mall Challenge",
+			"characters": [
+				34973	//Tsukimi Kurashita
+			],
+			"image": "https://i.postimg.cc/NF1mNPkb/Manga-City-Mall.png",
+			"thread": 63781
+		},
+		{	//Manga City: Military Base
+			//https://anilist.co/forum/thread/47135
+			"id": "mangaCityMilitaryBase",
+			"name": "Manga City - Military Base Challenge",
+			"characters": [
+				141061	//Vladilena Milizé
+			],
+			"image": "https://i.postimg.cc/BZHsW-9vb/Manga-City-Military-Base.png",
+			"thread": 47135
+		},
+		{	//Manga City: Museum
+			//https://anilist.co/forum/thread/7915
+			"id": "mangaCityMuseum",
+			"name": "Manga City - Museum Challenge",
+			"characters": [
+				124704	//Saichi Sugimoto
+			],
+			"image": "https://i.postimg.cc/fTLQ1KnT/Manga-City-Museum.png",
+			"thread": 7915
+		},
+		{	//Manga City: Nightclub
+			//https://anilist.co/forum/thread/78565
+			"id": "mangaCityNightclub",
+			"name": "Manga City - Nightclub Challenge",
+			"characters": [
+				170131	//Kei
+			],
+			"image": "https://i.postimg.cc/fTDwRWBK/Manga-City-Nightclub.png",
+			"thread": 78565
+		},
+		{	//Manga City: Office
+			//https://anilist.co/forum/thread/17325
+			"id": "mangaCityOffice",
+			"name": "Manga City - Office Challenge",
+			"characters": [
+				89641	//Aoba Suzukaze
+			],
+			"image": "https://i.postimg.cc/J4tSpzZs/Manga-City-Office.png",
+			"thread": 17325
+		},
+		{	//Manga City: Onsen
+			//https://anilist.co/forum/thread/42357
+			"id": "mangaCityOnsen",
+			"name": "Manga City - Onsen Challenge",
+			"characters": [
+				127238	//Yuuna Yunohana
+			],
+			"image": "https://i.postimg.cc/7LCrTGbS/Manga-City-Onsen.png",
+			"thread": 42357
+		},
+		{	//Manga City: Park
+			//https://anilist.co/forum/thread/52601
+			"id": "mangaCityPark",
+			"name": "Manga City - Park Challenge",
+			"characters": [
+				268277	//Tsubasa Tokiniwa
+			],
+			"image": "https://i.postimg.cc/3NztXtzh/Manga-City-Park.png",
+			"thread": 52601
+		},
+		{	//Manga City: Restaurant
+			//https://anilist.co/forum/thread/74621
+			"id": "mangaCityRestaurant",
+			"name": "Manga City - Restaurant Challenge",
+			"characters": [
+				122699	//Aletta
+			],
+			"image": "https://i.postimg.cc/j5Cjmgvb/Manga-City-Restaurant.png",
+			"thread": 74621
+		},
+		{	//Manga City: School
+			//https://anilist.co/forum/thread/7196
+			"id": "mangaCitySchool",
+			"name": "Manga City - School Challenge",
+			"characters": [
+				67067	//Yukino Yukinoshita
+			],
+			"image": "https://i.postimg.cc/zvdZVLWr/Manga-City-School.png",
+			"thread": 7196
+		},
+		{	//Manga City: Sewers
+			//https://anilist.co/forum/thread/88422
+			"id": "mangaCitySewers",
+			"name": "Manga City - Sewers Challenge",
+			"characters": [
+				13796	//Leonardo
+			],
+			"image": "https://i.postimg.cc/yxwt8T1M/Manga-City-Sewers.png",
+			"thread": 88422
+		},
+		{	//Manga City: Subway
+			//https://anilist.co/forum/thread/73096
+			"id": "mangaCitySubway",
+			"name": "Manga City - Subway Challenge",
+			"characters": [
+				322428	//Shiomi
+			],
+			"image": "https://i.postimg.cc/BbqR7zLV/Manga-City-Subway.png",
+			"thread": 73096
+		},
+		{	//Manga City: Warehouse
+			//https://anilist.co/forum/thread/76459
+			"id": "mangaCityWarehouse",
+			"name": "Manga City - Warehouse Challenge",
+			"characters": [
+				310562	//Youji Takahashi
+			],
+			"image": "https://i.postimg.cc/T1CqtkhH/Manga-City-Warehouse.png",
+			"thread": 76459
 		},
 		/* MANGA SPECIAL BADGES */
 		{	//Art & Artists
@@ -3618,6 +4178,16 @@
 			],
 			"image": "https://i.postimg.cc/MKssGkLQ/Special-Art-Artists.png",
 			"thread": 38004
+		},
+		{	//Connect
+			//https://anilist.co/forum/thread/89850
+			"id": "mangaConnect",
+			"name": "Connect Challenge",
+			"characters": [
+				40198	//Yui Kiriyama
+			],
+			"image": "https://i.postimg.cc/yd2cQqPG/Special-Connect.png",
+			"thread": 89850
 		},
 			/* Explorer's's */
 		{	//Explorer's Challenge: Field Path
