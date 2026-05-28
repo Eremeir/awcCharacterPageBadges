@@ -10,11 +10,11 @@ This third-party userscript injects a section to display [Anime Watch Club](http
 - Supports **PNG and GIF badges**
 - Badges are sized proportionally based on their source dimensions and won't blot out half the screen:
   - Modern 720×720 badges → 250×250px
-  - Legacy 520×720 badges → 180.55×250px
+  - Legacy 520×720 badges → 181×250px
   - Badges wrap neatly if somehow a character has been featured in more than ~5 badges
 - Hover effect: badges slightly zoom on hover for better visibility
 - Multiple badges for a character are displayed **in the order they appear in the JSON database**
-  - Attempting to group by badge type then by release date but it's imperfect. Characters should rarely if ever have more than one badge anyway.
+- Static variants of animated badges can be seen with a toggle
 
 ## Usage
 1. Install via [GreasyFork](https://greasyfork.org/en/scripts/569079-awc-character-page-badges) or [GitHub](https://github.com/Eremeir/awcCharacterPageBadges).
@@ -76,5 +76,11 @@ To maintain consistency with AWC.moe leaderboard listings, badges should be grou
   - Manga City
   - Special
   - Tier
+- AWC Staff
+- Supporter
+- Unofficial Badges
+ - Have an unofficial badge? As long as there's an image permalink it can be added! Unofficial badge displays can be turned on in the script config.
 
-In a perfect world, the db matches AWC Laderboard listings element for element. Newly added badges are added towards the end of their group. I've added a lot of section headers and a few example badges but there are still hundreds left to impliment.
+ Badges for characters who do not have a corresponding anilist character page can be found at the anilist narrator page https://anilist.co/character/36309/Narrator
+
+Have I gotten something wrong? Make a github issue or @Eremeir on the AWC discord and I'll check it out. I want the data to be as complete and thurough as possible with all veriants and properly thread linking.
