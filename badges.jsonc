@@ -244,7 +244,8 @@
 			"characters": [
 				4304	//Doraemon
 			],
-			"image": "https://i.postimg.cc/VNmbhdfz/100-Year-Classic.png",
+			"image": "https://i.postimg.cc/0yZdsLtg/100-Year-Classic-Static.png",
+			"animated": "https://i.postimg.cc/VNmbhdfz/100-Year-Classic.png",
 			"thread": 75538
 		},
 		{	//Pioneers' Classic
@@ -648,7 +649,7 @@
 			"id": "initialDCollection",
 			"name": "Initial D Collection Challenge",
 			"characters": [
-				36309	//Toyota AE86
+				2819	//Takumi Fujiwara (Toyota AE86)
 			],
 			"image": "https://i.postimg.cc/YqBNnCsf/Collection-Franchise-Initial-D.png",
 			"thread": 12963
@@ -1287,14 +1288,391 @@
 			"thread": 11041
 		},
 		/* ANIME GACHA BADGES */
-		{	//AWC Gacha
+		{	//AWC Gacha (C.C. N)
 			//https://anilist.co/forum/thread/67067
-			"id": "gachaVideoGamesChiakiN",
-			"name": "Quarter Banner: Video Games!",
+			"id": "gachaCCN",
+			"name": "Gacha Challenge: C.C. (Normal)",
+			"characters": [
+				1111	//C.C.
+			],
+			"image": "https://i.postimg.cc/VL67MXSF/Gacha-C-C-N.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (C.C. R)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaCCR",
+			"name": "Gacha Challenge: C.C. (Rare)",
+			"characters": [
+				1111	//C.C.
+			],
+			"image": "https://i.postimg.cc/tg0DLfBr/Gacha-C-C-R-Static.png",
+			"animated": "https://i.postimg.cc/PrpWTyp0/Gacha-C-C-R.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (C.C. SR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaCCSR",
+			"name": "Gacha Challenge: C.C. (Super Rare)",
+			"characters": [
+				1111	//C.C.
+			],
+			"image": "https://i.postimg.cc/W1ckjvPJ/Gacha-C-C-SR-Static.png",
+			"animated": "https://i.postimg.cc/1t7vYz2F/Gacha-C-C-SR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (C.C. UR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaCCUR",
+			"name": "Gacha Challenge: C.C. (Ultra Rare)",
+			"characters": [
+				1111	//C.C.
+			],
+			"image": "https://i.postimg.cc/GhyXqdQB/Gacha-C-C-UR-Static.png",
+			"animated": "https://i.postimg.cc/0jq04JZb/Gacha-C-C-UR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Chiaki N)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaChiakiN",
+			"name": "Gacha Challenge: Chiaki (Normal)",
 			"characters": [
 				73205	//Chiaki Nanami
 			],
 			"image": "https://i.postimg.cc/mrhhwSVZ/Gacha-Chiaki-Nanami-N.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Chiaki R)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaChiakiR",
+			"name": "Gacha Challenge: Chiaki (Rare)",
+			"characters": [
+				73205	//Chiaki Nanami
+			],
+			"image": "https://i.postimg.cc/1RDXJX0J/Gacha-Chiaki-Nanami-R-Static.png",
+			"animated": "https://i.postimg.cc/5yX3WvxY/Gacha-Chiaki-Nanami-R.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Chiaki SR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaChiakiSR",
+			"name": "Gacha Challenge: Chiaki (Super Rare)",
+			"characters": [
+				73205	//Chiaki Nanami
+			],
+			"image": "https://i.postimg.cc/V5yjyVGj/Gacha-Chiaki-Nanami-SR-Static.png",
+			"animated": "https://i.postimg.cc/ry4jj1Y3/Gacha-Chiaki-Nanami-SR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Chiaki UR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaChiakiUR",
+			"name": "Gacha Challenge: Chiaki (Ultra Rare)",
+			"characters": [
+				73205	//Chiaki Nanami
+			],
+			"image": "https://i.postimg.cc/8PHhXtdw/Gacha-Chiaki-Nanami-UR-Static.png",
+			"animated": "https://i.postimg.cc/GtzHKS0L/Gacha-Chiaki-Nanami-UR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (CHU2 N)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaCHU2N",
+			"name": "Gacha Challenge: CHU2 (Normal)",
+			"characters": [
+				136986	//Chiyu Tamade
+			],
+			"image": "https://i.postimg.cc/qRFXVmxk/Gacha-CHU2-N.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (CHU2 R)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaCHU2R",
+			"name": "Gacha Challenge: CHU2 (Rare)",
+			"characters": [
+				136986	//Chiyu Tamade
+			],
+			"image": "https://i.postimg.cc/fbRdgfLj/Gacha-CHU2-R-Static.png",
+			"animated": "https://i.postimg.cc/QtqRxssr/Gacha-CHU2-R.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (CHU2 SR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaCHU2SR",
+			"name": "Gacha Challenge: CHU2 (Super Rare)",
+			"characters": [
+				136986	//Chiyu Tamade
+			],
+			"image": "https://i.postimg.cc/k4TMTPxj/Gacha-CHU2-SR-Static.png",
+			"animated": "https://i.postimg.cc/d1Nv8mYp/Gacha-CHU2-SR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (CHU2 UR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaCHU2UR",
+			"name": "Gacha Challenge: CHU2 (Ultra Rare)",
+			"characters": [
+				136986	//Chiyu Tamade
+			],
+			"image": "https://i.postimg.cc/FHhrXKDP/Gacha-CHU2-UR-Static.png",
+			"animated": "https://i.postimg.cc/d0d4RqKY/Gacha-CHU2-UR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Enterprise N)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaEnterpriseN",
+			"name": "Gacha Challenge: Enterprise (Normal)",
+			"characters": [
+				130082	//Enterprise
+			],
+			"image": "https://i.postimg.cc/9XqNXTRx/Gacha-Enterprise-N.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Enterprise R)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaEnterpriseR",
+			"name": "Gacha Challenge: Enterprise (Rare)",
+			"characters": [
+				130082	//Enterprise
+			],
+			"image": "https://i.postimg.cc/kMK2spsP/Gacha-Enterprise-R-Static.png",
+			"animated": "https://i.postimg.cc/Cxm711n7/Gacha-Enterprise-R.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Enterprise SR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaEnterpriseSR",
+			"name": "Gacha Challenge: Enterprise (Super Rare)",
+			"characters": [
+				130082	//Enterprise
+			],
+			"image": "https://i.postimg.cc/3NX1ZpZP/Gacha-Enterprise-SR-Static.png",
+			"animated": "https://i.postimg.cc/44WmYnZd/Gacha-Enterprise-SR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Enterprise UR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaEnterpriseUR",
+			"name": "Gacha Challenge: Enterprise (Ultra Rare)",
+			"characters": [
+				130082	//Enterprise
+			],
+			"image": "https://i.postimg.cc/C11pXh2P/Gacha-Enterprise-UR-Static.png",
+			"animated": "https://i.postimg.cc/jj9rV0rR/Gacha-Enterprise-UR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Kogitsunemaru N)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaKogitsunemaruN",
+			"name": "Gacha Challenge: Kogitsunemaru (Normal)",
+			"characters": [
+				89806	//Kogitsunemaru
+			],
+			"image": "https://i.postimg.cc/FsyW34x3/Gacha-Kogitsunemaru-N.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Kogitsunemaru R)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaKogitsunemaruR",
+			"name": "Gacha Challenge: Kogitsunemaru (Rare)",
+			"characters": [
+				89806	//Kogitsunemaru
+			],
+			"image": "https://i.postimg.cc/qqkYVzSj/Gacha-Kogitsunemaru-R-Static.png",
+			"animated": "https://i.postimg.cc/wxmQ5h4z/Gacha-Kogitsunemaru-R.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Kogitsunemaru SR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaKogitsunemaruSR",
+			"name": "Gacha Challenge: Kogitsunemaru (Super Rare)",
+			"characters": [
+				89806	//Kogitsunemaru
+			],
+			"image": "https://i.postimg.cc/Cx1Z70M8/Gacha-Kogitsunemaru-SR-Static.png",
+			"animated": "https://i.postimg.cc/W3RhsJGm/Gacha-Kogitsunemaru-SR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Kogitsunemaru UR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaKogitsunemaruUR",
+			"name": "Gacha Challenge: Kogitsunemaru (Ultra Rare)",
+			"characters": [
+				89806	//Kogitsunemaru
+			],
+			"image": "https://i.postimg.cc/B6GQrf3M/Gacha-Kogitsunemaru-UR-Static.png",
+			"animated": "https://i.postimg.cc/G2Jhrghr/Gacha-Kogitsunemaru-UR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Mammon N)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaMammonN",
+			"name": "Gacha Challenge: Mammon (Normal)",
+			"characters": [
+				216492	//Mammon
+			],
+			"image": "https://i.postimg.cc/3wRnsDQF/Gacha-Mammon-N.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Mammon R)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaMammonR",
+			"name": "Gacha Challenge: Mammon (Rare)",
+			"characters": [
+				216492	//Mammon
+			],
+			"image": "https://i.postimg.cc/QMK8tFnZ/Gacha-Mammon-R-Static.png",
+			"animated": "https://i.postimg.cc/ZYQh9bpT/Gacha-Mammon-R.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Mammon SR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaMammonSR",
+			"name": "Gacha Challenge: Mammon (Super Rare)",
+			"characters": [
+				216492	//Mammon
+			],
+			"image": "https://i.postimg.cc/wvBPRvwm/Gacha-Mammon-SR-Static.png",
+			"animated": "https://i.postimg.cc/wjg788Wr/Gacha-Mammon-SR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Mammon UR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaMammonUR",
+			"name": "Gacha Challenge: Mammon (Ultra Rare)",
+			"characters": [
+				216492	//Mammon
+			],
+			"image": "https://i.postimg.cc/5NZSw-02C/Gacha-Mammon-UR-Static.png",
+			"animated": "https://i.postimg.cc/3xh5t3Lk/Gacha-Mammon-UR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Special Week N)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaSpecialWeekN",
+			"name": "Gacha Challenge: Special Week (Normal)",
+			"characters": [
+				125299	//Special Week
+			],
+			"image": "https://i.postimg.cc/W3w18txz/Gacha-Special-Week-N.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Special Week R)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaSpecialWeekR",
+			"name": "Gacha Challenge: Special Week (Rare)",
+			"characters": [
+				125299	//Special Week
+			],
+			"image": "https://i.postimg.cc/HxdprdjC/Gacha-Special-Week-R-Static.png",
+			"animated": "https://i.postimg.cc/bvjP5pxy/Gacha-Special-Week-R.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Special Week SR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaSpecialWeekSR",
+			"name": "Gacha Challenge: Special Week (Super Rare)",
+			"characters": [
+				125299	//Special Week
+			],
+			"image": "https://i.postimg.cc/8zLQM92z/Gacha-Special-Week-SR-Static.png",
+			"animated": "https://i.postimg.cc/d3hg1x2N/Gacha-Special-Week-SR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Special Week UR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaSpecialWeekUR",
+			"name": "Gacha Challenge: Special Week (Ultra Rare)",
+			"characters": [
+				125299	//Special Week
+			],
+			"image": "https://i.postimg.cc/2SxYgg2t/Gacha-Special-Week-UR-Static.png",
+			"animated": "https://i.postimg.cc/NMZv1tjf/Gacha-Special-Week-UR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Texas N)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaTexasN",
+			"name": "Gacha Challenge: Texas (Normal)",
+			"characters": [
+				174796	//Cellinia Texas
+			],
+			"image": "https://i.postimg.cc/HnQ2wwbd/Gacha-Texas-N.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Texas R)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaTexasR",
+			"name": "Gacha Challenge: Texas (Rare)",
+			"characters": [
+				174796	//Cellinia Texas
+			],
+			"image": "https://i.postimg.cc/66f9yJzq/Gacha-Texas-R-Static.png",
+			"animated": "https://i.postimg.cc/3JMYSrRt/Gacha-Texas-R.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Texas SR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaTexasSR",
+			"name": "Gacha Challenge: Texas (Super Rare)",
+			"characters": [
+				174796	//Cellinia Texas
+			],
+			"image": "https://i.postimg.cc/wMs436Bp/Gacha-Texas-SR-Static.png",
+			"animated": "https://i.postimg.cc/bdcCtKG2/Gacha-Texas-SR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Texas UR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaTexasUR",
+			"name": "Gacha Challenge: Texas (Ultra Rare)",
+			"characters": [
+				174796	//Cellinia Texas
+			],
+			"image": "https://i.postimg.cc/TPNXD3TL/Gacha-Texas-UR-Static.png",
+			"animated": "https://i.postimg.cc/bJGfHfv6/Gacha-Texas-UR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Zero Two N)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaZeroTwoN",
+			"name": "Gacha Challenge: Zero Two (Normal)",
+			"characters": [
+				124381	//Zero Two
+			],
+			"image": "https://i.postimg.cc/02hy1dDW/Gacha-Zero-Two-N.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Zero Two R)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaZeroTwoR",
+			"name": "Gacha Challenge: Zero Two (Rare)",
+			"characters": [
+				124381	//Zero Two
+			],
+			"image": "https://i.postimg.cc/5tV964P8/Gacha-Zero-Two-R-Static.png",
+			"animated": "https://i.postimg.cc/BbLfmkYq/Gacha-Zero-Two-R.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Zero Two SR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaZeroTwoSR",
+			"name": "Gacha Challenge: Zero Two (Super Rare)",
+			"characters": [
+				124381	//Zero Two
+			],
+			"image": "https://i.postimg.cc/59TVX9yj/Gacha-Zero-Two-SR-Static.png",
+			"animated": "https://i.postimg.cc/7ZyrNBgk/Gacha-Zero-Two-SR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Zero Two UR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaZeroTwoUR",
+			"name": "Gacha Challenge: Zero Two (Ultra Rare)",
+			"characters": [
+				124381	//Zero Two
+			],
+			"image": "https://i.postimg.cc/9fm36r8g/Gacha-Zero-Two-UR-Static.png",
+			"animated": "https://i.postimg.cc/s2TFssbj/Gacha-Zero-Two-UR.png",
 			"thread": 67067
 		},
 		/* ANIME GENRE BADGES */
@@ -1359,25 +1737,15 @@
 			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Hard.png",
 			"thread": 5288
 		},
-		{	//Action Genre: Mastery TEST
+		{	//Action Genre: Mastery
 			//https://anilist.co/forum/thread/5288
 			"id": "genreActionMastery",
-			"name": "Action Genre Challenge: Mastery TEST",
+			"name": "Action Genre Challenge: Mastery",
 			"characters": [
 				390	//Mugen
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Mastery-Static.png",
 			"animated": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Mastery-Animated.png",
-			"thread": 5288
-		},
-		{	//Action Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/5288
-			"id": "genreActionMasteryAnim",
-			"name": "Action Genre Challenge: Mastery (Animated)",
-			"characters": [
-				390	//Mugen
-			],
-			"image": "https://cdn.awc.moe/static/badges/anime/genres/action/p0w/Genre-Action-Mastery-Animated.png",
 			"thread": 5288
 		},
 			/* Adventure */
@@ -1449,16 +1817,7 @@
 				7373	//Holo
 			],
 			"image": "https://i.postimg.cc/zBXbWpfm/AWC-Genre-Adventure-Mastery-Static.png",
-			"thread": 6111
-		},
-		{	//Adventure Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/6111
-			"id": "genreAdventureMasteryAnim",
-			"name": "Adventure Genre Challenge: Mastery (Animated)",
-			"characters": [
-				7373	//Holo
-			],
-			"image": "https://i.postimg.cc/vH9rGqgX/AWC-Genre-Adventure-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/vH9rGqgX/AWC-Genre-Adventure-Mastery-Animated.png",
 			"thread": 6111
 		},
 			/* Comedy */
@@ -1531,17 +1890,7 @@
 				41069	//Sakamoto
 			],
 			"image": "https://i.postimg.cc/RVYFvPXq/AWC-Genre-Comedy-Mastery-Static.png",
-			"thread": 5289
-		},
-		{	//Comedy Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/5289
-			"id": "genreComedyMasteryAnim",
-			"name": "Comedy Genre Challenge: Mastery (Animated)",
-			"characters": [
-				10422,	//Nano Shinonome
-				41069	//Sakamoto
-			],
-			"image": "https://i.postimg.cc/85wp9w7p/AWC-Genre-Comedy-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/85wp9w7p/AWC-Genre-Comedy-Mastery-Animated.png",
 			"thread": 5289
 		},
 			/* Drama */
@@ -1613,16 +1962,7 @@
 				43009	//Himari Takakura
 			],
 			"image": "https://i.postimg.cc/J4PP0Hzx/AWC-Genre-Drama-Mastery-Static.png",
-			"thread": 5875
-		},
-		{	//Drama Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/5875
-			"id": "genreDramaMasteryAnim",
-			"name": "Drama Genre Challenge: Mastery (Animated",
-			"characters": [
-				43009	//Himari Takakura
-			],
-			"image": "https://i.postimg.cc/cHRcSrzQ/AWC-Genre-Drama-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/cHRcSrzQ/AWC-Genre-Drama-Mastery-Animated.png",
 			"thread": 5875
 		},
 			/* Ecchi */
@@ -1694,16 +2034,7 @@
 				83797	//Ryuuko Matoi
 			],
 			"image": "https://i.postimg.cc/j2R4dRVB/AWC-Genre-Ecchi-Mastery-Static.png",
-			"thread": 6631
-		},
-		{	//Ecchi Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/6631
-			"id": "genreEcchiMasteryAnim",
-			"name": "Ecchi Genre Challenge: Mastery (Animated)",
-			"characters": [
-				83797	//Ryuuko Matoi
-			],
-			"image": "https://i.postimg.cc/ZnjFWX4n/AWC-Genre-Ecchi-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/ZnjFWX4n/AWC-Genre-Ecchi-Mastery-Animated.png",
 			"thread": 6631
 		},
 			/* Fantasy */
@@ -1776,17 +2107,7 @@
 				385		//Haku
 			],
 			"image": "https://i.postimg.cc/bvMXy1Cg/AWC-Genre-Fantasy-Mastery-Static.png",
-			"thread": 5290
-		},
-		{	//Fantasy Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/5290
-			"id": "genreFantasyMasteryAnim",
-			"name": "Fantasy Genre Challenge: Mastery (Animated)",
-			"characters": [
-				384,	//Chihiro Ogino
-				385		//Haku
-			],
-			"image": "https://i.postimg.cc/zvFPghj9/AWC-Genre-Fantasy-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/zvFPghj9/AWC-Genre-Fantasy-Mastery-Animated.png",
 			"thread": 5290
 		},
 			/* Hentai */
@@ -1858,16 +2179,7 @@
 				4316		//Sawa
 			],
 			"image": "https://i.postimg.cc/y6Sy7TK6/AWC-Genre-Hentai-Mastery-Static.png",
-			"thread": 5559
-		},
-		{	//Hentai Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/5559
-			"id": "genreHentaiMasteryAnim",
-			"name": "Hentai Genre Challenge: Mastery (Animated)",
-			"characters": [
-				4316		//Sawa
-			],
-			"image": "https://i.postimg.cc/Pqx19WKj/AWC-Genre-Hentai-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/Pqx19WKj/AWC-Genre-Hentai-Mastery-Animated.png",
 			"thread": 5559
 		},
 			/* Horror */
@@ -1939,16 +2251,7 @@
 				4866		//Mima Kirigoe
 			],
 			"image": "https://i.postimg.cc/NjK70NVG/AWC-Genre-Horror-Mastery-Static.png",
-			"thread": 5558
-		},
-		{	//Horror Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/5558
-			"id": "genreHorrorMasteryAnim",
-			"name": "Horror Genre Challenge: Mastery (Animated)",
-			"characters": [
-				4866		//Mima Kirigoe
-			],
-			"image": "https://i.postimg.cc/7Lv7Zq0X/AWC-Genre-Horror-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/7Lv7Zq0X/AWC-Genre-Horror-Mastery-Animated.png",
 			"thread": 5558
 		},
 			/* Mahou Shoujo */
@@ -2020,16 +2323,7 @@
 				5449		//Nagisa Misumi
 			],
 			"image": "https://i.postimg.cc/sfnhZY5M/AWC-Genre-Mahou-Shoujo-Mastery-Static.png",
-			"thread": 6376
-		},
-		{	//Mahou Shoujo Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/6376
-			"id": "genreMahouMasteryAnim",
-			"name": "Mahou Shoujo Genre Challenge: Mastery (Animated)",
-			"characters": [
-				5449		//Nagisa Misumi
-			],
-			"image": "https://i.postimg.cc/0jrrC47b/AWC-Genre-Mahou-Shoujo-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/0jrrC47b/AWC-Genre-Mahou-Shoujo-Mastery-Animated.png",
 			"thread": 6376
 		},
 			/* Mecha */
@@ -2098,19 +2392,10 @@
 			"id": "genreMechaMastery",
 			"name": "Mecha Genre Challenge: Mastery",
 			"characters": [
-				36309		//Evangelion Unit-01
+				89		//Shinji Ikari (Evangelion Unit-01)
 			],
 			"image": "https://i.postimg.cc/jqvzPN0F/AWC-Genre-Mecha-Mastery-Static.png",
-			"thread": 6112
-		},
-		{	//Mecha Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/6112
-			"id": "genreMechaMasteryAnim",
-			"name": "Mecha Genre Challenge: Mastery (Animated)",
-			"characters": [
-				36309		//Evangelion Unit-01
-			],
-			"image": "https://i.postimg.cc/NFP9V6QG/AWC-Genre-Mecha-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/NFP9V6QG/AWC-Genre-Mecha-Mastery-Animated.png",
 			"thread": 6112
 		},
 			/* Music */
@@ -2182,16 +2467,7 @@
 				69411		//Kaori Miyazono
 			],
 			"image": "https://i.postimg.cc/g23j48Lq/AWC-Genre-Music-Mastery-Static.png",
-			"thread": 6375
-		},
-		{	//Music Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/6375
-			"id": "genreMusicMasteryAnim",
-			"name": "Music Genre Challenge: Mastery (Animated)",
-			"characters": [
-				69411		//Kaori Miyazono
-			],
-			"image": "https://i.postimg.cc/sf82rwp4/AWC-Genre-Music-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/sf82rwp4/AWC-Genre-Music-Mastery-Animated.png",
 			"thread": 6375
 		},
 			/* Mystery */
@@ -2263,16 +2539,7 @@
 				20170		//Victorique de Blois
 			],
 			"image": "https://i.postimg.cc/xCZ991b1/AWC-Genre-Mystery-Mastery-Static.png",
-			"thread": 5557
-		},
-		{	//Mystery Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/5557
-			"id": "genreMysteryMasteryAnim",
-			"name": "Mystery Genre Challenge: Mastery (Animated)",
-			"characters": [
-				20170		//Victorique de Blois
-			],
-			"image": "https://i.postimg.cc/PqrLxNNW/AWC-Genre-Mystery-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/PqrLxNNW/AWC-Genre-Mystery-Mastery-Animated.png",
 			"thread": 5557
 		},
 			/* Romance */
@@ -2344,16 +2611,7 @@
 				207		//Tooru Honda
 			],
 			"image": "https://i.postimg.cc/5NBjS8C5/AWC-Genre-Romance-Mastery-Static.png",
-			"thread": 5291
-		},
-		{	//Romance Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/5291
-			"id": "genreRomanceMasteryAnim",
-			"name": "Romance Genre Challenge: Mastery (Animated)",
-			"characters": [
-				207		//Tooru Honda
-			],
-			"image": "https://i.postimg.cc/wBvvzPbF/AWC-Genre-Romance-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/wBvvzPbF/AWC-Genre-Romance-Mastery-Animated.png",
 			"thread": 5291
 		},
 			/* Sci-Fi */
@@ -2425,16 +2683,7 @@
 				35252		//Rintarou Okabe
 			],
 			"image": "https://i.postimg.cc/4yN7TQVx/AWC-Genre-Sci-Fi-Mastery-Static.png",
-			"thread": 5292
-		},
-		{	//Sci-Fi Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/5292
-			"id": "genreSciFiMasteryAnim",
-			"name": "Sci-Fi Genre Challenge: Mastery (Animated)",
-			"characters": [
-				35252		//Rintarou Okabe
-			],
-			"image": "https://i.postimg.cc/5tDWJ4zY/AWC-Genre-Sci-Fi-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/5tDWJ4zY/AWC-Genre-Sci-Fi-Mastery-Animated.png",
 			"thread": 5292
 		},
 			/* Slice of Life */
@@ -2507,16 +2756,7 @@
 				47163		//Chihaya Ayase
 			],
 			"image": "https://i.postimg.cc/9fjVXRnT/AWC-Genre-Sports-Mastery-Static.png",
-			"thread": 5876
-		},
-		{	//Sports Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/5876
-			"id": "genreSportsMasteryAnim",
-			"name": "Sports Genre Challenge: Mastery (Animated)",
-			"characters": [
-				47163		//Chihaya Ayase
-			],
-			"image": "https://i.postimg.cc/tTqjW0y4/AWC-Genre-Sports-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/tTqjW0y4/AWC-Genre-Sports-Mastery-Animated.png",
 			"thread": 5876
 		},
 			/* Supernatural */
@@ -2588,16 +2828,7 @@
 				13783		//Takashi Natsume
 			],
 			"image": "https://i.postimg.cc/mZ08HWYz/AWC-Genre-Supernatural-Mastery-Static.png",
-			"thread": 6630
-		},
-		{	//Supernatural Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/6630
-			"id": "genreSupernaturalMasteryAnim",
-			"name": "Supernatural Genre Challenge: Mastery (Animated)",
-			"characters": [
-				13783		//Takashi Natsume
-			],
-			"image": "https://i.postimg.cc/7hv0fDFq/AWC-Genre-Supernatural-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/7hv0fDFq/AWC-Genre-Supernatural-Mastery-Animated.png",
 			"thread": 6630
 		},
 			/* Thriller */
@@ -2669,16 +2900,7 @@
 				68583		//Akane Tsunemori
 			],
 			"image": "https://i.postimg.cc/bJmjR6NH/AWC-Genre-Thriller-Mastery-Static.png",
-			"thread": 5556
-		},
-		{	//Thriller Genre: Mastery (Animated)
-			//https://anilist.co/forum/thread/5556
-			"id": "genreThrillerMasteryAnim",
-			"name": "Thriller Genre Challenge: Mastery (Animated)",
-			"characters": [
-				68583		//Akane Tsunemori
-			],
-			"image": "https://i.postimg.cc/fbZnQ4Vf/AWC-Genre-Thriller-Mastery-Animated.png",
+			"animated": "https://i.postimg.cc/fbZnQ4Vf/AWC-Genre-Thriller-Mastery-Animated.png",
 			"thread": 5556
 		},
 		/* ANIME MONTHLY 2018–20XX BADGES */
@@ -2771,6 +2993,7 @@
 				19565	//Yui Hirasawa
 			],
 			"image": "https://i.postimg.cc/j2FjxfCG/Monthly-2018-December-Easy.png",
+			"animated": "https://i.postimg.cc/5yTxdMRJ/Monthly-2018-December-Easy.gif",
 			"thread": 5927
 		},
 		{	//December 2018 Monthly: Easy (Wreathe)
@@ -2781,26 +3004,7 @@
 				19565	//Yui Hirasawa
 			],
 			"image": "https://i.postimg.cc/N0cjjBff/Monthly-2018-December-Easy-Wreath.png",
-			"thread": 5927
-		},
-		{	//December 2018 Monthly: Easy (Animated)
-			//https://anilist.co/forum/thread/5927
-			"id": "monthly2018DecEasyAnim",
-			"name": "December 2018 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				19565	//Yui Hirasawa
-			],
-			"image": "https://i.postimg.cc/5yTxdMRJ/Monthly-2018-December-Easy.gif",
-			"thread": 5927
-		},
-		{	//December 2018 Monthly: Easy (Wreathe Animated)
-			//https://anilist.co/forum/thread/5927
-			"id": "monthly2018DecEasyWreatheAnim",
-			"name": "December 2018 Monthly Challenge: Easy Mode (Wreathe Animated)",
-			"characters": [
-				19565	//Yui Hirasawa
-			],
-			"image": "https://i.postimg.cc/K4SdDcW1/Monthly-2018-December-Easy-Wreath.gif",
+			"animated": "https://i.postimg.cc/K4SdDcW1/Monthly-2018-December-Easy-Wreath.gif",
 			"thread": 5927
 		},
 		{	//December 2018 Monthly: Hard
@@ -2811,6 +3015,7 @@
 				19565	//Yui Hirasawa
 			],
 			"image": "https://i.postimg.cc/ZY7nFGjV/Monthly-2018-December-Hard.png",
+			"animated": "https://i.postimg.cc/x8bwmN6r/Monthly-2018-December-Hard.gif",
 			"thread": 5927
 		},
 		{	//December 2018 Monthly: Hard (Wreathe)
@@ -2821,26 +3026,7 @@
 				19565	//Yui Hirasawa
 			],
 			"image": "https://i.postimg.cc/9Mxmb9Pr/Monthly-2018-December-Hard-Wreath.png",
-			"thread": 5927
-		},
-		{	//December 2018 Monthly: Hard (Animated)
-			//https://anilist.co/forum/thread/5927
-			"id": "monthly2018DecHardAnim",
-			"name": "December 2018 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				19565	//Yui Hirasawa
-			],
-			"image": "https://i.postimg.cc/x8bwmN6r/Monthly-2018-December-Hard.gif",
-			"thread": 5927
-		},
-		{	//December 2018 Monthly: Hard (Wreathe Animated)
-			//https://anilist.co/forum/thread/5927
-			"id": "monthly2018DecHardWreatheAnim",
-			"name": "December 2018 Monthly Challenge: Hard Mode (Wreathe Animated)",
-			"characters": [
-				19565	//Yui Hirasawa
-			],
-			"image": "https://i.postimg.cc/447yP8MG/Monthly-2018-December-Hard-Wreath.gif",
+			"animated": "https://i.postimg.cc/447yP8MG/Monthly-2018-December-Hard-Wreath.gif",
 			"thread": 5927
 		},
 			/* 2019 */
@@ -2852,16 +3038,7 @@
 				89616	//Shigeo Kageyama
 			],
 			"image": "https://i.postimg.cc/G2rFDF5D/Monthly-2019-January-Easy.png",
-			"thread": 6206
-		},
-		{	//January 2019 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/6206
-			"id": "monthly2019JanEasyAnim",
-			"name": "January 2019 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				89616	//Shigeo Kageyama
-			],
-			"image": "https://i.postimg.cc/Kc0PKgrK/Monthly-2019-January-Easy.gif",
+			"animated": "https://i.postimg.cc/Kc0PKgrK/Monthly-2019-January-Easy.gif",
 			"thread": 6206
 		},
 		{	//January 2019 Monthly: Hard Mode
@@ -2872,16 +3049,7 @@
 				89616	//Shigeo Kageyama
 			],
 			"image": "https://i.postimg.cc/MHp1PWxK/Monthly-2019-January-Hard.png",
-			"thread": 6206
-		},
-		{	//January 2019 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/6206
-			"id": "monthly2019JanHardAnim",
-			"name": "January 2019 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				89616	//Shigeo Kageyama
-			],
-			"image": "https://i.postimg.cc/7YcS98Rw/Monthly-2019-January-Hard.gif",
+			"animated": "https://i.postimg.cc/7YcS98Rw/Monthly-2019-January-Hard.gif",
 			"thread": 6206
 		},
 		{	//February 2019 Monthly: Easy
@@ -2892,6 +3060,7 @@
 				122190	//Narumi Momose
 			],
 			"image": "https://i.postimg.cc/mDDrKhcq/Monthly-2019-February-Easy.png",
+			"animated": "https://i.postimg.cc/fW1xjQpZ/Monthly-2019-February-Easy.gif",
 			"thread": 6517
 		},
 		{	//February 2019 Monthly: Easy (Wreathe)
@@ -2902,26 +3071,7 @@
 				122190	//Narumi Momose
 			],
 			"image": "https://i.postimg.cc/d3ZVtXjj/Monthly-2019-February-Easy-Wreath.png",
-			"thread": 6517
-		},
-		{	//February 2019 Monthly: Easy (Animated)
-			//https://anilist.co/forum/thread/6517
-			"id": "monthly2019FebEasyAnim",
-			"name": "February 2019 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				122190	//Narumi Momose
-			],
-			"image": "https://i.postimg.cc/fW1xjQpZ/Monthly-2019-February-Easy.gif",
-			"thread": 6517
-		},
-		{	//February 2019 Monthly: Easy (Wreathe Animated)
-			//https://anilist.co/forum/thread/6517
-			"id": "monthly2019FebEasyWreatheAnim",
-			"name": "February 2019 Monthly Challenge: Easy Mode (Wreathe Animated)",
-			"characters": [
-				122190	//Narumi Momose
-			],
-			"image": "https://i.postimg.cc/CLDbc6p8/Monthly-2019-February-Easy-Wreath.gif",
+			"animated": "https://i.postimg.cc/CLDbc6p8/Monthly-2019-February-Easy-Wreath.gif",
 			"thread": 6517
 		},
 		{	//February 2019 Monthly: Hard
@@ -2932,6 +3082,7 @@
 				122190	//Narumi Momose
 			],
 			"image": "https://i.postimg.cc/hj5GngTG/Monthly-2019-February-Hard.png",
+			"animated": "https://i.postimg.cc/HWrwykSB/Monthly-2019-February-Hard.gif",
 			"thread": 6517
 		},
 		{	//February 2019 Monthly: Hard (Wreathe)
@@ -2942,26 +3093,7 @@
 				122190	//Narumi Momose
 			],
 			"image": "https://i.postimg.cc/Lhd6qTyK/Monthly-2019-February-Hard-Wreath.png",
-			"thread": 6517
-		},
-		{	//February 2019 Monthly: Hard (Animated)
-			//https://anilist.co/forum/thread/6517
-			"id": "monthly2019FebHardAnim",
-			"name": "February 2019 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				122190	//Narumi Momose
-			],
-			"image": "https://i.postimg.cc/HWrwykSB/Monthly-2019-February-Hard.gif",
-			"thread": 6517
-		},
-		{	//February 2019 Monthly: Hard (Wreathe Animated)
-			//https://anilist.co/forum/thread/6517
-			"id": "monthly2019FebHardWreatheAnim",
-			"name": "February 2019 Monthly Challenge: Hard Mode (Wreathe Animated)",
-			"characters": [
-				122190	//Narumi Momose
-			],
-			"image": "https://i.postimg.cc/3xTmVC3c/Monthly-2019-February-Hard-Wreath.gif",
+			"animated": "https://i.postimg.cc/3xTmVC3c/Monthly-2019-February-Hard-Wreath.gif",
 			"thread": 6517
 		},
 		{	//March 2019 Monthly: Easy Mode
@@ -2972,16 +3104,7 @@
 				35256	//Rumiho Akiha
 			],
 			"image": "https://i.postimg.cc/3rDNfwsk/Monthly-2019-March-Easy.png",
-			"thread": 6711
-		},
-		{	//March 2019 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/6711
-			"id": "monthly2019MarEasyAnim",
-			"name": "March 2019 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				35256	//Rumiho Akiha
-			],
-			"image": "https://i.postimg.cc/HnQpYrm3/Monthly-2019-March-Easy.gif",
+			"animated": "https://i.postimg.cc/HnQpYrm3/Monthly-2019-March-Easy.gif",
 			"thread": 6711
 		},
 		{	//March 2019 Monthly: Hard Mode
@@ -2992,16 +3115,7 @@
 				35256	//Rumiho Akiha
 			],
 			"image": "https://i.postimg.cc/jd05pbTZ/Monthly-2019-March-Hard.png",
-			"thread": 6711
-		},
-		{	//March 2019 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/6711
-			"id": "monthly2019MarHardAnim",
-			"name": "March 2019 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				35256	//Rumiho Akiha
-			],
-			"image": "https://i.postimg.cc/c1Y1Mb3Y/Monthly-2019-March-Hard.gif",
+			"animated": "https://i.postimg.cc/c1Y1Mb3Y/Monthly-2019-March-Hard.gif",
 			"thread": 6711
 		},
 		{	//April 2019 Monthly: Easy Mode
@@ -3012,16 +3126,7 @@
 				2169	//Konata Izumi
 			],
 			"image": "https://i.postimg.cc/nLCpsRZX/Monthly-2019-April-Easy.png",
-			"thread": 6976
-		},
-		{	//April 2019 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/6976
-			"id": "monthly2019AprEasyAnim",
-			"name": "April 2019 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				2169	//Konata Izumi
-			],
-			"image": "https://i.postimg.cc/T1X64Tbb/Monthly-2019-April-Easy.gif",
+			"animated": "https://i.postimg.cc/T1X64Tbb/Monthly-2019-April-Easy.gif",
 			"thread": 6976
 		},
 		{	//April 2019 Monthly: Hard Mode
@@ -3032,16 +3137,7 @@
 				2169	//Konata Izumi
 			],
 			"image": "https://i.postimg.cc/0NFx7Y2c/Monthly-2019-April-Hard.png",
-			"thread": 6976
-		},
-		{	//April 2019 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/6976
-			"id": "monthly2019AprHardAnim",
-			"name": "April 2019 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				2169	//Konata Izumi
-			],
-			"image": "https://i.postimg.cc/1XcQxb0j/Monthly-2019-April-Hard.gif",
+			"animated": "https://i.postimg.cc/1XcQxb0j/Monthly-2019-April-Hard.gif",
 			"thread": 6976
 		},
 		{	//May 2019 Monthly: Easy Mode
@@ -3052,16 +3148,7 @@
 				3797	//Paprika
 			],
 			"image": "https://i.postimg.cc/rstDSykt/Monthly-2019-May-Easy.png",
-			"thread": 7349
-		},
-		{	//May 2019 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/7349
-			"id": "monthly2019MayEasyAnim",
-			"name": "May 2019 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				3797	//Paprika
-			],
-			"image": "https://i.postimg.cc/MpwYKN7Y/Monthly-2019-May-Easy.gif",
+			"animated": "https://i.postimg.cc/MpwYKN7Y/Monthly-2019-May-Easy.gif",
 			"thread": 7349
 		},
 		{	//May 2019 Monthly: Hard Mode
@@ -3072,16 +3159,7 @@
 				3797	//Paprika
 			],
 			"image": "https://i.postimg.cc/HjDV3GYv/Monthly-2019-May-Hard.png",
-			"thread": 7349
-		},
-		{	//May 2019 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/7349
-			"id": "monthly2019MayHardAnim",
-			"name": "May 2019 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				3797	//Paprika
-			],
-			"image": "https://i.postimg.cc/rw9Ndjg2/Monthly-2019-May-Hard.gif",
+			"animated": "https://i.postimg.cc/rw9Ndjg2/Monthly-2019-May-Hard.gif",
 			"thread": 7349
 		},
 		{	//June 2019 Monthly: Easy Mode
@@ -3092,16 +3170,7 @@
 				54151	//Renge Miyauchi
 			],
 			"image": "https://i.postimg.cc/YqRvYPcR/Monthly-2019-June-Easy.png",
-			"thread": 7737
-		},
-		{	//June 2019 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/7737
-			"id": "monthly2019JunEasyAnim",
-			"name": "June 2019 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				54151	//Renge Miyauchi
-			],
-			"image": "https://i.postimg.cc/59qyWrtJ/Monthly-2019-June-Easy.gif",
+			"animated": "https://i.postimg.cc/59qyWrtJ/Monthly-2019-June-Easy.gif",
 			"thread": 7737
 		},
 		{	//June 2019 Monthly: Hard Mode
@@ -3112,16 +3181,7 @@
 				54151	//Renge Miyauchi
 			],
 			"image": "https://i.postimg.cc/jSjLXhtb/Monthly-2019-June-Hard.png",
-			"thread": 7737
-		},
-		{	//June 2019 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/7737
-			"id": "monthly2019JunHardAnim",
-			"name": "June 2019 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				54151	//Renge Miyauchi
-			],
-			"image": "https://i.postimg.cc/wTqvqktm/Monthly-2019-June-Hard.gif",
+			"animated": "https://i.postimg.cc/wTqvqktm/Monthly-2019-June-Hard.gif",
 			"thread": 7737
 		},
 		{	//July 2019 Monthly: Easy Mode
@@ -3132,16 +3192,7 @@
 				89841	//Luluco
 			],
 			"image": "https://i.postimg.cc/zX2JJYZs/Monthly-2019-July-Easy.png",
-			"thread": 8190
-		},
-		{	//July 2019 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/8190
-			"id": "monthly2019JulEasyAnim",
-			"name": "July 2019 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				89841	//Luluco
-			],
-			"image": "https://i.postimg.cc/zBkr69FP/Monthly-2019-July-Easy.gif",
+			"animated": "https://i.postimg.cc/zBkr69FP/Monthly-2019-July-Easy.gif",
 			"thread": 8190
 		},
 		{	//July 2019 Monthly: Hard Mode
@@ -3152,16 +3203,7 @@
 				89841	//Luluco
 			],
 			"image": "https://i.postimg.cc/htJKvZKf/Monthly-2019-July-Hard.png",
-			"thread": 8190
-		},
-		{	//July 2019 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/8190
-			"id": "monthly2019JulHardAnim",
-			"name": "July 2019 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				89841	//Luluco
-			],
-			"image": "https://i.postimg.cc/mkXG2CqY/Monthly-2019-July-Hard.gif",
+			"animated": "https://i.postimg.cc/mkXG2CqY/Monthly-2019-July-Hard.gif",
 			"thread": 8190
 		},
 		{	//August 2019 Monthly: Easy Mode
@@ -3172,16 +3214,7 @@
 				236	//Yuuko Ichihara
 			],
 			"image": "https://i.postimg.cc/kXbj5Wk7/Monthly-2019-August-Easy.png",
-			"thread": 8676
-		},
-		{	//August 2019 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/8676
-			"id": "monthly2019AugEasyAnim",
-			"name": "August 2019 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				236	//Yuuko Ichihara
-			],
-			"image": "https://i.postimg.cc/hGSMM6hG/Monthly-2019-August-Easy.gif",
+			"animated": "https://i.postimg.cc/hGSMM6hG/Monthly-2019-August-Easy.gif",
 			"thread": 8676
 		},
 		{	//August 2019 Monthly: Hard Mode
@@ -3192,16 +3225,7 @@
 				236	//Yuuko Ichihara
 			],
 			"image": "https://i.postimg.cc/rw2fRKkx/Monthly-2019-August-Hard.png",
-			"thread": 8676
-		},
-		{	//August 2019 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/8676
-			"id": "monthly2019AugHardAnim",
-			"name": "August 2019 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				236	//Yuuko Ichihara
-			],
-			"image": "https://i.postimg.cc/Pq2y7y8Q/Monthly-2019-August-Hard.gif",
+			"animated": "https://i.postimg.cc/Pq2y7y8Q/Monthly-2019-August-Hard.gif",
 			"thread": 8676
 		},
 		{	//September 2019 Monthly: Easy Mode
@@ -3212,16 +3236,7 @@
 				81709	//Diana Cavendish
 			],
 			"image": "https://i.postimg.cc/yx4zJ7Yd/Monthly-2019-September-Easy.png",
-			"thread": 9141
-		},
-		{	//September 2019 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/9141
-			"id": "monthly2019SepEasyAnim",
-			"name": "September 2019 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				81709	//Diana Cavendish
-			],
-			"image": "https://i.postimg.cc/g2kbLSdv/Monthly-2019-September-Easy.gif",
+			"animated": "https://i.postimg.cc/g2kbLSdv/Monthly-2019-September-Easy.gif",
 			"thread": 9141
 		},
 		{	//September 2019 Monthly: Hard Mode
@@ -3232,16 +3247,7 @@
 				81709	//Diana Cavendish
 			],
 			"image": "https://i.postimg.cc/FzyX3w7x/Monthly-2019-September-Hard.png",
-			"thread": 9141
-		},
-		{	//September 2019 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/9141
-			"id": "monthly2019SepHardAnim",
-			"name": "September 2019 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				81709	//Diana Cavendish
-			],
-			"image": "https://i.postimg.cc/qvbVssMW/Monthly-2019-September-Hard.gif",
+			"animated": "https://i.postimg.cc/qvbVssMW/Monthly-2019-September-Hard.gif",
 			"thread": 9141
 		},
 		{	//October 2019 Monthly: Easy Mode
@@ -3252,16 +3258,7 @@
 				458	//Revy
 			],
 			"image": "https://i.postimg.cc/Wz6xhrHW/Monthly-2019-October-Easy.png",
-			"thread": 9458
-		},
-		{	//October 2019 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/9458
-			"id": "monthly2019OctEasyAnim",
-			"name": "October 2019 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				458	//Revy
-			],
-			"image": "https://i.postimg.cc/MGM41gLj/Monthly-2019-October-Easy.gif",
+			"animated": "https://i.postimg.cc/MGM41gLj/Monthly-2019-October-Easy.gif",
 			"thread": 9458
 		},
 		{	//October 2019 Monthly: Hard Mode
@@ -3272,16 +3269,7 @@
 				458	//Revy
 			],
 			"image": "https://i.postimg.cc/RCcks5Z7/Monthly-2019-October-Hard.png",
-			"thread": 9458
-		},
-		{	//October 2019 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/9458
-			"id": "monthly2019OctHardAnim",
-			"name": "October 2019 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				458	//Revy
-			],
-			"image": "https://i.postimg.cc/xdwZ5trp/Monthly-2019-October-Hard.gif",
+			"animated": "https://i.postimg.cc/xdwZ5trp/Monthly-2019-October-Hard.gif",
 			"thread": 9458
 		},
 		{	//November 2019 Monthly: Easy Mode
@@ -3292,16 +3280,7 @@
 				67451	//Ichigo Hoshimiya
 			],
 			"image": "https://i.postimg.cc/3JtbVK5v/Monthly-2019-November-Easy.png",
-			"thread": 9881
-		},
-		{	//November 2019 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/9881
-			"id": "monthly2019NovEasyAnim",
-			"name": "November 2019 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				67451	//Ichigo Hoshimiya
-			],
-			"image": "https://i.postimg.cc/fLQHmyX6/Monthly-2019-November-Easy.gif",
+			"animated": "https://i.postimg.cc/fLQHmyX6/Monthly-2019-November-Easy.gif",
 			"thread": 9881
 		},
 		{	//November 2019 Monthly: Hard Mode
@@ -3312,16 +3291,7 @@
 				67451	//Ichigo Hoshimiya
 			],
 			"image": "https://i.postimg.cc/rwzYLvMY/Monthly-2019-November-Hard.png",
-			"thread": 9881
-		},
-		{	//November 2019 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/9881
-			"id": "monthly2019NovHardAnim",
-			"name": "November 2019 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				67451	//Ichigo Hoshimiya
-			],
-			"image": "https://i.postimg.cc/Kz70NbD4/Monthly-2019-November-Hard.gif",
+			"animated": "https://i.postimg.cc/Kz70NbD4/Monthly-2019-November-Hard.gif",
 			"thread": 9881
 		},
 		{	//December 2019 Monthly: Easy Mode
@@ -3332,6 +3302,7 @@
 				81369	//Akatsuki
 			],
 			"image": "https://i.postimg.cc/T29k5RP4/Monthly-2019-December-Easy.png",
+			"animated": "https://i.postimg.cc/3wm18h69/Monthly-2019-December-Easy.gif",
 			"thread": 10154
 		},
 		{	//December 2019 Monthly: Easy Mode (Bonus)
@@ -3342,26 +3313,7 @@
 				81369	//Akatsuki
 			],
 			"image": "https://i.postimg.cc/02XcZcDG/Monthly-2019-December-Easy-Bonus.png",
-			"thread": 10154
-		},
-		{	//December 2019 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/10154
-			"id": "monthly2019DecEasyAnim",
-			"name": "December 2019 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				81369	//Akatsuki
-			],
-			"image": "https://i.postimg.cc/3wm18h69/Monthly-2019-December-Easy.gif",
-			"thread": 10154
-		},
-		{	//December 2019 Monthly: Easy Mode (Bonus Animated)
-			//https://anilist.co/forum/thread/10154
-			"id": "monthly2019DecEasyBonusAnim",
-			"name": "December 2019 Monthly Challenge: Easy Mode (Bonus Animated)",
-			"characters": [
-				81369	//Akatsuki
-			],
-			"image": "https://i.postimg.cc/prXJJFd1/Monthly-2019-December-Easy-Bonus.gif",
+			"animated": "https://i.postimg.cc/prXJJFd1/Monthly-2019-December-Easy-Bonus.gif",
 			"thread": 10154
 		},
 		{	//December 2019 Monthly: Hard Mode
@@ -3372,6 +3324,7 @@
 				81369	//Akatsuki
 			],
 			"image": "https://i.postimg.cc/jdSMzGwd/Monthly-2019-December-Hard.png",
+			"animated": "https://i.postimg.cc/NMt4LVvt/Monthly-2019-December-Hard.gif",
 			"thread": 10154
 		},
 		{	//December 2019 Monthly: Hard Mode (Bonus)
@@ -3382,26 +3335,7 @@
 				81369	//Akatsuki
 			],
 			"image": "https://i.postimg.cc/CxZJ2ks3/Monthly-2019-December-Hard-Bonus.png",
-			"thread": 10154
-		},
-		{	//December 2019 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/10154
-			"id": "monthly2019DecHardAnim",
-			"name": "December 2019 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				81369	//Akatsuki
-			],
-			"image": "https://i.postimg.cc/NMt4LVvt/Monthly-2019-December-Hard.gif",
-			"thread": 10154
-		},
-		{	//December 2019 Monthly: Hard Mode (Bonus Animated)
-			//https://anilist.co/forum/thread/10154
-			"id": "monthly2019DecHardBonusAnim",
-			"name": "December 2019 Monthly Challenge: Hard Mode (Bonus Animated)",
-			"characters": [
-				81369	//Akatsuki
-			],
-			"image": "https://i.postimg.cc/nrRYRhjV/Monthly-2019-December-Hard-Bonus.gif",
+			"animated": "https://i.postimg.cc/nrRYRhjV/Monthly-2019-December-Hard-Bonus.gif",
 			"thread": 10154
 		},
 			/* 2020 */
@@ -3413,16 +3347,7 @@
 				126458	//Goblin Slayer
 			],
 			"image": "https://i.postimg.cc/hPKWw9MZ/Monthly-2020-January-Easy.png",
-			"thread": 10426
-		},
-		{	//January 2020 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/10426
-			"id": "monthly2020JanEasyAnim",
-			"name": "January 2020 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				126458	//Goblin Slayer
-			],
-			"image": "https://i.postimg.cc/s2jcS4PS/Monthly-2020-January-Easy.gif",
+			"animated": "https://i.postimg.cc/s2jcS4PS/Monthly-2020-January-Easy.gif",
 			"thread": 10426
 		},
 		{	//January 2020 Monthly: Hard Mode
@@ -3433,16 +3358,7 @@
 				126458	//Goblin Slayer
 			],
 			"image": "https://i.postimg.cc/8cH3D0wK/Monthly-2020-January-Hard.png",
-			"thread": 10426
-		},
-		{	//January 2020 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/10426
-			"id": "monthly2020JanHardAnim",
-			"name": "January 2020 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				126458	//Goblin Slayer
-			],
-			"image": "https://i.postimg.cc/cHjMpqpM/Monthly-2020-January-Hard.gif",
+			"animated": "https://i.postimg.cc/cHjMpqpM/Monthly-2020-January-Hard.gif",
 			"thread": 10426
 		},
 		{	//February 2020 Monthly: Easy Mode
@@ -3454,17 +3370,7 @@
 				24	//Kaoru Hitachiin
 			],
 			"image": "https://i.postimg.cc/HntWJMQS/Monthly-2020-February-Easy.png",
-			"thread": 10817
-		},
-		{	//February 2020 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/10817
-			"id": "monthly2020FebEasyAnim",
-			"name": "February 2020 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				22,	//Hikaru Hitachiin
-				24	//Kaoru Hitachiin
-			],
-			"image": "https://i.postimg.cc/kXfXqxMG/Monthly-2020-February-Easy.gif",
+			"animated": "https://i.postimg.cc/kXfXqxMG/Monthly-2020-February-Easy.gif",
 			"thread": 10817
 		},
 		{	//February 2020 Monthly: Hard Mode
@@ -3476,17 +3382,7 @@
 				24	//Kaoru Hitachiin
 			],
 			"image": "https://i.postimg.cc/SQLx1BwW/Monthly-2020-February-Hard.png",
-			"thread": 10817
-		},
-		{	//February 2020 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/10817
-			"id": "monthly2020FebHardAnim",
-			"name": "February 2020 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				22,	//Hikaru Hitachiin
-				24	//Kaoru Hitachiin
-			],
-			"image": "https://i.postimg.cc/Jz07nGtq/Monthly-2020-February-Hard.gif",
+			"animated": "https://i.postimg.cc/Jz07nGtq/Monthly-2020-February-Hard.gif",
 			"thread": 10817
 		},
 		{	//March 2020 Monthly: Easy Mode
@@ -3497,16 +3393,7 @@
 				127137	//Haru
 			],
 			"image": "https://i.postimg.cc/5N0jHPRL/Monthly-2020-March-Easy.png",
-			"thread": 11199
-		},
-		{	//March 2020 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/11199
-			"id": "monthly2020MarEasyAnim",
-			"name": "March 2020 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				127137	//Haru
-			],
-			"image": "https://i.postimg.cc/x87QNPX3/Monthly-2020-March-Easy.gif",
+			"animated": "https://i.postimg.cc/x87QNPX3/Monthly-2020-March-Easy.gif",
 			"thread": 11199
 		},
 		{	//March 2020 Monthly: Hard Mode
@@ -3517,16 +3404,7 @@
 				127137	//Haru
 			],
 			"image": "https://i.postimg.cc/KcQR8XJm/Monthly-2020-March-Hard.png",
-			"thread": 11199
-		},
-		{	//March 2020 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/11199
-			"id": "monthly2020MarHardAnim",
-			"name": "March 2020 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				127137	//Haru
-			],
-			"image": "https://i.postimg.cc/BQL49RzY/Monthly-2020-March-Hard.gif",
+			"animated": "https://i.postimg.cc/BQL49RzY/Monthly-2020-March-Hard.gif",
 			"thread": 11199
 		},
 		{	//April 2020 Monthly: Easy Mode
@@ -3537,16 +3415,7 @@
 				88976	//Cyan Hijirikawa
 			],
 			"image": "https://i.postimg.cc/bY2SLVTP/Monthly-2020-April-Easy.png",
-			"thread": 11559
-		},
-		{	//April 2020 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/11559
-			"id": "monthly2020AprEasyAnim",
-			"name": "April 2020 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				88976	//Cyan Hijirikawa
-			],
-			"image": "https://i.postimg.cc/8zw7s21R/Monthly-2020-April-Easy.gif",
+			"animated": "https://i.postimg.cc/8zw7s21R/Monthly-2020-April-Easy.gif",
 			"thread": 11559
 		},
 		{	//April 2020 Monthly: Hard Mode
@@ -3557,16 +3426,7 @@
 				88976	//Cyan Hijirikawa
 			],
 			"image": "https://i.postimg.cc/Ghw8fP7y/Monthly-2020-April-Hard.png",
-			"thread": 11559
-		},
-		{	//April 2020 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/11559
-			"id": "monthly2020AprHardAnim",
-			"name": "April 2020 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				88976	//Cyan Hijirikawa
-			],
-			"image": "https://i.postimg.cc/LsXnPxXr/Monthly-2020-April-Hard.gif",
+			"animated": "https://i.postimg.cc/LsXnPxXr/Monthly-2020-April-Hard.gif",
 			"thread": 11559
 		},
 		{	//May 2020 Monthly: Easy Mode
@@ -3574,19 +3434,10 @@
 			"id": "monthly2020MayEasy",
 			"name": "May 2020 Monthly Challenge: Easy Mode",
 			"characters": [
-				36309	//Mobile Suit Gundam
+				1335	//Amuro Ray (Mobile Suit Gundam)
 			],
 			"image": "https://i.postimg.cc/9QsvPMFC/Monthly-2020-May-Easy.png",
-			"thread": 12234
-		},
-		{	//May 2020 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/12234
-			"id": "monthly2020MayEasyAnim",
-			"name": "May 2020 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				36309	//Mobile Suit Gundam
-			],
-			"image": "https://i.postimg.cc/JnLvg2kF/Monthly-2020-May-Easy.gif",
+			"animated": "https://i.postimg.cc/JnLvg2kF/Monthly-2020-May-Easy.gif",
 			"thread": 12234
 		},
 		{	//May 2020 Monthly: Hard Mode
@@ -3594,19 +3445,10 @@
 			"id": "monthly2020MayHard",
 			"name": "May 2020 Monthly Challenge: Hard Mode",
 			"characters": [
-				36309	//Mobile Suit Gundam
+				1335	//Amuro Ray (Mobile Suit Gundam)
 			],
 			"image": "https://i.postimg.cc/fbX18NJX/Monthly-2020-May-Hard.png",
-			"thread": 12234
-		},
-		{	//May 2020 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/12234
-			"id": "monthly2020MayHardAnim",
-			"name": "May 2020 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				36309	//Mobile Suit Gundam
-			],
-			"image": "https://i.postimg.cc/Ssf3pfLx/Monthly-2020-May-Hard.gif",
+			"animated": "https://i.postimg.cc/Ssf3pfLx/Monthly-2020-May-Hard.gif",
 			"thread": 12234
 		},
 		{	//June 2020 Monthly: Easy Mode
@@ -3617,16 +3459,7 @@
 				88572	//Emilia
 			],
 			"image": "https://i.postimg.cc/sDYkPyGh/Monthly-2020-June-Easy.png",
-			"thread": 13031
-		},
-		{	//June 2020 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/13031
-			"id": "monthly2020JunEasyAnim",
-			"name": "June 2020 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				88572	//Emilia
-			],
-			"image": "https://i.postimg.cc/G3YVrrQ5/Monthly-June-2020-Easy.gif",
+			"animated": "https://i.postimg.cc/G3YVrrQ5/Monthly-June-2020-Easy.gif",
 			"thread": 13031
 		},
 		{	//June 2020 Monthly: Hard Mode
@@ -3637,16 +3470,7 @@
 				88572	//Emilia
 			],
 			"image": "https://i.postimg.cc/wTYKs3Mz/Monthly-2020-June-Hard.png",
-			"thread": 13031
-		},
-		{	//June 2020 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/13031
-			"id": "monthly2020JunHardAnim",
-			"name": "June 2020 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				88572	//Emilia
-			],
-			"image": "https://i.postimg.cc/rFkbwbZF/Monthly-June-2020-Hard.gif",
+			"animated": "https://i.postimg.cc/rFkbwbZF/Monthly-June-2020-Hard.gif",
 			"thread": 13031
 		},
 		{	//July 2020 Monthly: Easy Mode
@@ -3657,16 +3481,7 @@
 				128780	//Beelzebub
 			],
 			"image": "https://i.postimg.cc/wjxGhNdC/Monthly-2020-July-Easy.png",
-			"thread": 13948
-		},
-		{	//July 2020 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/13948
-			"id": "monthly2020JulEasyAnim",
-			"name": "July 2020 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				128780	//Beelzebub
-			],
-			"image": "https://i.postimg.cc/7Ldt8QT4/Monthly-2020-July-Easy.gif",
+			"animated": "https://i.postimg.cc/7Ldt8QT4/Monthly-2020-July-Easy.gif",
 			"thread": 13948
 		},
 		{	//July 2020 Monthly: Hard Mode
@@ -3677,16 +3492,7 @@
 				128780	//Beelzebub
 			],
 			"image": "https://i.postimg.cc/zGdPpfzV/Monthly-2020-July-Hard.png",
-			"thread": 13948
-		},
-		{	//July 2020 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/13948
-			"id": "monthly2020JulHardAnim",
-			"name": "July 2020 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				128780	//Beelzebub
-			],
-			"image": "https://i.postimg.cc/QCkf78YN/Monthly-2020-July-Hard.gif",
+			"animated": "https://i.postimg.cc/QCkf78YN/Monthly-2020-July-Hard.gif",
 			"thread": 13948
 		},
 		{	//August 2020 Monthly: Easy Mode
@@ -3697,16 +3503,7 @@
 				22998	//Eijun Sawamura
 			],
 			"image": "https://i.postimg.cc/vBw7vRV4/Monthly-2020-August-Easy.png",
-			"thread": 15233
-		},
-		{	//August 2020 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/15233
-			"id": "monthly2020AugEasyAnim",
-			"name": "August 2020 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				22998	//Eijun Sawamura
-			],
-			"image": "https://i.postimg.cc/dQ4dhZ4k/Monthly-2020-August-Easy.gif",
+			"animated": "https://i.postimg.cc/dQ4dhZ4k/Monthly-2020-August-Easy.gif",
 			"thread": 15233
 		},
 		{	//August 2020 Monthly: Hard Mode
@@ -3717,16 +3514,7 @@
 				22998	//Eijun Sawamura
 			],
 			"image": "https://i.postimg.cc/d0ymdQLM/Monthly-2020-August-Hard.png",
-			"thread": 15233
-		},
-		{	//August 2020 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/15233
-			"id": "monthly2020AugHardAnim",
-			"name": "August 2020 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				22998	//Eijun Sawamura
-			],
-			"image": "https://i.postimg.cc/vHTnf8NP/Monthly-2020-August-Hard.gif",
+			"animated": "https://i.postimg.cc/vHTnf8NP/Monthly-2020-August-Hard.gif",
 			"thread": 15233
 		},
 		{	//September 2020 Monthly: Easy Mode
@@ -3737,16 +3525,7 @@
 				28331	//Celty Sturluson
 			],
 			"image": "https://i.postimg.cc/nVRjFbhq/Monthly-2020-September-Easy.png",
-			"thread": 16404
-		},
-		{	//September 2020 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/16404
-			"id": "monthly2020SepEasyAnim",
-			"name": "September 2020 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				28331	//Celty Sturluson
-			],
-			"image": "https://i.postimg.cc/pL8pJmYB/Monthly-2020-September-Easy.gif",
+			"animated": "https://i.postimg.cc/pL8pJmYB/Monthly-2020-September-Easy.gif",
 			"thread": 16404
 		},
 		{	//September 2020 Monthly: Hard Mode
@@ -3757,16 +3536,7 @@
 				28331	//Celty Sturluson
 			],
 			"image": "https://i.postimg.cc/J4syt6sv/Monthly-2020-September-Hard.png",
-			"thread": 16404
-		},
-		{	//September 2020 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/16404
-			"id": "monthly2020SepHardAnim",
-			"name": "September 2020 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				28331	//Celty Sturluson
-			],
-			"image": "https://i.postimg.cc/s2r163TC/Monthly-2020-September-Hard.gif",
+			"animated": "https://i.postimg.cc/s2r163TC/Monthly-2020-September-Hard.gif",
 			"thread": 16404
 		},
 		{	//October 2020 Monthly: Easy Mode
@@ -3777,16 +3547,7 @@
 				1789	//Ai Enma
 			],
 			"image": "https://i.postimg.cc/C5zKB5xk/Monthly-2020-October-Easy.png",
-			"thread": 17514
-		},
-		{	//October 2020 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/17514
-			"id": "monthly2020OctEasyAnim",
-			"name": "October 2020 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				1789	//Ai Enma
-			],
-			"image": "https://i.postimg.cc/cJ047XJs/Monthly-2020-October-Easy.gif",
+			"animated": "https://i.postimg.cc/cJ047XJs/Monthly-2020-October-Easy.gif",
 			"thread": 17514
 		},
 		{	//October 2020 Monthly: Hard Mode
@@ -3797,16 +3558,7 @@
 				1789	//Ai Enma
 			],
 			"image": "https://i.postimg.cc/SR3xW4n5/Monthly-2020-October-Hard.png",
-			"thread": 17514
-		},
-		{	//October 2020 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/17514
-			"id": "monthly2020OctHardAnim",
-			"name": "October 2020 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				1789	//Ai Enma
-			],
-			"image": "https://i.postimg.cc/FKpFT3f0/Monthly-2020-October-Hard.gif",
+			"animated": "https://i.postimg.cc/FKpFT3f0/Monthly-2020-October-Hard.gif",
 			"thread": 17514
 		},
 		{	//November 2020 Monthly: Easy Mode
@@ -3817,16 +3569,7 @@
 				51737	//Hibiki Tachibana
 			],
 			"image": "https://i.postimg.cc/FF8rC9KC/Monthly-2020-November-Easy.png",
-			"thread": 18860
-		},
-		{	//November 2020 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/18860
-			"id": "monthly2020NovEasyAnim",
-			"name": "November 2020 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				51737	//Hibiki Tachibana
-			],
-			"image": "https://i.postimg.cc/N0sB2FNF/Monthly-2020-November-Easy.gif",
+			"animated": "https://i.postimg.cc/N0sB2FNF/Monthly-2020-November-Easy.gif",
 			"thread": 18860
 		},
 		{	//November 2020 Monthly: Hard Mode
@@ -3837,16 +3580,7 @@
 				51737	//Hibiki Tachibana
 			],
 			"image": "https://i.postimg.cc/65Z9DD2W/Monthly-2020-November-Hard.png",
-			"thread": 18860
-		},
-		{	//November 2020 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/18860
-			"id": "monthly2020NovHardAnim",
-			"name": "November 2020 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				51737	//Hibiki Tachibana
-			],
-			"image": "https://i.postimg.cc/zfx5CNMj/Monthly-2020-November-Hard.gif",
+			"animated": "https://i.postimg.cc/zfx5CNMj/Monthly-2020-November-Hard.gif",
 			"thread": 18860
 		},
 		{	//December 2020 Monthly: Easy Mode
@@ -3857,16 +3591,7 @@
 				126375	//Itsuki Nakano
 			],
 			"image": "https://i.postimg.cc/8sgVpzJ1/Monthly-2020-December-Easy.png",
-			"thread": 20350
-		},
-		{	//December 2020 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/20350
-			"id": "monthly2020DecEasyAnim",
-			"name": "December 2020 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				126375	//Itsuki Nakano
-			],
-			"image": "https://i.postimg.cc/FRbRzDfP/Monthly-2020-December-Easy.gif",
+			"animated": "https://i.postimg.cc/FRbRzDfP/Monthly-2020-December-Easy.gif",
 			"thread": 20350
 		},
 		{	//December 2020 Monthly: Hard Mode
@@ -3877,16 +3602,7 @@
 				126375	//Itsuki Nakano
 			],
 			"image": "https://i.postimg.cc/Kckk8pkV/Monthly-2020-December-Hard.png",
-			"thread": 20350
-		},
-		{	//December 2020 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/20350
-			"id": "monthly2020DecHardAnim",
-			"name": "December 2020 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				126375	//Itsuki Nakano
-			],
-			"image": "https://i.postimg.cc/KjZYMBBm/Monthly-2020-December-Hard.gif",
+			"animated": "https://i.postimg.cc/KjZYMBBm/Monthly-2020-December-Hard.gif",
 			"thread": 20350
 		},
 			/* 2021 */
@@ -3898,16 +3614,7 @@
 				250	//Ayu Tsukimiya
 			],
 			"image": "https://i.postimg.cc/4yGqJDx5/Monthly-2021-January-Easy-Static.png",
-			"thread": 21957
-		},
-		{	//January 2021 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/21957
-			"id": "monthly2021JanEasyAnim",
-			"name": "January 2021 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				250	//Ayu Tsukimiya
-			],
-			"image": "https://i.postimg.cc/pTb1ZwzH/Monthly-2021-January-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/pTb1ZwzH/Monthly-2021-January-Easy-Animated.png",
 			"thread": 21957
 		},
 		{	//January 2021 Monthly: Hard Mode
@@ -3918,16 +3625,7 @@
 				250	//Ayu Tsukimiya
 			],
 			"image": "https://i.postimg.cc/Y9YTBrM0/Monthly-2021-January-Hard-Static.png",
-			"thread": 21957
-		},
-		{	//January 2021 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/21957
-			"id": "monthly2021JanHardAnim",
-			"name": "January 2021 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				250	//Ayu Tsukimiya
-			],
-			"image": "https://i.postimg.cc/XqxHnXhj/Monthly-2021-January-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/XqxHnXhj/Monthly-2021-January-Hard-Animated.png",
 			"thread": 21957
 		},
 		{	//February 2021 Monthly: Easy Mode
@@ -3938,16 +3636,7 @@
 				83019	//Rin Matsuoka
 			],
 			"image": "https://i.postimg.cc/fb5BTtGh/Monthly-2021-February-Easy-Static.png",
-			"thread": 23941
-		},
-		{	//February 2021 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/23941
-			"id": "monthly2021FebEasyAnim",
-			"name": "February 2021 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				83019	//Rin Matsuoka
-			],
-			"image": "https://i.postimg.cc/NFXnMG87/Monthly-2021-Febraury-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/NFXnMG87/Monthly-2021-Febraury-Easy-Animated.png",
 			"thread": 23941
 		},
 		{	//February 2021 Monthly: Hard Mode
@@ -3958,16 +3647,7 @@
 				83019	//Rin Matsuoka
 			],
 			"image": "https://i.postimg.cc/PxxKLfHv/Monthly-2021-February-Hard-Static.png",
-			"thread": 23941
-		},
-		{	//February 2021 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/23941
-			"id": "monthly2021FebHardAnim",
-			"name": "February 2021 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				83019	//Rin Matsuoka
-			],
-			"image": "https://i.postimg.cc/05KFZZgM/Monthly-2021-Febraury-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/05KFZZgM/Monthly-2021-Febraury-Hard-Animated.png",
 			"thread": 23941
 		},
 		{	//March 2021 Monthly: Easy Mode
@@ -3978,16 +3658,7 @@
 				147	//Kenshin Himura
 			],
 			"image": "https://i.postimg.cc/YCddtmKB/Monthly-2021-March-Easy-Static.png",
-			"thread": 26122
-		},
-		{	//March 2021 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/26122
-			"id": "monthly2021MarEasyAnim",
-			"name": "March 2021 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				147	//Kenshin Himura
-			],
-			"image": "https://i.postimg.cc/2jnTVtRw/Monthly-2021-March-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/2jnTVtRw/Monthly-2021-March-Easy-Animated.png",
 			"thread": 26122
 		},
 		{	//March 2021 Monthly: Hard Mode
@@ -3998,16 +3669,7 @@
 				147	//Kenshin Himura
 			],
 			"image": "https://i.postimg.cc/bvd3rNpD/Monthly-2021-March-Hard-Static.png",
-			"thread": 26122
-		},
-		{	//March 2021 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/26122
-			"id": "monthly2021MarHardAnim",
-			"name": "March 2021 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				147	//Kenshin Himura
-			],
-			"image": "https://i.postimg.cc/gkDDK60L/Monthly-2021-March-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/gkDDK60L/Monthly-2021-March-Hard-Animated.png",
 			"thread": 26122
 		},
 		{	//April 2021 Monthly: Easy Mode
@@ -4018,16 +3680,7 @@
 				16	//Edward Wong Hau Pepelu Tivrusky IV
 			],
 			"image": "https://i.postimg.cc/YCDz5KYp/Monthly-2021-April-Easy-Static.png",
-			"thread": 29066
-		},
-		{	//April 2021 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/29066
-			"id": "monthly2021AprEasyAnim",
-			"name": "April 2021 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				16	//Edward Wong Hau Pepelu Tivrusky IV
-			],
-			"image": "https://i.postimg.cc/sxzYYVdJ/Monthly-2021-April-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/sxzYYVdJ/Monthly-2021-April-Easy-Animated.png",
 			"thread": 29066
 		},
 		{	//April 2021 Monthly: Hard Mode
@@ -4038,16 +3691,7 @@
 				16	//Edward Wong Hau Pepelu Tivrusky IV
 			],
 			"image": "https://i.postimg.cc/d07jvHjG/Monthly-2021-April-Hard-Static.png",
-			"thread": 29066
-		},
-		{	//April 2021 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/29066
-			"id": "monthly2021AprHardAnim",
-			"name": "April 2021 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				16	//Edward Wong Hau Pepelu Tivrusky IV
-			],
-			"image": "https://i.postimg.cc/kGyxwk7P/Monthly-2021-April-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/kGyxwk7P/Monthly-2021-April-Hard-Animated.png",
 			"thread": 29066
 		},
 		{	//May 2021 Monthly: Easy Mode
@@ -4058,16 +3702,7 @@
 				1314	//Mahoro Andou
 			],
 			"image": "https://i.postimg.cc/5Nx5jNm4/Monthly-2021-May-Easy-Static.png",
-			"thread": 32307
-		},
-		{	//May 2021 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/32307
-			"id": "monthly2021MayEasyAnim",
-			"name": "May 2021 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				1314	//Mahoro Andou
-			],
-			"image": "https://i.postimg.cc/VkhX79Pv/Monthly-2021-May-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/VkhX79Pv/Monthly-2021-May-Easy-Animated.png",
 			"thread": 32307
 		},
 		{	//May 2021 Monthly: Hard Mode
@@ -4078,16 +3713,7 @@
 				1314	//Mahoro Andou
 			],
 			"image": "https://i.postimg.cc/4NB6ck8z/Monthly-2021-May-Hard-Static.png",
-			"thread": 32307
-		},
-		{	//May 2021 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/32307
-			"id": "monthly2021MayHardAnim",
-			"name": "May 2021 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				1314	//Mahoro Andou
-			],
-			"image": "https://i.postimg.cc/6QGnF7B0/Monthly-2021-May-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/6QGnF7B0/Monthly-2021-May-Hard-Animated.png",
 			"thread": 32307
 		},
 		{	//June 2021 Monthly: Easy Mode
@@ -4098,16 +3724,7 @@
 				70	//Riza Hawkeye
 			],
 			"image": "https://i.postimg.cc/QNFdyb3R/Monthly-2021-June-Easy-Static.png",
-			"thread": 35113
-		},
-		{	//June 2021 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/35113
-			"id": "monthly2021JunEasyAnim",
-			"name": "June 2021 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				70	//Riza Hawkeye
-			],
-			"image": "https://i.postimg.cc/jdNdsSCc/Monthly-2021-June-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/jdNdsSCc/Monthly-2021-June-Easy-Animated.png",
 			"thread": 35113
 		},
 		{	//June 2021 Monthly: Hard Mode
@@ -4118,16 +3735,7 @@
 				70	//Riza Hawkeye
 			],
 			"image": "https://i.postimg.cc/CM9xTqMd/Monthly-2021-June-Hard-Static.png",
-			"thread": 35113
-		},
-		{	//June 2021 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/35113
-			"id": "monthly2021JunHardAnim",
-			"name": "June 2021 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				70	//Riza Hawkeye
-			],
-			"image": "https://i.postimg.cc/zGrD3Ygr/Monthly-2021-June-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/zGrD3Ygr/Monthly-2021-June-Hard-Animated.png",
 			"thread": 35113
 		},
 		{	//July 2021 Monthly: Easy Mode
@@ -4138,16 +3746,7 @@
 				20512	//Ika Musume
 			],
 			"image": "https://i.postimg.cc/9fKCt576/Monthly-2021-July-Easy-Static.png",
-			"thread": 37307
-		},
-		{	//July 2021 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/37307
-			"id": "monthly2021JulEasyAnim",
-			"name": "July 2021 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				20512	//Ika Musume
-			],
-			"image": "https://i.postimg.cc/sfpsSLDL/Monthly-2021-July-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/sfpsSLDL/Monthly-2021-July-Easy-Animated.png",
 			"thread": 37307
 		},
 		{	//July 2021 Monthly: Hard Mode
@@ -4158,16 +3757,7 @@
 				20512	//Ika Musume
 			],
 			"image": "https://i.postimg.cc/k4S9T1NB/Monthly-2021-July-Hard-Static.png",
-			"thread": 37307
-		},
-		{	//July 2021 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/37307
-			"id": "monthly2021JulHardAnim",
-			"name": "July 2021 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				20512	//Ika Musume
-			],
-			"image": "https://i.postimg.cc/zX85kkyG/Monthly-2021-July-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/zX85kkyG/Monthly-2021-July-Hard-Animated.png",
 			"thread": 37307
 		},
 		{	//August 2021 Monthly: Easy Mode
@@ -4178,16 +3768,7 @@
 				4835	//Lum
 			],
 			"image": "https://i.postimg.cc/gcVP5cyB/Monthly-2021-August-Easy-Static.png",
-			"thread": 39659
-		},
-		{	//August 2021 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/39659
-			"id": "monthly2021AugEasyAnim",
-			"name": "August 2021 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				4835	//Lum
-			],
-			"image": "https://i.postimg.cc/C1JsBqTQ/Monthly-2021-August-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/C1JsBqTQ/Monthly-2021-August-Easy-Animated.png",
 			"thread": 39659
 		},
 		{	//August 2021 Monthly: Hard Mode
@@ -4198,16 +3779,7 @@
 				4835	//Lum
 			],
 			"image": "https://i.postimg.cc/BQNfShVT/Monthly-2021-August-Hard-Static.png",
-			"thread": 39659
-		},
-		{	//August 2021 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/39659
-			"id": "monthly2021AugHardAnim",
-			"name": "August 2021 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				4835	//Lum
-			],
-			"image": "https://i.postimg.cc/pLD85FKJ/Monthly-2021-August-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/pLD85FKJ/Monthly-2021-August-Hard-Animated.png",
 			"thread": 39659
 		},
 		{	//September 2021 Monthly: Easy Mode
@@ -4218,16 +3790,7 @@
 				4004	//Dio Brando
 			],
 			"image": "https://i.postimg.cc/6QXZsbLB/Monthly-2021-September-Easy-Static.png",
-			"thread": 41792
-		},
-		{	//September 2021 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/41792
-			"id": "monthly2021SepEasyAnim",
-			"name": "September 2021 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				4004	//Dio Brando
-			],
-			"image": "https://i.postimg.cc/J4HHsCp1/Monthly-2021-September-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/J4HHsCp1/Monthly-2021-September-Easy-Animated.png",
 			"thread": 41792
 		},
 		{	//September 2021 Monthly: Hard Mode
@@ -4238,16 +3801,7 @@
 				4004	//Dio Brando
 			],
 			"image": "https://i.postimg.cc/hj47vJ5w/Monthly-2021-September-Hard-Static.png",
-			"thread": 41792
-		},
-		{	//September 2021 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/41792
-			"id": "monthly2021SepHardAnim",
-			"name": "September 2021 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				4004	//Dio Brando
-			],
-			"image": "https://i.postimg.cc/MHQZpqqN/Monthly-2021-September-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/MHQZpqqN/Monthly-2021-September-Hard-Animated.png",
 			"thread": 41792
 		},
 		{	//October 2021 Monthly: Easy Mode
@@ -4258,16 +3812,7 @@
 				123180	//Azusa Hamaoka
 			],
 			"image": "https://i.postimg.cc/43GdbgqX/Monthly-2021-October-Easy-Static.png",
-			"thread": 43786
-		},
-		{	//October 2021 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/43786
-			"id": "monthly2021OctEasyAnim",
-			"name": "October 2021 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				123180	//Azusa Hamaoka
-			],
-			"image": "https://i.postimg.cc/QMPjYZnB/Monthly-2021-October-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/QMPjYZnB/Monthly-2021-October-Easy-Animated.png",
 			"thread": 43786
 		},
 		{	//October 2021 Monthly: Hard Mode
@@ -4278,16 +3823,7 @@
 				123180	//Azusa Hamaoka
 			],
 			"image": "https://i.postimg.cc/rz6cVGLq/Monthly-2021-October-Hard-Static.png",
-			"thread": 43786
-		},
-		{	//October 2021 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/43786
-			"id": "monthly2021OctHardAnim",
-			"name": "October 2021 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				123180	//Azusa Hamaoka
-			],
-			"image": "https://i.postimg.cc/4N8qQb0y/Monthly-2021-October-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/4N8qQb0y/Monthly-2021-October-Hard-Animated.png",
 			"thread": 43786
 		},
 		{	//November 2021 Monthly: Easy Mode
@@ -4298,16 +3834,7 @@
 				215082	//Sarasa Watanabe
 			],
 			"image": "https://i.postimg.cc/3rLsSw-4z/Monthly-2021-November-Easy-Static.png",
-			"thread": 45832
-		},
-		{	//November 2021 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/45832
-			"id": "monthly2021NovEasyAnim",
-			"name": "November 2021 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				215082	//Sarasa Watanabe
-			],
-			"image": "https://i.postimg.cc/xdy7KjVx/Monthly-2021-November-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/xdy7KjVx/Monthly-2021-November-Easy-Animated.png",
 			"thread": 45832
 		},
 		{	//November 2021 Monthly: Hard Mode
@@ -4318,16 +3845,7 @@
 				215082	//Sarasa Watanabe
 			],
 			"image": "https://i.postimg.cc/vHcppd5T/Monthly-2021-November-Hard-Static.png",
-			"thread": 45832
-		},
-		{	//November 2021 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/45832
-			"id": "monthly2021NovHardAnim",
-			"name": "November 2021 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				215082	//Sarasa Watanabe
-			],
-			"image": "https://i.postimg.cc/HnjhDQcR/Monthly-2021-November-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/HnjhDQcR/Monthly-2021-November-Hard-Animated.png",
 			"thread": 45832
 		},
 		{	//December 2021 Monthly: Easy Mode
@@ -4338,16 +3856,7 @@
 				1169	//Lina Inverse
 			],
 			"image": "https://i.postimg.cc/wxChMKq6/Monthly-2021-December-Easy-Static.png",
-			"thread": 47411
-		},
-		{	//December 2021 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/47411
-			"id": "monthly2021DecEasyAnim",
-			"name": "December 2021 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				1169	//Lina Inverse
-			],
-			"image": "https://i.postimg.cc/DZbS3Zb1/Monthly-2021-December-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/DZbS3Zb1/Monthly-2021-December-Easy-Animated.png",
 			"thread": 47411
 		},
 		{	//December 2021 Monthly: Hard Mode
@@ -4358,16 +3867,7 @@
 				1169	//Lina Inverse
 			],
 			"image": "https://i.postimg.cc/cJL320mc/Monthly-2021-December-Hard-Static.png",
-			"thread": 47411
-		},
-		{	//December 2021 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/47411
-			"id": "monthly2021DecHardAnim",
-			"name": "December 2021 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				1169	//Lina Inverse
-			],
-			"image": "https://i.postimg.cc/PJWNNRyx/Monthly-2021-December-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/PJWNNRyx/Monthly-2021-December-Hard-Animated.png",
 			"thread": 47411
 		},
 			/* 2022 */
@@ -4379,16 +3879,7 @@
 				88753	//Isla
 			],
 			"image": "https://i.postimg.cc/SsP4dqGG/Monthly-2022-January-Easy-Static.png",
-			"thread": 48908
-		},
-		{	//January 2022 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/48908
-			"id": "monthly2022JanEasyAnim",
-			"name": "January 2022 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				88753	//Isla
-			],
-			"image": "https://i.postimg.cc/05LM2qqm/Monthly-2022-January-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/05LM2qqm/Monthly-2022-January-Easy-Animated.png",
 			"thread": 48908
 		},
 		{	//January 2022 Monthly: Hard Mode
@@ -4399,16 +3890,7 @@
 				88753	//Isla
 			],
 			"image": "https://i.postimg.cc/yW4HqPtg/Monthly-2022-January-Hard-Static.png",
-			"thread": 48908
-		},
-		{	//January 2022 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/48908
-			"id": "monthly2022JanHardAnim",
-			"name": "January 2022 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				88753	//Isla
-			],
-			"image": "https://i.postimg.cc/kgyBc6RF/Monthly-2022-January-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/kgyBc6RF/Monthly-2022-January-Hard-Animated.png",
 			"thread": 48908
 		},
 		{	//February 2022 Monthly: Easy Mode
@@ -4419,16 +3901,7 @@
 				32799	//Suzu Hagimura
 			],
 			"image": "https://i.postimg.cc/t7QkSN8L/Monthly-2022-February-Easy-Static.png",
-			"thread": 50456
-		},
-		{	//February 2022 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/50456
-			"id": "monthly2022FebEasyAnim",
-			"name": "February 2022 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				32799	//Suzu Hagimura
-			],
-			"image": "https://i.postimg.cc/fRZnkck2/Monthly-2022-February-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/fRZnkck2/Monthly-2022-February-Easy-Animated.png",
 			"thread": 50456
 		},
 		{	//February 2022 Monthly: Hard Mode
@@ -4439,16 +3912,7 @@
 				32799	//Suzu Hagimura
 			],
 			"image": "https://i.postimg.cc/zXTYJtDH/Monthly-2022-February-Hard-Static.png",
-			"thread": 50456
-		},
-		{	//February 2022 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/50456
-			"id": "monthly2022FebHardAnim",
-			"name": "February 2022 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				32799	//Suzu Hagimura
-			],
-			"image": "https://i.postimg.cc/QMx2JjQc/Monthly-2022-February-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/QMx2JjQc/Monthly-2022-February-Hard-Animated.png",
 			"thread": 50456
 		},
 		{	//March 2022 Monthly: Easy Mode
@@ -4459,16 +3923,7 @@
 				124142	//Senkuu Ishigami
 			],
 			"image": "https://i.postimg.cc/vBY5qrVf/Monthly-2022-March-Easy-Static.png",
-			"thread": 51651
-		},
-		{	//March 2022 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/51651
-			"id": "monthly2022MarEasyAnim",
-			"name": "March 2022 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				124142	//Senkuu Ishigami
-			],
-			"image": "https://i.postimg.cc/gc63M2wM/Monthly-2022-March-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/gc63M2wM/Monthly-2022-March-Easy-Animated.png",
 			"thread": 51651
 		},
 		{	//March 2022 Monthly: Hard Mode
@@ -4479,16 +3934,7 @@
 				124142	//Senkuu Ishigami
 			],
 			"image": "https://i.postimg.cc/BZy1H9Mx/Monthly-2022-March-Hard-Static.png",
-			"thread": 51651
-		},
-		{	//March 2022 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/51651
-			"id": "monthly2022MarHardAnim",
-			"name": "March 2022 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				124142	//Senkuu Ishigami
-			],
-			"image": "https://i.postimg.cc/L4znYYgM/Monthly-2022-March-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/L4znYYgM/Monthly-2022-March-Hard-Animated.png",
 			"thread": 51651
 		},
 		{	//April 2022 Monthly: Easy Mode
@@ -4499,16 +3945,7 @@
 				80243	//Shouko Nishimiya
 			],
 			"image": "https://i.postimg.cc/6q6TjgG7/Monthly-2022-April-Easy-Static.png",
-			"thread": 52918
-		},
-		{	//April 2022 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/52918
-			"id": "monthly2022AprEasyAnim",
-			"name": "April 2022 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				80243	//Shouko Nishimiya
-			],
-			"image": "https://i.postimg.cc/PqmxtTWp/Monthly-2022-April-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/PqmxtTWp/Monthly-2022-April-Easy-Animated.png",
 			"thread": 52918
 		},
 		{	//April 2022 Monthly: Hard Mode
@@ -4519,16 +3956,7 @@
 				80243	//Shouko Nishimiya
 			],
 			"image": "https://i.postimg.cc/6qHqDcdM/Monthly-2022-April-Hard-Static.png",
-			"thread": 52918
-		},
-		{	//April 2022 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/52918
-			"id": "monthly2022AprHardAnim",
-			"name": "April 2022 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				80243	//Shouko Nishimiya
-			],
-			"image": "https://i.postimg.cc/j5tj2mc8/Monthly-2022-April-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/j5tj2mc8/Monthly-2022-April-Hard-Animated.png",
 			"thread": 52918
 		},
 		{	//May 2022 Monthly: Easy Mode
@@ -4539,16 +3967,7 @@
 				168761	//Siesta no Chichi
 			],
 			"image": "https://i.postimg.cc/7LHjkcg2/Monthly-2022-May-Easy-Static.png",
-			"thread": 54234
-		},
-		{	//May 2022 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/54234
-			"id": "monthly2022MayEasyAnim",
-			"name": "May 2022 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				168761	//Siesta no Chichi
-			],
-			"image": "https://i.postimg.cc/7P2spDpR/Monthly-2022-May-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/7P2spDpR/Monthly-2022-May-Easy-Animated.png",
 			"thread": 54234
 		},
 		{	//May 2022 Monthly: Hard Mode
@@ -4559,16 +3978,7 @@
 				168761	//Siesta no Chichi
 			],
 			"image": "https://i.postimg.cc/dQkpwGT4/Monthly-2022-May-Hard-Static.png",
-			"thread": 54234
-		},
-		{	//May 2022 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/54234
-			"id": "monthly2022MayHardAnim",
-			"name": "May 2022 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				168761	//Siesta no Chichi
-			],
-			"image": "https://i.postimg.cc/3wN99HXn/Monthly-2022-May-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/3wN99HXn/Monthly-2022-May-Hard-Animated.png",
 			"thread": 54234
 		},
 		{	//June 2022 Monthly: Easy Mode
@@ -4579,16 +3989,7 @@
 				129563	//Aurora Suya Rhys Kaymin
 			],
 			"image": "https://i.postimg.cc/7ZwHyx1r/Monthly-2022-June-Easy-Static.png",
-			"thread": 55490
-		},
-		{	//June 2022 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/55490
-			"id": "monthly2022JunEasyAnim",
-			"name": "June 2022 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				129563	//Aurora Suya Rhys Kaymin
-			],
-			"image": "https://i.postimg.cc/vZcPTntr/Monthly-2022-June-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/vZcPTntr/Monthly-2022-June-Easy-Animated.png",
 			"thread": 55490
 		},
 		{	//June 2022 Monthly: Hard Mode
@@ -4599,16 +4000,7 @@
 				129563	//Aurora Suya Rhys Kaymin
 			],
 			"image": "https://i.postimg.cc/LX1K17kV/Monthly-2022-June-Hard-Static.png",
-			"thread": 55490
-		},
-		{	//June 2022 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/55490
-			"id": "monthly2022JunHardAnim",
-			"name": "June 2022 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				129563	//Aurora Suya Rhys Kaymin
-			],
-			"image": "https://i.postimg.cc/t4BYS1KM/Monthly-2022-June-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/t4BYS1KM/Monthly-2022-June-Hard-Animated.png",
 			"thread": 55490
 		},
 		{	//July 2022 Monthly: Easy Mode
@@ -4619,16 +4011,7 @@
 				69503	//Hinata Kuraue
 			],
 			"image": "https://i.postimg.cc/2yt078zb/Monthly-2022-July-Easy-Static.png",
-			"thread": 56620
-		},
-		{	//July 2022 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/56620
-			"id": "monthly2022JulEasyAnim",
-			"name": "July 2022 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				69503	//Hinata Kuraue
-			],
-			"image": "https://i.postimg.cc/HkvbJPkn/Monthly-2022-July-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/HkvbJPkn/Monthly-2022-July-Easy-Animated.png",
 			"thread": 56620
 		},
 		{	//July 2022 Monthly: Hard Mode
@@ -4639,16 +4022,7 @@
 				69503	//Hinata Kuraue
 			],
 			"image": "https://i.postimg.cc/VN7ZkF3W/Monthly-2022-July-Hard-Static.png",
-			"thread": 56620
-		},
-		{	//July 2022 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/56620
-			"id": "monthly2022JulHardAnim",
-			"name": "July 2022 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				69503	//Hinata Kuraue
-			],
-			"image": "https://i.postimg.cc/qMzJJmSj/Monthly-2022-July-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/qMzJJmSj/Monthly-2022-July-Hard-Animated.png",
 			"thread": 56620
 		},
 		{	//August 2022 Monthly: Easy Mode
@@ -4659,16 +4033,7 @@
 				2769	//Ren Mihashi
 			],
 			"image": "https://i.postimg.cc/NMWm1Qk0/Monthly-2022-August-Easy-Static.png",
-			"thread": 57826
-		},
-		{	//August 2022 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/57826
-			"id": "monthly2022AugEasyAnim",
-			"name": "August 2022 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				2769	//Ren Mihashi
-			],
-			"image": "https://i.postimg.cc/BQ5HK9Lq/Monthly-2022-August-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/BQ5HK9Lq/Monthly-2022-August-Easy-Animated.png",
 			"thread": 57826
 		},
 		{	//August 2022 Monthly: Hard Mode
@@ -4679,16 +4044,7 @@
 				2769	//Ren Mihashi
 			],
 			"image": "https://i.postimg.cc/151DX5zC/Monthly-2022-August-Hard-Static.png",
-			"thread": 57826
-		},
-		{	//August 2022 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/57826
-			"id": "monthly2022AugHardAnim",
-			"name": "August 2022 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				2769	//Ren Mihashi
-			],
-			"image": "https://i.postimg.cc/d0fyYJX9/Monthly-2022-August-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/d0fyYJX9/Monthly-2022-August-Hard-Animated.png",
 			"thread": 57826
 		},
 		{	//September 2022 Monthly: Easy Mode
@@ -4700,17 +4056,7 @@
 				47527	//Nii-chan
 			],
 			"image": "https://i.postimg.cc/k4vhy2N0/Monthly-2022-September-Easy-Static.png",
-			"thread": 58790
-		},
-		{	//September 2022 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/58790
-			"id": "monthly2022SepEasyAnim",
-			"name": "September 2022 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				30430,	//Shiemi Moriyama
-				47527	//Nii-chan
-			],
-			"image": "https://i.postimg.cc/fTcjtGKP/Monthly-2022-September-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/fTcjtGKP/Monthly-2022-September-Easy-Animated.png",
 			"thread": 58790
 		},
 		{	//September 2022 Monthly: Hard Mode
@@ -4722,17 +4068,7 @@
 				47527	//Nii-chan
 			],
 			"image": "https://i.postimg.cc/0jmGCFqb/Monthly-2022-September-Hard-Static.png",
-			"thread": 58790
-		},
-		{	//September 2022 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/58790
-			"id": "monthly2022SepHardAnim",
-			"name": "September 2022 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				30430,	//Shiemi Moriyama
-				47527	//Nii-chan
-			],
-			"image": "https://i.postimg.cc/3x3jgtfx/Monthly-2022-September-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/3x3jgtfx/Monthly-2022-September-Hard-Animated.png",
 			"thread": 58790
 		},
 		{	//October 2022 Monthly: Easy Mode
@@ -4743,16 +4079,7 @@
 				2392	//Mikan Sakura
 			],
 			"image": "https://i.postimg.cc/J0fvzQRM/Monthly-2022-October-Easy-Static.png",
-			"thread": 59608
-		},
-		{	//October 2022 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/59608
-			"id": "monthly2022OctEasyAnim",
-			"name": "October 2022 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				2392	//Mikan Sakura
-			],
-			"image": "https://i.postimg.cc/PxRrK0Qy/Monthly-2022-October-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/PxRrK0Qy/Monthly-2022-October-Easy-Animated.png",
 			"thread": 59608
 		},
 		{	//October 2022 Monthly: Hard Mode
@@ -4763,16 +4090,7 @@
 				2392	//Mikan Sakura
 			],
 			"image": "https://i.postimg.cc/9MVGCR6K/Monthly-2022-October-Hard-Static.png",
-			"thread": 59608
-		},
-		{	//October 2022 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/59608
-			"id": "monthly2022OctHardAnim",
-			"name": "October 2022 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				2392	//Mikan Sakura
-			],
-			"image": "https://i.postimg.cc/NLhGvTVr/Monthly-2022-October-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/NLhGvTVr/Monthly-2022-October-Hard-Animated.png",
 			"thread": 59608
 		},
 		{	//November 2022 Monthly: Easy Mode
@@ -4783,16 +4101,7 @@
 				89853	//Chuuya Nakahara
 			],
 			"image": "https://i.postimg.cc/0QF6Grr7/Monthly-2022-November-Easy-Static.png",
-			"thread": 60451
-		},
-		{	//November 2022 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/60451
-			"id": "monthly2022NovEasyAnim",
-			"name": "November 2022 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				89853	//Chuuya Nakahara
-			],
-			"image": "https://i.postimg.cc/kMy3tzZg/Monthly-2022-November-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/kMy3tzZg/Monthly-2022-November-Easy-Animated.png",
 			"thread": 60451
 		},
 		{	//November 2022 Monthly: Hard Mode
@@ -4803,16 +4112,7 @@
 				89853	//Chuuya Nakahara
 			],
 			"image": "https://i.postimg.cc/N0PLYL6Z/Monthly-2022-November-Hard-Static.png",
-			"thread": 60451
-		},
-		{	//November 2022 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/60451
-			"id": "monthly2022NovHardAnim",
-			"name": "November 2022 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				89853	//Chuuya Nakahara
-			],
-			"image": "https://i.postimg.cc/PfVycMvM/Monthly-2022-November-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/PfVycMvM/Monthly-2022-November-Hard-Animated.png",
 			"thread": 60451
 		},
 		{	//December 2022 Monthly: Easy Mode
@@ -4823,16 +4123,7 @@
 				88787	//Chocola
 			],
 			"image": "https://i.postimg.cc/3Rq2FkhX/Monthly-2022-December-Easy-Static.png",
-			"thread": 61094
-		},
-		{	//December 2022 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/61094
-			"id": "monthly2022DecEasyAnim",
-			"name": "December 2022 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				88787	//Chocola
-			],
-			"image": "https://i.postimg.cc/DwbfSmpV/Monthly-2022-December-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/DwbfSmpV/Monthly-2022-December-Easy-Animated.png",
 			"thread": 61094
 		},
 		{	//December 2022 Monthly: Hard Mode
@@ -4843,16 +4134,7 @@
 				88787	//Chocola
 			],
 			"image": "https://i.postimg.cc/y87ndS8x/Monthly-2022-December-Hard-Static.png",
-			"thread": 61094
-		},
-		{	//December 2022 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/61094
-			"id": "monthly2022DecHardAnim",
-			"name": "December 2022 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				88787	//Chocola
-			],
-			"image": "https://i.postimg.cc/5y6dDkZc/Monthly-2022-December-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/5y6dDkZc/Monthly-2022-December-Hard-Animated.png",
 			"thread": 61094
 		},
 			/* 2023 */
@@ -4864,16 +4146,7 @@
 				6769	//Susumu Kodai
 			],
 			"image": "https://i.postimg.cc/xCx0M4Xk/Monthly-2023-January-Easy-Static.png",
-			"thread": 61831
-		},
-		{	//January 2023 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/61831
-			"id": "monthly2023JanEasyAnim",
-			"name": "January 2023 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				6769	//Susumu Kodai
-			],
-			"image": "https://i.postimg.cc/xTkKJrXz/Monthly-2023-January-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/xTkKJrXz/Monthly-2023-January-Easy-Animated.png",
 			"thread": 61831
 		},
 		{	//January 2023 Monthly: Hard Mode
@@ -4884,16 +4157,7 @@
 				6769	//Susumu Kodai
 			],
 			"image": "https://i.postimg.cc/KzH2R3WB/Monthly-2023-January-Hard-Static.png",
-			"thread": 61831
-		},
-		{	//January 2023 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/61831
-			"id": "monthly2023JanHardAnim",
-			"name": "January 2023 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				6769	//Susumu Kodai
-			],
-			"image": "https://i.postimg.cc/RhwJdmKs/Monthly-2023-January-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/RhwJdmKs/Monthly-2023-January-Hard-Animated.png",
 			"thread": 61831
 		},
 		{	//February 2023 Monthly: Easy Mode
@@ -4904,16 +4168,7 @@
 				204495	//Kukuru Misakino
 			],
 			"image": "https://i.postimg.cc/J7BtdCKY/Monthly-2023-February-Easy-Static.png",
-			"thread": 62649
-		},
-		{	//February 2023 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/62649
-			"id": "monthly2023FebEasyAnim",
-			"name": "February 2023 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				204495	//Kukuru Misakino
-			],
-			"image": "https://i.postimg.cc/Hn3N9hJw/Monthly-2023-February-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/Hn3N9hJw/Monthly-2023-February-Easy-Animated.png",
 			"thread": 62649
 		},
 		{	//February 2023 Monthly: Hard Mode
@@ -4924,16 +4179,7 @@
 				204495	//Kukuru Misakino
 			],
 			"image": "https://i.postimg.cc/v89HtLHp/Monthly-2023-February-Hard-Static.png",
-			"thread": 62649
-		},
-		{	//February 2023 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/62649
-			"id": "monthly2023FebHardAnim",
-			"name": "February 2023 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				204495	//Kukuru Misakino
-			],
-			"image": "https://i.postimg.cc/MT3R006c/Monthly-2023-February-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/MT3R006c/Monthly-2023-February-Hard-Animated.png",
 			"thread": 62649
 		},
 		{	//March 2023 Monthly: Easy Mode
@@ -4944,16 +4190,7 @@
 				88749	//Eriri Spencer Sawamura
 			],
 			"image": "https://i.postimg.cc/fLvh7NFq/Monthly-2023-March-Easy-Static.png",
-			"thread": 63380
-		},
-		{	//March 2023 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/63380
-			"id": "monthly2023MarEasyAnim",
-			"name": "March 2023 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				88749	//Eriri Spencer Sawamura
-			],
-			"image": "https://i.postimg.cc/hv9MQD5h/Monthly-2023-March-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/hv9MQD5h/Monthly-2023-March-Easy-Animated.png",
 			"thread": 63380
 		},
 		{	//March 2023 Monthly: Hard Mode
@@ -4964,16 +4201,7 @@
 				88749	//Eriri Spencer Sawamura
 			],
 			"image": "https://i.postimg.cc/nVsycqVw/Monthly-2023-March-Hard-Static.png",
-			"thread": 63380
-		},
-		{	//March 2023 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/63380
-			"id": "monthly2023MarHardAnim",
-			"name": "March 2023 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				88749	//Eriri Spencer Sawamura
-			],
-			"image": "https://i.postimg.cc/yYHL4RDR/Monthly-2023-March-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/yYHL4RDR/Monthly-2023-March-Hard-Animated.png",
 			"thread": 63380
 		},
 		{	//April 2023 Monthly: Easy Mode (Gag)
@@ -4994,16 +4222,7 @@
 				147759	//Opera
 			],
 			"image": "https://i.postimg.cc/XYYrFfc1/Monthly-2023-April-Easy-Static.png",
-			"thread": 64140
-		},
-		{	//April 2023 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/64140
-			"id": "monthly2023AprEasyAnim",
-			"name": "April 2023 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				147759	//Opera
-			],
-			"image": "https://i.postimg.cc/x8TMxwVM/Monthly-2023-April-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/x8TMxwVM/Monthly-2023-April-Easy-Animated.png",
 			"thread": 64140
 		},
 		{	//April 2023 Monthly: Hard Mode (Gag)
@@ -5024,16 +4243,7 @@
 				147759	//Opera
 			],
 			"image": "https://i.postimg.cc/vm1D2GKW/Monthly-2023-April-Hard-Static.png",
-			"thread": 64140
-		},
-		{	//April 2023 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/64140
-			"id": "monthly2023AprHardAnim",
-			"name": "April 2023 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				147759	//Opera
-			],
-			"image": "https://i.postimg.cc/Z5y3MP27/Monthly-2023-April-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/Z5y3MP27/Monthly-2023-April-Hard-Animated.png",
 			"thread": 64140
 		},
 		{	//May 2023 Monthly: Easy Mode
@@ -5044,16 +4254,7 @@
 				168296	//Rinku Aimoto
 			],
 			"image": "https://i.postimg.cc/hjNPtkQj/Monthly-2023-May-Easy-Static.png",
-			"thread": 64923
-		},
-		{	//May 2023 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/64923
-			"id": "monthly2023MayEasyAnim",
-			"name": "May 2023 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				168296	//Rinku Aimoto
-			],
-			"image": "https://i.postimg.cc/DZ08ZQCC/Monthly-2023-May-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/DZ08ZQCC/Monthly-2023-May-Easy-Animated.png",
 			"thread": 64923
 		},
 		{	//May 2023 Monthly: Hard Mode
@@ -5064,16 +4265,7 @@
 				168296	//Rinku Aimoto
 			],
 			"image": "https://i.postimg.cc/2SCjyFy4/Monthly-2023-May-Hard-Static.png",
-			"thread": 64923
-		},
-		{	//May 2023 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/64923
-			"id": "monthly2023MayHardAnim",
-			"name": "May 2023 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				168296	//Rinku Aimoto
-			],
-			"image": "https://i.postimg.cc/0y56FqYR/Monthly-2023-May-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/0y56FqYR/Monthly-2023-May-Hard-Animated.png",
 			"thread": 64923
 		},
 		{	//June 2023 Monthly: Easy Mode
@@ -5084,16 +4276,7 @@
 				18344	//Tomoe
 			],
 			"image": "https://i.postimg.cc/JtVnyHp7/Monthly-2023-June-Easy-Static.png",
-			"thread": 65635
-		},
-		{	//June 2023 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/65635
-			"id": "monthly2023JunEasyAnim",
-			"name": "June 2023 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				18344	//Tomoe
-			],
-			"image": "https://i.postimg.cc/zGkCrqfH/Monthly-2023-June-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/zGkCrqfH/Monthly-2023-June-Easy-Animated.png",
 			"thread": 65635
 		},
 		{	//June 2023 Monthly: Hard Mode
@@ -5104,16 +4287,7 @@
 				18344	//Tomoe
 			],
 			"image": "https://i.postimg.cc/5NL5sBd3/Monthly-2023-June-Hard-Static.png",
-			"thread": 65635
-		},
-		{	//June 2023 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/65635
-			"id": "monthly2023JunHardAnim",
-			"name": "June 2023 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				18344	//Tomoe
-			],
-			"image": "https://i.postimg.cc/cJHnGYjP/Monthly-2023-June-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/cJHnGYjP/Monthly-2023-June-Hard-Animated.png",
 			"thread": 65635
 		},
 		{	//July 2023 Monthly: Easy Mode
@@ -5124,16 +4298,7 @@
 				127588	//Yuuta Hibiki
 			],
 			"image": "https://i.postimg.cc/50C5Wb1P/Monthly-2023-July-Easy-Static.png",
-			"thread": 66364
-		},
-		{	//July 2023 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/66364
-			"id": "monthly2023JulEasyAnim",
-			"name": "July 2023 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				127588	//Yuuta Hibiki
-			],
-			"image": "https://i.postimg.cc/T1TZKkkX/Monthly-2023-July-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/T1TZKkkX/Monthly-2023-July-Easy-Animated.png",
 			"thread": 66364
 		},
 		{	//July 2023 Monthly: Hard Mode
@@ -5144,16 +4309,7 @@
 				127588	//Yuuta Hibiki
 			],
 			"image": "https://i.postimg.cc/zfLKT8LJ/Monthly-2023-July-Hard-Static.png",
-			"thread": 66364
-		},
-		{	//July 2023 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/66364
-			"id": "monthly2023JulHardAnim",
-			"name": "July 2023 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				127588	//Yuuta Hibiki
-			],
-			"image": "https://i.postimg.cc/D0sPKFQv/Monthly-2023-July-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/D0sPKFQv/Monthly-2023-July-Hard-Animated.png",
 			"thread": 66364
 		},
 		{	//August 2023 Monthly: Easy Mode
@@ -5164,16 +4320,7 @@
 				209532	//Bojji
 			],
 			"image": "https://i.postimg.cc/wvGKDYTm/Monthly-2023-August-Easy-Static.png",
-			"thread": 67170
-		},
-		{	//August 2023 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/67170
-			"id": "monthly2023AugEasyAnim",
-			"name": "August 2023 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				209532	//Bojji
-			],
-			"image": "https://i.postimg.cc/wxVv10Nc/Monthly-2023-August-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/wxVv10Nc/Monthly-2023-August-Easy-Animated.png",
 			"thread": 67170
 		},
 		{	//August 2023 Monthly: Hard Mode
@@ -5184,16 +4331,7 @@
 				209532	//Bojji
 			],
 			"image": "https://i.postimg.cc/ZnNTR5FR/Monthly-2023-August-Hard-Static.png",
-			"thread": 67170
-		},
-		{	//August 2023 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/67170
-			"id": "monthly2023AugHardAnim",
-			"name": "August 2023 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				209532	//Bojji
-			],
-			"image": "https://i.postimg.cc/d0gBTG7w/Monthly-2023-August-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/d0gBTG7w/Monthly-2023-August-Hard-Animated.png",
 			"thread": 67170
 		},
 		{	//September 2023 Monthly: Easy Mode
@@ -5204,16 +4342,7 @@
 				133597	//Shuu Itsuki
 			],
 			"image": "https://i.postimg.cc/vBthN1XP/Monthly-2023-September-Easy-Static.png",
-			"thread": 67858
-		},
-		{	//September 2023 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/67858
-			"id": "monthly2023SepEasyAnim",
-			"name": "September 2023 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				133597	//Shuu Itsuki
-			],
-			"image": "https://i.postimg.cc/Zq65BQ8d/Monthly-2023-September-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/Zq65BQ8d/Monthly-2023-September-Easy-Animated.png",
 			"thread": 67858
 		},
 		{	//September 2023 Monthly: Hard Mode
@@ -5224,16 +4353,7 @@
 				133597	//Shuu Itsuki
 			],
 			"image": "https://i.postimg.cc/T19DxgWs/Monthly-2023-September-Hard-Static.png",
-			"thread": 67858
-		},
-		{	//September 2023 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/67858
-			"id": "monthly2023SepHardAnim",
-			"name": "September 2023 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				133597	//Shuu Itsuki
-			],
-			"image": "https://i.postimg.cc/3JbXnkPZ/Monthly-2023-September-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/3JbXnkPZ/Monthly-2023-September-Hard-Animated.png",
 			"thread": 67858
 		},
 		{	//October 2023 Monthly: Easy Mode
@@ -5244,16 +4364,7 @@
 				90204	//Koyori Tsumujikaze
 			],
 			"image": "https://i.postimg.cc/brT1kTnz/Monthly-2023-October-Easy-Static.png",
-			"thread": 68503
-		},
-		{	//October 2023 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/68503
-			"id": "monthly2023OctEasyAnim",
-			"name": "October 2023 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				90204	//Koyori Tsumujikaze
-			],
-			"image": "https://i.postimg.cc/ZnCJxYBC/Monthly-2023-October-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/ZnCJxYBC/Monthly-2023-October-Easy-Animated.png",
 			"thread": 68503
 		},
 		{	//October 2023 Monthly: Hard Mode
@@ -5264,16 +4375,7 @@
 				90204	//Koyori Tsumujikaze
 			],
 			"image": "https://i.postimg.cc/Z506v65S/Monthly-2023-October-Hard-Static.png",
-			"thread": 68503
-		},
-		{	//October 2023 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/68503
-			"id": "monthly2023OctHardAnim",
-			"name": "October 2023 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				90204	//Koyori Tsumujikaze
-			],
-			"image": "https://i.postimg.cc/8z8TLS1z/Monthly-2023-October-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/8z8TLS1z/Monthly-2023-October-Hard-Animated.png",
 			"thread": 68503
 		},
 		{	//November 2023 Monthly: Easy Mode
@@ -5284,16 +4386,7 @@
 				18323	//Shirayuki
 			],
 			"image": "https://i.postimg.cc/BbL56w1D/Monthly-2023-November-Easy-Static.png",
-			"thread": 69255
-		},
-		{	//November 2023 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/69255
-			"id": "monthly2023NovEasyAnim",
-			"name": "November 2023 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				18323	//Shirayuki
-			],
-			"image": "https://i.postimg.cc/4dTgm0dc/Monthly-2023-November-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/4dTgm0dc/Monthly-2023-November-Easy-Animated.png",
 			"thread": 69255
 		},
 		{	//November 2023 Monthly: Hard Mode
@@ -5304,16 +4397,7 @@
 				18323	//Shirayuki
 			],
 			"image": "https://i.postimg.cc/nVgY5Z61/Monthly-2023-November-Hard-Static.png",
-			"thread": 69255
-		},
-		{	//November 2023 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/69255
-			"id": "monthly2023NovHardAnim",
-			"name": "November 2023 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				18323	//Shirayuki
-			],
-			"image": "https://i.postimg.cc/qqJHGC2M/Monthly-2023-November-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/qqJHGC2M/Monthly-2023-November-Hard-Animated.png",
 			"thread": 69255
 		},
 		{	//December 2023 Monthly: Easy Mode
@@ -5324,16 +4408,7 @@
 				122466	//Prushka
 			],
 			"image": "https://i.postimg.cc/kXKN5W0g/Monthly-2023-December-Easy-Static.png",
-			"thread": 69917
-		},
-		{	//December 2023 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/69917
-			"id": "monthly2023DecEasyAnim",
-			"name": "December 2023 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				122466	//Prushka
-			],
-			"image": "https://i.postimg.cc/Qt54rVrB/Monthly-2023-December-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/Qt54rVrB/Monthly-2023-December-Easy-Animated.png",
 			"thread": 69917
 		},
 		{	//December 2023 Monthly: Hard Mode
@@ -5344,16 +4419,7 @@
 				122466	//Prushka
 			],
 			"image": "https://i.postimg.cc/jqNn6tZ8/Monthly-2023-December-Hard-Static.png",
-			"thread": 69917
-		},
-		{	//December 2023 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/69917
-			"id": "monthly2023DecHardAnim",
-			"name": "December 2023 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				122466	//Prushka
-			],
-			"image": "https://i.postimg.cc/W1Cwbj80/Monthly-2023-December-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/W1Cwbj80/Monthly-2023-December-Hard-Animated.png",
 			"thread": 69917
 		},
 			/* 2024 */
@@ -5365,16 +4431,7 @@
 				2285	//Seiya
 			],
 			"image": "https://i.postimg.cc/qMvvBM44/Monthly-2024-January-Easy-Static.png",
-			"thread": 70656
-		},
-		{	//January 2024 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/70656
-			"id": "monthly2024JanEasyAnim",
-			"name": "January 2024 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				2285	//Seiya
-			],
-			"image": "https://i.postimg.cc/gjSdL8md/Monthly-2024-January-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/gjSdL8md/Monthly-2024-January-Easy-Animated.png",
 			"thread": 70656
 		},
 		{	//January 2024 Monthly: Hard Mode
@@ -5385,16 +4442,7 @@
 				2285	//Seiya
 			],
 			"image": "https://i.postimg.cc/d1FJbJ5M/Monthly-2024-January-Hard-Static.png",
-			"thread": 70656
-		},
-		{	//January 2024 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/70656
-			"id": "monthly2024JanHardAnim",
-			"name": "January 2024 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				2285	//Seiya
-			],
-			"image": "https://i.postimg.cc/qMF4ks1x/Monthly-2024-January-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/qMF4ks1x/Monthly-2024-January-Hard-Animated.png",
 			"thread": 70656
 		},
 		{	//February 2024 Monthly: Easy Mode
@@ -5405,16 +4453,7 @@
 				278662	//Kanade
 			],
 			"image": "https://i.postimg.cc/021GZ0bX/Monthly-2024-February-Easy-Static.png",
-			"thread": 71404
-		},
-		{	//February 2024 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/71404
-			"id": "monthly2024FebEasyAnim",
-			"name": "February 2024 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				278662	//Kanade
-			],
-			"image": "https://i.postimg.cc/j2H7BBLg/Monthly-2024-February-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/j2H7BBLg/Monthly-2024-February-Easy-Animated.png",
 			"thread": 71404
 		},
 		{	//February 2024 Monthly: Hard Mode
@@ -5425,16 +4464,7 @@
 				278662	//Kanade
 			],
 			"image": "https://i.postimg.cc/W4ygZMBn/Monthly-2024-February-Hard-Static.png",
-			"thread": 71404
-		},
-		{	//February 2024 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/71404
-			"id": "monthly2024FebHardAnim",
-			"name": "February 2024 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				278662	//Kanade
-			],
-			"image": "https://i.postimg.cc/xCrqYtrW/Monthly-2024-February-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/xCrqYtrW/Monthly-2024-February-Hard-Animated.png",
 			"thread": 71404
 		},
 		{	//March 2024 Monthly: Easy Mode
@@ -5445,16 +4475,7 @@
 				280138	//Nagomi Wahira
 			],
 			"image": "https://i.postimg.cc/FsGzJQm0/Monthly-2024-March-Easy-Static.png",
-			"thread": 72023
-		},
-		{	//March 2024 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/72023
-			"id": "monthly2024MarEasyAnim",
-			"name": "March 2024 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				280138	//Nagomi Wahira
-			],
-			"image": "https://i.postimg.cc/X7pCkJJn/Monthly-2024-March-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/X7pCkJJn/Monthly-2024-March-Easy-Animated.png",
 			"thread": 72023
 		},
 		{	//March 2024 Monthly: Hard Mode
@@ -5465,16 +4486,7 @@
 				280138	//Nagomi Wahira
 			],
 			"image": "https://i.postimg.cc/SKYx529G/Monthly-2024-March-Hard-Static.png",
-			"thread": 72023
-		},
-		{	//March 2024 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/72023
-			"id": "monthly2024MarHardAnim",
-			"name": "March 2024 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				280138	//Nagomi Wahira
-			],
-			"image": "https://i.postimg.cc/q7d6rxG7/Monthly-2024-March-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/q7d6rxG7/Monthly-2024-March-Hard-Animated.png",
 			"thread": 72023
 		},
 		{	//April 2024 Monthly: Easy Mode
@@ -5485,16 +4497,7 @@
 				46213	//Marika Katou
 			],
 			"image": "https://i.postimg.cc/Gt3GnQK6/Monthly-2024-April-Easy-Static.png",
-			"thread": 72731
-		},
-		{	//April 2024 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/72731
-			"id": "monthly2024AprEasyAnim",
-			"name": "April 2024 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				46213	//Marika Katou
-			],
-			"image": "https://i.postimg.cc/tgY9wVFD/Monthly-2024-April-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/tgY9wVFD/Monthly-2024-April-Easy-Animated.png",
 			"thread": 72731
 		},
 		{	//April 2024 Monthly: Hard Mode
@@ -5505,16 +4508,7 @@
 				46213	//Marika Katou
 			],
 			"image": "https://i.postimg.cc/5N6Q5jR5/Monthly-2024-April-Hard-Static.png",
-			"thread": 72731
-		},
-		{	//April 2024 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/72731
-			"id": "monthly2024AprHardAnim",
-			"name": "April 2024 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				46213	//Marika Katou
-			],
-			"image": "https://i.postimg.cc/SKzwcL60/Monthly-2024-April-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/SKzwcL60/Monthly-2024-April-Hard-Animated.png",
 			"thread": 72731
 		},
 		{	//May 2024 Monthly: Easy Mode
@@ -5525,16 +4519,7 @@
 				155712	//Ushio Kofune
 			],
 			"image": "https://i.postimg.cc/TwTrcK99/Monthly-2024-May-Easy-Static.png",
-			"thread": 73586
-		},
-		{	//May 2024 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/73586
-			"id": "monthly2024MayEasyAnim",
-			"name": "May 2024 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				155712	//Ushio Kofune
-			],
-			"image": "https://i.postimg.cc/0jBDxcqW/Monthly-2024-May-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/0jBDxcqW/Monthly-2024-May-Easy-Animated.png",
 			"thread": 73586
 		},
 		{	//May 2024 Monthly: Hard Mode
@@ -5545,16 +4530,7 @@
 				155712	//Ushio Kofune
 			],
 			"image": "https://i.postimg.cc/hvjTHNNQ/Monthly-2024-May-Hard-Static.png",
-			"thread": 73586
-		},
-		{	//May 2024 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/73586
-			"id": "monthly2024MayHardAnim",
-			"name": "May 2024 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				155712	//Ushio Kofune
-			],
-			"image": "https://i.postimg.cc/dtgrxH6D/Monthly-2024-May-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/dtgrxH6D/Monthly-2024-May-Hard-Animated.png",
 			"thread": 73586
 		},
 		{	//June 2024 Monthly: Easy Mode
@@ -5565,16 +4541,7 @@
 				71343	//Ranko Kanzaki
 			],
 			"image": "https://i.postimg.cc/FKnYxWss/Monthly-2024-June-Easy-Static.png",
-			"thread": 74284
-		},
-		{	//June 2024 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/74284
-			"id": "monthly2024JunEasyAnim",
-			"name": "June 2024 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				71343	//Ranko Kanzaki
-			],
-			"image": "https://i.postimg.cc/d3RQg4vC/Monthly-2024-June-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/d3RQg4vC/Monthly-2024-June-Easy-Animated.png",
 			"thread": 74284
 		},
 		{	//June 2024 Monthly: Hard Mode
@@ -5585,16 +4552,7 @@
 				71343	//Ranko Kanzaki
 			],
 			"image": "https://i.postimg.cc/FRd7Cy7b/Monthly-2024-June-Hard-Static.png",
-			"thread": 74284
-		},
-		{	//June 2024 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/74284
-			"id": "monthly2024JunHardAnim",
-			"name": "June 2024 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				71343	//Ranko Kanzaki
-			],
-			"image": "https://i.postimg.cc/fTZRYnjf/Monthly-2024-June-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/fTZRYnjf/Monthly-2024-June-Hard-Animated.png",
 			"thread": 74284
 		},
 		{	//July 2024 Monthly: Easy Mode
@@ -5605,16 +4563,7 @@
 				70739	//Chiho Sasaki
 			],
 			"image": "https://i.postimg.cc/GmdXkMRg/Monthly-2024-July-Easy-Static.png",
-			"thread": 75035
-		},
-		{	//July 2024 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/75035
-			"id": "monthly2024JulEasyAnim",
-			"name": "July 2024 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				70739	//Chiho Sasaki
-			],
-			"image": "https://i.postimg.cc/JhYn34y6/Monthly-2024-July-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/JhYn34y6/Monthly-2024-July-Easy-Animated.png",
 			"thread": 75035
 		},
 		{	//July 2024 Monthly: Hard Mode
@@ -5625,16 +4574,7 @@
 				70739	//Chiho Sasaki
 			],
 			"image": "https://i.postimg.cc/901rsF47/Monthly-2024-July-Hard-Static.png",
-			"thread": 75035
-		},
-		{	//July 2024 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/75035
-			"id": "monthly2024JulHardAnim",
-			"name": "July 2024 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				70739	//Chiho Sasaki
-			],
-			"image": "https://i.postimg.cc/C5kxVGcX/Monthly-2024-July-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/C5kxVGcX/Monthly-2024-July-Hard-Animated.png",
 			"thread": 75035
 		},
 		{	//August 2024 Monthly: Easy Mode
@@ -5645,16 +4585,7 @@
 				121776	//Rizu Ogata
 			],
 			"image": "https://i.postimg.cc/Y9bYWDVz/Monthly-2024-August-Easy-Static.png",
-			"thread": 75814
-		},
-		{	//August 2024 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/75814
-			"id": "monthly2024AugEasyAnim",
-			"name": "August 2024 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				121776	//Rizu Ogata
-			],
-			"image": "https://i.postimg.cc/zXLKyjkT/Monthly-2024-August-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/zXLKyjkT/Monthly-2024-August-Easy-Animated.png",
 			"thread": 75814
 		},
 		{	//August 2024 Monthly: Hard Mode
@@ -5665,16 +4596,7 @@
 				121776	//Rizu Ogata
 			],
 			"image": "https://i.postimg.cc/jq3yq9ys/Monthly-2024-August-Hard-Static.png",
-			"thread": 75814
-		},
-		{	//August 2024 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/75814
-			"id": "monthly2024AugHardAnim",
-			"name": "August 2024 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				121776	//Rizu Ogata
-			],
-			"image": "https://i.postimg.cc/Gt48sLvb/Monthly-2024-August-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/Gt48sLvb/Monthly-2024-August-Hard-Animated.png",
 			"thread": 75814
 		},
 		{	//September 2024 Monthly: Easy Mode
@@ -5685,16 +4607,7 @@
 				2388	//Hayato Kazami
 			],
 			"image": "https://i.postimg.cc/9Qjtpxpz/Monthly-2024-September-Easy-Static.png",
-			"thread": 76502
-		},
-		{	//September 2024 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/76502
-			"id": "monthly2024SepEasyAnim",
-			"name": "September 2024 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				2388	//Hayato Kazami
-			],
-			"image": "https://i.postimg.cc/KvTCjHjY/Monthly-2024-September-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/KvTCjHjY/Monthly-2024-September-Easy-Animated.png",
 			"thread": 76502
 		},
 		{	//September 2024 Monthly: Hard Mode
@@ -5705,16 +4618,7 @@
 				2388	//Hayato Kazami
 			],
 			"image": "https://i.postimg.cc/yd50Snx1/Monthly-2024-September-Hard-Static.png",
-			"thread": 76502
-		},
-		{	//September 2024 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/76502
-			"id": "monthly2024SepHardAnim",
-			"name": "September 2024 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				2388	//Hayato Kazami
-			],
-			"image": "https://i.postimg.cc/1z7vJGXT/Monthly-2024-September-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/1z7vJGXT/Monthly-2024-September-Hard-Animated.png",
 			"thread": 76502
 		},
 		{	//October 2024 Monthly: Easy Mode
@@ -5725,16 +4629,7 @@
 				4963	//Yuno Gasai
 			],
 			"image": "https://i.postimg.cc/0Q5WhhWM/Monthly-2024-October-Easy-Static.png",
-			"thread": 77142
-		},
-		{	//October 2024 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/77142
-			"id": "monthly2024OctEasyAnim",
-			"name": "October 2024 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				4963	//Yuno Gasai
-			],
-			"image": "https://i.postimg.cc/3J0SMXBB/Monthly-2024-October-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/3J0SMXBB/Monthly-2024-October-Easy-Animated.png",
 			"thread": 77142
 		},
 		{	//October 2024 Monthly: Hard Mode
@@ -5745,16 +4640,7 @@
 				4963	//Yuno Gasai
 			],
 			"image": "https://i.postimg.cc/hv62zvST/Monthly-2024-October-Hard-Static.png",
-			"thread": 77142
-		},
-		{	//October 2024 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/77142
-			"id": "monthly2024OctHardAnim",
-			"name": "October 2024 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				4963	//Yuno Gasai
-			],
-			"image": "https://i.postimg.cc/nh8dnXSt/Monthly-2024-October-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/nh8dnXSt/Monthly-2024-October-Hard-Animated.png",
 			"thread": 77142
 		},
 		{	//November 2024 Monthly: Easy Mode
@@ -5765,16 +4651,7 @@
 				89224	//Toshinori Yagi
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/11/xo7/Monthly-2024-November-Easy-Static.png",
-			"thread": 77837
-		},
-		{	//November 2024 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/77837
-			"id": "monthly2024NovEasyAnim",
-			"name": "November 2024 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				89224	//Toshinori Yagi
-			],
-			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/11/xo7/Monthly-2024-November-Easy-Animated.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/11/xo7/Monthly-2024-November-Easy-Animated.png",
 			"thread": 77837
 		},
 		{	//November 2024 Monthly: Hard Mode
@@ -5785,16 +4662,7 @@
 				89224	//Toshinori Yagi
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/11/xo7/Monthly-2024-November-Hard-Static.png",
-			"thread": 77837
-		},
-		{	//November 2024 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/77837
-			"id": "monthly2024NovHardAnim",
-			"name": "November 2024 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				89224	//Toshinori Yagi
-			],
-			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/11/xo7/Monthly-2024-November-Hard-Animated.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/11/xo7/Monthly-2024-November-Hard-Animated.png",
 			"thread": 77837
 		},
 		{	//December 2024 Monthly: Easy Mode
@@ -5805,16 +4673,7 @@
 				126669	//Karen Aijou
 			],
 			"image": "https://i.postimg.cc/ZK8FmVGJ/Monthly-2024-December-Easy-Static.png",
-			"thread": 78480
-		},
-		{	//December 2024 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/78480
-			"id": "monthly2024DecEasyAnim",
-			"name": "December 2024 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				126669	//Karen Aijou
-			],
-			"image": "https://i.postimg.cc/cH3tmJZd/Monthly-2024-December-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/cH3tmJZd/Monthly-2024-December-Easy-Animated.png",
 			"thread": 78480
 		},
 		{	//December 2024 Monthly: Hard Mode
@@ -5825,16 +4684,7 @@
 				126669	//Karen Aijou
 			],
 			"image": "https://i.postimg.cc/TPwrrGpP/Monthly-2024-December-Hard-Static.png",
-			"thread": 78480
-		},
-		{	//December 2024 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/78480
-			"id": "monthly2024DecHardAnim",
-			"name": "December 2024 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				126669	//Karen Aijou
-			],
-			"image": "https://i.postimg.cc/Dfqb4mBg/Monthly-2024-December-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/Dfqb4mBg/Monthly-2024-December-Hard-Animated.png",
 			"thread": 78480
 		},
 			/* 2025 */
@@ -5846,16 +4696,7 @@
 				36074	//Erio Touwa
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/01/zRt/Monthly-2025-January-Easy-Static.png",
-			"thread": 79059
-		},
-		{	//January 2025 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/79059
-			"id": "monthly2025JanEasyAnim",
-			"name": "January 2025 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				36074	//Erio Touwa
-			],
-			"image": "https://i.postimg.cc/Zntgb5Gw/Monthly-2025-January-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/Zntgb5Gw/Monthly-2025-January-Easy-Animated.png",
 			"thread": 79059
 		},
 		{	//January 2025 Monthly: Hard Mode
@@ -5866,16 +4707,7 @@
 				36074	//Erio Touwa
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/01/zRt/Monthly-2025-January-Hard-Static.png",
-			"thread": 79059
-		},
-		{	//January 2025 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/79059
-			"id": "monthly2025JanHardAnim",
-			"name": "January 2025 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				36074	//Erio Touwa
-			],
-			"image": "https://i.postimg.cc/FHs6sq6X/Monthly-2025-January-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/FHs6sq6X/Monthly-2025-January-Hard-Animated.png",
 			"thread": 79059
 		},
 		{	//February 2025 Monthly: Easy Mode
@@ -5886,16 +4718,7 @@
 				88161	//Hime Arikawa
 			],
 			"image": "https://i.postimg.cc/mDBBwGKL/Monthly-2025-February-Easy-Static.png",
-			"thread": 79762
-		},
-		{	//February 2025 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/79762
-			"id": "monthly2025FebEasyAnim",
-			"name": "February 2025 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				88161	//Hime Arikawa
-			],
-			"image": "https://i.postimg.cc/XYdRDzfp/Monthly-2025-February-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/XYdRDzfp/Monthly-2025-February-Easy-Animated.png",
 			"thread": 79762
 		},
 		{	//February 2025 Monthly: Hard Mode
@@ -5906,16 +4729,7 @@
 				88161	//Hime Arikawa
 			],
 			"image": "https://i.postimg.cc/q7Xdg5q9/Monthly-2025-February-Hard-Static.png",
-			"thread": 79762
-		},
-		{	//February 2025 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/79762
-			"id": "monthly2025FebHardAnim",
-			"name": "February 2025 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				88161	//Hime Arikawa
-			],
-			"image": "https://i.postimg.cc/fRnFXfGZ/Monthly-2025-February-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/fRnFXfGZ/Monthly-2025-February-Hard-Animated.png",
 			"thread": 79762
 		},
 		{	//March 2025 Monthly: Easy Mode
@@ -5926,16 +4740,7 @@
 				208523	//Riho Tsukishima
 			],
 			"image": "https://i.postimg.cc/j5ppC1zD/Monthly-2025-March-Easy-Static.png",
-			"thread": 80300
-		},
-		{	//March 2025 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/80300
-			"id": "monthly2025MarEasyAnim",
-			"name": "March 2025 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				208523	//Riho Tsukishima
-			],
-			"image": "https://i.postimg.cc/bwFDW0x6/Monthly-2025-March-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/bwFDW0x6/Monthly-2025-March-Easy-Animated.png",
 			"thread": 80300
 		},
 		{	//March 2025 Monthly: Hard Mode
@@ -5946,16 +4751,7 @@
 				208523	//Riho Tsukishima
 			],
 			"image": "https://i.postimg.cc/fTn3hT0N/Monthly-2025-March-Hard-Static.png",
-			"thread": 80300
-		},
-		{	//March 2025 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/80300
-			"id": "monthly2025MarHardAnim",
-			"name": "March 2025 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				208523	//Riho Tsukishima
-			],
-			"image": "https://i.postimg.cc/MGmkX595/Monthly-2025-March-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/MGmkX595/Monthly-2025-March-Hard-Animated.png",
 			"thread": 80300
 		},
 		{	//April 2025 Monthly: Easy Mode
@@ -5966,16 +4762,7 @@
 				172687	//Cleopatra
 			],
 			"image": "https://i.postimg.cc/c4bbz05R/Monthly-2025-April-Easy-Static.png",
-			"thread": 81035
-		},
-		{	//April 2025 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/81035
-			"id": "monthly2025AprEasyAnim",
-			"name": "April 2025 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				172687	//Cleopatra
-			],
-			"image": "https://i.postimg.cc/W4L8g3h4/Monthly-2025-April-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/W4L8g3h4/Monthly-2025-April-Easy-Animated.png",
 			"thread": 81035
 		},
 		{	//April 2025 Monthly: Hard Mode
@@ -5986,16 +4773,7 @@
 				172687	//Cleopatra
 			],
 			"image": "https://i.postimg.cc/9XR2Fg5Y/Monthly-2025-April-Hard-Static.png",
-			"thread": 81035
-		},
-		{	//April 2025 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/81035
-			"id": "monthly2025AprHardAnim",
-			"name": "April 2025 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				172687	//Cleopatra
-			],
-			"image": "https://i.postimg.cc/WbdBTXCc/Monthly-2025-April-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/WbdBTXCc/Monthly-2025-April-Hard-Animated.png",
 			"thread": 81035
 		},
 		{	//May 2025 Monthly: Easy Mode
@@ -6006,16 +4784,7 @@
 				148740	//Reze
 			],
 			"image": "https://i.postimg.cc/cJdsY6D1/Monthly-2025-May-Easy-Static.png",
-			"thread": 81742
-		},
-		{	//May 2025 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/81742
-			"id": "monthly2025MayEasyAnim",
-			"name": "May 2025 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				148740	//Reze
-			],
-			"image": "https://i.postimg.cc/7YvbhPyh/Monthly-2025-May-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/7YvbhPyh/Monthly-2025-May-Easy-Animated.png",
 			"thread": 81742
 		},
 		{	//May 2025 Monthly: Hard Mode
@@ -6026,16 +4795,7 @@
 				148740	//Reze
 			],
 			"image": "https://i.postimg.cc/G90Rpp8C/Monthly-2025-May-Hard-Static.png",
-			"thread": 81742
-		},
-		{	//May 2025 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/81742
-			"id": "monthly2025MayHardAnim",
-			"name": "May 2025 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				148740	//Reze
-			],
-			"image": "https://i.postimg.cc/g2s0gvLL/Monthly-2025-May-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/g2s0gvLL/Monthly-2025-May-Hard-Animated.png",
 			"thread": 81742
 		},
 		{	//June 2025 Monthly: Easy Mode
@@ -6046,16 +4806,7 @@
 				182718	//Kyouko Yamate
 			],
 			"image": "https://i.postimg.cc/vmNVVDyk/Monthly-2025-June-Easy-Static.png",
-			"thread": 82370
-		},
-		{	//June 2025 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/82370
-			"id": "monthly2025JunEasyAnim",
-			"name": "June 2025 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				182718	//Kyouko Yamate
-			],
-			"image": "https://i.postimg.cc/SNhz8B0S/Monthly-2025-June-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/SNhz8B0S/Monthly-2025-June-Easy-Animated.png",
 			"thread": 82370
 		},
 		{	//June 2025 Monthly: Hard Mode
@@ -6066,16 +4817,7 @@
 				182718	//Kyouko Yamate
 			],
 			"image": "https://i.postimg.cc/5ycQsG6m/Monthly-2025-June-Hard-Static.png",
-			"thread": 82370
-		},
-		{	//June 2025 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/82370
-			"id": "monthly2025JunHardAnim",
-			"name": "June 2025 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				182718	//Kyouko Yamate
-			],
-			"image": "https://i.postimg.cc/k4SBRcfR/Monthly-2025-June-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/k4SBRcfR/Monthly-2025-June-Hard-Animated.png",
 			"thread": 82370
 		},
 		{	//July 2025 Monthly: Easy Mode
@@ -6086,16 +4828,7 @@
 				89590	//Vanitas
 			],
 			"image": "https://i.postimg.cc/qqS7Fnwb/Monthly-2025-July-Easy-Static.png",
-			"thread": 83011
-		},
-		{	//July 2025 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/83011
-			"id": "monthly2025JulEasyAnim",
-			"name": "July 2025 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				89590	//Vanitas
-			],
-			"image": "https://i.postimg.cc/KYGmJJFc/Monthly-2025-July-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/KYGmJJFc/Monthly-2025-July-Easy-Animated.png",
 			"thread": 83011
 		},
 		{	//July 2025 Monthly: Hard Mode
@@ -6106,16 +4839,7 @@
 				89590	//Vanitas
 			],
 			"image": "https://i.postimg.cc/FF8sNybG/Monthly-2025-July-Hard-Static.png",
-			"thread": 83011
-		},
-		{	//July 2025 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/83011
-			"id": "monthly2025JulHardAnim",
-			"name": "July 2025 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				89590	//Vanitas
-			],
-			"image": "https://i.postimg.cc/NfvFR8yF/Monthly-2025-July-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/NfvFR8yF/Monthly-2025-July-Hard-Animated.png",
 			"thread": 83011
 		},
 		{	//August 2025 Monthly: Easy Mode
@@ -6126,16 +4850,7 @@
 				197173	//Akito Yamada
 			],
 			"image": "https://i.postimg.cc/52V4wkdz/Monthly-2025-August-Easy-Static.png",
-			"thread": 83706
-		},
-		{	//August 2025 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/83706
-			"id": "monthly2025AugEasyAnim",
-			"name": "August 2025 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				197173	//Akito Yamada
-			],
-			"image": "https://i.postimg.cc/yxRKR0Ln/Monthly-2025-August-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/yxRKR0Ln/Monthly-2025-August-Easy-Animated.png",
 			"thread": 83706
 		},
 		{	//August 2025 Monthly: Hard Mode
@@ -6146,16 +4861,7 @@
 				197173	//Akito Yamada
 			],
 			"image": "https://i.postimg.cc/jj8RYxW6/Monthly-2025-August-Hard-Static.png",
-			"thread": 83706
-		},
-		{	//August 2025 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/83706
-			"id": "monthly2025AugHardAnim",
-			"name": "August 2025 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				197173	//Akito Yamada
-			],
-			"image": "https://i.postimg.cc/X7M4bDvP/Monthly-2025-August-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/X7M4bDvP/Monthly-2025-August-Hard-Animated.png",
 			"thread": 83706
 		},
 		{	//September 2025 Monthly: Easy Mode
@@ -6166,16 +4872,7 @@
 				329074	//Live
 			],
 			"image": "https://i.postimg.cc/XNhL6mG7/Monthly-2025-September-Easy-Static.png",
-			"thread": 84423
-		},
-		{	//September 2025 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/84423
-			"id": "monthly2025SepEasyAnim",
-			"name": "September 2025 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				329074	//Live
-			],
-			"image": "https://i.postimg.cc/xTM4xnxS/Monthly-2025-September-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/xTM4xnxS/Monthly-2025-September-Easy-Animated.png",
 			"thread": 84423
 		},
 		{	//September 2025 Monthly: Hard Mode
@@ -6186,16 +4883,7 @@
 				329074	//Live
 			],
 			"image": "https://i.postimg.cc/QVGcKL1Q/Monthly-2025-September-Hard-Static.png",
-			"thread": 84423
-		},
-		{	//September 2025 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/84423
-			"id": "monthly2025SepHardAnim",
-			"name": "September 2025 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				329074	//Live
-			],
-			"image": "https://i.postimg.cc/J0wQZBWH/Monthly-2025-September-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/J0wQZBWH/Monthly-2025-September-Hard-Animated.png",
 			"thread": 84423
 		},
 		{	//October 2025 Monthly: Easy Mode
@@ -6206,16 +4894,7 @@
 				128651	//Hanako
 			],
 			"image": "https://i.postimg.cc/kgZdsJr5/Monthly-2025-October-Easy-Static.png",
-			"thread": 85084
-		},
-		{	//October 2025 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/85084
-			"id": "monthly2025OctEasyAnim",
-			"name": "October 2025 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				128651	//Hanako
-			],
-			"image": "https://i.postimg.cc/tR5Qft0z/Monthly-2025-October-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/tR5Qft0z/Monthly-2025-October-Easy-Animated.png",
 			"thread": 85084
 		},
 		{	//October 2025 Monthly: Hard Mode
@@ -6226,16 +4905,7 @@
 				128651	//Hanako
 			],
 			"image": "https://i.postimg.cc/G2nn0Xmd/Monthly-2025-October-Hard-Static.png",
-			"thread": 85084
-		},
-		{	//October 2025 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/85084
-			"id": "monthly2025OctHardAnim",
-			"name": "October 2025 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				128651	//Hanako
-			],
-			"image": "https://i.postimg.cc/wj1C7C1W/Monthly-2025-October-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/wj1C7C1W/Monthly-2025-October-Hard-Animated.png",
 			"thread": 85084
 		},
 		{	//November 2025 Monthly: Easy Mode
@@ -6247,17 +4917,7 @@
 				19439	//Kiyoko
 			],
 			"image": "https://i.postimg.cc/tC92Zd92/Monthly-2025-November-Easy-Static.png",
-			"thread": 85674
-		},
-		{	//November 2025 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/85674
-			"id": "monthly2025NovEasyAnim",
-			"name": "November 2025 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				1078,	//Miyuki
-				19439	//Kiyoko
-			],
-			"image": "https://i.postimg.cc/VkpqRXcC/Monthly-2025-November-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/VkpqRXcC/Monthly-2025-November-Easy-Animated.png",
 			"thread": 85674
 		},
 		{	//November 2025 Monthly: Hard Mode
@@ -6269,17 +4929,7 @@
 				19439	//Kiyoko
 			],
 			"image": "https://i.postimg.cc/QtpJVCwj/Monthly-2025-November-Hard-Static.png",
-			"thread": 85674
-		},
-		{	//November 2025 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/85674
-			"id": "monthly2025NovHardAnim",
-			"name": "November 2025 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				1078,	//Miyuki
-				19439	//Kiyoko
-			],
-			"image": "https://i.postimg.cc/qvhnzgCf/Monthly-2025-November-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/qvhnzgCf/Monthly-2025-November-Hard-Animated.png",
 			"thread": 85674
 		},
 		{	//December 2025 Monthly: Easy Mode
@@ -6290,16 +4940,7 @@
 				36309	//Personal Shopper
 			],
 			"image": "https://i.postimg.cc/zDjHvx2X/Monthly-2025-December-Easy-Static.png",
-			"thread": 86237
-		},
-		{	//December 2025 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/86237
-			"id": "monthly2025DecEasyAnim",
-			"name": "December 2025 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				36309	//Personal Shopper
-			],
-			"image": "https://i.postimg.cc/8c5pjmsk/Monthly-2025-December-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/8c5pjmsk/Monthly-2025-December-Easy-Animated.png",
 			"thread": 86237
 		},
 		{	//December 2025 Monthly: Hard Mode
@@ -6310,16 +4951,7 @@
 				36309	//Personal Shopper
 			],
 			"image": "https://i.postimg.cc/4dGnNcz9/Monthly-2025-December-Hard-Static.png",
-			"thread": 86237
-		},
-		{	//December 2025 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/86237
-			"id": "monthly2025DecHardAnim",
-			"name": "December 2025 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				36309	//Personal Shopper
-			],
-			"image": "https://i.postimg.cc/q7wHy6PC/Monthly-2025-December-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/q7wHy6PC/Monthly-2025-December-Hard-Animated.png",
 			"thread": 86237
 		},
 			/* 2026 */
@@ -6331,16 +4963,7 @@
 				183024	//Himeno Toyokawa
 			],
 			"image": "https://i.postimg.cc/g2wLk0nh/Monthly-2026-January-Easy-Static.png",
-			"thread": 86816
-		},
-		{	//January 2026 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/86816
-			"id": "monthly2026JanEasyAnim",
-			"name": "January 2026 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				183024	//Himeno Toyokawa
-			],
-			"image": "https://i.postimg.cc/Xq7pMjTt/Monthly-2026-January-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/Xq7pMjTt/Monthly-2026-January-Easy-Animated.png",
 			"thread": 86816
 		},
 		{	//January 2026 Monthly: Hard Mode
@@ -6351,16 +4974,7 @@
 				183024	//Himeno Toyokawa
 			],
 			"image": "https://i.postimg.cc/2SPbqfWN/Monthly-2026-January-Hard-Static.png",
-			"thread": 86816
-		},
-		{	//January 2026 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/86816
-			"id": "monthly2026JanHardAnim",
-			"name": "January 2026 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				183024	//Himeno Toyokawa
-			],
-			"image": "https://i.postimg.cc/Y2bv6FFh/Monthly-2026-January-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/Y2bv6FFh/Monthly-2026-January-Hard-Animated.png",
 			"thread": 86816
 		},
 		{	//February 2026 Monthly: Easy Mode
@@ -6371,16 +4985,7 @@
 				285560	//Anzu Hoshino
 			],
 			"image": "https://i.postimg.cc/15v6nxzX/Monthly-2026-February-Easy-Static.png",
-			"thread": 87467
-		},
-		{	//February 2026 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/87467
-			"id": "monthly2026FebEasyAnim",
-			"name": "February 2026 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				285560	//Anzu Hoshino
-			],
-			"image": "https://i.postimg.cc/Y9NLtZVH/Monthly-2026-February-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/Y9NLtZVH/Monthly-2026-February-Easy-Animated.png",
 			"thread": 87467
 		},
 		{	//February 2026 Monthly: Hard Mode
@@ -6391,16 +4996,7 @@
 				285560	//Anzu Hoshino
 			],
 			"image": "https://i.postimg.cc/Gpys5Hxr/Monthly-2026-February-Hard-Static.png",
-			"thread": 87467
-		},
-		{	//February 2026 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/87467
-			"id": "monthly2026FebHardAnim",
-			"name": "February 2026 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				285560	//Anzu Hoshino
-			],
-			"image": "https://i.postimg.cc/1RHV2xwJ/Monthly-2026-February-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/1RHV2xwJ/Monthly-2026-February-Hard-Animated.png",
 			"thread": 87467
 		},
 		{	//March 2026 Monthly: Easy Mode
@@ -6411,16 +5007,7 @@
 				203922	//Machi Kugui
 			],
 			"image": "https://i.postimg.cc/LX8xd68x/Monthly-2026-March-Easy-Static.png",
-			"thread": 88014
-		},
-		{	//March 2026 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/88014
-			"id": "monthly2026MarEasyAnim",
-			"name": "March 2026 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				203922	//Machi Kugui
-			],
-			"image": "https://i.postimg.cc/4xRwf13f/Monthly-2026-March-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/4xRwf13f/Monthly-2026-March-Easy-Animated.png",
 			"thread": 88014
 		},
 		{	//March 2026 Monthly: Hard Mode
@@ -6431,16 +5018,7 @@
 				203922	//Machi Kugui
 			],
 			"image": "https://i.postimg.cc/MZ4d4w27/Monthly-2026-March-Hard-Static.png",
-			"thread": 88014
-		},
-		{	//March 2026 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/88014
-			"id": "monthly2026MarHardAnim",
-			"name": "March 2026 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				203922	//Machi Kugui
-			],
-			"image": "https://i.postimg.cc/6QYhhJfG/Monthly-2026-March-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/6QYhhJfG/Monthly-2026-March-Hard-Animated.png",
 			"thread": 88014
 		},
 		{	//April 2026 Monthly: Easy Mode
@@ -6451,16 +5029,7 @@
 				207175	//Yuki
 			],
 			"image": "https://i.postimg.cc/Fsm57JCK/Monthly-2026-April-Easy-Static.png",
-			"thread": 88791
-		},
-		{	//April 2026 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/88791
-			"id": "monthly2026AprEasyAnim",
-			"name": "April 2026 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				207175	//Yuki
-			],
-			"image": "https://i.postimg.cc/3NFqgnf7/Monthly-2026-April-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/3NFqgnf7/Monthly-2026-April-Easy-Animated.png",
 			"thread": 88791
 		},
 		{	//April 2026 Monthly: Hard Mode
@@ -6471,16 +5040,7 @@
 				207175	//Yuki
 			],
 			"image": "https://i.postimg.cc/jSdphYb5/Monthly-2026-April-Hard-Static.png",
-			"thread": 88791
-		},
-		{	//April 2026 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/88791
-			"id": "monthly2026AprHardAnim",
-			"name": "April 2026 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				207175	//Yuki
-			],
-			"image": "https://i.postimg.cc/yY7tVCWv/Monthly-2026-April-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/yY7tVCWv/Monthly-2026-April-Hard-Animated.png",
 			"thread": 88791
 		},
 		{	//May 2026 Monthly: Easy Mode
@@ -6491,16 +5051,7 @@
 				88520	//Ushio Hinomaru
 			],
 			"image": "https://i.postimg.cc/zBYZgP7r/Monthly-2026-May-Easy-Static.png",
-			"thread": 89523
-		},
-		{	//May 2026 Monthly: Easy Mode (Animated)
-			//https://anilist.co/forum/thread/89523
-			"id": "monthly2026MayEasyAnim",
-			"name": "May 2026 Monthly Challenge: Easy Mode (Animated)",
-			"characters": [
-				88520	//Ushio Hinomaru
-			],
-			"image": "https://i.postimg.cc/cJQkV1RD/Monthly-2026-May-Easy-Animated.png",
+			"animated": "https://i.postimg.cc/cJQkV1RD/Monthly-2026-May-Easy-Animated.png",
 			"thread": 89523
 		},
 		{	//May 2026 Monthly: Hard Mode
@@ -6511,16 +5062,7 @@
 				88520	//Ushio Hinomaru
 			],
 			"image": "https://i.postimg.cc/Y28ZrS5B/Monthly-2026-May-Hard-Static.png",
-			"thread": 89523
-		},
-		{	//May 2026 Monthly: Hard Mode (Animated)
-			//https://anilist.co/forum/thread/89523
-			"id": "monthly2026MayHardAnim",
-			"name": "May 2026 Monthly Challenge: Hard Mode (Animated)",
-			"characters": [
-				88520	//Ushio Hinomaru
-			],
-			"image": "https://i.postimg.cc/9Xxg3n9j/Monthly-2026-May-Hard-Animated.png",
+			"animated": "https://i.postimg.cc/9Xxg3n9j/Monthly-2026-May-Hard-Animated.png",
 			"thread": 89523
 		},
 		/* ANIME PUZZLE BADGES */
@@ -6673,7 +5215,8 @@
 			"characters": [
 				14864	//Hyakkimaru
 			],
-			"image": "https://i.postimg.cc/xCG4NQSQ/Seasonal-2019-Winter.gif",
+			"image": "https://i.postimg.cc/T34MTTTH/Seasonal-2019-Winter.png",
+			"animated": "https://i.postimg.cc/xCG4NQSQ/Seasonal-2019-Winter.gif",
 			"thread": 6207
 		},
 		{	//Spring 2019 Seasonal
@@ -6683,7 +5226,8 @@
 			"characters": [
 				126071	//Tanjirou Kamado
 			],
-			"image": "https://i.postimg.cc/XqQ1xgJD/Seasonal-2019-Spring.gif",
+			"image": "https://i.postimg.cc/Vk5pG2X9/Seasonal-2019-Spring.png",
+			"animated": "https://i.postimg.cc/XqQ1xgJD/Seasonal-2019-Spring.gif",
 			"thread": 6991
 		},
 		{	//Summer 2019 Seasonal
@@ -6693,7 +5237,8 @@
 			"characters": [
 				10138	//Thorfinn Karlsefni
 			],
-			"image": "https://i.postimg.cc/Y23Ppt3f/Seasonal-2019-Summer.gif",
+			"image": "https://i.postimg.cc/439MZtLm/Seasonal-2019-Summer.png",
+			"animated": "https://i.postimg.cc/Y23Ppt3f/Seasonal-2019-Summer.gif",
 			"thread": 8191
 		},
 		{	//Fall 2019 Seasonal
@@ -6703,7 +5248,8 @@
 			"characters": [
 				125168	//Legoshi
 			],
-			"image": "https://i.postimg.cc/MKpFHg3k/Seasonal-2019-Fall.gif",
+			"image": "https://i.postimg.cc/LXFWsXwv/Seasonal-2019-Fall.png",
+			"animated": "https://i.postimg.cc/MKpFHg3k/Seasonal-2019-Fall.gif",
 			"thread": 9459
 		},
 			/* 2020 */
@@ -6714,7 +5260,8 @@
 			"characters": [
 				149676	//Midori Asakusa
 			],
-			"image": "https://i.postimg.cc/WbqyLC9s/Seasonal-2020-Winter.gif",
+			"image": "https://i.postimg.cc/N0qD6nDj/Seasonal-2020-Winter.png",
+			"animated": "https://i.postimg.cc/WbqyLC9s/Seasonal-2020-Winter.gif",
 			"thread": 10477
 		},
 		{	//Spring 2020 Seasonal
@@ -6724,7 +5271,8 @@
 			"characters": [
 				121101	//Miyuki Shirogane
 			],
-			"image": "https://i.postimg.cc/Y2WPTTDM/Seasonal-2020-Spring.gif",
+			"image": "https://i.postimg.cc/8cMnWrfj/Seasonal-2020-Spring.png",
+			"animated": "https://i.postimg.cc/Y2WPTTDM/Seasonal-2020-Spring.gif",
 			"thread": 11630
 		},
 		{	//Summer 2020 Seasonal
@@ -6734,7 +5282,8 @@
 			"characters": [
 				129330	//Echidna
 			],
-			"image": "https://i.postimg.cc/g2Ntvpjq/Seasonal-2020-Summer.gif",
+			"image": "https://i.postimg.cc/hP85tTqY/Seasonal-2020-Summer.png",
+			"animated": "https://i.postimg.cc/g2Ntvpjq/Seasonal-2020-Summer.gif",
 			"thread": 14055
 		},
 		{	//Fall 2020 Seasonal
@@ -6744,7 +5293,8 @@
 			"characters": [
 				127212	//Yuuji Itadori
 			],
-			"image": "https://i.postimg.cc/66LhwpQ3/2020-Seasonal-Fall.gif",
+			"image": "https://i.postimg.cc/QCbgq0z5/2020-Seasonal-Fall.png",
+			"animated": "https://i.postimg.cc/66LhwpQ3/2020-Seasonal-Fall.gif",
 			"thread": 17645
 		},
 			/* 2021 */
@@ -6755,7 +5305,8 @@
 			"characters": [
 				199892	//Ai Ooto
 			],
-			"image": "https://i.postimg.cc/ZKc2rKhj/Seasonal-2021-Winter-Animated.png",
+			"image": "https://i.postimg.cc/0y5g3KCL/Seasonal-2021-Winter-Static.png",
+			"animated": "https://i.postimg.cc/ZKc2rKhj/Seasonal-2021-Winter-Animated.png",
 			"thread": 22075
 		},
 		{	//Spring 2021 Seasonal
@@ -6765,7 +5316,8 @@
 			"characters": [
 				209903	//Vivy
 			],
-			"image": "https://i.postimg.cc/qMF7JT8B/Seasonal-2021-Spring-Animated.png",
+			"image": "https://i.postimg.cc/QCkpLMBM/Seasonal-2021-Spring-Static.png",
+			"animated": "https://i.postimg.cc/qMF7JT8B/Seasonal-2021-Spring-Animated.png",
 			"thread": 29268
 		},
 		{	//Summer 2021 Seasonal
@@ -6775,7 +5327,8 @@
 			"characters": [
 				120974	//Kanna Kamui
 			],
-			"image": "https://i.postimg.cc/c4pj9r8m/Seasonal-2021-Summer-Animated.png",
+			"image": "https://i.postimg.cc/wTyZQh3M/Seasonal-2021-Summer-Static.png",
+			"animated": "https://i.postimg.cc/c4pj9r8m/Seasonal-2021-Summer-Animated.png",
 			"thread": 37560
 		},
 		{	//Fall 2021 Seasonal
@@ -6785,7 +5338,8 @@
 			"characters": [
 				88348	//Rudeus Greyrat
 			],
-			"image": "https://i.postimg.cc/rwTJkstS/Seasonal-2021-Fall-Animated.png",
+			"image": "https://i.postimg.cc/HsX2RXjY/Seasonal-2021-Fall-Static.png",
+			"animated": "https://i.postimg.cc/rwTJkstS/Seasonal-2021-Fall-Animated.png",
 			"thread": 43932
 		},
 			/* 2022 */
@@ -6797,6 +5351,7 @@
 				133676	//Marin Kitagawa
 			],
 			"image": "https://i.postimg.cc/bwXpFWG5/Seasonal-2022-Winter-Animated.png",
+			"animated": "https://i.postimg.cc/bwXpFWG5/Seasonal-2022-Winter-Animated.png",
 			"thread": 48962
 		},
 		{	//Spring 2022 Seasonal
@@ -6806,7 +5361,8 @@
 			"characters": [
 				138100	//Anya Forger
 			],
-			"image": "https://i.postimg.cc/yY79kqXF/Seasonal-2022-Spring-Animated.png",
+			"image": "https://i.postimg.cc/RZq8j6Zh/Seasonal-2022-Spring-Static.png",
+			"animated": "https://i.postimg.cc/yY79kqXF/Seasonal-2022-Spring-Animated.png",
 			"thread": 52999
 		},
 		{	//Summer 2022 Seasonal
@@ -6816,7 +5372,8 @@
 			"characters": [
 				260329	//Chisato Nishikigi
 			],
-			"image": "https://i.postimg.cc/CKsp16LY/Seasonal-2022-Summer-Animated.png",
+			"image": "https://i.postimg.cc/BbQS4fxd/Seasonal-2022-Summer-Static.png",
+			"animated": "https://i.postimg.cc/CKsp16LY/Seasonal-2022-Summer-Animated.png",
 			"thread": 56687
 		},
 		{	//Fall 2022 Seasonal
@@ -6826,7 +5383,8 @@
 			"characters": [
 				257562	//Hitori Gotou
 			],
-			"image": "https://i.postimg.cc/wxwxcSY5/Seasonal-2022-Fall-Animated.png",
+			"image": "https://i.postimg.cc/MH77mVk9/Seasonal-2022-Fall-Static.png",
+			"animated": "https://i.postimg.cc/wxwxcSY5/Seasonal-2022-Fall-Animated.png",
 			"thread": 59679
 		},
 			/* 2023 */
@@ -6837,7 +5395,8 @@
 			"characters": [
 				203119	//Anisphia Wynn Palettia
 			],
-			"image": "https://i.postimg.cc/XY0YDrpq/Seasonal-2023-Winter-Animated.png",
+			"image": "https://i.postimg.cc/9MNfx17H/Seasonal-2023-Winter-Static.png",
+			"animated": "https://i.postimg.cc/XY0YDrpq/Seasonal-2023-Winter-Animated.png",
 			"thread": 61848
 		},
 		{	//Spring 2023 Seasonal
@@ -6847,7 +5406,8 @@
 			"characters": [
 				172759	//Ai Hoshino
 			],
-			"image": "https://i.postimg.cc/Gm8MrVNn/Seasonal-2023-Spring-Animated.png",
+			"image": "https://i.postimg.cc/W4ZfmC6w/Seasonal-2023-Spring-Static.png",
+			"animated": "https://i.postimg.cc/Gm8MrVNn/Seasonal-2023-Spring-Animated.png",
 			"thread": 64247
 		},
 		{	//Summer 2023 Seasonal
@@ -6857,7 +5417,8 @@
 			"characters": [
 				181965	//Miyo Saimori
 			],
-			"image": "https://i.postimg.cc/1tMN51j7/Seasonal-2023-Summer-Animated.png",
+			"image": "https://i.postimg.cc/D02dBctH/Seasonal-2023-Summer-Static.png",
+			"animated": "https://i.postimg.cc/1tMN51j7/Seasonal-2023-Summer-Animated.png",
 			"thread": 66416
 		},
 		{	//Fall 2023 Seasonal
@@ -6867,7 +5428,8 @@
 			"characters": [
 				176754	//Frieren
 			],
-			"image": "https://i.postimg.cc/P559D2CL/Seasonal-2023-Fall-Animated.png",
+			"image": "https://i.postimg.cc/Hs2FjfkD/Seasonal-2023-Fall-Static.png",
+			"animated": "https://i.postimg.cc/P559D2CL/Seasonal-2023-Fall-Animated.png",
 			"thread": 68531
 		},
 			/* 2024 */
@@ -6878,7 +5440,8 @@
 			"characters": [
 				179809	//Yuki Itose
 			],
-			"image": "https://i.postimg.cc/XYwz5bsG/Seasonal-2024-Winter-Animated.png",
+			"image": "https://i.postimg.cc/rmcc4jGc/Seasonal-2024-Winter-Static.png",
+			"animated": "https://i.postimg.cc/XYwz5bsG/Seasonal-2024-Winter-Animated.png",
 			"thread": 70674
 		},
 		{	//Spring 2024 Seasonal
@@ -6888,7 +5451,8 @@
 			"characters": [
 				180692	//Kafka Hibino
 			],
-			"image": "https://i.postimg.cc/vHX4dwjM/Seasonal-2024-Spring-Animated.png",
+			"image": "https://i.postimg.cc/PJQPxg5W/Seasonal-2024-Spring-Static.png",
+			"animated": "https://i.postimg.cc/vHX4dwjM/Seasonal-2024-Spring-Animated.png",
 			"thread": 72798
 		},
 		{	//Summer 2024 Seasonal
@@ -6898,7 +5462,8 @@
 			"characters": [
 				230873	//Anna Yanami
 			],
-			"image": "https://i.postimg.cc/L8ckfMSw-/Seasonal-2024-Summer-Animated.png",
+			"image": "https://i.postimg.cc/wTbQqmG6/Seasonal-2024-Summer-Static.png",
+			"animated": "https://i.postimg.cc/L8ckfMSw-/Seasonal-2024-Summer-Animated.png",
 			"thread": 75064
 		},
 		{	//Fall 2024 Seasonal
@@ -6908,7 +5473,8 @@
 			"characters": [
 				222594	//Momo Ayase
 			],
-			"image": "https://i.postimg.cc/BZppTW55/Seasonal-2024-Fall-Animated.png",
+			"image": "https://i.postimg.cc/sX9cHqkr/Seasonal-2024-Fall-Static.png",
+			"animated": "https://i.postimg.cc/BZppTW55/Seasonal-2024-Fall-Animated.png",
 			"thread": 77166
 		},
 			/* 2025 */
@@ -6919,7 +5485,8 @@
 			"characters": [
 				197151	//Inori Yuitsuka
 			],
-			"image": "https://i.postimg.cc/05Z9JJN8/Seasonal-2025-Winter-Animated.png",
+			"image": "https://i.postimg.cc/sD6fbZFn/Seasonal-2025-Winter-Static.png",
+			"animated": "https://i.postimg.cc/05Z9JJN8/Seasonal-2025-Winter-Animated.png",
 			"thread": 79155
 		},
 		{	//Spring 2025 Seasonal
@@ -6929,7 +5496,8 @@
 			"characters": [
 				353934	//Yachiyo
 			],
-			"image": "https://i.postimg.cc/P5cv0vZ0/Seasonal-2025-Spring-Animated.png",
+			"image": "https://i.postimg.cc/c4x33S0k/Seasonal-2025-Spring-Static.png",
+			"animated": "https://i.postimg.cc/P5cv0vZ0/Seasonal-2025-Spring-Animated.png",
 			"thread": 81145
 		},
 		{	//Summer 2025 Seasonal
@@ -6939,7 +5507,8 @@
 			"characters": [
 				268676	//Kaoruko Waguri
 			],
-			"image": "https://i.postimg.cc/VsSz2J53/Seasonal-2025-Summer-Animated.png",
+			"image": "https://i.postimg.cc/vBNSW-Hsg/Seasonal-2025-Summer-Static.png",
+			"animated": "https://i.postimg.cc/VsSz2J53/Seasonal-2025-Summer-Animated.png",
 			"thread": 83129
 		},
 		{	//Fall 2025 Seasonal
@@ -6949,7 +5518,8 @@
 			"characters": [
 				96114	//Oguri Cap
 			],
-			"image": "https://i.postimg.cc/jdbkbpw9/Seasonal-2025-Fall-Animated.png",
+			"image": "https://i.postimg.cc/y875FM7J/Seasonal-2025-Fall-Static.png",
+			"animated": "https://i.postimg.cc/jdbkbpw9/Seasonal-2025-Fall-Animated.png",
 			"thread": 85185
 		},
 			/* 2026 */
@@ -6960,7 +5530,8 @@
 			"characters": [
 				281250	//Miyu Suzuki
 			],
-			"image": "https://i.postimg.cc/k5cZL266/Seasonal-2026-Winter-Animated.png",
+			"image": "https://i.postimg.cc/mDZxrYf5/Seasonal-2026-Winter-Static.png",
+			"animated": "https://i.postimg.cc/k5cZL266/Seasonal-2026-Winter-Animated.png",
 			"thread": 86865
 		},
 		{	//Spring 2026 Seasonal
@@ -6971,6 +5542,7 @@
 				46163	//Placeholder
 			],
 			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 88866
 		},
 		/* ANIME SPECIAL BADGES */
@@ -6996,6 +5568,152 @@
 			"thread": 78115
 		},
 			/* Staff Picks */
+		{	//Staff Picks: 2019
+			//https://anilist.co/forum/thread/10366
+			"id": "staffPicks2019",
+			"name": "Staff Picks Challenge: 2019",
+			"characters": [
+				12669	//Rin Kaga
+			],
+			"image": "https://i.postimg.cc/BQHWSXkZ/2019-Staff-Picks-Static.png",
+			"animated": "https://i.postimg.cc/W1vBhscG/2019-Staff-Picks-Animated.png",
+			"thread": 10366
+		},
+		{	//Staff Picks: 2020
+			//https://anilist.co/forum/thread/21631
+			"id": "staffPicks2020",
+			"name": "Staff Picks Challenge: 2020",
+			"characters": [
+				80945	//Yasaburou Shimogamo
+			],
+			"image": "https://i.postimg.cc/y8ywR27w/2020-Staff-Picks-Static.png",
+			"animated": "https://i.postimg.cc/9fxK8TRb/2020-Staff-Picks-Animated.png",
+			"thread": 21631
+		},
+		{	//Staff Picks: 2021
+			//https://anilist.co/forum/thread/48560
+			"id": "staffPicks2021",
+			"name": "Staff Picks Challenge: 2021",
+			"characters": [
+				23442	//Akiko Ogasawara
+			],
+			"image": "https://i.postimg.cc/Z5GLYP8Z/2021-Staff-Picks-Static.png",
+			"animated": "https://i.postimg.cc/rFW1nR6P/2021-Staff-Picks-Animated.png",
+			"thread": 48560
+		},
+		{	//Staff Picks: 2022
+			//https://anilist.co/forum/thread/61647
+			"id": "staffPicks2022",
+			"name": "Staff Picks Challenge: 2022",
+			"characters": [
+				133818	//Ashito Aoi
+			],
+			"image": "https://i.postimg.cc/Y0vD9tJg/2022-Staff-Picks-Static.png",
+			"animated": "https://i.postimg.cc/cHJHzzn6/2022-Staff-Picks-Animated.png",
+			"thread": 61647
+		},
+		{	//Staff Picks: 2023 (Timed)
+			//https://anilist.co/forum/thread/70523
+			"id": "staffPicks2023Timed",
+			"name": "Staff Picks Challenge: 2023 (Timed Mode)",
+			"characters": [
+				120939	//Satanichia Kurumizawa McDowell
+			],
+			"image": "https://i.postimg.cc/1t71qd0X/2023-Staff-Picks-Timed.png",
+			"animated": "https://i.postimg.cc/vBNCBVM6/2023-Staff-Picks-Timed-Animated.png",
+			"thread": 70523
+		},
+		{	//Staff Picks: 2023 (Hanamaru)
+			//https://anilist.co/forum/thread/70523
+			"id": "staffPicks2023Hanamaru",
+			"name": "Staff Picks Challenge: 2023 (Hanamaru Mode)",
+			"characters": [
+				120939	//Satanichia Kurumizawa McDowell
+			],
+			"image": "https://i.postimg.cc/MKGP8C5n/2023-Staff-Picks-Hanamaru.png",
+			"animated": "https://i.postimg.cc/XvvvbcqK/2023-Staff-Picks-Hanamaru-Animated.png",
+			"thread": 70523
+		},
+		{	//Staff Picks: 2023 (Combined)
+			//https://anilist.co/forum/thread/70523
+			"id": "staffPicks2023Combined",
+			"name": "Staff Picks Challenge: 2023 (Combined)",
+			"characters": [
+				120939	//Satanichia Kurumizawa McDowell
+			],
+			"image": "https://i.postimg.cc/XJBLdJqz/2023-Staff-Picks-Combined.png",
+			"animated": "https://i.postimg.cc/fLjTGBFj/2023-Staff-Picks-Combined-Animated.png",
+			"thread": 70523
+		},
+		{	//Staff Picks: 2024 (Timed)
+			//https://anilist.co/forum/thread/78940
+			"id": "staffPicks2024Timed",
+			"name": "Staff Picks Challenge: 2024 (Timed Mode)",
+			"characters": [
+				132494	//YoRHa 2-gou B-gata
+			],
+			"image": "https://i.postimg.cc/vmCFD8PN/2024-Staff-Picks-Timed.png",
+			"animated": "https://i.postimg.cc/L6PqshNr/2024-Staff-Picks-Timed-Animated.png",
+			"thread": 78940
+		},
+		{	//Staff Picks: 2024 (Hanamaru)
+			//https://anilist.co/forum/thread/78940
+			"id": "staffPicks2024Hanamaru",
+			"name": "Staff Picks Challenge: 2024 (Hanamaru Mode)",
+			"characters": [
+				132494	//YoRHa 2-gou B-gata
+			],
+			"image": "https://i.postimg.cc/sxjz7jW9/2024-Staff-Picks-Hanamaru.png",
+			"animated": "https://i.postimg.cc/pTxMMWsb/2024-Staff-Picks-Hanamaru-Animated.png",
+			"thread": 78940
+		},
+		{	//Staff Picks: 2024 (Combined)
+			//https://anilist.co/forum/thread/78940
+			"id": "staffPicks2024Combined",
+			"name": "Staff Picks Challenge: 2024 (Combined)",
+			"characters": [
+				132494	//YoRHa 2-gou B-gata
+			],
+			"image": "https://i.postimg.cc/L8ZcqY7F/2024-Staff-Picks-Combined.png",
+			"animated": "https://i.postimg.cc/Y09VthgV/2024-Staff-Picks-Combined-Animated.png",
+			"thread": 78940
+		},
+		{	//Staff Picks: 2025 (Timed)
+			//https://anilist.co/forum/thread/86706
+			"id": "staffPicks2025Timed",
+			"name": "Staff Picks Challenge: 2025 (Timed Mode)",
+			"characters": [
+				353780,	//Fuji
+				353785	//Kimi
+			],
+			"image": "https://i.postimg.cc/SxSW-5mwC/2025-Staff-Picks-Timed-Static.png",
+			"animated": "https://i.postimg.cc/bwwtg3tY/2025-Staff-Picks-Timed-Animated.png",
+			"thread": 86706
+		},
+		{	//Staff Picks: 2025 (Hanamaru)
+			//https://anilist.co/forum/thread/86706
+			"id": "staffPicks2025Hanamaru",
+			"name": "Staff Picks Challenge: 2025 (Hanamaru Mode)",
+			"characters": [
+				353780,	//Fuji
+				353785	//Kimi
+			],
+			"image": "https://i.postimg.cc/PxYpJ7gT/2025-Staff-Picks-Hanamaru-Static.png",
+			"animated": "https://i.postimg.cc/VkvJnvxB/2025-Staff-Picks-Hanamaru-Animated.png",
+			"thread": 86706
+		},
+		{	//Staff Picks: 2025 (Combined)
+			//https://anilist.co/forum/thread/86706
+			"id": "staffPicks2025Combined",
+			"name": "Staff Picks Challenge: 2025 (Combined)",
+			"characters": [
+				353780,	//Fuji
+				353785	//Kimi
+			],
+			"image": "https://i.postimg.cc/m22kWh2m/2025-Staff-Picks-Combined-Static.png",
+			"animated": "https://i.postimg.cc/W3vpW1HM/2025-Staff-Picks-Combined-Animated.png",
+			"thread": 86706
+		},
 			/* Special */
 		{	//Arcade
 			//https://anilist.co/forum/thread/76134
@@ -7084,7 +5802,8 @@
 			"characters": [
 				7156	//Miku Hatsune
 			],
-			"image": "https://i.postimg.cc/q71cf3Yr/Special-Music-Charts.png",
+			"image": "https://i.postimg.cc/Vvmhqwgb/Special-Music-Charts-Static.png",
+			"animated": "https://i.postimg.cc/q71cf3Yr/Special-Music-Charts.png",
 			"thread": 86433
 		},
 		{	//Olympic Games (Summer)
@@ -7790,7 +6509,7 @@
 		},
 			/*STAFF*/
 		{	//AWC Staff: annahoj
-			//https://anilist.co/forum/thread/4449
+			//https://anilist.co/user/122640/
 			"id": "staff_annahoj",
 			"name": "AWC Staff: annahoj",
 			"characters": [
@@ -7800,7 +6519,7 @@
 			"thread": 4449	//Generic About
 		},
 		{	//AWC Staff: breathesunshine
-			//https://anilist.co/forum/thread/4449
+			//https://anilist.co/user/162489/
 			"id": "staff_breathesunshine",
 			"name": "AWC Staff: breathesunshine",
 			"characters": [
@@ -7810,7 +6529,7 @@
 			"thread": 4449	//Generic About
 		},
 		{	//AWC Staff: Electroalchemist
-			//https://anilist.co/forum/thread/4449
+			//https://anilist.co/user/148769/
 			"id": "staff_Electroalchemist",
 			"name": "AWC Staff: Electroalchemist",
 			"characters": [
@@ -7820,7 +6539,7 @@
 			"thread": 4449	//Generic About
 		},
 		{	//AWC Staff: Kondor
-			//https://anilist.co/forum/thread/4449
+			//https://anilist.co/user/121874/
 			"id": "staff_Kondor",
 			"name": "AWC Staff: Kondor",
 			"characters": [
@@ -7830,7 +6549,7 @@
 			"thread": 4449	//Generic About
 		},
 		{	//AWC Staff: Shoxi
-			//https://anilist.co/forum/thread/4449
+			//https://anilist.co/user/151741/
 			"id": "staff_Shoxi",
 			"name": "AWC Staff: Shoxi",
 			"characters": [
@@ -7840,7 +6559,7 @@
 			"thread": 4449	//Generic About
 		},
 		{	//AWC Staff: Xeldum
-			//https://anilist.co/forum/thread/4449
+			//https://anilist.co/user/38713/
 			"id": "staff_Xeldum",
 			"name": "AWC Staff: Xeldum",
 			"characters": [
@@ -8092,7 +6811,7 @@
 		},
 		/* ---------------- UNOFFICIAL BADGES ---------------- */
 		{	//Boku no Pico
-			//https://anilist.co/forum/thread/4449
+			//https://anilist.co/user/156535/
 			"id": "staff_pico",
 			"name": "AWC Staff: Pico",
 			"characters": [

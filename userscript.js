@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AWC Character Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.0.7
+// @version      1.1.0
 // @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover zoom
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
@@ -90,12 +90,13 @@ function removeBadges() {	//Remove old badges before rerendering after SPA navig
 }
 
 /* ---------------- WAIT FOR CHARACTER DIV ---------------- */
-function waitForCharacter(maxAttempts = 40, delay = 250) {	//Wait for Vue to finish mounting the character page
+function waitForCharacter(characterId, maxAttempts = 40, delay = 250) {	//Wait for Vue to finish mounting the character page
 	return new Promise((resolve, reject) => {
 		let attempts = 0;
 
 		const check = () => {
 			const elem = document.querySelector(".character");
+			if(getCharacterId() !== characterId) { reject(new Error("Navigation changed during wait.")); return; }
 
 			if(elem && elem.isConnected) {	//Require a live connected character div
 				resolve(elem);
@@ -122,12 +123,51 @@ function injectHoverZoom() {
 	const style = document.createElement("style");
 	style.id = "badge-hover-style";
 	style.textContent = `
-		.awc-badge-container div img {
+		.awc-badge-wrapper img {
+			display: block;
 			transition: transform 0.2s ease;
+			transform-origin: bottom center;
 			cursor: pointer;
 		}
-		.awc-badge-container div img:hover {
+		.awc-badge-wrapper img:hover {
 			transform: scale(1.08);
+		}
+		.awc-badge-toggle {
+			font-size: 10px;
+			font-weight: 600;
+			letter-spacing: 0.5px;
+			text-transform: uppercase;
+			padding: 3px 10px;
+			border-radius: 20px;
+			border: 1px solid rgba(61, 180, 242, 0.5);
+			background: rgba(61, 180, 242, 0.15);
+			color: #3db4f2;
+			cursor: pointer;
+			opacity: 0.85;
+			transition: background 0.2s ease, opacity 0.2s ease;
+		}
+		.awc-badge-toggle:hover {
+			background: rgba(61, 180, 242, 0.3);
+			opacity: 1;
+		}
+		@keyframes awc-glint {
+			0%       { left: -60%; }
+			60%, 100% { left: 140%; }
+		}
+		.awc-badge-toggle.awc-glint {
+			position: relative;
+			overflow: hidden;
+		}
+		.awc-badge-toggle.awc-glint::after {
+			content: '';
+			position: absolute;
+			top: -10%;
+			left: -60%;
+			width: 40%;
+			height: 120%;
+			background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+			transform: skewX(-15deg);
+			animation: awc-glint 2.5s ease-in-out infinite;
 		}
 	`;
 	document.head.appendChild(style);
@@ -145,7 +185,7 @@ function renderBadges(data, characterId, characterDiv) {
 	container.className = "awc-badge-container";
 
 	const title = document.createElement("h2");	//Create header
-	title.textContent = "Featuring AWC Challenges";
+	title.textContent = "Featuring AWC Badges";
 	title.style.margin = "25px 0";
 	container.appendChild(title);
 
@@ -160,13 +200,20 @@ function renderBadges(data, characterId, characterDiv) {
 	injectHoverZoom();	//Inject hover zoom effect
 
 	matches.forEach(challenge => {	//Add each badge in DB order
+		const wrapper = document.createElement("div");
+		wrapper.style.display = "flex";
+		wrapper.style.flexDirection = "column";
+		wrapper.style.alignItems = "center";
+		wrapper.style.gap = "4px";
+		wrapper.className = "awc-badge-wrapper";
+
 		const link = document.createElement("a");
 		link.href = `https://anilist.co/forum/thread/${challenge.thread}`;
 		link.target = "_blank";
 		link.rel = "noopener noreferrer";	//Isolate tabs
 
 		const img = document.createElement("img");
-		img.src = challenge.image;
+		img.src = challenge.animated ?? challenge.image;	// Default to animated if available
 		img.title = challenge.name;
 		img.style.borderRadius = "6px";
 		if(challenge.unofficial) { img.style.outline =  "2px dashed #888"; }	//Add unofficial badge border
@@ -179,7 +226,7 @@ function renderBadges(data, characterId, characterDiv) {
 				img.width = 250;
 				img.height = 250;
 			} else if(w === 520 && h === 720) {	//Legacy badges
-				img.width = 180.55;
+				img.width = 181;
 				img.height = 250;
 			} else {	//Scale proportionally for other dimensions
 				const maxWidth = 250;
@@ -196,7 +243,23 @@ function renderBadges(data, characterId, characterDiv) {
 		};
 
 		link.appendChild(img);
-		holder.appendChild(link);
+		wrapper.appendChild(link);
+		if(challenge.animated) {
+			let isAnimated = true;
+			const toggle = document.createElement("button");
+
+			toggle.textContent = "Show Static Version";  // Label for version to switch to
+			toggle.className = "awc-badge-toggle";
+			toggle.addEventListener("click", () => {
+				isAnimated = !isAnimated;
+				img.src = isAnimated ? challenge.animated : challenge.image;
+				toggle.textContent = isAnimated ? "Show Static Version" : "Show Animated Version";
+				toggle.classList.toggle("awc-glint", !isAnimated);
+			});
+			wrapper.appendChild(toggle);
+		}
+
+		holder.appendChild(wrapper);
 	});
 }
 
@@ -205,7 +268,7 @@ let lastRenderedCharacterId = null;
 let initInProgress = false;
 let scriptLogged = false;
 
-async function init(force = false) {
+async function init() {
 	if(!isCharacterPage()) {	//Clear badges when leaving character pages
 		removeBadges();
 		lastRenderedCharacterId = null;
@@ -215,7 +278,7 @@ async function init(force = false) {
 	const characterId = getCharacterId();
 	if(!characterId) return;
 
-	if(!force && lastRenderedCharacterId === characterId && document.querySelector(".awc-badge-container")) return;	//Avoid rerendering same character
+	if(lastRenderedCharacterId === characterId && document.querySelector(".awc-badge-container")) return;	//Avoid rerendering same character
 	if(initInProgress) return;	//Avoid overlapping runs during quick SPA navigation
 	initInProgress = true;
 
@@ -228,20 +291,18 @@ async function init(force = false) {
 			scriptLogged = true;
 		}
 
-		const characterDiv = await waitForCharacter();
+		const characterDiv = await waitForCharacter(characterId);
 		renderBadges(db, characterId, characterDiv);
 
 		lastRenderedCharacterId = characterId;
 	} catch (err) {
 		console.error("AWC Badge script error:", err);
-	} finally {
-		initInProgress = false;
-	}
+	} finally { initInProgress = false; }
 }
 
 /* ---------------- SPA NAVIGATION HANDLER ---------------- */
 function onRouteChange() {	//AniList uses Vue routing, so navigation usually does not refresh the page
-	setTimeout(() => init(true), 50);	//Brief delay gives Vue time to begin mounting the next page
+	setTimeout(() => init(), 150);	//Brief delay gives Vue time to begin mounting the next page
 }
 
 function installRouteHooks() {	//Hook history navigation so clicking links and back/forward rerenders badges
@@ -265,6 +326,6 @@ function installRouteHooks() {	//Hook history navigation so clicking links and b
 
 // ---------------- INITIAL RUN ----------------
 installRouteHooks();
-init(true);
+init();
 
 })();
