@@ -5065,6 +5065,28 @@
 			"animated": "https://i.postimg.cc/9Xxg3n9j/Monthly-2026-May-Hard-Animated.png",
 			"thread": 89523
 		},
+		{	//June 2026 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/90224
+			"id": "monthly2026JunEasy",
+			"name": "June 2026 Monthly Challenge: Easy Mode",
+			"characters": [
+				280001	//Rafał
+			],
+			"image": "https://i.postimg.cc/pTgTG5Zt/Monthly-2026-June-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 90224
+		},
+		{	//June 2026 Monthly: Hard Mode
+			//https://anilist.co/forum/thread/90224
+			"id": "monthly2026JunHard",
+			"name": "June 2026 Monthly Challenge: Hard Mode",
+			"characters": [
+				280001	//Rafał
+			],
+			"image": "https://i.postimg.cc/Y2Wj48rr/Monthly-2026-June-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 90224
+		},
 		/* ANIME PUZZLE BADGES */
 		{	//Battleship
 			//https://anilist.co/forum/thread/30744

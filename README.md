@@ -81,6 +81,6 @@ To maintain consistency with AWC.moe leaderboard listings, badges should be grou
 - Unofficial Badges
  - Have an unofficial badge? As long as there's an image permalink it can be added! Unofficial badge displays can be turned on in the script config.
 
- Badges for characters who do not have a corresponding anilist character page can be found at the anilist narrator page https://anilist.co/character/36309/Narrator
+ Badges for characters who do not have a corresponding Anilist character page can be found at the Anilist narrator page https://anilist.co/character/36309/Narrator
 
-Have I gotten something wrong? Make a github issue or @Eremeir on the AWC discord and I'll check it out. I want the data to be as complete and thurough as possible with all veriants and properly thread linking.
+Have I gotten something wrong? Make a Github issue or @Eremeir on the AWC discord and I'll check it out. I want the data to be as complete and thorough as possible with all variants and properly thread linking.
