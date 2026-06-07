@@ -287,7 +287,7 @@ async function init() {
 
 		const db = await loadDB();
 		if(!scriptLogged) {
-			console.info(`AWC Character Page Badges: ${db.challenges.length} badges loaded in database. Unofficial Badges are ${SHOW_UNOFFICIAL ? "enabled." : "disabled."}`);
+			console.info(`AWC Character Page Badges: ${db.challenges.length} badges loaded in database. Cache is ${CACHE_ENABLED ? "enabled." : "disabled."} Unofficial Badges are ${SHOW_UNOFFICIAL ? "enabled." : "disabled."}`);
 			scriptLogged = true;
 		}
 
