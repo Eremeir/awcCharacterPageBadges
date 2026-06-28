@@ -5088,6 +5088,16 @@
 			"thread": 90224
 		},
 		/* ANIME PUZZLE BADGES */
+		{	//2048
+			//https://anilist.co/forum/thread/90780
+			"id": "puzzle2048",
+			"name": "Puzzle Challenge - 2048",
+			"characters": [
+				147892	//Kaede Honjou
+			],
+			"image": "https://i.postimg.cc/65gvJsjH/Puzzle-2048.png",
+			"thread": 90780
+		},
 		{	//Battleship
 			//https://anilist.co/forum/thread/30744
 			"id": "puzzleBattleship",
@@ -6850,10 +6860,21 @@
 			"characters": [
 				36309	//
 			],
-			"image": "https://i.postimg.cc/pyNNF2Rv/KNnp4Td.png",	//https://i.imgur.com/PY6RHnU_d.webp?maxwidth=760&fidelity=grand
+			"image": "https://i.postimg.cc/pyNNF2Rv/KNnp4Td.png",
 			"thread": 4449,	//Generic About
 			"unofficial" : true
-		}/*
+		},
+		{	//CelestialQueen's Unofficial BL
+			//https://docs.google.com/document/d/1u8j-SFBZJ4ammBDnn62ILtlY5U5CrD1meIJjRDxWhz8/edit?tab=t.0
+			"id": "unofficialCQBL",
+			"name": "CelestialQueen's Unofficial BL Challenge",
+			"characters": [
+				127465	//Wuxian Wei
+			],
+			"image": "https://i.imgur.com/aGEfEKQ.png",
+			"thread": 4449,	//Generic About
+			"unofficial" : true
+		},
 		{	//Lili's Unofficial Bread
 			//https://docs.google.com/document/d/1U3tiqFXox8on5puL59WS5XfgmHAzMyOwdQhugF39288/edit?tab=t.0
 			"id": "unofficialLiliBread",
@@ -6861,9 +6882,9 @@
 			"characters": [
 				10765	//Chi Yamada
 			],
-			"image": "",
+			"image": "https://i.imgur.com/k7J8K5s.png",
 			"thread": 4449,	//Generic About
 			"unofficial" : true
-		} */
+		}
 	]
 }
