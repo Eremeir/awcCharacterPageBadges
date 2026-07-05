@@ -1503,6 +1503,49 @@
 			"animated": "https://i.postimg.cc/G2Jhrghr/Gacha-Kogitsunemaru-UR.png",
 			"thread": 67067
 		},
+		{	//AWC Gacha (Kurumi N)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaKurumiN",
+			"name": "Gacha Challenge: Kurumi (Normal)",
+			"characters": [
+				88359	//Kurumi Ebisuzawa
+			],
+			"image": "https://i.postimg.cc/kgnMVfpH/Gacha-Kurumi-N.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Kurumi R)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaKurumiR",
+			"name": "Gacha Challenge: Kurumi (Rare)",
+			"characters": [
+				88359	//Kurumi Ebisuzawa
+			],
+			"image": "https://i.postimg.cc/vHybj0MS/Gacha-Kurumi-R-Static.png",
+			"animated": "https://i.postimg.cc/htPg4hXy/Gacha-Kurumi-R.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Kurumi SR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaKurumiSR",
+			"name": "Gacha Challenge: Kurumi (Super Rare)",
+			"characters": [
+				88359	//Kurumi Ebisuzawa
+			],
+			"image": "https://i.postimg.cc/R0WBf8QL/Gacha-Kurumi-SR-Static.png",
+			"animated": "https://i.postimg.cc/KjL2ss0w/Gacha-Kurumi-SR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Kurumi UR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaKurumiUR",
+			"name": "Gacha Challenge: Kurumi (Ultra Rare)",
+			"characters": [
+				88359	//Kurumi Ebisuzawa
+			],
+			"image": "https://i.postimg.cc/1tVhfjhk/Gacha-Kurumi-UR-Static.png",
+			"animated": "https://i.postimg.cc/253gKK6w/Gacha-Kurumi-UR.png",
+			"thread": 67067
+		},
 		{	//AWC Gacha (Mammon N)
 			//https://anilist.co/forum/thread/67067
 			"id": "gachaMammonN",
@@ -2687,6 +2730,77 @@
 			"thread": 5292
 		},
 			/* Slice of Life */
+		{	//Slice of Life Genre: Easy Mode (Legacy)
+			//https://anilist.co/forum/thread/5293
+			"id": "genreSoLEasyLGCY",
+			"name": "Slice of Life Genre Challenge: Easy Mode (Legacy)",
+			"characters": [
+				124586		//Rin Shima
+			],
+			"image": "https://i.postimg.cc/Qtvnj8Wc/Legacy-Slice-Of-Life-Easy.png",
+			"thread": 5293
+		},
+		{	//Slice of Life Genre: Normal Mode (Legacy)
+			//https://anilist.co/forum/thread/5293
+			"id": "genreSoLNormalLGCY",
+			"name": "Slice of Life Genre Challenge: Normal Mode (Legacy)",
+			"characters": [
+				35871		//Kyouko Toshinou
+			],
+			"image": "https://i.postimg.cc/L5fQXczw/Legacy-Slice-Of-Life-Normal.png",
+			"thread": 5293
+		},
+		{	//Slice of Life Genre: Hard Mode (Legacy)
+			//https://anilist.co/forum/thread/5293
+			"id": "genreSoLHardLGCY",
+			"name": "Slice of Life Genre Challenge: Hard Mode (Legacy)",
+			"characters": [
+				120970		//Tohru
+			],
+			"image": "https://i.postimg.cc/SQzvDMwd/Legacy-Slice-Of-Life-Hard.png",
+			"thread": 5293
+		},
+		{	//Slice of Life Genre: Easy Mode
+			//https://anilist.co/forum/thread/5293
+			"id": "genreSoLEasy",
+			"name": "Slice of Life Genre Challenge: Easy Mode",
+			"characters": [
+				124586		//Rin Shima
+			],
+			"image": "https://i.postimg.cc/bNjhvWwH/Genre-Slice-Of-Life-Easy.png",
+			"thread": 5293
+		},
+		{	//Slice of Life Genre: Normal Mode
+			//https://anilist.co/forum/thread/5293
+			"id": "genreSoLNormal",
+			"name": "Slice of Life Genre Challenge: Normal Mode",
+			"characters": [
+				35871		//Kyouko Toshinou
+			],
+			"image": "https://i.postimg.cc/W3PnZGFK/Genre-Slice-Of-Life-Normal.png",
+			"thread": 5293
+		},
+		{	//Slice of Life Genre: Hard Mode
+			//https://anilist.co/forum/thread/5293
+			"id": "genreSoLHard",
+			"name": "Slice of Life Genre Challenge: Hard Mode",
+			"characters": [
+				120970		//Tohru
+			],
+			"image": "https://i.postimg.cc/XqqyBq8m/Genre-Slice-Of-Life-Hard.png",
+			"thread": 5293
+		},
+		{	//Slice of Life Genre: Mastery
+			//https://anilist.co/forum/thread/5293
+			"id": "genreSoLMastery",
+			"name": "Slice of Life Genre Challenge: Mastery",
+			"characters": [
+				251		//Haruhi Suzumiya
+			],
+			"image": "https://i.postimg.cc/XNFvn9QM/AWC-Genre-Slice-Of-Life-Mastery-Static.png",
+			"animated": "https://i.postimg.cc/J0WMsdKf/AWC-Genre-Slice-Of-Life-Mastery-Animated.png",
+			"thread": 5293
+		},
 			/* Sports */
 		{	//Sports Genre: Easy Mode (Legacy)
 			//https://anilist.co/forum/thread/5876
@@ -5087,6 +5201,28 @@
 			"animated": "https://i.postimg.cc/sDJjSNbm/Monthly-2026-June-Hard-Animated.png",
 			"thread": 90224
 		},
+		{	//July 2026 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/90921
+			"id": "monthly2026JulEasy",
+			"name": "July 2026 Monthly Challenge: Easy Mode",
+			"characters": [
+				280001	//Rafał
+			],
+			"image": "https://i.postimg.cc/SKf9gcMZ/Monthly-2026-July-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 90921
+		},
+		{	//July 2026 Monthly: Hard Mode
+			//https://anilist.co/forum/thread/90921
+			"id": "monthly2026JulHard",
+			"name": "July 2026 Monthly Challenge: Hard Mode",
+			"characters": [
+				280001	//Rafał
+			],
+			"image": "https://i.postimg.cc/Y0hm2Vsp/Monthly-2026-July-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 90921
+		},
 		/* ANIME PUZZLE BADGES */
 		{	//2048
 			//https://anilist.co/forum/thread/90780
@@ -5576,6 +5712,17 @@
 			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 88866
+		},
+		{	//Summer 2026 Seasonal
+			//https://anilist.co/forum/thread/91038
+			"id": "seasonal2026Summer",
+			"name": "Summer 2026 Seasonal Challenge PLACEHOLDER",
+			"characters": [
+				46163	//Placeholder
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 91038
 		},
 		/* ANIME SPECIAL BADGES */
 			/* Dungeon */

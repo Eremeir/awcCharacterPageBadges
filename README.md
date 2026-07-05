@@ -1,10 +1,19 @@
+[![Install on GreasyFork](https://img.shields.io/badge/GreasyFork-Install-red?logo=greasyfork&logoColor=white)](https://greasyfork.org/en/scripts/569079-awc-character-page-badges)
+[![Install from GitHub](https://img.shields.io/badge/GitHub-Install-181717?logo=github&logoColor=white)](https://github.com/Eremeir/awcCharacterPageBadges/raw/master/userscript.js)
+[![Version](https://img.shields.io/greasyfork/v/569079?label=Version)](https://greasyfork.org/en/scripts/569079-awc-character-page-badges)
+[![AniList](https://img.shields.io/badge/Site-AniList-02A9FF?logo=anilist&logoColor=white)](https://anilist.co)
+[![Forum Thread](https://img.shields.io/badge/Forum-AniList-02A9FF?logo=anilist&logoColor=white)](https://anilist.co/forum/thread/88221)
+[![AWC](https://img.shields.io/badge/AWC-awc.moe-blue)](https://awc.moe/)
+[![GreasyFork Installs](https://img.shields.io/greasyfork/dt/569079?label=Installs)](https://greasyfork.org/en/scripts/569079-awc-character-page-badges)
+[![Last Commit](https://img.shields.io/github/last-commit/Eremeir/awcCharacterPageBadges?label=Last+Commit)](https://github.com/Eremeir/awcCharacterPageBadges/commits/master)
+
 # AWC Character Page Badges
 **Display Anime Watch Club badges on AniList Character pages for any and all badges that character is featured in.**
 
 ## Description
 This third-party userscript injects a section to display [Anime Watch Club](https://awc.moe/) badges on [AniList](anilist.co) character pages, showing any and all badges that feature that character, with a link to the challenge thread if available.
 
-![Doraemon Badge](https://i.imgur.com/4CwWEwz.png)
+![Special Week Badge](https://i.imgur.com/6nEBIc0.png)
 
 ## Features
 - Supports **PNG and GIF badges**
@@ -41,7 +50,7 @@ This guide explains how to format and organize new AWC challenge entries in the 
 ### Challenge Entry Template
 
 Each challenge should follow this format:
-The DB is stored as JSONC so comments should be included. The challenge name and forum link as well as character names should be included as comments.
+The DB is stored as JSONC so comments should be used. The challenge name and forum link as well as character names should be included as comments.
 
 ```jsonc
 {   //Rainbow Challenge
@@ -78,9 +87,10 @@ To maintain consistency with AWC.moe leaderboard listings, badges should be grou
   - Tier
 - AWC Staff
 - Supporter
-- Unofficial Badges
- - Have an unofficial badge? As long as there's an image permalink it can be added! Unofficial badge displays can be turned on in the script config.
 
- Badges for characters who do not have a corresponding Anilist character page can be found at the Anilist narrator page https://anilist.co/character/36309/Narrator
+- Unofficial Badges
+	- Have an unofficial badge? As long as there's an image permalink it can be added! Unofficial badge displays can be turned on in the script config.
+
+ Badges for characters who do not have a corresponding Anilist character page can be found at the [Anilist narrator page](https://anilist.co/character/36309/Narrator).
 
 Have I gotten something wrong? Make a Github issue or @Eremeir on the AWC discord and I'll check it out. I want the data to be as complete and thorough as possible with all variants and proper thread linking.
