@@ -308,6 +308,16 @@
 			"image": "https://i.postimg.cc/154VdpNw/2001-Classic.png",
 			"thread": 84831
 		},
+		{	//2002 Classic
+			//https://anilist.co/forum/thread/91169
+			"id": "animeClassic2002",
+			"name": "2002 Classic Challenge",
+			"characters": [
+				227	//Chii
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2002/7Y8/2002-Classic.png",
+			"thread": 91169
+		},
 		{	//2007 Classic
 			//https://anilist.co/forum/thread/89679
 			"id": "animeClassic2007",
@@ -5206,10 +5216,10 @@
 			"id": "monthly2026JulEasy",
 			"name": "July 2026 Monthly Challenge: Easy Mode",
 			"characters": [
-				280001	//Rafał
+				129632	//Kazuho Haneyama
 			],
 			"image": "https://i.postimg.cc/SKf9gcMZ/Monthly-2026-July-Easy-Static.png",
-			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://i.postimg.cc/c1bnkxvt/Monthly-2026-July-Easy-Animated.png",
 			"thread": 90921
 		},
 		{	//July 2026 Monthly: Hard Mode
@@ -5217,10 +5227,10 @@
 			"id": "monthly2026JulHard",
 			"name": "July 2026 Monthly Challenge: Hard Mode",
 			"characters": [
-				280001	//Rafał
+				129632	//Kazuho Haneyama
 			],
 			"image": "https://i.postimg.cc/Y0hm2Vsp/Monthly-2026-July-Hard-Static.png",
-			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://i.postimg.cc/y8qSBLX7/Monthly-2026-July-Hard-Animated.png",
 			"thread": 90921
 		},
 		/* ANIME PUZZLE BADGES */
