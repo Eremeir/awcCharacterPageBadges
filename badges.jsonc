@@ -6057,6 +6057,36 @@
 			"image": "https://i.postimg.cc/rFCcSb9s/Special-Recommendations.png",
 			"thread": 14236
 		},
+		{	//Shelf
+			//https://anilist.co/forum/thread/91418
+			"id": "shelfAnime",
+			"name": "Shelf Challenge: Anime",
+			"characters": [
+				13468	//Keima Katsuragi
+			],
+			"image": "https://cdn.awc.moe/static/badges/mixed/shelf/Ncb/Special-Shelf-Anime.png",
+			"thread": 91418
+		},
+		{	//Shelf
+			//https://anilist.co/forum/thread/91418
+			"id": "shelfManga",
+			"name": "Shelf Challenge: Manga",
+			"characters": [
+				296283	//Kiichi Ishidaira
+			],
+			"image": "https://cdn.awc.moe/static/badges/mixed/shelf/Ncb/Special-Shelf-Manga.png",
+			"thread": 91418
+		},
+		{	//Shelf
+			//https://anilist.co/forum/thread/91418
+			"id": "shelfMixed",
+			"name": "Shelf Challenge: Mixed",
+			"characters": [
+				121635	//Futaba Sakura
+			],
+			"image": "https://cdn.awc.moe/static/badges/mixed/shelf/Ncb/Special-Shelf-Mixed.png",
+			"thread": 91418
+		},
 		{	//Trick or Treat
 			//https://anilist.co/forum/thread/77815
 			"id": "trickOrTreat",
