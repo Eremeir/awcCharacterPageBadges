@@ -5294,6 +5294,16 @@
 			"image": "https://i.postimg.cc/Qxcs2jHr/Puzzle-Crossw-ord.png",
 			"thread": 60975
 		},
+		{	//Double Dipping (Legacy)
+			//https://anilist.co/forum/thread/13560
+			"id": "puzzleDoubleDipLGCY",
+			"name": "Puzzle Challenge - Double Dipping (Legacy)",
+			"characters": [
+				89119	//Hotaru Shidare
+			],
+			"image": "https://i.postimg.cc/90Hf829w/Puzzle-Double-Dip.png",
+			"thread": 13560
+		},
 		{	//Double Dipping
 			//https://anilist.co/forum/thread/13560
 			"id": "puzzleDoubleDip",
@@ -5301,8 +5311,18 @@
 			"characters": [
 				89119	//Hotaru Shidare
 			],
-			"image": "https://i.postimg.cc/90Hf829w/Puzzle-Double-Dip.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/puzzles/double-dipping/new-kcp/Puzzle-Double-Dip.png",
 			"thread": 13560
+		},
+		{	//Genre Jigsaw (Legacy)
+			//https://anilist.co/forum/thread/11405
+			"id": "puzzleGenreJigsawLGCY",
+			"name": "Puzzle Challenge - Genre Jigsaw (Legacy)",
+			"characters": [
+				88245	//Tensai Ikkyuu
+			],
+			"image": "https://i.postimg.cc/zBsysW-sB/Puzzle-Genre-Jigsaw.png",
+			"thread": 11405
 		},
 		{	//Genre Jigsaw
 			//https://anilist.co/forum/thread/11405
@@ -5311,7 +5331,7 @@
 			"characters": [
 				88245	//Tensai Ikkyuu
 			],
-			"image": "https://i.postimg.cc/zBsysW-sB/Puzzle-Genre-Jigsaw.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/puzzles/genre-jigsaw/3v6/Puzzle-GenreJigsaw.png",
 			"thread": 11405
 		},
 		{	//Gomoku
@@ -5364,6 +5384,16 @@
 			"image": "https://i.postimg.cc/VLSC3B3K/Puzzle-Sudoku.png",
 			"thread": 68159
 		},
+		{	//Tag Domino (Legacy)
+			//https://anilist.co/forum/thread/17048
+			"id": "puzzleTagDominoLGCY",
+			"name": "Puzzle Challenge - Tag Domino (Legacy)",
+			"characters": [
+				145699	//Emilia
+			],
+			"image": "https://i.postimg.cc/vBfY6KKY/Puzzle-Tag-Domino.png",
+			"thread": 17048
+		},
 		{	//Tag Domino
 			//https://anilist.co/forum/thread/17048
 			"id": "puzzleTagDomino",
@@ -5371,7 +5401,7 @@
 			"characters": [
 				145699	//Emilia
 			],
-			"image": "https://i.postimg.cc/vBfY6KKY/Puzzle-Tag-Domino.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/puzzles/tag-domino/new-Nmz/Puzzle-Tag-Domino.png",
 			"thread": 17048
 		},
 		{	//Tetris
@@ -6047,6 +6077,16 @@
 			"image": "https://cdn.awc.moe/static/badges/anime/specials/rainbow/tdf/Rainbow.png",
 			"thread": 7738
 		},
+		{	//Recommendations (Legacy)
+			//https://anilist.co/forum/thread/14236
+			"id": "reccomendationLGCY",
+			"name": "Recommendations Challenge (Legacy)",
+			"characters": [
+				120649	//Kaguya Shinomiya
+			],
+			"image": "https://i.postimg.cc/rFCcSb9s/Special-Recommendations.png",
+			"thread": 14236
+		},
 		{	//Recommendations
 			//https://anilist.co/forum/thread/14236
 			"id": "reccomendation",
@@ -6054,7 +6094,7 @@
 			"characters": [
 				120649	//Kaguya Shinomiya
 			],
-			"image": "https://i.postimg.cc/rFCcSb9s/Special-Recommendations.png",
+			"image": "https://cdn.awc.moe/static/badges/mixed/recommendations/xGT/Special-Recommendations.png",
 			"thread": 14236
 		},
 		{	//Shelf
@@ -6098,6 +6138,16 @@
 			"thread": 77815
 		},
 			/* Gambler's */
+		{	//Gambler’s 1.0 (Legacy)
+			//https://anilist.co/forum/thread/6171
+			"id": "gamblers1LGCY",
+			"name": "Gambler’s Challenge 1.0/1.1 (Legacy)",
+			"characters": [
+				121889	//Yumeko Jabami
+			],
+			"image": "https://i.postimg.cc/44jTkGWm/Special-Gamblers.png",
+			"thread": 6171
+		},
 		{	//Gambler’s 1.0
 			//https://anilist.co/forum/thread/6171
 			"id": "gamblers1",
@@ -6105,7 +6155,7 @@
 			"characters": [
 				121889	//Yumeko Jabami
 			],
-			"image": "https://i.postimg.cc/44jTkGWm/Special-Gamblers.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/specials/gamblers1/new-NGo/Special-Gamblers-1.png",
 			"thread": 6171
 		},
 		{	//Gambler’s 2.0
