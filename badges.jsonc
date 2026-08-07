@@ -609,7 +609,8 @@
 			"id": "cardcaptorCollection",
 			"name": "Cardcaptor Sakura Collection Challenge",
 			"characters": [
-				2671	//Sakura Kinomoto
+				2671,	//Sakura Kinomoto
+				2897	//Cerberus
 			],
 			"image": "https://i.postimg.cc/nzBPrJYT/Collection-Franchise-Cardcaptor-Sakura.png",
 			"thread": 44858
@@ -5233,6 +5234,28 @@
 			"animated": "https://i.postimg.cc/y8qSBLX7/Monthly-2026-July-Hard-Animated.png",
 			"thread": 90921
 		},
+		{	//August 2026 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/91719
+			"id": "monthly2026AugEasy",
+			"name": "August 2026 Monthly Challenge: Easy Mode",
+			"characters": [
+				335949	//Chika Suzugamori
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/08/dpK/Monthly-2026-August-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/08/dpK/Monthly-2026-August-Easy-Animated.png",
+			"thread": 91719
+		},
+		{	//August 2026 Monthly: Hard Mode
+			//https://anilist.co/forum/thread/91719
+			"id": "monthly2026AugHard",
+			"name": "August 2026 Monthly Challenge: Hard Mode",
+			"characters": [
+				335949	//Chika Suzugamori
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/08/dpK/Monthly-2026-August-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/08/dpK/Monthly-2026-August-Hard-Animated.png",
+			"thread": 91719
+		},
 		/* ANIME PUZZLE BADGES */
 		{	//2048
 			//https://anilist.co/forum/thread/90780
@@ -6382,6 +6405,16 @@
 			],
 			"image": "https://i.postimg.cc/HLGGc1JV/Manga-City-Cemetery.png",
 			"thread": 9675
+		},
+		{	//Manga City: Cinema
+			//https://anilist.co/forum/thread/91876
+			"id": "mangaCityCinema",
+			"name": "Manga City - Cinema Challenge",
+			"characters": [
+				296774	//Umiko Chino
+			],
+			"image": "https://cdn.awc.moe/static/badges/manga/city/cinema/hQY/Manga-City-Cinema.png",
+			"thread": 91876
 		},
 		{	//Manga City: Concert Hall
 			//https://anilist.co/forum/thread/70272

@@ -15,6 +15,8 @@ This third-party userscript injects a section to display [Anime Watch Club](http
 
 ![Special Week Badge](https://i.imgur.com/6nEBIc0.png)
 
+---
+
 ## Features
 - Supports **PNG and GIF badges**
 - Badges are sized proportionally based on their source dimensions and won't blot out half the screen:
@@ -25,32 +27,38 @@ This third-party userscript injects a section to display [Anime Watch Club](http
 - Multiple badges for a character are displayed **in the order they appear in the JSON database**
 - Static variants of animated badges can be seen with a toggle
 
+---
+
 ## Usage
 1. Install via [GreasyFork](https://greasyfork.org/en/scripts/569079-awc-character-page-badges) or [GitHub](https://github.com/Eremeir/awcCharacterPageBadges).
 2. Open any AniList character page to see badges for that character (If they've ever featured on one).
 3. Clicking a badge opens the corresponding AWC challenge forum thread in a new tab.
+
+---
 
 ## Notes
 - The script caches badge data from GitHub for **7 Days** for faster loading. Badges are seldom released more often.
 - Works with AniList’s SPA (Single-Page-Application) navigation; switching pages using forward/back buttons injects badges automatically and shouldn't require a page refresh.
 - Styling attempts to match AniList’s layout and color scheme by barely having any color scheme to begin with.
 
+---
+
 ## Disclaimer
 
-This userscript is an unofficial community project and is **not affiliated with, endorsed by, or supported by**:
-
-- **awc.moe or the Anime Watch Club (AWC) team**
-- **AniList**
+> This userscript is an unofficial community project and is **not affiliated with, endorsed by, or supported by**:
+>
+> - **awc.moe or the Anime Watch Club (AWC) team**
+> - **AniList**
 
 It only displays publicly available AWC badge information on AniList character pages for convenience and doesn't host any content itself. All challenge content, badge art, and forum threads belong to their respective creators. The intended usecase is just to show off the incredible badge art in more places and give an idea as to what badges feature different characters if you wanted to try to collect badges that depict characters you like, like I do. Still waiting on more OVERLORD badges, thx.
 
+---
+
 ## DB Style guide for updates
-This guide explains how to format and organize new AWC challenge entries in the `badges.jsonc` database.
-
-### Challenge Entry Template
-
 Each challenge should follow this format:
 The DB is stored as JSONC so comments should be used. The challenge name and forum link as well as character names should be included as comments.
+
+<details>
 
 ```jsonc
 {   //Rainbow Challenge
@@ -65,11 +73,16 @@ The DB is stored as JSONC so comments should be used. The challenge name and for
 	"thread": 7738	// AniList forum threadID
 }
 ```
+</details>
+
+---
+
 ### Badge Grouping & Ordering
 
 To maintain consistency with AWC.moe leaderboard listings, badges should be grouped and ordered as follows:
-  - End of Year
-- < Anime >
+- End of Year
+
+- Anime
   - Classic
   - Collection
   - Event
@@ -80,16 +93,19 @@ To maintain consistency with AWC.moe leaderboard listings, badges should be grou
   - Seasonal
   - Special
   - Tier
-- < Manga >
+
+- Manga
   - Collection
   - Manga City
   - Special
   - Tier
+
 - AWC Staff
 - Supporter
-
 - Unofficial Badges
 	- Have an unofficial badge? As long as there's an image permalink it can be added! Unofficial badge displays can be turned on in the script config.
+
+---
 
  Badges for characters who do not have a corresponding Anilist character page can be found at the [Anilist narrator page](https://anilist.co/character/36309/Narrator).
 
