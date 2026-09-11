@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AWC Character Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.1.0
+// @version      1.1.1
 // @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover zoom
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
@@ -39,42 +39,79 @@ function parseJSONC(text) {	//Strip comments from JSONC
 }
 
 /* ---------------- FETCH DATABASE ---------------- */
-async function loadDB() {
+function indexDB(data) {
+	const byCharacter = {};
+
+	for(const challenge of data.challenges) {
+		for(const characterID of challenge.characters) {
+			if(!byCharacter[characterID]) {
+				byCharacter[characterID] = [];
+			}
+			byCharacter[characterID].push(challenge);
+		}
+	}
+	return {
+		...data,
+		byCharacter
+	};
+}
+function loadDB() {
+	if(!dbPromise) {
+		dbPromise = loadDBInternal().catch(err => {
+			dbPromise = null;	//Retry on failure
+			throw err;
+		});
+	}
+	return dbPromise;
+}
+async function loadDBInternal() {
+	let staleCache = null;
+	let staleCacheTimestamp = null;
+
 	if(CACHE_ENABLED) {	//Attempt to load from cache if enabled
 		try {
 			const cached = localStorage.getItem(CACHE_KEY);
 			if(cached) {
 				const parsed = JSON.parse(cached);
-				if(Date.now() - parsed.timestamp < CACHE_TTL) return parsed.data;
+				staleCache = parsed.data;
+				staleCacheTimestamp = parsed.timestamp;
+				if(Date.now() - parsed.timestamp < CACHE_TTL) { return indexDB(parsed.data); }
 			}
 		} catch {}
 	}
-
-	const data = await new Promise((resolve, reject) => {	//Fetch fresh JSONC from GitHub
-		GM_xmlhttpRequest({
-			method: "GET",
-			url: DB_URL,
-			onload: res => {
-				try {
-					const parsed = parseJSONC(res.responseText);
-					if(CACHE_ENABLED) {	//Store in cache if enabled
-						localStorage.setItem(CACHE_KEY, JSON.stringify({
-							data: parsed,
-							timestamp: Date.now()
-						}));
-					}
-					resolve(parsed);
-				} catch (e) { reject(e); }
-			},
-			onerror: reject
+	try {
+		const data = await new Promise((resolve, reject) => {	//Fetch fresh JSONC from GitHub
+			GM_xmlhttpRequest({
+				method: "GET",
+				url: DB_URL,
+				onload: res => {
+					try {
+						const parsed = parseJSONC(res.responseText);
+						if(CACHE_ENABLED) {	//Store in cache if enabled
+							localStorage.setItem(CACHE_KEY, JSON.stringify({
+								data: parsed,
+								timestamp: Date.now()
+							}));
+						}
+						resolve(parsed);
+					} catch (e) { reject(e); }
+				},
+				onerror: reject
+			});
 		});
-	});
-
-	return data;
+		return indexDB(data);
+	} catch(err) {
+		if(staleCache) {
+			const cacheAge = Math.round((Date.now() - staleCacheTimestamp) / (24 * 60 * 60 * 1000));
+			console.warn(`AWC Character Page Badges: Failed to fetch fresh database. Using ${cacheAge}-day-old cached data.`);
+			return indexDB(staleCache);
+		}
+		throw err;
+	}
 }
 
 /* ---------------- GET CHARACTER ID FROM URL ---------------- */
-function getCharacterId() {
+function getCharacterID() {
 	const parts = location.pathname.split("/");
 	return Number(parts[2]);
 }
@@ -90,13 +127,13 @@ function removeBadges() {	//Remove old badges before rerendering after SPA navig
 }
 
 /* ---------------- WAIT FOR CHARACTER DIV ---------------- */
-function waitForCharacter(characterId, maxAttempts = 40, delay = 250) {	//Wait for Vue to finish mounting the character page
+function waitForCharacter(characterID, maxAttempts = 40, delay = 250) {	//Wait for Vue to finish mounting the character page
 	return new Promise((resolve, reject) => {
 		let attempts = 0;
 
 		const check = () => {
 			const elem = document.querySelector(".character");
-			if(getCharacterId() !== characterId) { reject(new Error("Navigation changed during wait.")); return; }
+			if(getCharacterID() !== characterID) { reject(new Error("Navigation changed during wait.")); return; }
 
 			if(elem && elem.isConnected) {	//Require a live connected character div
 				resolve(elem);
@@ -151,7 +188,7 @@ function injectHoverZoom() {
 			opacity: 1;
 		}
 		@keyframes awc-glint {
-			0%       { left: -60%; }
+			0% { left: -60%; }
 			60%, 100% { left: 140%; }
 		}
 		.awc-badge-toggle.awc-glint {
@@ -174,9 +211,9 @@ function injectHoverZoom() {
 }
 
 /* ---------------- RENDER BADGES ---------------- */
-function renderBadges(data, characterId, characterDiv) {
+function renderBadges(data, characterID, characterDiv) {
 	if(document.querySelector(".awc-badge-container")) return;	//Avoid duplicate injection
-	let matches = data.challenges.filter(c => c.characters.includes(characterId) && (SHOW_UNOFFICIAL || !c.unofficial));	//Filter challenges that include this character
+	const matches = (data.byCharacter[characterID] || []).filter(char => SHOW_UNOFFICIAL || !char.unofficial);	//Get challenges for this character
 	if(!matches.length) return;
 
 	const container = document.createElement("div");	//Create container div
@@ -216,7 +253,9 @@ function renderBadges(data, characterId, characterDiv) {
 		img.src = challenge.animated ?? challenge.image;	// Default to animated if available
 		img.title = challenge.name;
 		img.style.borderRadius = "6px";
-		if(challenge.unofficial) { img.style.outline =  "2px dashed #888"; }	//Add unofficial badge border
+		img.style.maxHeight = "250px";
+		img.style.maxWidth = "250px";
+		if(challenge.unofficial) { img.style.outline = "2px dashed #888"; }	//Add unofficial badge border
 
 		img.onload = () => {	//Resize after image loads based on natural dimensions
 			const w = img.naturalWidth;
@@ -248,7 +287,7 @@ function renderBadges(data, characterId, characterDiv) {
 			let isAnimated = true;
 			const toggle = document.createElement("button");
 
-			toggle.textContent = "Show Static Version";  // Label for version to switch to
+			toggle.textContent = "Show Static Version";	// Label for version to switch to
 			toggle.className = "awc-badge-toggle";
 			toggle.addEventListener("click", () => {
 				isAnimated = !isAnimated;
@@ -264,21 +303,22 @@ function renderBadges(data, characterId, characterDiv) {
 }
 
 /* ---------------- MAIN ---------------- */
-let lastRenderedCharacterId = null;
+let lastRenderedCharacterID = null;
 let initInProgress = false;
 let scriptLogged = false;
+let dbPromise = null;
 
 async function init() {
 	if(!isCharacterPage()) {	//Clear badges when leaving character pages
 		removeBadges();
-		lastRenderedCharacterId = null;
+		lastRenderedCharacterID = null;
 		return;
 	}
 
-	const characterId = getCharacterId();
-	if(!characterId) return;
+	const characterID = getCharacterID();
+	if(!characterID) return;
 
-	if(lastRenderedCharacterId === characterId && document.querySelector(".awc-badge-container")) return;	//Avoid rerendering same character
+	if(lastRenderedCharacterID === characterID && document.querySelector(".awc-badge-container")) return;	//Avoid rerendering same character
 	if(initInProgress) return;	//Avoid overlapping runs during quick SPA navigation
 	initInProgress = true;
 
@@ -291,10 +331,10 @@ async function init() {
 			scriptLogged = true;
 		}
 
-		const characterDiv = await waitForCharacter(characterId);
-		renderBadges(db, characterId, characterDiv);
+		const characterDiv = await waitForCharacter(characterID);
+		renderBadges(db, characterID, characterDiv);
 
-		lastRenderedCharacterId = characterId;
+		lastRenderedCharacterID = characterID;
 	} catch (err) {
 		console.error("AWC Badge script error:", err);
 	} finally { initInProgress = false; }

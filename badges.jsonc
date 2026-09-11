@@ -1045,6 +1045,17 @@
 			"image": "https://i.postimg.cc/DybFSGYH/Event-Badge-Battle-10.png",
 			"thread": 79876
 		},
+		{	//Badge Battle #11: Takasugi vs Onsoku no Sonic
+			//https://anilist.co/forum/thread/92659
+			"id": "badgeBattle11",
+			"name": "Badge Battle #11: Takasugi vs Onsoku no Sonic",
+			"characters": [
+				2948,	//Shinsuke Takasugi
+				74167	//Onsoku no Sonic
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 92659
+		},
 			/* Raffle */
 		{	//Community Raffle 1
 			//https://anilist.co/forum/thread/6715
@@ -5256,6 +5267,28 @@
 			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/08/dpK/Monthly-2026-August-Hard-Animated.png",
 			"thread": 91719
 		},
+		{	//September 2026 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/92453
+			"id": "monthly2026SepEasy",
+			"name": "September 2026 Monthly Challenge: Easy Mode",
+			"characters": [
+				138	//Mitsuki Kouyama
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/09/6Zm/Monthly-2026-September-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/09/6Zm/Monthly-2026-September-Easy-Animated.png",
+			"thread": 92453
+		},
+		{	//September 2026 Monthly: Hard Mode
+			//https://anilist.co/forum/thread/92453
+			"id": "monthly2026SepHard",
+			"name": "September 2026 Monthly Challenge: Hard Mode",
+			"characters": [
+				138	//Mitsuki Kouyama
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/09/6Zm/Monthly-2026-September-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/09/6Zm/Monthly-2026-September-Hard-Animated.png",
+			"thread": 92453
+		},
 		/* ANIME PUZZLE BADGES */
 		{	//2048
 			//https://anilist.co/forum/thread/90780
@@ -5768,12 +5801,12 @@
 		{	//Spring 2026 Seasonal
 			//https://anilist.co/forum/thread/88866
 			"id": "seasonal2026Spring",
-			"name": "Spring 2026 Seasonal Challenge PLACEHOLDER",
+			"name": "Spring 2026 Seasonal Challenge",
 			"characters": [
-				46163	//Placeholder
+				129841	//Qifrey
 			],
 			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
-			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2026/Spring/FQi/Seasonal-2026-Spring-Animated.png",
 			"thread": 88866
 		},
 		{	//Summer 2026 Seasonal
@@ -6314,6 +6347,27 @@
 			"thread": 38849
 		},
 		/* ---------------- MANGA BADGES ---------------- */
+		/* MANGA EVENT BADGES */
+		{	//Kaiju Attack Challenge (Missing)
+			//https://anilist.co/forum/thread/92039
+			"id": "KaijuAttackMissing",
+			"name": "Kaiju Attack Challenge (Missing)",
+			"characters": [
+				26845	//Gojira
+			],
+			"image": "https://cdn.awc.moe/static/badges/manga/specials/Kaiju-Attack/zD8/Special-Kaiju-Attack-Missing.png",
+			"thread": 92039
+		},
+		{	//Kaiju Attack Challenge
+			//https://anilist.co/forum/thread/92039
+			"id": "KaijuAttack",
+			"name": "Kaiju Attack Challenge",
+			"characters": [
+				26845	//Gojira
+			],
+			"image": "https://cdn.awc.moe/static/badges/manga/specials/Kaiju-Attack/real-oz5/Special-Kaiju-Attack.png",
+			"thread": 92039
+		},
 		/* MANGA COLLECTION BADGES */
 		{	//Manga Collection: Akira Toriyama
 			//https://anilist.co/forum/thread/75691
