@@ -7199,6 +7199,39 @@
 			"thread": 4449,	//Generic About
 			"unofficial" : true
 		},
+		{
+			"id": "badgeBattle10",
+			"name": "",
+			"characters": [
+				4683,
+				4683,
+				-1,
+				"abc"
+			],
+			"image": "http://i.postimg.cc/broken.png",
+			"animated": "ftp://example.com/badge.gif",
+			"thread": -42
+		},
+		{
+			"name": "Missing ID Test",
+			"characters": [4683],
+			"image": "https://i.postimg.cc/test.png",
+			"thread": 12345
+		},
+		{
+			"id": "emptyCharactersTest",
+			"name": "Empty Characters Test",
+			"characters": [],
+			"image": "https://i.postimg.cc/test.png",
+			"thread": 12345
+		},
+		{
+			"id": "Badge Battle #10!",
+			"name": "Invalid ID Format Test",
+			"characters": [4683],
+			"image": "https://i.postimg.cc/test.png",
+			"thread": 12345
+		},
 		{	//Lili's Unofficial Bread
 			//https://docs.google.com/document/d/1U3tiqFXox8on5puL59WS5XfgmHAzMyOwdQhugF39288/edit?tab=t.0
 			"id": "unofficialLiliBread",
