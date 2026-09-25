@@ -103,7 +103,6 @@ if(errors > 0) {
 	process.exit(1);
 }
 
-console.log(`Validation passed. Checked ${data.challenges.length} challenges.`);
 const uniqueCharacters = new Set();
 let placeholderCount = -1;	// Nico Badge
 

@@ -6,6 +6,7 @@
 [![AWC](https://img.shields.io/badge/AWC-awc.moe-blue)](https://awc.moe/)
 [![GreasyFork Installs](https://img.shields.io/greasyfork/dt/569079?label=Installs)](https://greasyfork.org/en/scripts/569079-awc-character-page-badges)
 [![Last Commit](https://img.shields.io/github/last-commit/Eremeir/awcCharacterPageBadges?label=Last+Commit)](https://github.com/Eremeir/awcCharacterPageBadges/commits/master)
+[![Validate Database](https://github.com/Eremeir/awcCharacterPageBadges/actions/workflows/validateDB.yml/badge.svg)](https://github.com/Eremeir/awcCharacterPageBadges/actions/workflows/validateDB.yml)
 
 # AWC Character Page Badges
 **Display Anime Watch Club badges on AniList Character pages for any and all badges that character is featured in.**

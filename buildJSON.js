@@ -17,6 +17,8 @@ function parseJSONC(text) {	//Strip comments from JSONC
 }
 
 const data = parseJSONC( fs.readFileSync("badges.jsonc", "utf8"));
-fs.writeFileSync("badges.json", JSON.stringify(data, null, 2));
 
-console.log("Generated badges.json");
+const output = JSON.stringify(data, null, 2);
+fs.writeFileSync("badges.json", output);
+
+console.log(`Generated badges.json (${data.challenges.length} challenges, ${output.length} bytes)`);

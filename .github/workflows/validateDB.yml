@@ -1,21 +1,33 @@
-name: Validate Badge Database
+name: Validate & Publish Badge Database
 
 on:
   push:
+    branches:
+      - master
     paths:
       - "badges.jsonc"
       - "validateDB.js"
+      - "buildJSON.js"
+      - ".github/workflows/**"
 
   pull_request:
     paths:
       - "badges.jsonc"
       - "validateDB.js"
+      - "buildJSON.js"
+      - ".github/workflows/**"
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+    group: pages
+    cancel-in-progress: true
 
 jobs:
-  validate:
+  validate-build-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,7 +41,24 @@ jobs:
 
       - name: Validate badges.jsonc
         run: node validateDB.js
+
       - name: Generate badges.json
         run: node buildJSON.js
-      - name: Verify badges.json was generated
-        run: test -f badges.json
+
+      - name: Create Pages directory
+        run: |
+          mkdir site
+          cp badges.json site/
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload Pages artifact
+        if: github.event_name == 'push'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        if: github.event_name == 'push'
+        uses: actions/deploy-pages@v5
