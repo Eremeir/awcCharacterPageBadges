@@ -42,7 +42,7 @@ jobs:
       - name: Validate badges.jsonc
         run: node validateDB.js
 
-      - name: Generate badges.json
+      - name: Build badges.json
         run: node buildJSON.js
 
       - name: Create Pages directory
