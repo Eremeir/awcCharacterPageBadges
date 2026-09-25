@@ -1,4 +1,5 @@
 const fs = require("fs");
+const PLACEHOLDER_URL = "https://cdn.awc.moe/static/web/images/badge-placeholder.png";
 
 /* ---------------- JSONC STRIPPER ---------------- */
 function parseJSONC(text) {	//Strip comments from JSONC
@@ -103,3 +104,20 @@ if(errors > 0) {
 }
 
 console.log(`Validation passed. Checked ${data.challenges.length} challenges.`);
+const uniqueCharacters = new Set();
+let placeholderCount = -1;	// Nico Badge
+
+for(const challenge of data.challenges) {
+	for(const characterID of challenge.characters) {
+		uniqueCharacters.add(characterID);
+	}
+	if(challenge.image === PLACEHOLDER_URL || challenge.animated === PLACEHOLDER_URL) { placeholderCount++; }
+}
+
+const animatedCount = data.challenges.filter(c => c.animated).length;
+const unofficialCount = data.challenges.filter(c => c.unofficial).length;
+console.log(`Validation passed. Checked ${data.challenges.length} challenges.`);
+console.log(`Unique characters: ${uniqueCharacters.size}`);
+console.log(`Animated badges: ${animatedCount}`);
+console.log(`Placeholder badges: ${placeholderCount}`);
+console.log(`Unofficial badges: ${unofficialCount}`);

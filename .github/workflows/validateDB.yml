@@ -29,3 +29,7 @@ jobs:
 
       - name: Validate badges.jsonc
         run: node validateDB.js
+      - name: Generate badges.json
+        run: node buildJSON.js
+      - name: Verify badges.json was generated
+        run: test -f badges.json
