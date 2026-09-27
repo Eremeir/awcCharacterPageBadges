@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AWC Character Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.1.2
+// @version      1.1.3
 // @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover zoom
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
@@ -21,6 +21,7 @@ const CACHE_ENABLED = true;
 const CACHE_KEY = "awc_badges_cache";
 const CACHE_TTL = 7 * 24 * 60 * 60 * 1000; //7 Days
 const SHOW_UNOFFICIAL = false;	//Unofficial Community Badges
+const ENABLE_3D_HOVER = true;	//Steam Trading Card style 3D
 
 /* ---------------- FETCH DATABASE ---------------- */
 function buildCharacterIndex(data) {
@@ -144,7 +145,7 @@ function waitForCharacter(characterID, timeout = 10000) {	//Watch the DOM for pa
 	});
 }
 
-/* ---------------- INJECT HOVER ZOOM STYLE ---------------- */
+/* ---------------- INJECT HOVER STYLES ---------------- */
 function injectHoverZoom() {
 	if(document.querySelector("#badge-hover-style")) return;	//Avoid duplicate injection
 
@@ -197,8 +198,63 @@ function injectHoverZoom() {
 			transform: skewX(-15deg);
 			animation: awc-glint 2.5s ease-in-out infinite;
 		}
+		/* ---------------- 3D HOVER EFFECT ---------------- */
+		.awc-badge-3d-wrapper {
+			perspective: 1000px;
+		}
+		.awc-badge-3d-link {
+			position: relative;
+			display: block;
+			transform-style: preserve-3d;
+		}
+		.awc-badge-3d {
+			transform-origin: center center !important;
+			transform-style: preserve-3d;
+			transition:
+				transform 0.08s ease-out,
+				filter 0.08s ease-out,
+			will-change: transform;
+		}
 	`;
 	document.head.appendChild(style);
+}
+
+/* ---------------- 3D BADGE HOVER ---------------- */
+function enable3DHover(wrapper, link, img) {
+	if(!ENABLE_3D_HOVER) { return; }
+
+	wrapper.classList.add("awc-badge-3d-wrapper");
+	link.classList.add("awc-badge-3d-link");
+	img.classList.add("awc-badge-3d");
+
+	link.addEventListener("mousemove", event => {	//Tilt and shade with mousemoves
+		const rect = link.getBoundingClientRect();
+
+		const x = event.clientX - rect.left;
+		const y = event.clientY - rect.top;
+
+		const percentX = (x / rect.width) * 2 - 1;
+		const percentY = (y / rect.height) * 2 - 1;
+
+		const rotateY = Math.sin(percentX * Math.PI / 2) * 15;
+		const rotateX = -Math.sin(percentY * Math.PI / 2) * 15;
+
+		const shadowX = -percentX * 10;
+		const shadowY = -percentY * 10;
+
+		img.style.transform = `
+			translateZ(18px)
+			scale(1.12)
+			rotateX(${rotateX}deg)
+			rotateY(${rotateY}deg)
+		`;
+		img.style.filter =`drop-shadow(${shadowX}px ${shadowY}px 24px rgba(0,0,0,0.35))`;
+	});
+
+	link.addEventListener("mouseleave", () => {	//Reset
+		img.style.transform = "";
+		img.style.filter = "";
+	});
 }
 
 /* ---------------- RENDER BADGES ---------------- */
@@ -280,6 +336,7 @@ function renderBadges(data, characterID, characterDiv) {
 
 		link.appendChild(img);
 		wrapper.appendChild(link);
+		enable3DHover(wrapper, link, img);
 		if(challenge.animated) {
 			let isAnimated = true;
 			const toggle = document.createElement("button");
@@ -324,7 +381,7 @@ async function init() {
 		const db = await loadDB();
 		if(token !== currentInitToken) { return; }
 		if(!scriptLogged) {
-			console.info(`AWC Character Page Badges: ${db.challenges.length} badges loaded in database. Cache is ${CACHE_ENABLED ? "enabled." : "disabled."} Unofficial Badges are ${SHOW_UNOFFICIAL ? "enabled." : "disabled."}`);
+			console.info(`AWC Character Page Badges: ${db.challenges.length} badges loaded in database. Cache is ${CACHE_ENABLED ? "enabled." : "disabled."} Unofficial Badges are ${SHOW_UNOFFICIAL ? "enabled." : "disabled."} 3D Hover is ${ENABLE_3D_HOVER ? "enabled." : "disabled."}`);
 			scriptLogged = true;
 		}
 
