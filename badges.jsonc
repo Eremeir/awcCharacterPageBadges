@@ -1697,6 +1697,49 @@
 			"animated": "https://i.postimg.cc/bJGfHfv6/Gacha-Texas-UR.png",
 			"thread": 67067
 		},
+		{	//AWC Gacha (Undertaker N)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaUndertakerN",
+			"name": "Gacha Challenge: Undertaker (Normal)",
+			"characters": [
+				14957	//Undertaker
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/gacha/26Q4-pu0/Gacha-Undertaker-N.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Undertaker R)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaUndertakerR",
+			"name": "Gacha Challenge: Undertaker (Rare)",
+			"characters": [
+				14957	//Undertaker
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/gacha/26Q4-pu0/Gacha-Undertaker-R-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/gacha/26Q4-pu0/Gacha-Undertaker-R.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Undertaker SR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaUndertakerSR",
+			"name": "Gacha Challenge: Undertaker (Super Rare)",
+			"characters": [
+				14957	//Undertaker
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/gacha/26Q4-pu0/Gacha-Undertaker-SR-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/gacha/26Q4-pu0/Gacha-Undertaker-SR.png",
+			"thread": 67067
+		},
+		{	//AWC Gacha (Undertaker UR)
+			//https://anilist.co/forum/thread/67067
+			"id": "gachaUndertakerUR",
+			"name": "Gacha Challenge: Undertaker (Ultra Rare)",
+			"characters": [
+				14957	//Undertaker
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/gacha/26Q4-pu0/Gacha-Undertaker-UR-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/gacha/26Q4-pu0/Gacha-Undertaker-UR.png",
+			"thread": 67067
+		},
 		{	//AWC Gacha (Zero Two N)
 			//https://anilist.co/forum/thread/67067
 			"id": "gachaZeroTwoN",
