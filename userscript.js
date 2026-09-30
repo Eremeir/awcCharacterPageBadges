@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AWC Character Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.1.3
+// @version      1.1.4
 // @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover zoom
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
@@ -96,6 +96,14 @@ async function loadDBInternal() {
 function getCharacterID() {
 	const parts = location.pathname.split("/");
 	return Number(parts[2]);
+}
+
+/* ---------------- RECONSTRUCT FALLBACK URL ---------------- */
+function getOriginalAnimatedURL(challenge) {
+	if(!challenge.animated?.endsWith(".avif")) { return challenge.animated; }
+
+	const extension = challenge.animatedOriginalExtension ?? ".png";
+	return challenge.animated.replace(/\.avif$/i, extension);
 }
 
 /* ---------------- ROUTE HELPERS ---------------- */
@@ -201,6 +209,14 @@ function injectHoverZoom() {
 		/* ---------------- 3D HOVER EFFECT ---------------- */
 		.awc-badge-3d-wrapper {
 			perspective: 1000px;
+			position: relative;
+			z-index: 0;
+		}
+		.awc-badge-wrapper.awc-hovering {
+			z-index: 1000;
+		}
+		.awc-badge-wrapper.awc-hovering .awc-badge-toggle {
+			visibility: hidden;
 		}
 		.awc-badge-3d-link {
 			position: relative;
@@ -227,6 +243,10 @@ function enable3DHover(wrapper, link, img) {
 	link.classList.add("awc-badge-3d-link");
 	img.classList.add("awc-badge-3d");
 
+	link.addEventListener("mouseenter", () => {
+		wrapper.classList.add("awc-hovering");
+	});
+
 	link.addEventListener("mousemove", event => {	//Tilt and shade with mousemoves
 		const rect = link.getBoundingClientRect();
 
@@ -243,8 +263,8 @@ function enable3DHover(wrapper, link, img) {
 		const shadowY = -percentY * 10;
 
 		img.style.transform = `
-			translateZ(18px)
-			scale(1.12)
+			translateZ(20px)
+			scale(1.24)
 			rotateX(${rotateX}deg)
 			rotateY(${rotateY}deg)
 		`;
@@ -252,6 +272,7 @@ function enable3DHover(wrapper, link, img) {
 	});
 
 	link.addEventListener("mouseleave", () => {	//Reset
+		wrapper.classList.remove("awc-hovering");
 		img.style.transform = "";
 		img.style.filter = "";
 	});
@@ -301,7 +322,19 @@ function renderBadges(data, characterID, characterDiv) {
 		img.decoding = "async";
 		img.src = challenge.animated ?? challenge.image;	// Default to animated if available
 		img.title = challenge.name;
+
+		let usingAnimatedFallback = false;
 		img.onerror = () => {
+			if(!usingAnimatedFallback && challenge.animated?.endsWith(".avif")) {
+				usingAnimatedFallback = true;
+				console.warn(
+					`AWC Character Page Badges: Failed to load AVIF for "${challenge.name}". ` +
+					`Falling back to original animated image.`
+				);
+
+				img.src = usingAnimatedFallback ? getOriginalAnimatedURL(challenge) : challenge.animated;
+				return;
+			}
 			console.warn(`AWC Character Page Badges: Failed to load image for "${challenge.name}".`);
 			img.onerror = null;
 		};
@@ -345,7 +378,9 @@ function renderBadges(data, characterID, characterDiv) {
 			toggle.className = "awc-badge-toggle";
 			toggle.addEventListener("click", () => {
 				isAnimated = !isAnimated;
-				img.src = isAnimated ? challenge.animated : challenge.image;
+				if(isAnimated) {
+					img.src = usingAnimatedFallback ? getOriginalAnimatedURL(challenge) : challenge.animated;
+				} else { img.src = challenge.image; }
 				toggle.textContent = isAnimated ? "Show Static Version" : "Show Animated Version";
 				toggle.classList.toggle("awc-glint", !isAnimated);
 			});
