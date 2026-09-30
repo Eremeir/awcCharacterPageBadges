@@ -1,5 +1,6 @@
 const fs = require("fs");
 const PLACEHOLDER_URL = "https://cdn.awc.moe/static/web/images/badge-placeholder.png";
+const CDN_PREFIX = "https://cdn.awc.moe/";
 
 /* ---------------- JSONC STRIPPER ---------------- */
 function parseJSONC(text) {	//Strip comments from JSONC
@@ -15,6 +16,26 @@ function parseJSONC(text) {	//Strip comments from JSONC
 		return result;
 	});
 	return JSON.parse(lines.join("\n"));
+}
+
+async function checkAVIF(url) {
+	const response = await fetch(url, {
+		method: "HEAD",
+		redirect: "follow"
+	});
+
+	return response.status === 200 && contentType?.startsWith("image/avif");
+}
+function getAVIFURL(url) {
+	if(!url.startsWith(CDN_PREFIX)) { return null; }
+
+	const match = url.match(/\.(png|gif)$/i);
+	if(!match) { return null; }
+
+	return {
+		url: url.replace(/\.(png|gif)$/i, ".avif"),
+		originalExtension: match[1].toLowerCase()
+	}
 }
 
 const data = parseJSONC(fs.readFileSync("badges.jsonc", "utf8"));
@@ -103,6 +124,43 @@ if(errors > 0) {
 	process.exit(1);
 }
 
+let cdnAnimatedCount = 0;
+let avifAvailableCount = 0;
+let avifUnavailableCount = 0;
+let pngToAvifCount = 0;
+let gifToAvifCount = 0;
+
+for(const challenge of data.challenges) {
+	if(!challenge.animated) { continue; }
+
+	const avif = getAVIFURL(challenge.animated);
+	if(!avif) { continue; }
+
+	cdnAnimatedCount++;
+
+	try {
+		const available = await checkAVIF(avif.url);
+		if(available) {
+			avifAvailableCount++;
+
+			if(avif.originalExtension === "gif") {
+				gifToAvifCount++;
+				challenge.animatedOriginalExtension = ".gif";
+			}
+			else { pngToAvifCount++; }
+			challenge.animated = avif.url;
+		}
+		else {
+			avifUnavailableCount++;
+			console.warn(`AVIF unavailable for "${challenge.name}": ${avif.url}`);
+		}
+	}
+	catch(error) {
+		avifUnavailableCount++;
+		console.warn(`Failed to check AVIF for "${challenge.name}": ${avif.url}`);
+	}
+}
+
 const uniqueCharacters = new Set();
 let placeholderCount = -1;	// Nico Badge
 
@@ -120,3 +178,9 @@ console.log(`Unique characters: ${uniqueCharacters.size}`);
 console.log(`Animated badges: ${animatedCount}`);
 console.log(`Placeholder badges: ${placeholderCount}`);
 console.log(`Unofficial badges: ${unofficialCount}`);
+console.log(`\nCDN optimization:`);
+console.log(`	CDN animated badges: ${cdnAnimatedCount}`);
+console.log(`	AVIF available: ${avifAvailableCount}`);
+console.log(`	AVIF unavailable: ${avifUnavailableCount}`);
+console.log(`	PNG → AVIF: ${pngToAvifCount}`);
+console.log(`	GIF → AVIF: ${gifToAvifCount}`);
