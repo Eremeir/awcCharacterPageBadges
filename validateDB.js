@@ -19,6 +19,19 @@ function parseJSONC(text) {	//Strip comments from JSONC
 
 const data = parseJSONC(fs.readFileSync("badges.jsonc", "utf8"));
 
+const seenBadgeURLs = new Map();
+function validateUniqueURL(url, challengeID, type) {
+	if(!url || url === PLACEHOLDER_URL) { return; }
+
+	const existing = seenBadgeURLs.get(url);
+	if(existing) {
+		console.error(`Duplicate ${type} URL on ${challengeID} (already used by ${existing})`);
+		return false;
+	}
+	seenBadgeURLs.set(url, challengeID);
+	return true;
+}
+
 if(!Array.isArray(data.challenges)) {
 	console.error("Database must contain a challenges array.");
 	process.exit(1);
@@ -74,13 +87,16 @@ for(const challenge of data.challenges) {
 		seenCharacters.add(characterID);
 	}
 
-	if(typeof challenge.image !== "string" || !challenge.image.trim()) {
-		console.error(`Invalid image on ${challenge.id}`);
-		errors++;
-	}
-	else if(!/^https:\/\//.test(challenge.image)) {
-		console.error(`Image URL must use HTTPS on ${challenge.id}`);
-		errors++;
+	if(challenge.image !== undefined) {
+		if(typeof challenge.image !== "string" || !challenge.image.trim()) {
+			console.error(`Invalid image on ${challenge.id}`);
+			errors++;
+		}
+		else if(!/^https:\/\//.test(challenge.image)) {
+			console.error(`Image URL must use HTTPS on ${challenge.id}`);
+			errors++;
+		}
+		else if(!validateUniqueURL(challenge.image, challenge.id, "image")) { errors++; }
 	}
 
 	if(challenge.animated !== undefined && (typeof challenge.animated !== "string" || !challenge.animated.trim())) {
@@ -89,6 +105,11 @@ for(const challenge of data.challenges) {
 	}
 	if(challenge.animated && !/^https:\/\//.test(challenge.animated)) {
 		console.error(`Animated image URL must use HTTPS on ${challenge.id}`);
+		errors++;
+	} else if(challenge.animated && !validateUniqueURL(challenge.animated, challenge.id, "animated")) { errors++; }
+
+	if(!challenge.image && !challenge.animated) {
+		console.error(`Challenge must have image or animated URL on ${challenge.id}`);
 		errors++;
 	}
 
