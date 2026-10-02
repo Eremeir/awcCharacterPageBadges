@@ -1,5 +1,6 @@
 const fs = require("fs");
 const CDN_PREFIX = "https://cdn.awc.moe/";
+const PLACEHOLDER_URL = "https://cdn.awc.moe/static/web/images/badge-placeholder.png";
 const AVIF_CONCURRENCY = 10;
 
 /* ---------------- JSONC STRIPPER ---------------- */
@@ -58,7 +59,7 @@ async function main() {
 	const candidates = [];
 
 	for(const challenge of data.challenges) {
-		if(!challenge.animated) { continue; }
+		if(!challenge.animated || challenge.animated === PLACEHOLDER_URL) { continue; }
 
 		const avif = getAVIFURL(challenge.animated);
 		if(!avif) { continue; }

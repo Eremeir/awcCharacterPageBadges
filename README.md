@@ -25,6 +25,7 @@ This third-party userscript injects a section to display [Anime Watch Club](http
   - Legacy 520×720 badges → 181×250px
   - Badges wrap neatly if somehow a character has been featured in more than ~5 badges
 - Hover effect: badges slightly zoom on hover for better visibility
+- Dynamic 3D tilt effect: badges now also move responsively to your cursor, can be disabled in the config
 - Multiple badges for a character are displayed **in the order they appear in the JSON database**
 - Static variants of animated badges can be seen with a toggle
 

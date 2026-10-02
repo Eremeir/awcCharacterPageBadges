@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AWC Character Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.1.4
+// @version      1.1.5
 // @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover zoom
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
@@ -181,7 +181,7 @@ function injectHoverZoom() {
 			color: #3db4f2;
 			cursor: pointer;
 			opacity: 0.85;
-			transition: background 0.2s ease, opacity 0.2s ease;
+			transition: background 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
 		}
 		.awc-badge-toggle:hover {
 			background: rgba(61, 180, 242, 0.3);
@@ -216,7 +216,9 @@ function injectHoverZoom() {
 			z-index: 1000;
 		}
 		.awc-badge-wrapper.awc-hovering .awc-badge-toggle {
-			visibility: hidden;
+			opacity: 0;
+			transform: translateY(-8px);
+			pointer-events: none;
 		}
 		.awc-badge-3d-link {
 			position: relative;
@@ -370,7 +372,7 @@ function renderBadges(data, characterID, characterDiv) {
 		link.appendChild(img);
 		wrapper.appendChild(link);
 		enable3DHover(wrapper, link, img);
-		if(challenge.animated) {
+		if(challenge.animated && challenge.image) {
 			let isAnimated = true;
 			const toggle = document.createElement("button");
 
