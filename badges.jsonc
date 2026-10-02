@@ -8,7 +8,7 @@
 			"characters": [
 				46163	//Nico Yazawa
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 4449
 		},
 		/* END OF YEAR BADGES */
@@ -19,7 +19,7 @@
 			"characters": [
 				497	//Artoria Pendragon
 			],
-			"image": "https://i.postimg.cc/bwCD9Vzr/2018-End-of-Year.gif",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2018/T01/2018-End-of-Year-Legacy.gif",
 			"thread": 6208
 		},
 		{	//2019 Yearly: Participation
@@ -29,7 +29,7 @@
 			"characters": [
 				13701	//Mikoto Misaka
 			],
-			"image": "https://i.postimg.cc/yNF9PYtY/End-of-Year-2019-Participation.png",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2019/d9F/2019-End-of-Year-Participation.png",
 			"thread": 10335
 		},
 		{	//2019 Yearly: Easy Mode
@@ -39,7 +39,7 @@
 			"characters": [
 				13701	//Mikoto Misaka
 			],
-			"image": "https://i.postimg.cc/KzxTshh7/End-of-Year-2019-Easy.png",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2019/d9F/2019-End-of-Year-Easy.png",
 			"thread": 10335
 		},
 		{	//2019 Yearly: Hard Mode
@@ -49,7 +49,7 @@
 			"characters": [
 				13701	//Mikoto Misaka
 			],
-			"image": "https://i.postimg.cc/d16ybNJb/End-of-Year-2019-Hard.png",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2019/d9F/2019-End-of-Year-Easy.png",
 			"thread": 10335
 		},
 		{	//2020 Yearly: Participation
@@ -59,7 +59,7 @@
 			"characters": [
 				88892	//Katsuki Bakugou
 			],
-			"image": "https://i.postimg.cc/T3bxQBrp/End-of-Year-2020-Participation.png",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2020/3eS/2020-End-of-Year-Participation.png",
 			"thread": 21554
 		},
 		{	//2020 Yearly: Easy Mode
@@ -69,7 +69,7 @@
 			"characters": [
 				88892	//Katsuki Bakugou
 			],
-			"image": "https://i.postimg.cc/gcBPpGsx/End-of-Year-2020-Easy.png",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2020/3eS/2020-End-of-Year-Easy.png",
 			"thread": 21554
 		},
 		{	//2020 Yearly: Hard Mode
@@ -79,7 +79,7 @@
 			"characters": [
 				88892	//Katsuki Bakugou
 			],
-			"image": "https://i.postimg.cc/pdvwCrW6/End-of-Year-2020-Hard.png",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2020/3eS/2020-End-of-Year-Hard.png",
 			"thread": 21554
 		},
 		{	//2021 Yearly: Participation
@@ -90,7 +90,7 @@
 				127318,	//Emilico
 				127319	//Kate
 			],
-			"image": "https://i.postimg.cc/KvHFkZyP/2021-End-of-Year-Participation.png",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2021/zzE/2021-End-of-Year-Participation.png",
 			"thread": 48603
 		},
 		{	//2021 Yearly: Easy Mode
@@ -101,7 +101,7 @@
 				127318,	//Emilico
 				127319	//Kate
 			],
-			"image": "https://i.postimg.cc/5tkNLSJ7/2021-End-of-Year-Easy.png",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2021/zzE/2021-End-of-Year-Easy.png",
 			"thread": 48603
 		},
 		{	//2021 Yearly: Hard Mode
@@ -112,7 +112,7 @@
 				127318,	//Emilico
 				127319	//Kate
 			],
-			"image": "https://i.postimg.cc/Y0SK0PnD/2021-End-of-Year-Hard.png",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2021/zzE/2021-End-of-Year-Hard.png",
 			"thread": 48603
 		},
 		{	//2022 Yearly: Participation
@@ -122,7 +122,7 @@
 			"characters": [
 				168774	//Nazuna Nanakusa
 			],
-			"image": "https://i.postimg.cc/mg1KTfwK/2022-End-of-Year-Participation.png",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2022/hBn/2022-End-of-Year-Participation.png",
 			"thread": 62191
 		},
 		{	//2022 Yearly: Easy Mode
@@ -132,7 +132,7 @@
 			"characters": [
 				168774	//Nazuna Nanakusa
 			],
-			"image": "https://i.postimg.cc/NMBn8ycw/2022-End-of-Year-Easy.png",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2022/hBn/2022-End-of-Year-Easy.png",
 			"thread": 62191
 		},
 		{	//2022 Yearly: Hard Mode
@@ -142,7 +142,7 @@
 			"characters": [
 				168774	//Nazuna Nanakusa
 			],
-			"image": "https://i.postimg.cc/W3QcGNXm/2022-End-of-Year-Hard.png",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2022/hBn/2022-End-of-Year-Hard.png",
 			"thread": 62191
 		},
 		{	//2023 Yearly: Participation
@@ -152,7 +152,7 @@
 			"characters": [
 				46163	//Nico Yazawa
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 70655
 		},
 		{	//2023 Yearly: Easy Mode
@@ -162,7 +162,7 @@
 			"characters": [
 				46163	//Nico Yazawa
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 70655
 		},
 		{	//2023 Yearly: Hard Mode
@@ -172,7 +172,7 @@
 			"characters": [
 				46163	//Nico Yazawa
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 70655
 		},
 		{	//2024 Yearly: Participation
@@ -182,7 +182,7 @@
 			"characters": [
 				46163	//Nico Yazawa
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 79053
 		},
 		{	//2024 Yearly: Easy Mode
@@ -192,7 +192,7 @@
 			"characters": [
 				46163	//Nico Yazawa
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 79053
 		},
 		{	//2024 Yearly: Hard Mode
@@ -202,7 +202,7 @@
 			"characters": [
 				46163	//Nico Yazawa
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 79053
 		},
 		{	//2025 Yearly: Participation
@@ -212,7 +212,7 @@
 			"characters": [
 				46163	//Nico Yazawa
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 86815
 		},
 		{	//2025 Yearly: Easy Mode
@@ -222,7 +222,7 @@
 			"characters": [
 				46163	//Nico Yazawa
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 86815
 		},
 		{	//2025 Yearly: Hard Mode
@@ -232,7 +232,7 @@
 			"characters": [
 				46163	//Nico Yazawa
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 86815
 		},
 		/* ---------------- ANIME BADGES ---------------- */
@@ -952,7 +952,7 @@
 			"characters": [
 				128986	//Bocchi Hitori
 			],
-			"image": "https://i.postimg.cc/VNfFW7yV/Event-Badge-Battle-1.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/badge-battle/01/yA6/Event-Badge-Battle-01-Legacy.png",
 			"thread": 8579
 		},
 		{	//Badge Battle #2: Chise vs. Mikoto
@@ -962,7 +962,7 @@
 			"characters": [
 				88344	//Chise Hatori
 			],
-			"image": "https://i.postimg.cc/fLFjZDVG/Event-Badge-Battle-2.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/badge-battle/02/Z2R/Event-Badge-Battle-02-Legacy.png",
 			"thread": 10132
 		},
 		{	//Badge Battle #3: Chise vs. Mikoto
@@ -972,7 +972,7 @@
 			"characters": [
 				88651	//Aoi Miyamori
 			],
-			"image": "https://i.postimg.cc/mDhN0tg3/Event-Badge-Battle-3.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/badge-battle/03/K6d/Event-Badge-Battle-03-Legacy.png",
 			"thread": 12812
 		},
 		{	//Badge Battle #4: Chiya vs. Sophie
@@ -982,7 +982,7 @@
 			"characters": [
 				121042	//Chiya
 			],
-			"image": "https://i.postimg.cc/CKcsPjSL/Event-Badge-Battle-4.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/badge-battle/04/gcL/Event-Badge-Battle-04-Legacy.png",
 			"thread": 18437
 		},
 		{	//Badge Battle #5: Chiya vs. Sophie
@@ -992,7 +992,7 @@
 			"characters": [
 				13580	//Ash Lynx
 			],
-			"image": "https://i.postimg.cc/x8zG1hHc/Event-Badge-Battle-5.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/badge-battle/05/PQC/Event-Badge-Battle-05.png",
 			"thread": 24929
 		},
 		{	//Badge Battle #6: Mafuyu vs Elaina
@@ -1002,7 +1002,7 @@
 			"characters": [
 				125736	//Elaina
 			],
-			"image": "https://i.postimg.cc/R0NfKkS7/Event-Badge-Battle-6.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/badge-battle/06/Sa1/Event-Badge-Battle-06.png",
 			"thread": 41903
 		},
 		{	//Badge Battle #7: Mashiro vs Yui
@@ -1012,7 +1012,7 @@
 			"characters": [
 				61371	//Mashiro Shiina
 			],
-			"image": "https://i.postimg.cc/43wLQsQf/Event-Badge-Battle-7.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/badge-battle/07/QOR/Event-Badge-Battle-07.png",
 			"thread": 53858
 		},
 		{	//Badge Battle #8: Katarina vs Abigail
@@ -1022,7 +1022,7 @@
 			"characters": [
 				158450	//Abigail Jones
 			],
-			"image": "https://i.postimg.cc/3Ny5fsxF/Event-Badge-Battle-8.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/badge-battle/08/n6D/Event-Badge-Battle-08.png",
 			"thread": 62881
 		},
 		{	//Badge Battle #9: Sakaki vs Ena
@@ -1032,7 +1032,7 @@
 			"characters": [
 				180	//Sakaki
 			],
-			"image": "https://i.postimg.cc/sxzDJQwt/Event-Badge-Battle-9.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/badge-battle/09/pnD/Event-Badge-Battle-09.png",
 			"thread": 71275
 		},
 		{	//Badge Battle #10: Sheryl vs Doremi
@@ -1042,7 +1042,7 @@
 			"characters": [
 				4683	//Doremi Harukaze
 			],
-			"image": "https://i.postimg.cc/DybFSGYH/Event-Badge-Battle-10.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/badge-battle/10/irp/Event-Badge-Battle-10.png",
 			"thread": 79876
 		},
 		{	//Badge Battle #11: Takasugi vs Onsoku no Sonic
@@ -1064,7 +1064,7 @@
 			"characters": [
 				47167	//Taichi Mashima
 			],
-			"image": "https://i.postimg.cc/KvXpMSfG/Event-Raffle-1.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/community-raffle/01/RQX/Event-Community-Raffle-01-Legacy.png",
 			"thread": 6715
 		},
 		{	//Community Raffle 2
@@ -1074,7 +1074,7 @@
 			"characters": [
 				601	//Alucard
 			],
-			"image": "https://i.postimg.cc/L6zCkCQz/Event-Raffle-2.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/community-raffle/02/gYg/Event-Community-Raffle-02-Legacy.png",
 			"thread": 10745
 		},
 			/* Special */
@@ -1085,7 +1085,7 @@
 			"characters": [
 				497	//Artoria Pendragon
 			],
-			"image": "https://i.postimg.cc/6Qdv07sN/Event-Others-Advent.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/advent-calendar/gWJ/Event-Advent-Calendar-Legacy.png",
 			"thread": 5926
 		},
 		{	//Akira
@@ -1095,7 +1095,7 @@
 			"characters": [
 				2588	//Shoutarou Kaneda
 			],
-			"image": "https://i.postimg.cc/j5tJksKn/Event-Others-Akira.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/akira/ka5/Event-Akira-Legacy.png",
 			"thread": 8418
 		},
 		{	//Anniversary Boss Battle
@@ -1105,7 +1105,7 @@
 			"characters": [
 				36309	//Red Eyes Black Dragon
 			],
-			"image": "https://i.postimg.cc/N0BqBVxF/Special-Anniversary-Boss-Battle-Static.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/anniversary-boss-battle/SuY/Event-Anniversary-Boss-Battle-Static.png",
 			"thread": 14634
 		},
 		{	//Anniversary Boss Battle (Most Damage)
@@ -1215,7 +1215,7 @@
 			"characters": [
 				75450	//Alice Zuberg
 			],
-			"image": "https://i.postimg.cc/50ShvP0G/Hero-s-War-Generic.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/heros-war/esK/Heros-War-Generic.png",
 			"thread": 57577
 		},
 		{	//Hero’s War (Challenge Clan)
@@ -1225,7 +1225,7 @@
 			"characters": [
 				75450	//Alice Zuberg
 			],
-			"image": "https://i.postimg.cc/Y2bcCyTL/Hero-s-War-Challenge.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/heros-war/esK/Heros-War-Challenge.png",
 			"thread": 57577
 		},
 		{	//Hero’s War (Community Clan)
@@ -1235,7 +1235,7 @@
 			"characters": [
 				75450	//Alice Zuberg
 			],
-			"image": "https://i.postimg.cc/PJfBMmvq/Hero-s-War-Community.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/heros-war/esK/Heros-War-Community.png",
 			"thread": 57577
 		},
 		{	//Hero’s War (Design Clan)
@@ -1245,7 +1245,7 @@
 			"characters": [
 				75450	//Alice Zuberg
 			],
-			"image": "https://i.postimg.cc/tgWQRRH9/Hero-s-War-Design.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/heros-war/esK/Heros-War-Design.png",
 			"thread": 57577
 		},
 		{	//Hero’s War (Development Clan)
@@ -1255,7 +1255,7 @@
 			"characters": [
 				75450	//Alice Zuberg
 			],
-			"image": "https://i.postimg.cc/LXSdJdHL/Hero-s-War-Development.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/heros-war/esK/Heros-War-Development.png",
 			"thread": 57577
 		},
 		{	//Hero’s War (List Clan)
@@ -1265,7 +1265,7 @@
 			"characters": [
 				75450	//Alice Zuberg
 			],
-			"image": "https://i.postimg.cc/sxnbHv54/Hero-s-War-List.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/heros-war/esK/Heros-War-List.png",
 			"thread": 57577
 		},
 		{	//Hero’s War (Review Clan)
@@ -1275,7 +1275,7 @@
 			"characters": [
 				75450	//Alice Zuberg
 			],
-			"image": "https://i.postimg.cc/rsSB854K/Heros-War-Review-Winner.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/heros-war/esK/Heros-War-Review.png",
 			"thread": 57577
 		},
 		{	//Murder Mystery
@@ -1296,7 +1296,7 @@
 			"characters": [
 				87904	//Rinko Yamato
 			],
-			"image": "https://i.postimg.cc/cCPvN3PC/Event-Others-Valentines.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/valentines/1hj/Event-Valentines-Legacy.png",
 			"thread": 11041
 		},
 		{	//White Day
@@ -1306,7 +1306,7 @@
 			"characters": [
 				80757	//Takeo Gouda
 			],
-			"image": "https://i.postimg.cc/d3hhX6Hg/Event-Others-White-Day.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/valentines/1hj/Event-White-Day-Legacy.png",
 			"thread": 11041
 		},
 		/* ANIME GACHA BADGES */
@@ -1864,7 +1864,7 @@
 			"characters": [
 				246	//Gokuu Son
 			],
-			"image": "https://i.postimg.cc/xTR6qyws/Legacy-Adventure-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/adventure/pDS/Legacy-Adventure-Easy.png",
 			"thread": 6111
 		},
 		{	//Adventure Genre: Normal Mode (Legacy)
@@ -1874,7 +1874,7 @@
 			"characters": [
 				41949	//Aladdin
 			],
-			"image": "https://i.postimg.cc/wBSVnWNB/Legacy-Adventure-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/adventure/pDS/Legacy-Adventure-Normal.png",
 			"thread": 6111
 		},
 		{	//Adventure Genre: Hard Mode (Legacy)
@@ -1884,7 +1884,7 @@
 			"characters": [
 				4003	//Joutarou Kuujou
 			],
-			"image": "https://i.postimg.cc/NFtxj5pq/Legacy-Adventure-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/adventure/pDS/Legacy-Adventure-Hard.png",
 			"thread": 6111
 		},
 		{	//Adventure Genre: Easy Mode
@@ -1894,7 +1894,7 @@
 			"characters": [
 				246	//Gokuu Son
 			],
-			"image": "https://i.postimg.cc/hjCf4qkp/Genre-Adventure-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/adventure/pDS/Genre-Adventure-Easy.png",
 			"thread": 6111
 		},
 		{	//Adventure Genre: Normal Mode
@@ -1904,7 +1904,7 @@
 			"characters": [
 				41949	//Aladdin
 			],
-			"image": "https://i.postimg.cc/xTNcQht3/Genre-Adventure-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/adventure/pDS/Genre-Adventure-Normal.png",
 			"thread": 6111
 		},
 		{	//Adventure Genre: Hard Mode
@@ -1914,7 +1914,7 @@
 			"characters": [
 				4003	//Joutarou Kuujou
 			],
-			"image": "https://i.postimg.cc/RCyZgG46/Genre-Adventure-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/adventure/pDS/Genre-Adventure-Hard.png",
 			"thread": 6111
 		},
 		{	//Adventure Genre: Mastery
@@ -1924,8 +1924,8 @@
 			"characters": [
 				7373	//Holo
 			],
-			"image": "https://i.postimg.cc/zBXbWpfm/AWC-Genre-Adventure-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/vH9rGqgX/AWC-Genre-Adventure-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/adventure/pDS/Genre-Adventure-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/adventure/pDS/Genre-Adventure-Mastery-Animated.png",
 			"thread": 6111
 		},
 			/* Comedy */
@@ -1936,7 +1936,7 @@
 			"characters": [
 				90107	//Kusuo Saiki
 			],
-			"image": "https://i.postimg.cc/NFxk9Bzy/Legacy-Comedy-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/comedy/GUH/Legacy-Comedy-Easy.png",
 			"thread": 5289
 		},
 		{	//Comedy Genre: Normal Mode (Legacy)
@@ -1946,7 +1946,7 @@
 			"characters": [
 				89361	//Megumin
 			],
-			"image": "https://i.postimg.cc/GhcQ0T4v/Legacy-Comedy-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/comedy/GUH/Legacy-Comedy-Normal.png",
 			"thread": 5289
 		},
 		{	//Comedy Genre: Hard Mode (Legacy)
@@ -1956,7 +1956,7 @@
 			"characters": [
 				672	//Gintoki Sakata
 			],
-			"image": "https://i.postimg.cc/4NB1X4cq/Legacy-Comedy-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/comedy/GUH/Legacy-Comedy-Hard.png",
 			"thread": 5289
 		},
 		{	//Comedy Genre: Easy Mode
@@ -1966,7 +1966,7 @@
 			"characters": [
 				90107	//Kusuo Saiki
 			],
-			"image": "https://i.postimg.cc/rm2vd0kp/Genre-Comedy-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/comedy/GUH/Genre-Comedy-Easy.png",
 			"thread": 5289
 		},
 		{	//Comedy Genre: Normal Mode
@@ -1976,7 +1976,7 @@
 			"characters": [
 				89361	//Megumin
 			],
-			"image": "https://i.postimg.cc/B6Jm9x32/Genre-Comedy-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/comedy/GUH/Genre-Comedy-Normal.png",
 			"thread": 5289
 		},
 		{	//Comedy Genre: Hard Mode
@@ -1986,7 +1986,7 @@
 			"characters": [
 				672	//Gintoki Sakata
 			],
-			"image": "https://i.postimg.cc/mZvmNcp3/Genre-Comedy-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/comedy/GUH/Genre-Comedy-Hard.png",
 			"thread": 5289
 		},
 		{	//Comedy Genre: Mastery
@@ -1997,8 +1997,8 @@
 				10422,	//Nano Shinonome
 				41069	//Sakamoto
 			],
-			"image": "https://i.postimg.cc/RVYFvPXq/AWC-Genre-Comedy-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/85wp9w7p/AWC-Genre-Comedy-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/comedy/GUH/Genre-Comedy-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/comedy/GUH/Genre-Comedy-Mastery-Animated.png",
 			"thread": 5289
 		},
 			/* Drama */
@@ -2009,7 +2009,7 @@
 			"characters": [
 				90169	//Violet Evergarden
 			],
-			"image": "https://i.postimg.cc/bvbbSqGz/Legacy-Drama-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/drama/RHl/Legacy-Drama-Easy.png",
 			"thread": 5875
 		},
 		{	//Drama Genre: Normal Mode (Legacy)
@@ -2019,7 +2019,7 @@
 			"characters": [
 				22369	//Kanade Tachibana
 			],
-			"image": "https://i.postimg.cc/Qt37pv5c/Legacy-Drama-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/drama/RHl/Legacy-Drama-Normal.png",
 			"thread": 5875
 		},
 		{	//Drama Genre: Hard Mode (Legacy)
@@ -2029,7 +2029,7 @@
 			"characters": [
 				81853	//Decim
 			],
-			"image": "https://i.postimg.cc/4y8hRd01/Legacy-Drama-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/drama/RHl/Legacy-Drama-Hard.png",
 			"thread": 5875
 		},
 		{	//Drama Genre: Easy Mode
@@ -2039,7 +2039,7 @@
 			"characters": [
 				90169	//Violet Evergarden
 			],
-			"image": "https://i.postimg.cc/SQz70JkG/Genre-Drama-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/drama/RHl/Genre-Drama-Easy.png",
 			"thread": 5875
 		},
 		{	//Drama Genre: Normal Mode
@@ -2049,7 +2049,7 @@
 			"characters": [
 				22369	//Kanade Tachibana
 			],
-			"image": "https://i.postimg.cc/sxDrhtjj/Genre-Drama-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/drama/RHl/Genre-Drama-Normal.png",
 			"thread": 5875
 		},
 		{	//Drama Genre: Hard Mode
@@ -2059,7 +2059,7 @@
 			"characters": [
 				81853	//Decim
 			],
-			"image": "https://i.postimg.cc/FKqJ0SF0/Genre-Drama-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/drama/RHl/Genre-Drama-Hard.png",
 			"thread": 5875
 		},
 		{	//Drama Genre: Mastery
@@ -2069,8 +2069,8 @@
 			"characters": [
 				43009	//Himari Takakura
 			],
-			"image": "https://i.postimg.cc/J4PP0Hzx/AWC-Genre-Drama-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/cHRcSrzQ/AWC-Genre-Drama-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/drama/RHl/Genre-Drama-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/drama/RHl/Genre-Drama-Mastery-Animated.png",
 			"thread": 5875
 		},
 			/* Ecchi */
@@ -2081,7 +2081,7 @@
 			"characters": [
 				50389	//Rias Gremory
 			],
-			"image": "https://i.postimg.cc/HW3MyZL7/Legacy-Ecchi-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/ecchi/2c3/Legacy-Ecchi-Easy.png",
 			"thread": 6631
 		},
 		{	//Ecchi Genre: Normal Mode (Legacy)
@@ -2091,7 +2091,7 @@
 			"characters": [
 				78475	//Satoshi Isshiki
 			],
-			"image": "https://i.postimg.cc/yYdZXmJp/Legacy-Ecchi-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/ecchi/2c3/Legacy-Ecchi-Normal.png",
 			"thread": 6631
 		},
 		{	//Ecchi Genre: Hard Mode (Legacy)
@@ -2101,7 +2101,7 @@
 			"characters": [
 				82525	//Shiro
 			],
-			"image": "https://i.postimg.cc/QxyW6F18/Legacy-Ecchi-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/ecchi/2c3/Legacy-Ecchi-Hard.png",
 			"thread": 6631
 		},
 		{	//Ecchi Genre: Easy Mode
@@ -2111,7 +2111,7 @@
 			"characters": [
 				50389	//Rias Gremory
 			],
-			"image": "https://i.postimg.cc/k5bq2R2V/Genre-Ecchi-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/ecchi/2c3/Genre-Ecchi-Easy.png",
 			"thread": 6631
 		},
 		{	//Ecchi Genre: Normal Mode
@@ -2121,7 +2121,7 @@
 			"characters": [
 				78475	//Satoshi Isshiki
 			],
-			"image": "https://i.postimg.cc/8CJMs4dh/Genre-Ecchi-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/ecchi/2c3/Genre-Ecchi-Normal.png",
 			"thread": 6631
 		},
 		{	//Ecchi Genre: Hard Mode
@@ -2131,7 +2131,7 @@
 			"characters": [
 				82525	//Shiro
 			],
-			"image": "https://i.postimg.cc/J0f463HW/Genre-Ecchi-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/ecchi/2c3/Genre-Ecchi-Hard.png",
 			"thread": 6631
 		},
 		{	//Ecchi Genre: Mastery
@@ -2141,8 +2141,8 @@
 			"characters": [
 				83797	//Ryuuko Matoi
 			],
-			"image": "https://i.postimg.cc/j2R4dRVB/AWC-Genre-Ecchi-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/ZnjFWX4n/AWC-Genre-Ecchi-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/ecchi/2c3/Genre-Ecchi-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/ecchi/2c3/Genre-Ecchi-Mastery-Animated.png",
 			"thread": 6631
 		},
 			/* Fantasy */
@@ -2153,7 +2153,7 @@
 			"characters": [
 				2727	//San
 			],
-			"image": "https://i.postimg.cc/YCLLTtz1/Legacy-Fantasy-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/fantasy/L4X/Legacy-Fantasy-Easy.png",
 			"thread": 5290
 		},
 		{	//Fantasy Genre: Normal Mode (Legacy)
@@ -2163,7 +2163,7 @@
 			"characters": [
 				122445	//Nanachi
 			],
-			"image": "https://i.postimg.cc/5tcQVDsD/Legacy-Fantasy-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/fantasy/L4X/Legacy-Fantasy-Normal.png",
 			"thread": 5290
 		},
 		{	//Fantasy Genre: Hard Mode (Legacy)
@@ -2173,7 +2173,7 @@
 			"characters": [
 				11	//Edward Elric
 			],
-			"image": "https://i.postimg.cc/YS1Gq8V0/Legacy-Fantasy-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/fantasy/L4X/Legacy-Fantasy-Hard.png",
 			"thread": 5290
 		},
 		{	//Fantasy Genre: Easy Mode
@@ -2183,7 +2183,7 @@
 			"characters": [
 				2727	//San
 			],
-			"image": "https://i.postimg.cc/KjYVC4gc/Genre-Fantasy-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/fantasy/L4X/Genre-Fantasy-Easy.png",
 			"thread": 5290
 		},
 		{	//Fantasy Genre: Normal Mode
@@ -2193,7 +2193,7 @@
 			"characters": [
 				122445	//Nanachi
 			],
-			"image": "https://i.postimg.cc/Xqmb89D6/Genre-Fantasy-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/fantasy/L4X/Genre-Fantasy-Normal.png",
 			"thread": 5290
 		},
 		{	//Fantasy Genre: Hard Mode
@@ -2203,7 +2203,7 @@
 			"characters": [
 				11	//Edward Elric
 			],
-			"image": "https://i.postimg.cc/t4T67xLt/Genre-Fantasy-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/fantasy/L4X/Genre-Fantasy-Hard.png",
 			"thread": 5290
 		},
 		{	//Fantasy Genre: Mastery
@@ -2212,10 +2212,10 @@
 			"name": "Fantasy Genre Challenge: Mastery",
 			"characters": [
 				384,	//Chihiro Ogino
-				385		//Haku
+				385	//Haku
 			],
-			"image": "https://i.postimg.cc/bvMXy1Cg/AWC-Genre-Fantasy-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/zvFPghj9/AWC-Genre-Fantasy-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/fantasy/L4X/Genre-Fantasy-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/fantasy/L4X/Genre-Fantasy-Mastery-Animated.png",
 			"thread": 5290
 		},
 			/* Hentai */
@@ -2224,9 +2224,9 @@
 			"id": "genreHentaiEasyLGCY",
 			"name": "Hentai Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
-				47101		//Kisara Himeno
+				47101	//Kisara Himeno
 			],
-			"image": "https://i.postimg.cc/0241bvRX/Legacy-Hentai-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/hentai/SXC/Legacy-Hentai-Easy.png",
 			"thread": 5559
 		},
 		{	//Hentai Genre: Normal Mode (Legacy)
@@ -2234,9 +2234,9 @@
 			"id": "genreHentaiNormalLGCY",
 			"name": "Hentai Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
-				29077		//Mafuyu Orifushi
+				29077	//Mafuyu Orifushi
 			],
-			"image": "https://i.postimg.cc/Pr90dMYB/Legacy-Hentai-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/hentai/SXC/Legacy-Hentai-Normal.png",
 			"thread": 5559
 		},
 		{	//Hentai Genre: Hard Mode (Legacy)
@@ -2244,9 +2244,9 @@
 			"id": "genreHentaiHardLGCY",
 			"name": "Hentai Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
-				54179		//Nemu Manaka
+				54179	//Nemu Manaka
 			],
-			"image": "https://i.postimg.cc/52zTyFmj/Legacy-Hentai-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/hentai/SXC/Legacy-Hentai-Hard.png",
 			"thread": 5559
 		},
 		{	//Hentai Genre: Easy Mode
@@ -2254,9 +2254,9 @@
 			"id": "genreHentaiEasy",
 			"name": "Hentai Genre Challenge: Easy Mode",
 			"characters": [
-				47101		//Kisara Himeno
+				47101	//Kisara Himeno
 			],
-			"image": "https://i.postimg.cc/3JVHsMCj/Genre-Hentai-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/hentai/SXC/Genre-Hentai-Easy.png",
 			"thread": 5559
 		},
 		{	//Hentai Genre: Normal Mode
@@ -2264,9 +2264,9 @@
 			"id": "genreHentaiNormal",
 			"name": "Hentai Genre Challenge: Normal Mode",
 			"characters": [
-				29077		//Mafuyu Orifushi
+				29077	//Mafuyu Orifushi
 			],
-			"image": "https://i.postimg.cc/5tqdQXcp/Genre-Hentai-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/hentai/SXC/Genre-Hentai-Normal.png",
 			"thread": 5559
 		},
 		{	//Hentai Genre: Hard Mode
@@ -2274,9 +2274,9 @@
 			"id": "genreHentaiHard",
 			"name": "Hentai Genre Challenge: Hard Mode",
 			"characters": [
-				54179		//Nemu Manaka
+				54179	//Nemu Manaka
 			],
-			"image": "https://i.postimg.cc/rssvHgDY/Genre-Hentai-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/hentai/SXC/Genre-Hentai-Hard.png",
 			"thread": 5559
 		},
 		{	//Hentai Genre: Mastery
@@ -2284,10 +2284,10 @@
 			"id": "genreHentaiMastery",
 			"name": "Hentai Genre Challenge: Mastery",
 			"characters": [
-				4316		//Sawa
+				4316	//Sawa
 			],
-			"image": "https://i.postimg.cc/y6Sy7TK6/AWC-Genre-Hentai-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/Pqx19WKj/AWC-Genre-Hentai-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/hentai/SXC/Genre-Hentai-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/hentai/SXC/Genre-Hentai-Mastery-Animated.png",
 			"thread": 5559
 		},
 			/* Horror */
@@ -2296,9 +2296,9 @@
 			"id": "genreHorrorEasyLGCY",
 			"name": "Horror Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
-				41402		//Mei Misaki
+				41402	//Mei Misaki
 			],
-			"image": "https://i.postimg.cc/d0KXytW6/Legacy-Horror-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/horror/goM/Legacy-Horror-Easy.png",
 			"thread": 5558
 		},
 		{	//Horror Genre: Normal Mode (Legacy)
@@ -2306,9 +2306,9 @@
 			"id": "genreHorrorNormalLGCY",
 			"name": "Horror Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
-				7581		//Megumi Shimizu
+				7581	//Megumi Shimizu
 			],
-			"image": "https://i.postimg.cc/9MmnLgHq/Legacy-Horror-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/horror/goM/Legacy-Horror-Normal.png",
 			"thread": 5558
 		},
 		{	//Horror Genre: Hard Mode (Legacy)
@@ -2316,9 +2316,9 @@
 			"id": "genreHorrorHardLGCY",
 			"name": "Horror Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
-				12323		//Shinichi Izumi
+				12323	//Shinichi Izumi
 			],
-			"image": "https://i.postimg.cc/j5Mkm6R3/Legacy-Horror-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/horror/goM/Legacy-Horror-Hard.png",
 			"thread": 5558
 		},
 		{	//Horror Genre: Easy Mode
@@ -2326,9 +2326,9 @@
 			"id": "genreHorrorEasy",
 			"name": "Horror Genre Challenge: Easy Mode",
 			"characters": [
-				41402		//Mei Misaki
+				41402	//Mei Misaki
 			],
-			"image": "https://i.postimg.cc/pdTjSF21/Genre-Horror-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/horror/goM/Genre-Horror-Easy.png",
 			"thread": 5558
 		},
 		{	//Horror Genre: Normal Mode
@@ -2336,9 +2336,9 @@
 			"id": "genreHorrorNormal",
 			"name": "Horror Genre Challenge: Normal Mode",
 			"characters": [
-				7581		//Megumi Shimizu
+				7581	//Megumi Shimizu
 			],
-			"image": "https://i.postimg.cc/qvmh2v8c/Genre-Horror-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/horror/goM/Genre-Horror-Normal.png",
 			"thread": 5558
 		},
 		{	//Horror Genre: Hard Mode
@@ -2346,9 +2346,9 @@
 			"id": "genreHorrorHard",
 			"name": "Horror Genre Challenge: Hard Mode",
 			"characters": [
-				12323		//Shinichi Izumi
+				12323	//Shinichi Izumi
 			],
-			"image": "https://i.postimg.cc/3NHd34Th/Genre-Horror-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/horror/goM/Genre-Horror-Hard.png",
 			"thread": 5558
 		},
 		{	//Horror Genre: Mastery
@@ -2356,10 +2356,10 @@
 			"id": "genreHorrorMastery",
 			"name": "Horror Genre Challenge: Mastery",
 			"characters": [
-				4866		//Mima Kirigoe
+				4866	//Mima Kirigoe
 			],
-			"image": "https://i.postimg.cc/NjK70NVG/AWC-Genre-Horror-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/7Lv7Zq0X/AWC-Genre-Horror-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/horror/goM/Genre-Horror-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/horror/goM/Genre-Horror-Mastery-Animated.png",
 			"thread": 5558
 		},
 			/* Mahou Shoujo */
@@ -2368,9 +2368,9 @@
 			"id": "genreMahouEasyLGCY",
 			"name": "Mahou Shoujo Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
-				2030		//Usagi Tsukino
+				2030	//Usagi Tsukino
 			],
-			"image": "https://i.postimg.cc/0jrHs6Qk/Legacy-Mahou-Shoujo-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mahou-shoujo/tVH/Legacy-MahouShoujo-Easy.png",
 			"thread": 6376
 		},
 		{	//Mahou Shoujo Genre: Normal Mode (Legacy)
@@ -2378,9 +2378,9 @@
 			"id": "genreMahouNormalLGCY",
 			"name": "Mahou Shoujo Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
-				2671		//Sakura Kinomoto
+				2671	//Sakura Kinomoto
 			],
-			"image": "https://i.postimg.cc/sx8HDVQp/Legacy-Mahou-Shoujo-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mahou-shoujo/tVH/Legacy-MahouShoujo-Normal.png",
 			"thread": 6376
 		},
 		{	//Mahou Shoujo Genre: Hard Mode (Legacy)
@@ -2388,9 +2388,9 @@
 			"id": "genreMahouHardLGCY",
 			"name": "Mahou Shoujo Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
-				38194		//Mami Tomoe
+				38194	//Mami Tomoe
 			],
-			"image": "https://i.postimg.cc/2jXKxxcV/Legacy-Mahou-Shoujo-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mahou-shoujo/tVH/Legacy-MahouShoujo-Hard.png",
 			"thread": 6376
 		},
 		{	//Mahou Shoujo Genre: Easy Mode
@@ -2398,9 +2398,9 @@
 			"id": "genreMahouEasy",
 			"name": "Mahou Shoujo Genre Challenge: Easy Mode",
 			"characters": [
-				2030		//Usagi Tsukino
+				2030	//Usagi Tsukino
 			],
-			"image": "https://i.postimg.cc/zGDpJ3zT/Genre-Mahou-Shoujo-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mahou-shoujo/tVH/Genre-MahouShoujo-Easy.png",
 			"thread": 6376
 		},
 		{	//Mahou Shoujo Genre: Normal Mode
@@ -2408,9 +2408,9 @@
 			"id": "genreMahouNormal",
 			"name": "Mahou Shoujo Genre Challenge: Normal Mode",
 			"characters": [
-				503		//Illyasviel von Einzbern
+				503	//Illyasviel von Einzbern
 			],
-			"image": "https://i.postimg.cc/CxdDP8Mr/Genre-Mahou-Shoujo-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mahou-shoujo/tVH/Genre-MahouShoujo-Normal.png",
 			"thread": 6376
 		},
 		{	//Mahou Shoujo Genre: Hard Mode
@@ -2418,9 +2418,9 @@
 			"id": "genreMahouHard",
 			"name": "Mahou Shoujo Genre Challenge: Hard Mode",
 			"characters": [
-				38194		//Mami Tomoe
+				38194	//Mami Tomoe
 			],
-			"image": "https://i.postimg.cc/28t35KmT/Genre-Mahou-Shoujo-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mahou-shoujo/tVH/Genre-MahouShoujo-Hard.png",
 			"thread": 6376
 		},
 		{	//Mahou Shoujo Genre: Mastery
@@ -2428,10 +2428,10 @@
 			"id": "genreMahouMastery",
 			"name": "Mahou Shoujo Genre Challenge: Mastery",
 			"characters": [
-				5449		//Nagisa Misumi
+				5449	//Nagisa Misumi
 			],
-			"image": "https://i.postimg.cc/sfnhZY5M/AWC-Genre-Mahou-Shoujo-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/0jrrC47b/AWC-Genre-Mahou-Shoujo-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mahou-shoujo/tVH/Genre-MahouShoujo-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/mahou-shoujo/tVH/Genre-MahouShoujo-Mastery-Animated.png",
 			"thread": 6376
 		},
 			/* Mecha */
@@ -2440,9 +2440,9 @@
 			"id": "genreMechaEasyLGCY",
 			"name": "Mecha Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
-				3497		//Noriko Takaya
+				3497	//Noriko Takaya
 			],
-			"image": "https://i.postimg.cc/vHJ2JZdy/Legacy-Mecha-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mecha/UKy/Legacy-Mecha-Easy.png",
 			"thread": 6112
 		},
 		{	//Mecha Genre: Normal Mode (Legacy)
@@ -2450,9 +2450,9 @@
 			"id": "genreMechaNormalLGCY",
 			"name": "Mecha Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
-				2075		//Kamina
+				2075	//Kamina
 			],
-			"image": "https://i.postimg.cc/RZwp4xMH/Legacy-Mecha-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mecha/UKy/Legacy-Mecha-Normal.png",
 			"thread": 6112
 		},
 		{	//Mecha Genre: Hard Mode (Legacy)
@@ -2460,9 +2460,9 @@
 			"id": "genreMechaHardLGCY",
 			"name": "Mecha Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
-				1336		//Char Aznable
+				1336	//Char Aznable
 			],
-			"image": "https://i.postimg.cc/q70b7DRZ/Legacy-Mecha-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mecha/UKy/Legacy-Mecha-Hard.png",
 			"thread": 6112
 		},
 		{	//Mecha Genre: Easy Mode
@@ -2470,9 +2470,9 @@
 			"id": "genreMechaEasy",
 			"name": "Mecha Genre Challenge: Easy Mode",
 			"characters": [
-				3497		//Noriko Takaya
+				3497	//Noriko Takaya
 			],
-			"image": "https://i.postimg.cc/JnRjQ2sZ/Genre-Mecha-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mecha/UKy/Genre-Mecha-Easy.png",
 			"thread": 6112
 		},
 		{	//Mecha Genre: Normal Mode
@@ -2480,9 +2480,9 @@
 			"id": "genreMechaNormal",
 			"name": "Mecha Genre Challenge: Normal Mode",
 			"characters": [
-				2075		//Kamina
+				2075	//Kamina
 			],
-			"image": "https://i.postimg.cc/0NzN1GhF/Genre-Mecha-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mecha/UKy/Genre-Mecha-Normal.png",
 			"thread": 6112
 		},
 		{	//Mecha Genre: Hard Mode
@@ -2490,9 +2490,9 @@
 			"id": "genreMechaHard",
 			"name": "Mecha Genre Challenge: Hard Mode",
 			"characters": [
-				1336		//Char Aznable
+				1336	//Char Aznable
 			],
-			"image": "https://i.postimg.cc/NFMJdMK6/Genre-Mecha-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mecha/UKy/Genre-Mecha-Hard.png",
 			"thread": 6112
 		},
 		{	//Mecha Genre: Mastery
@@ -2500,10 +2500,10 @@
 			"id": "genreMechaMastery",
 			"name": "Mecha Genre Challenge: Mastery",
 			"characters": [
-				89		//Shinji Ikari (Evangelion Unit-01)
+				89	//Shinji Ikari (Evangelion Unit-01)
 			],
-			"image": "https://i.postimg.cc/jqvzPN0F/AWC-Genre-Mecha-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/NFP9V6QG/AWC-Genre-Mecha-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mecha/UKy/Genre-Mecha-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/mecha/UKy/Genre-Mecha-Mastery-Animated.png",
 			"thread": 6112
 		},
 			/* Music */
@@ -2512,9 +2512,9 @@
 			"id": "genreMusicEasyLGCY",
 			"name": "Music Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
-				46163		//Nico Yazawa
+				46163	//Nico Yazawa
 			],
-			"image": "https://i.postimg.cc/hjt2LJVL/Legacy-Music-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/music/GEj/Legacy-Music-Easy.png",
 			"thread": 6375
 		},
 		{	//Music Genre: Normal Mode (Legacy)
@@ -2522,9 +2522,9 @@
 			"id": "genreMusicNormalLGCY",
 			"name": "Music Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
-				126664		//Junna Hoshimi
+				126664	//Junna Hoshimi
 			],
-			"image": "https://i.postimg.cc/DZpBB2ct/Legacy-Music-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/music/GEj/Legacy-Music-Normal.png",
 			"thread": 6375
 		},
 		{	//Music Genre: Hard Mode (Legacy)
@@ -2532,9 +2532,9 @@
 			"id": "genreMusicHardLGCY",
 			"name": "Music Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
-				88708		//Kumiko Oumae
+				88708	//Kumiko Oumae
 			],
-			"image": "https://i.postimg.cc/GtBzfZ79/Legacy-Music-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/music/GEj/Legacy-Music-Hard.png",
 			"thread": 6375
 		},
 		{	//Music Genre: Easy Mode
@@ -2542,9 +2542,9 @@
 			"id": "genreMusicEasy",
 			"name": "Music Genre Challenge: Easy Mode",
 			"characters": [
-				46163		//Nico Yazawa
+				46163	//Nico Yazawa
 			],
-			"image": "https://i.postimg.cc/Px3nVRQ0/Genre-Music-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/music/GEj/Genre-Music-Easy.png",
 			"thread": 6375
 		},
 		{	//Music Genre: Normal Mode
@@ -2552,9 +2552,9 @@
 			"id": "genreMusicNormal",
 			"name": "Music Genre Challenge: Normal Mode",
 			"characters": [
-				126664		//Junna Hoshimi
+				126664	//Junna Hoshimi
 			],
-			"image": "https://i.postimg.cc/gcLGBG1D/Genre-Music-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/music/GEj/Genre-Music-Normal.png",
 			"thread": 6375
 		},
 		{	//Music Genre: Hard Mode
@@ -2562,9 +2562,9 @@
 			"id": "genreMusicHard",
 			"name": "Music Genre Challenge: Hard Mode",
 			"characters": [
-				88708		//Kumiko Oumae
+				88708	//Kumiko Oumae
 			],
-			"image": "https://i.postimg.cc/CK2WjqMV/Genre-Music-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/music/GEj/Genre-Music-Hard.png",
 			"thread": 6375
 		},
 		{	//Music Genre: Mastery
@@ -2572,10 +2572,10 @@
 			"id": "genreMusicMastery",
 			"name": "Music Genre Challenge: Mastery",
 			"characters": [
-				69411		//Kaori Miyazono
+				69411	//Kaori Miyazono
 			],
-			"image": "https://i.postimg.cc/g23j48Lq/AWC-Genre-Music-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/sf82rwp4/AWC-Genre-Music-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/music/GEj/Genre-Music-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/music/GEj/Genre-Music-Mastery-Animated.png",
 			"thread": 6375
 		},
 			/* Mystery */
@@ -2584,9 +2584,9 @@
 			"id": "genreMysteryEasyLGCY",
 			"name": "Mystery Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
-				1742		//Conan Edogawa
+				1742	//Conan Edogawa
 			],
-			"image": "https://i.postimg.cc/mk0VW8Jj/Legacy-Mystery-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mystery/dOf/Legacy-Mystery-Easy.png",
 			"thread": 5557
 		},
 		{	//Mystery Genre: Normal Mode (Legacy)
@@ -2594,9 +2594,9 @@
 			"id": "genreMysteryNormalLGCY",
 			"name": "Mystery Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
-				89201		//Ranpo Edogawa
+				89201	//Ranpo Edogawa
 			],
-			"image": "https://i.postimg.cc/WpK5Z1zZ/Legacy-Mystery-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mystery/dOf/Legacy-Mystery-Normal.png",
 			"thread": 5557
 		},
 		{	//Mystery Genre: Hard Mode (Legacy)
@@ -2604,9 +2604,9 @@
 			"id": "genreMysteryHardLGCY",
 			"name": "Mystery Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
-				55133		//Eru Chitanda
+				55133	//Eru Chitanda
 			],
-			"image": "https://i.postimg.cc/t4GDrvhC/Legacy-Mystery-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mystery/dOf/Legacy-Mystery-Hard.png",
 			"thread": 5557
 		},
 		{	//Mystery Genre: Easy Mode
@@ -2614,9 +2614,9 @@
 			"id": "genreMysteryEasy",
 			"name": "Mystery Genre Challenge: Easy Mode",
 			"characters": [
-				1742		//Conan Edogawa
+				1742	//Conan Edogawa
 			],
-			"image": "https://i.postimg.cc/76VtKJw6/Genre-Mystery-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mystery/dOf/Genre-Mystery-Easy.png",
 			"thread": 5557
 		},
 		{	//Mystery Genre: Normal Mode
@@ -2624,9 +2624,9 @@
 			"id": "genreMysteryNormal",
 			"name": "Mystery Genre Challenge: Normal Mode",
 			"characters": [
-				89201		//Ranpo Edogawa
+				89201	//Ranpo Edogawa
 			],
-			"image": "https://i.postimg.cc/NGnkBkJt/Genre-Mystery-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mystery/dOf/Genre-Mystery-Normal.png",
 			"thread": 5557
 		},
 		{	//Mystery Genre: Hard Mode
@@ -2634,9 +2634,9 @@
 			"id": "genreMysteryHard",
 			"name": "Mystery Genre Challenge: Hard Mode",
 			"characters": [
-				55133		//Eru Chitanda
+				55133	//Eru Chitanda
 			],
-			"image": "https://i.postimg.cc/8zNH0PXf/Genre-Mystery-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mystery/dOf/Genre-Mystery-Hard.png",
 			"thread": 5557
 		},
 		{	//Mystery Genre: Mastery
@@ -2644,10 +2644,10 @@
 			"id": "genreMysteryMastery",
 			"name": "Mystery Genre Challenge: Mastery",
 			"characters": [
-				20170		//Victorique de Blois
+				20170	//Victorique de Blois
 			],
-			"image": "https://i.postimg.cc/xCZ991b1/AWC-Genre-Mystery-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/PqrLxNNW/AWC-Genre-Mystery-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/mystery/dOf/Genre-Mystery-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/mystery/dOf/Genre-Mystery-Mastery-Animated.png",
 			"thread": 5557
 		},
 			/* Romance */
@@ -2656,9 +2656,9 @@
 			"id": "genreRomanceEasyLGCY",
 			"name": "Romance Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
-				12064		//Taiga Aisaka
+				12064	//Taiga Aisaka
 			],
-			"image": "https://i.postimg.cc/zvRS7Tvg/Legacy-Romance-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/romance/uY1/Legacy-Romance-Easy.png",
 			"thread": 5291
 		},
 		{	//Romance Genre: Normal Mode (Legacy)
@@ -2666,9 +2666,9 @@
 			"id": "genreRomanceNormalLGCY",
 			"name": "Romance Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
-				87271		//Chiyo Sakura
+				87271	//Chiyo Sakura
 			],
-			"image": "https://i.postimg.cc/2jqPMJB4/Legacy-Romance-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/romance/uY1/Legacy-Romance-Normal.png",
 			"thread": 5291
 		},
 		{	//Romance Genre: Hard Mode (Legacy)
@@ -2676,9 +2676,9 @@
 			"id": "genreRomanceHardLGCY",
 			"name": "Romance Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
-				4604		//Nagisa Furukawa
+				4604	//Nagisa Furukawa
 			],
-			"image": "https://i.postimg.cc/qB99TL8W/Legacy-Romance-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/romance/uY1/Legacy-Romance-Hard.png",
 			"thread": 5291
 		},
 		{	//Romance Genre: Easy Mode
@@ -2686,9 +2686,9 @@
 			"id": "genreRomanceEasy",
 			"name": "Romance Genre Challenge: Easy Mode",
 			"characters": [
-				12064		//Taiga Aisaka
+				12064	//Taiga Aisaka
 			],
-			"image": "https://i.postimg.cc/sDQYHGJ2/Genre-Romance-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/romance/uY1/Genre-Romance-Easy.png",
 			"thread": 5291
 		},
 		{	//Romance Genre: Normal Mode
@@ -2696,9 +2696,9 @@
 			"id": "genreRomanceNormal",
 			"name": "Romance Genre Challenge: Normal Mode",
 			"characters": [
-				87271		//Chiyo Sakura
+				87271	//Chiyo Sakura
 			],
-			"image": "https://i.postimg.cc/Bt9XVbq8/Genre-Romance-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/romance/uY1/Genre-Romance-Normal.png",
 			"thread": 5291
 		},
 		{	//Romance Genre: Hard Mode
@@ -2706,9 +2706,9 @@
 			"id": "genreRomanceHard",
 			"name": "Romance Genre Challenge: Hard Mode",
 			"characters": [
-				4604		//Nagisa Furukawa
+				4604	//Nagisa Furukawa
 			],
-			"image": "https://i.postimg.cc/2yFVgm32/Genre-Romance-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/romance/uY1/Genre-Romance-Hard.png",
 			"thread": 5291
 		},
 		{	//Romance Genre: Mastery
@@ -2716,10 +2716,10 @@
 			"id": "genreRomanceMastery",
 			"name": "Romance Genre Challenge: Mastery",
 			"characters": [
-				207		//Tooru Honda
+				207	//Tooru Honda
 			],
-			"image": "https://i.postimg.cc/5NBjS8C5/AWC-Genre-Romance-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/wBvvzPbF/AWC-Genre-Romance-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/romance/uY1/Genre-Romance-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/romance/uY1/Genre-Romance-Mastery-Animated.png",
 			"thread": 5291
 		},
 			/* Sci-Fi */
@@ -2728,9 +2728,9 @@
 			"id": "genreSciFiEasyLGCY",
 			"name": "Sci-Fi Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
-				1		//Spike Spiegel
+				1	//Spike Spiegel
 			],
-			"image": "https://i.postimg.cc/pXz3XFCr/Legacy-Sci-Fi-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sci-fi/ywa/Legacy-SciFi-Easy.png",
 			"thread": 5292
 		},
 		{	//Sci-Fi Genre: Normal Mode (Legacy)
@@ -2738,9 +2738,9 @@
 			"id": "genreSciFiNormalLGCY",
 			"name": "Sci-Fi Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
-				68315		//Shinya Kougami
+				68315	//Shinya Kougami
 			],
-			"image": "https://i.postimg.cc/CKL2N6gn/Legacy-Sci-Fi-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sci-fi/ywa/Legacy-SciFi-Normal.png",
 			"thread": 5292
 		},
 		{	//Sci-Fi Genre: Hard Mode (Legacy)
@@ -2748,9 +2748,9 @@
 			"id": "genreSciFiHardLGCY",
 			"name": "Sci-Fi Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
-				1795		//Motoko Kusanagi
+				1795	//Motoko Kusanagi
 			],
-			"image": "https://i.postimg.cc/261Kpb3z/Legacy-Sci-Fi-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sci-fi/ywa/Legacy-SciFi-Hard.png",
 			"thread": 5292
 		},
 		{	//Sci-Fi Genre: Easy Mode
@@ -2758,9 +2758,9 @@
 			"id": "genreSciFiEasy",
 			"name": "Sci-Fi Genre Challenge: Easy Mode",
 			"characters": [
-				1		//Spike Spiegel
+				1	//Spike Spiegel
 			],
-			"image": "https://i.postimg.cc/hPv0T3YN/Genre-Sci-Fi-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sci-fi/ywa/Genre-SciFi-Easy.png",
 			"thread": 5292
 		},
 		{	//Sci-Fi Genre: Normal Mode
@@ -2768,9 +2768,9 @@
 			"id": "genreSciFiNormal",
 			"name": "Sci-Fi Genre Challenge: Normal Mode",
 			"characters": [
-				1695		//Priscilla S. Asagiri
+				1695	//Priscilla S. Asagiri
 			],
-			"image": "https://i.postimg.cc/ZqwPDGC8/Genre-Sci-Fi-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sci-fi/ywa/Genre-SciFi-Normal.png",
 			"thread": 5292
 		},
 		{	//Sci-Fi Genre: Hard Mode
@@ -2778,9 +2778,9 @@
 			"id": "genreSciFiHard",
 			"name": "Sci-Fi Genre Challenge: Hard Mode",
 			"characters": [
-				1795		//Motoko Kusanagi
+				1795	//Motoko Kusanagi
 			],
-			"image": "https://i.postimg.cc/G2kLpCGY/Genre-Sci-Fi-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sci-fi/ywa/Genre-SciFi-Hard.png",
 			"thread": 5292
 		},
 		{	//Sci-Fi Genre: Mastery
@@ -2788,10 +2788,10 @@
 			"id": "genreSciFiMastery",
 			"name": "Sci-Fi Genre Challenge: Mastery",
 			"characters": [
-				35252		//Rintarou Okabe
+				35252	//Rintarou Okabe
 			],
-			"image": "https://i.postimg.cc/4yN7TQVx/AWC-Genre-Sci-Fi-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/5tDWJ4zY/AWC-Genre-Sci-Fi-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sci-fi/ywa/Genre-SciFi-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/sci-fi/ywa/Genre-SciFi-Mastery-Animated.png",
 			"thread": 5292
 		},
 			/* Slice of Life */
@@ -2800,9 +2800,9 @@
 			"id": "genreSoLEasyLGCY",
 			"name": "Slice of Life Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
-				124586		//Rin Shima
+				124586	//Rin Shima
 			],
-			"image": "https://i.postimg.cc/Qtvnj8Wc/Legacy-Slice-Of-Life-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/slice-of-life/Vvu/Legacy-SliceOfLife-Easy.png",
 			"thread": 5293
 		},
 		{	//Slice of Life Genre: Normal Mode (Legacy)
@@ -2810,9 +2810,9 @@
 			"id": "genreSoLNormalLGCY",
 			"name": "Slice of Life Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
-				35871		//Kyouko Toshinou
+				35871	//Kyouko Toshinou
 			],
-			"image": "https://i.postimg.cc/L5fQXczw/Legacy-Slice-Of-Life-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/slice-of-life/Vvu/Legacy-SliceOfLife-Normal.png",
 			"thread": 5293
 		},
 		{	//Slice of Life Genre: Hard Mode (Legacy)
@@ -2820,9 +2820,9 @@
 			"id": "genreSoLHardLGCY",
 			"name": "Slice of Life Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
-				120970		//Tohru
+				120970	//Tohru
 			],
-			"image": "https://i.postimg.cc/SQzvDMwd/Legacy-Slice-Of-Life-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/slice-of-life/Vvu/Legacy-SliceOfLife-Hard.png",
 			"thread": 5293
 		},
 		{	//Slice of Life Genre: Easy Mode
@@ -2830,9 +2830,9 @@
 			"id": "genreSoLEasy",
 			"name": "Slice of Life Genre Challenge: Easy Mode",
 			"characters": [
-				124586		//Rin Shima
+				124586	//Rin Shima
 			],
-			"image": "https://i.postimg.cc/bNjhvWwH/Genre-Slice-Of-Life-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/slice-of-life/Vvu/Genre-SliceOfLife-Easy.png",
 			"thread": 5293
 		},
 		{	//Slice of Life Genre: Normal Mode
@@ -2840,9 +2840,9 @@
 			"id": "genreSoLNormal",
 			"name": "Slice of Life Genre Challenge: Normal Mode",
 			"characters": [
-				35871		//Kyouko Toshinou
+				35871	//Kyouko Toshinou
 			],
-			"image": "https://i.postimg.cc/W3PnZGFK/Genre-Slice-Of-Life-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/slice-of-life/Vvu/Genre-SliceOfLife-Normal.png",
 			"thread": 5293
 		},
 		{	//Slice of Life Genre: Hard Mode
@@ -2850,9 +2850,9 @@
 			"id": "genreSoLHard",
 			"name": "Slice of Life Genre Challenge: Hard Mode",
 			"characters": [
-				120970		//Tohru
+				120970	//Tohru
 			],
-			"image": "https://i.postimg.cc/XqqyBq8m/Genre-Slice-Of-Life-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/slice-of-life/Vvu/Genre-SliceOfLife-Hard.png",
 			"thread": 5293
 		},
 		{	//Slice of Life Genre: Mastery
@@ -2860,10 +2860,10 @@
 			"id": "genreSoLMastery",
 			"name": "Slice of Life Genre Challenge: Mastery",
 			"characters": [
-				251		//Haruhi Suzumiya
+				251	//Haruhi Suzumiya
 			],
-			"image": "https://i.postimg.cc/XNFvn9QM/AWC-Genre-Slice-Of-Life-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/J0WMsdKf/AWC-Genre-Slice-Of-Life-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/slice-of-life/Vvu/Genre-SliceOfLife-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/slice-of-life/Vvu/Genre-SliceOfLife-Mastery-Animated.png",
 			"thread": 5293
 		},
 			/* Sports */
@@ -2872,9 +2872,9 @@
 			"id": "genreSportsEasyLGCY",
 			"name": "Sports Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
-				18769		//Tetsuya Kuroko
+				18769	//Tetsuya Kuroko
 			],
-			"image": "https://i.postimg.cc/zXZPMfNr/Legacy-Sports-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sports/4W5/Legacy-Sports-Easy.png",
 			"thread": 5876
 		},
 		{	//Sports Genre: Normal Mode (Legacy)
@@ -2882,9 +2882,9 @@
 			"id": "genreSportsNormalLGCY",
 			"name": "Sports Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
-				67327		//Yuu Nishinoya
+				67327	//Yuu Nishinoya
 			],
-			"image": "https://i.postimg.cc/gkVBPPc6/Legacy-Sports-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sports/4W5/Legacy-Sports-Normal.png",
 			"thread": 5876
 		},
 		{	//Sports Genre: Hard Mode (Legacy)
@@ -2892,9 +2892,9 @@
 			"id": "genreSportsHardLGCY",
 			"name": "Sports Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
-				11804		//Joe Yabuki
+				11804	//Joe Yabuki
 			],
-			"image": "https://i.postimg.cc/cLdkx56k/Legacy-Sports-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sports/4W5/Legacy-Sports-Hard.png",
 			"thread": 5876
 		},
 		{	//Sports Genre: Easy Mode
@@ -2902,9 +2902,9 @@
 			"id": "genreSportsEasy",
 			"name": "Sports Genre Challenge: Easy Mode",
 			"characters": [
-				18769		//Tetsuya Kuroko
+				18769	//Tetsuya Kuroko
 			],
-			"image": "https://i.postimg.cc/FsjD9nYS/Genre-Sports-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sports/4W5/Genre-Sports-Easy.png",
 			"thread": 5876
 		},
 		{	//Sports Genre: Normal Mode
@@ -2912,9 +2912,9 @@
 			"id": "genreSportsNormal",
 			"name": "Sports Genre Challenge: Normal Mode",
 			"characters": [
-				67327		//Yuu Nishinoya
+				67327	//Yuu Nishinoya
 			],
-			"image": "https://i.postimg.cc/fT3ggpfm/Genre-Sports-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sports/4W5/Genre-Sports-Normal.png",
 			"thread": 5876
 		},
 		{	//Sports Genre: Hard Mode
@@ -2922,9 +2922,9 @@
 			"id": "genreSportsHard",
 			"name": "Sports Genre Challenge: Hard Mode",
 			"characters": [
-				11804		//Joe Yabuki
+				11804	//Joe Yabuki
 			],
-			"image": "https://i.postimg.cc/kX4gCL11/Genre-Sports-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sports/4W5/Genre-Sports-Hard.png",
 			"thread": 5876
 		},
 		{	//Sports Genre: Mastery
@@ -2932,10 +2932,10 @@
 			"id": "genreSportsMastery",
 			"name": "Sports Genre Challenge: Mastery",
 			"characters": [
-				47163		//Chihaya Ayase
+				47163	//Chihaya Ayase
 			],
-			"image": "https://i.postimg.cc/9fjVXRnT/AWC-Genre-Sports-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/tTqjW0y4/AWC-Genre-Sports-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/sports/4W5/Genre-Sports-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/sports/4W5/Genre-Sports-Mastery-Animated.png",
 			"thread": 5876
 		},
 			/* Supernatural */
@@ -2944,9 +2944,9 @@
 			"id": "genreSupernaturalEasyLGCY",
 			"name": "Supernatural Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
-				3662		//Isaac Dian
+				3662	//Isaac Dian
 			],
-			"image": "https://i.postimg.cc/VN67Mrqj/Legacy-Supernatural-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/supernatural/T7B/Legacy-Supernatural-Easy.png",
 			"thread": 6630
 		},
 		{	//Supernatural Genre: Normal Mode (Legacy)
@@ -2954,9 +2954,9 @@
 			"id": "genreSupernaturalNormalLGCY",
 			"name": "Supernatural Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
-				22037		//Hitagi Senjougahara
+				22037	//Hitagi Senjougahara
 			],
-			"image": "https://i.postimg.cc/tgMBzqk8/Legacy-Supernatural-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/supernatural/T7B/Legacy-Supernatural-Normal.png",
 			"thread": 6630
 		},
 		{	//Supernatural Genre: Hard Mode (Legacy)
@@ -2964,9 +2964,9 @@
 			"id": "genreSupernaturalHardLGCY",
 			"name": "Supernatural Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
-				2865		//Kusuriuri
+				2865	//Kusuriuri
 			],
-			"image": "https://i.postimg.cc/Y9Lbn5y0/Legacy-Supernatural-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/supernatural/T7B/Legacy-Supernatural-Hard.png",
 			"thread": 6630
 		},
 		{	//Supernatural Genre: Easy Mode
@@ -2974,9 +2974,9 @@
 			"id": "genreSupernaturalEasy",
 			"name": "Supernatural Genre Challenge: Easy Mode",
 			"characters": [
-				3662		//Isaac Dian
+				3662	//Isaac Dian
 			],
-			"image": "https://i.postimg.cc/W35t6VYZ/Genre-Supernatural-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/supernatural/T7B/Genre-Supernatural-Easy.png",
 			"thread": 6630
 		},
 		{	//Supernatural Genre: Normal Mode
@@ -2984,9 +2984,9 @@
 			"id": "genreSupernaturalNormal",
 			"name": "Supernatural Genre Challenge: Normal Mode",
 			"characters": [
-				22037		//Hitagi Senjougahara
+				22037	//Hitagi Senjougahara
 			],
-			"image": "https://i.postimg.cc/sDrDQvgL/Genre-Supernatural-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/supernatural/T7B/Genre-Supernatural-Normal.png",
 			"thread": 6630
 		},
 		{	//Supernatural Genre: Hard Mode
@@ -2994,9 +2994,9 @@
 			"id": "genreSupernaturalHard",
 			"name": "Supernatural Genre Challenge: Hard Mode",
 			"characters": [
-				2865		//Kusuriuri
+				2865	//Kusuriuri
 			],
-			"image": "https://i.postimg.cc/B6c3nRpD/Genre-Supernatural-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/supernatural/T7B/Genre-Supernatural-Hard.png",
 			"thread": 6630
 		},
 		{	//Supernatural Genre: Mastery
@@ -3004,10 +3004,10 @@
 			"id": "genreSupernaturalMastery",
 			"name": "Supernatural Genre Challenge: Mastery",
 			"characters": [
-				13783		//Takashi Natsume
+				13783	//Takashi Natsume
 			],
-			"image": "https://i.postimg.cc/mZ08HWYz/AWC-Genre-Supernatural-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/7hv0fDFq/AWC-Genre-Supernatural-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/supernatural/T7B/Genre-Supernatural-Mastery-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/supernatural/T7B/Genre-Supernatural-Mastery-Animated.png",
 			"thread": 6630
 		},
 			/* Thriller */
@@ -3016,9 +3016,9 @@
 			"id": "genreThrillerEasyLGCY",
 			"name": "Thriller Genre Challenge: Easy Mode (Legacy)",
 			"characters": [
-				71		//L Lawliet
+				71	//L Lawliet
 			],
-			"image": "https://i.postimg.cc/tgXkb1SK/Legacy-Psych-Thriller-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/thriller/pFd/Legacy-Thriller-Easy.png",
 			"thread": 5556
 		},
 		{	//Thriller Genre: Normal Mode (Legacy)
@@ -3026,9 +3026,9 @@
 			"id": "genreThrillerNormalLGCY",
 			"name": "Thriller Genre Challenge: Normal Mode (Legacy)",
 			"characters": [
-				34470		//Kurisu Makise
+				34470	//Kurisu Makise
 			],
-			"image": "https://i.postimg.cc/GpqQmc6H/Legacy-Psych-Thriller-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/thriller/pFd/Legacy-Thriller-Normal.png",
 			"thread": 5556
 		},
 		{	//Thriller Genre: Hard Mode (Legacy)
@@ -3036,9 +3036,9 @@
 			"id": "genreThrillerHardLGCY",
 			"name": "Thriller Genre Challenge: Hard Mode (Legacy)",
 			"characters": [
-				718		//Kenzou Tenma
+				718	//Kenzou Tenma
 			],
-			"image": "https://i.postimg.cc/50ymHhMp/Legacy-Psych-Thriller-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/thriller/pFd/Legacy-Thriller-Hard.png",
 			"thread": 5556
 		},
 		{	//Thriller Genre: Easy Mode
@@ -3046,9 +3046,9 @@
 			"id": "genreThrillerEasy",
 			"name": "Thriller Genre Challenge: Easy Mode",
 			"characters": [
-				71		//L Lawliet
+				71	//L Lawliet
 			],
-			"image": "https://i.postimg.cc/DyqfqDf5/Genre-Thriller-Easy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/thriller/pFd/Genre-Thriller-Easy.png",
 			"thread": 5556
 		},
 		{	//Thriller Genre: Normal Mode
@@ -3056,9 +3056,9 @@
 			"id": "genreThrillerNormal",
 			"name": "Thriller Genre Challenge: Normal Mode",
 			"characters": [
-				121725		//Emma
+				121725	//Emma
 			],
-			"image": "https://i.postimg.cc/SxRMDkXk/Genre-Thriller-Normal.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/thriller/pFd/Genre-Thriller-Normal.png",
 			"thread": 5556
 		},
 		{	//Thriller Genre: Hard Mode
@@ -3066,9 +3066,9 @@
 			"id": "genreThrillerHard",
 			"name": "Thriller Genre Challenge: Hard Mode",
 			"characters": [
-				718		//Kenzou Tenma
+				718	//Kenzou Tenma
 			],
-			"image": "https://i.postimg.cc/pTLbnGGG/Genre-Thriller-Hard.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/thriller/pFd/Genre-Thriller-Hard.png",
 			"thread": 5556
 		},
 		{	//Thriller Genre: Mastery
@@ -3076,10 +3076,10 @@
 			"id": "genreThrillerMastery",
 			"name": "Thriller Genre Challenge: Mastery",
 			"characters": [
-				68583		//Akane Tsunemori
+				68583	//Akane Tsunemori
 			],
-			"image": "https://i.postimg.cc/bJmjR6NH/AWC-Genre-Thriller-Mastery-Static.png",
-			"animated": "https://i.postimg.cc/fbZnQ4Vf/AWC-Genre-Thriller-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/thriller/pFd/Genre-Thriller-Mastery-Animated.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/genres/thriller/pFd/Genre-Thriller-Mastery-Animated.png",
 			"thread": 5556
 		},
 		/* ANIME MONTHLY 2018–20XX BADGES */
@@ -3091,7 +3091,8 @@
 			"characters": [
 				121514	//Mitsuha Miyamizu
 			],
-			"image": "https://i.postimg.cc/PJypK37m/Monthly-2018-August-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/08/w3F/Monthly-2018-August-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/08/w3F/Monthly-2018-August-Easy-Animated-Legacy.gif",
 			"thread": 4728
 		},
 		{	//August 2018 Monthly: Hard
@@ -3101,7 +3102,8 @@
 			"characters": [
 				121514	//Mitsuha Miyamizu
 			],
-			"image": "https://i.postimg.cc/CLWYXHVD/Monthly-2018-August-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/08/w3F/Monthly-2018-August-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/08/w3F/Monthly-2018-August-Hard-Animated-Legacy.gif",
 			"thread": 4728
 		},
 		{	//September 2018 Monthly: Easy Mode
@@ -3111,7 +3113,8 @@
 			"characters": [
 				65643	//Koro-sensei
 			],
-			"image": "https://i.postimg.cc/sfLRG9x8/Monthly-2018-September-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/09/NQL/Monthly-2018-September-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/09/NQL/Monthly-2018-September-Easy-Animated-Legacy.gif",
 			"thread": 4728
 		},
 		{	//September 2018 Monthly: Hard
@@ -3121,7 +3124,8 @@
 			"characters": [
 				65643	//Koro-sensei
 			],
-			"image": "https://i.postimg.cc/yYSCmgSN/Monthly-2018-September-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/09/NQL/Monthly-2018-September-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/09/NQL/Monthly-2018-September-Hard-Animated-Legacy.gif",
 			"thread": 4728
 		},
 		{	//October 2018 Monthly: Easy Mode
@@ -3131,7 +3135,8 @@
 			"characters": [
 				2456	//Akira Fudou
 			],
-			"image": "https://i.postimg.cc/vDwH1TcP/Monthly-2018-October-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/10/ggP/Monthly-2018-October-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/10/ggP/Monthly-2018-October-Easy-Animated-Legacy.gif",
 			"thread": 5372
 		},
 		{	//October 2018 Monthly: Hard
@@ -3141,7 +3146,8 @@
 			"characters": [
 				2456	//Akira Fudou
 			],
-			"image": "https://i.postimg.cc/G3HzrQG7/Monthly-2018-October-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/10/ggP/Monthly-2018-October-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/10/ggP/Monthly-2018-October-Hard-Animated-Legacy.gif",
 			"thread": 5372
 		},
 		{	//November 2018 Monthly: Easy Mode
@@ -3151,7 +3157,8 @@
 			"characters": [
 				124576	//Nadeshiko Kagamihara
 			],
-			"image": "https://i.postimg.cc/bJBkjFgp/Monthly-2018-November-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/11/AGo/Monthly-2018-November-Easy-Statuc-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/11/AGo/Monthly-2018-November-Easy-Animated-Legacy.gif",
 			"thread": 5696
 		},
 		{	//November 2018 Monthly: Hard
@@ -3161,7 +3168,8 @@
 			"characters": [
 				124576	//Nadeshiko Kagamihara
 			],
-			"image": "https://i.postimg.cc/C5nDMHrD/Monthly-2018-November-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/11/AGo/Monthly-2018-November-Hard-Statuc-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/11/AGo/Monthly-2018-November-Hard-Animated-Legacy.gif",
 			"thread": 5696
 		},
 		{	//December 2018 Monthly: Easy
@@ -3171,8 +3179,8 @@
 			"characters": [
 				19565	//Yui Hirasawa
 			],
-			"image": "https://i.postimg.cc/j2FjxfCG/Monthly-2018-December-Easy.png",
-			"animated": "https://i.postimg.cc/5yTxdMRJ/Monthly-2018-December-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/12/JJ3/Monthly-2018-December-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/12/JJ3/Monthly-2018-December-Easy-Animated-Legacy.gif",
 			"thread": 5927
 		},
 		{	//December 2018 Monthly: Easy (Wreathe)
@@ -3182,8 +3190,8 @@
 			"characters": [
 				19565	//Yui Hirasawa
 			],
-			"image": "https://i.postimg.cc/N0cjjBff/Monthly-2018-December-Easy-Wreath.png",
-			"animated": "https://i.postimg.cc/K4SdDcW1/Monthly-2018-December-Easy-Wreath.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/12/JJ3/Monthly-2018-December-Easy-Static-Legacy-Wreath.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/12/JJ3/Monthly-2018-December-Easy-Animated-Legacy-Wreath.gif",
 			"thread": 5927
 		},
 		{	//December 2018 Monthly: Hard
@@ -3193,8 +3201,8 @@
 			"characters": [
 				19565	//Yui Hirasawa
 			],
-			"image": "https://i.postimg.cc/ZY7nFGjV/Monthly-2018-December-Hard.png",
-			"animated": "https://i.postimg.cc/x8bwmN6r/Monthly-2018-December-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/12/JJ3/Monthly-2018-December-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/12/JJ3/Monthly-2018-December-Hard-Animated-Legacy.gif",
 			"thread": 5927
 		},
 		{	//December 2018 Monthly: Hard (Wreathe)
@@ -3204,8 +3212,8 @@
 			"characters": [
 				19565	//Yui Hirasawa
 			],
-			"image": "https://i.postimg.cc/9Mxmb9Pr/Monthly-2018-December-Hard-Wreath.png",
-			"animated": "https://i.postimg.cc/447yP8MG/Monthly-2018-December-Hard-Wreath.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/12/JJ3/Monthly-2018-December-Hard-Static-Legacy-Wreath.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/12/JJ3/Monthly-2018-December-Hard-Animated-Legacy-Wreath.gif",
 			"thread": 5927
 		},
 			/* 2019 */
@@ -5332,6 +5340,28 @@
 			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/09/6Zm/Monthly-2026-September-Hard-Animated.png",
 			"thread": 92453
 		},
+		{	//October 2026 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/93068
+			"id": "monthly2026OctEasy",
+			"name": "October 2026 Monthly Challenge: Easy Mode",
+			"characters": [
+				122005	//Mai Yanase
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/10/dV6/Monthly-2026-October-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/10/dV6/Monthly-2026-October-Easy-Animated.png",
+			"thread": 93068
+		},
+		{	//October 2026 Monthly: Hard Mode
+			//https://anilist.co/forum/thread/93068
+			"id": "monthly2026OctHard",
+			"name": "October 2026 Monthly Challenge: Hard Mode",
+			"characters": [
+				122005	//Mai Yanase
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/10/dV6/Monthly-2026-October-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/10/dV6/Monthly-2026-October-Hard-Animated.png",
+			"thread": 93068
+		},
 		/* ANIME PUZZLE BADGES */
 		{	//2048
 			//https://anilist.co/forum/thread/90780
@@ -6183,7 +6213,7 @@
 			"characters": [
 				120649	//Kaguya Shinomiya
 			],
-			"image": "https://i.postimg.cc/rFCcSb9s/Special-Recommendations.png",
+			"image": "https://cdn.awc.moe/static/badges/mixed/recommendations/xGT/Special-Recommendations-Legacy.png",
 			"thread": 14236
 		},
 		{	//Recommendations
