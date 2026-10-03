@@ -25,7 +25,7 @@ function validateUniqueURL(url, challengeID, type) {
 
 	const existing = seenBadgeURLs.get(url);
 	if(existing) {
-		console.error(`Duplicate ${type} URL on ${challengeID} (already used by ${existing})`);
+		console.log(`Duplicate ${type} URL on ${challengeID} (already used by ${existing})`);
 		return false;
 	}
 	seenBadgeURLs.set(url, challengeID);
@@ -33,7 +33,7 @@ function validateUniqueURL(url, challengeID, type) {
 }
 
 if(!Array.isArray(data.challenges)) {
-	console.error("Database must contain a challenges array.");
+	console.log("Database must contain a challenges array.");
 	process.exit(1);
 }
 
@@ -42,33 +42,33 @@ let errors = 0;
 
 for(const challenge of data.challenges) {
 	if(typeof challenge.id !== "string" || !challenge.id.trim()) {
-		console.error(`Missing or invalid ID: ${challenge.name ?? "(unnamed challenge)"}`);
+		console.log(`Missing or invalid ID: ${challenge.name ?? "(unnamed challenge)"}`);
 		errors++;
 		continue;
 	}
 	if(seenIDs.has(challenge.id)) {
-		console.error(`Duplicate ID: ${challenge.id}`);
+		console.log(`Duplicate ID: ${challenge.id}`);
 		errors++;
 	}
 	seenIDs.add(challenge.id);
 	if(!/^[A-Za-z][A-Za-z0-9_-]*$/.test(challenge.id)) {
-		console.error(`Invalid ID format: ${challenge.id}`);
+		console.log(`Invalid ID format: ${challenge.id}`);
 		errors++;
 	}
 
 	if(typeof challenge.name !== "string" || !challenge.name.trim()) {
-		console.error(`Invalid name on ${challenge.id}`);
+		console.log(`Invalid name on ${challenge.id}`);
 		errors++;
 	}
 
 	if(!Array.isArray(challenge.characters)) {
-		console.error(`Invalid characters array on ${challenge.id}`);
+		console.log(`Invalid characters array on ${challenge.id}`);
 		errors++;
 		continue;
 	}
 
 	if(challenge.characters.length === 0) {
-		console.error(`Empty character list on ${challenge.id}`);
+		console.log(`Empty character list on ${challenge.id}`);
 		errors++;
 	}
 
@@ -76,12 +76,12 @@ for(const challenge of data.challenges) {
 	const seenCharacters = new Set();
 	for(const characterID of challenge.characters) {
 		if(!Number.isInteger(characterID) || characterID <= 0) {
-			console.error(`Invalid character ID "${characterID}" on ${challenge.id}`);
+			console.log(`Invalid character ID "${characterID}" on ${challenge.id}`);
 			errors++;
 		}
 
 		if(seenCharacters.has(characterID)) {
-			console.error(`Duplicate character ID "${characterID}" on ${challenge.id}`);
+			console.log(`Duplicate character ID "${characterID}" on ${challenge.id}`);
 			errors++;
 		}
 		seenCharacters.add(characterID);
@@ -89,38 +89,38 @@ for(const challenge of data.challenges) {
 
 	if(challenge.image !== undefined) {
 		if(typeof challenge.image !== "string" || !challenge.image.trim()) {
-			console.error(`Invalid image on ${challenge.id}`);
+			console.log(`Invalid image on ${challenge.id}`);
 			errors++;
 		}
 		else if(!/^https:\/\//.test(challenge.image)) {
-			console.error(`Image URL must use HTTPS on ${challenge.id}`);
+			console.log(`Image URL must use HTTPS on ${challenge.id}`);
 			errors++;
 		}
 		else if(!validateUniqueURL(challenge.image, challenge.id, "image")) { errors++; }
 	}
 
 	if(challenge.animated !== undefined && (typeof challenge.animated !== "string" || !challenge.animated.trim())) {
-		console.error(`Invalid animated image URL on ${challenge.id}`);
+		console.log(`Invalid animated image URL on ${challenge.id}`);
 		errors++;
 	}
 	if(challenge.animated && !/^https:\/\//.test(challenge.animated)) {
-		console.error(`Animated image URL must use HTTPS on ${challenge.id}`);
+		console.log(`Animated image URL must use HTTPS on ${challenge.id}`);
 		errors++;
 	} else if(challenge.animated && !validateUniqueURL(challenge.animated, challenge.id, "animated")) { errors++; }
 
 	if(!challenge.image && !challenge.animated) {
-		console.error(`Challenge must have image or animated URL on ${challenge.id}`);
+		console.log(`Challenge must have image or animated URL on ${challenge.id}`);
 		errors++;
 	}
 
 	if(!Number.isInteger(challenge.thread) || challenge.thread <= 0) {
-		console.error(`Invalid thread on ${challenge.id}`);
+		console.log(`Invalid thread on ${challenge.id}`);
 		errors++;
 	}
 }
 
 if(errors > 0) {
-	console.error(`\nValidation failed with ${errors} error(s).`);
+	console.log(`\nValidation failed with ${errors} error(s).`);
 	process.exit(1);
 }
 
