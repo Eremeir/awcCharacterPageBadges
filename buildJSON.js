@@ -33,7 +33,7 @@ async function checkAVIF(url) {
 	}
 
 	const contentType = response.headers.get("content-type")?.toLowerCase();
-	return response.status === 200 && contentType?.startsWith("image/avif");
+	return response.ok && contentType?.startsWith("image/avif");
 }
 function getAVIFURL(url) {
 	if(!url.startsWith(CDN_PREFIX)) { return null; }
