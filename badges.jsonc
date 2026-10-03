@@ -49,7 +49,7 @@
 			"characters": [
 				13701	//Mikoto Misaka
 			],
-			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2019/d9F/2019-End-of-Year-Easy.png",
+			"animated": "https://cdn.awc.moe/static/badges/end-of-year/2019/d9F/2019-End-of-Year-Hard.png",
 			"thread": 10335
 		},
 		{	//2020 Yearly: Participation
@@ -3078,7 +3078,7 @@
 			"characters": [
 				68583	//Akane Tsunemori
 			],
-			"image": "https://cdn.awc.moe/static/badges/anime/genres/thriller/pFd/Genre-Thriller-Mastery-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/genres/thriller/pFd/Genre-Thriller-Mastery-Statuc.png",
 			"animated": "https://cdn.awc.moe/static/badges/anime/genres/thriller/pFd/Genre-Thriller-Mastery-Animated.png",
 			"thread": 5556
 		},
@@ -3183,10 +3183,10 @@
 			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/12/JJ3/Monthly-2018-December-Easy-Animated-Legacy.gif",
 			"thread": 5927
 		},
-		{	//December 2018 Monthly: Easy (Wreathe)
+		{	//December 2018 Monthly: Easy (Wreath)
 			//https://anilist.co/forum/thread/5927
-			"id": "monthly2018DecEasyWreathe",
-			"name": "December 2018 Monthly Challenge: Easy Mode (Wreathe)",
+			"id": "monthly2018DecEasyWreath",
+			"name": "December 2018 Monthly Challenge: Easy Mode (Wreath)",
 			"characters": [
 				19565	//Yui Hirasawa
 			],
@@ -3205,10 +3205,10 @@
 			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2018/12/JJ3/Monthly-2018-December-Hard-Animated-Legacy.gif",
 			"thread": 5927
 		},
-		{	//December 2018 Monthly: Hard (Wreathe)
+		{	//December 2018 Monthly: Hard (Wreath)
 			//https://anilist.co/forum/thread/5927
-			"id": "monthly2018DecHardWreathe",
-			"name": "December 2018 Monthly Challenge: Hard Mode (Wreathe)",
+			"id": "monthly2018DecHardWreath",
+			"name": "December 2018 Monthly Challenge: Hard Mode (Wreath)",
 			"characters": [
 				19565	//Yui Hirasawa
 			],
@@ -3224,8 +3224,8 @@
 			"characters": [
 				89616	//Shigeo Kageyama
 			],
-			"image": "https://i.postimg.cc/G2rFDF5D/Monthly-2019-January-Easy.png",
-			"animated": "https://i.postimg.cc/Kc0PKgrK/Monthly-2019-January-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/01/icq/Monthly-2019-January-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/01/icq/Monthly-2019-January-Easy-Animated-Legacy.gif",
 			"thread": 6206
 		},
 		{	//January 2019 Monthly: Hard Mode
@@ -3235,8 +3235,8 @@
 			"characters": [
 				89616	//Shigeo Kageyama
 			],
-			"image": "https://i.postimg.cc/MHp1PWxK/Monthly-2019-January-Hard.png",
-			"animated": "https://i.postimg.cc/7YcS98Rw/Monthly-2019-January-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/01/icq/Monthly-2019-January-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/01/icq/Monthly-2019-January-Hard-Animated-Legacy.gif",
 			"thread": 6206
 		},
 		{	//February 2019 Monthly: Easy
@@ -3246,19 +3246,19 @@
 			"characters": [
 				122190	//Narumi Momose
 			],
-			"image": "https://i.postimg.cc/mDDrKhcq/Monthly-2019-February-Easy.png",
-			"animated": "https://i.postimg.cc/fW1xjQpZ/Monthly-2019-February-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/02/hMD/Monthly-2019-February-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/02/hMD/Monthly-2019-February-Easy-Animated-Legacy.gif",
 			"thread": 6517
 		},
-		{	//February 2019 Monthly: Easy (Wreathe)
+		{	//February 2019 Monthly: Easy (Wreath)
 			//https://anilist.co/forum/thread/6517
-			"id": "monthly2019FebEasyWreathe",
-			"name": "February 2019 Monthly Challenge: Easy Mode (Wreathe)",
+			"id": "monthly2019FebEasyWreath",
+			"name": "February 2019 Monthly Challenge: Easy Mode (Wreath)",
 			"characters": [
 				122190	//Narumi Momose
 			],
-			"image": "https://i.postimg.cc/d3ZVtXjj/Monthly-2019-February-Easy-Wreath.png",
-			"animated": "https://i.postimg.cc/CLDbc6p8/Monthly-2019-February-Easy-Wreath.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/02/hMD/Monthly-2019-February-Easy-Static-Legacy-Wreath.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/02/hMD/Monthly-2019-February-Easy-Animated-Legacy-Wreath.gif",
 			"thread": 6517
 		},
 		{	//February 2019 Monthly: Hard
@@ -3268,19 +3268,19 @@
 			"characters": [
 				122190	//Narumi Momose
 			],
-			"image": "https://i.postimg.cc/hj5GngTG/Monthly-2019-February-Hard.png",
-			"animated": "https://i.postimg.cc/HWrwykSB/Monthly-2019-February-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/02/hMD/Monthly-2019-February-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/02/hMD/Monthly-2019-February-Hard-Animated-Legacy.gif",
 			"thread": 6517
 		},
-		{	//February 2019 Monthly: Hard (Wreathe)
+		{	//February 2019 Monthly: Hard (Wreath)
 			//https://anilist.co/forum/thread/6517
-			"id": "monthly2019FebHardWreathe",
-			"name": "February 2019 Monthly Challenge: Hard Mode (Wreathe)",
+			"id": "monthly2019FebHardWreath",
+			"name": "February 2019 Monthly Challenge: Hard Mode (Wreath)",
 			"characters": [
 				122190	//Narumi Momose
 			],
-			"image": "https://i.postimg.cc/Lhd6qTyK/Monthly-2019-February-Hard-Wreath.png",
-			"animated": "https://i.postimg.cc/3xTmVC3c/Monthly-2019-February-Hard-Wreath.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/02/hMD/Monthly-2019-February-Hard-Static-Legacy-Wreath.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/02/hMD/Monthly-2019-February-Hard-Animated-Legacy-Wreath.gif",
 			"thread": 6517
 		},
 		{	//March 2019 Monthly: Easy Mode
@@ -3290,8 +3290,8 @@
 			"characters": [
 				35256	//Rumiho Akiha
 			],
-			"image": "https://i.postimg.cc/3rDNfwsk/Monthly-2019-March-Easy.png",
-			"animated": "https://i.postimg.cc/HnQpYrm3/Monthly-2019-March-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/03/T5K/Monthly-2019-March-Easy-Animated-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/03/T5K/Monthly-2019-March-Easy-Animated-Legacy.gif",
 			"thread": 6711
 		},
 		{	//March 2019 Monthly: Hard Mode
@@ -3301,8 +3301,8 @@
 			"characters": [
 				35256	//Rumiho Akiha
 			],
-			"image": "https://i.postimg.cc/jd05pbTZ/Monthly-2019-March-Hard.png",
-			"animated": "https://i.postimg.cc/c1Y1Mb3Y/Monthly-2019-March-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/03/T5K/Monthly-2019-March-Hard-Animated-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/03/T5K/Monthly-2019-March-Hard-Animated-Legacy.gif",
 			"thread": 6711
 		},
 		{	//April 2019 Monthly: Easy Mode
@@ -3312,8 +3312,8 @@
 			"characters": [
 				2169	//Konata Izumi
 			],
-			"image": "https://i.postimg.cc/nLCpsRZX/Monthly-2019-April-Easy.png",
-			"animated": "https://i.postimg.cc/T1X64Tbb/Monthly-2019-April-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/04/7hM/Monthly-2019-April-Easy-Animated-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/04/7hM/Monthly-2019-April-Easy-Animated-Legacy.gif",
 			"thread": 6976
 		},
 		{	//April 2019 Monthly: Hard Mode
@@ -3323,8 +3323,8 @@
 			"characters": [
 				2169	//Konata Izumi
 			],
-			"image": "https://i.postimg.cc/0NFx7Y2c/Monthly-2019-April-Hard.png",
-			"animated": "https://i.postimg.cc/1XcQxb0j/Monthly-2019-April-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/04/7hM/Monthly-2019-April-Hard-Animated-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/04/7hM/Monthly-2019-April-Hard-Animated-Legacy.gif",
 			"thread": 6976
 		},
 		{	//May 2019 Monthly: Easy Mode
@@ -3334,8 +3334,8 @@
 			"characters": [
 				3797	//Paprika
 			],
-			"image": "https://i.postimg.cc/rstDSykt/Monthly-2019-May-Easy.png",
-			"animated": "https://i.postimg.cc/MpwYKN7Y/Monthly-2019-May-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/05/VC3/Monthly-2019-May-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/05/VC3/Monthly-2019-May-Easy-Animated-Legacy.gif",
 			"thread": 7349
 		},
 		{	//May 2019 Monthly: Hard Mode
@@ -3345,8 +3345,8 @@
 			"characters": [
 				3797	//Paprika
 			],
-			"image": "https://i.postimg.cc/HjDV3GYv/Monthly-2019-May-Hard.png",
-			"animated": "https://i.postimg.cc/rw9Ndjg2/Monthly-2019-May-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/05/VC3/Monthly-2019-May-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/05/VC3/Monthly-2019-May-Hard-Animated-Legacy.gif",
 			"thread": 7349
 		},
 		{	//June 2019 Monthly: Easy Mode
@@ -3356,8 +3356,8 @@
 			"characters": [
 				54151	//Renge Miyauchi
 			],
-			"image": "https://i.postimg.cc/YqRvYPcR/Monthly-2019-June-Easy.png",
-			"animated": "https://i.postimg.cc/59qyWrtJ/Monthly-2019-June-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/06/JvI/Monthly-2019-June-Easy-Static-Legacy.gif",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/06/JvI/Monthly-2019-June-Easy-Animated-Legacy.gif",
 			"thread": 7737
 		},
 		{	//June 2019 Monthly: Hard Mode
@@ -3367,8 +3367,8 @@
 			"characters": [
 				54151	//Renge Miyauchi
 			],
-			"image": "https://i.postimg.cc/jSjLXhtb/Monthly-2019-June-Hard.png",
-			"animated": "https://i.postimg.cc/wTqvqktm/Monthly-2019-June-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/06/JvI/Monthly-2019-June-Hard-Static-Legacy.gif",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/06/JvI/Monthly-2019-June-Hard-Animated-Legacy.gif",
 			"thread": 7737
 		},
 		{	//July 2019 Monthly: Easy Mode
@@ -3378,8 +3378,8 @@
 			"characters": [
 				89841	//Luluco
 			],
-			"image": "https://i.postimg.cc/zX2JJYZs/Monthly-2019-July-Easy.png",
-			"animated": "https://i.postimg.cc/zBkr69FP/Monthly-2019-July-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/07/7FP/Monthly-2019-July-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/07/7FP/Monthly-2019-July-Easy-Animated-Legacy.gif",
 			"thread": 8190
 		},
 		{	//July 2019 Monthly: Hard Mode
@@ -3389,8 +3389,8 @@
 			"characters": [
 				89841	//Luluco
 			],
-			"image": "https://i.postimg.cc/htJKvZKf/Monthly-2019-July-Hard.png",
-			"animated": "https://i.postimg.cc/mkXG2CqY/Monthly-2019-July-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/07/7FP/Monthly-2019-July-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/07/7FP/Monthly-2019-July-Hard-Animated-Legacy.gif",
 			"thread": 8190
 		},
 		{	//August 2019 Monthly: Easy Mode
@@ -3400,8 +3400,8 @@
 			"characters": [
 				236	//Yuuko Ichihara
 			],
-			"image": "https://i.postimg.cc/kXbj5Wk7/Monthly-2019-August-Easy.png",
-			"animated": "https://i.postimg.cc/hGSMM6hG/Monthly-2019-August-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/08/r5T/Monthly-2019-August-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/08/r5T/Monthly-2019-August-Easy-Animated-Legacy.gif",
 			"thread": 8676
 		},
 		{	//August 2019 Monthly: Hard Mode
@@ -3411,8 +3411,8 @@
 			"characters": [
 				236	//Yuuko Ichihara
 			],
-			"image": "https://i.postimg.cc/rw2fRKkx/Monthly-2019-August-Hard.png",
-			"animated": "https://i.postimg.cc/Pq2y7y8Q/Monthly-2019-August-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/08/r5T/Monthly-2019-August-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/08/r5T/Monthly-2019-August-Hard-Animated-Legacy.gif",
 			"thread": 8676
 		},
 		{	//September 2019 Monthly: Easy Mode
@@ -3422,8 +3422,8 @@
 			"characters": [
 				81709	//Diana Cavendish
 			],
-			"image": "https://i.postimg.cc/yx4zJ7Yd/Monthly-2019-September-Easy.png",
-			"animated": "https://i.postimg.cc/g2kbLSdv/Monthly-2019-September-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/09/I1n/Monthly-2019-September-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/09/I1n/Monthly-2019-September-Easy-Animated-Legacy.gif",
 			"thread": 9141
 		},
 		{	//September 2019 Monthly: Hard Mode
@@ -3433,8 +3433,8 @@
 			"characters": [
 				81709	//Diana Cavendish
 			],
-			"image": "https://i.postimg.cc/FzyX3w7x/Monthly-2019-September-Hard.png",
-			"animated": "https://i.postimg.cc/qvbVssMW/Monthly-2019-September-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/09/I1n/Monthly-2019-September-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/09/I1n/Monthly-2019-September-Hard-Animated-Legacy.gif",
 			"thread": 9141
 		},
 		{	//October 2019 Monthly: Easy Mode
@@ -3444,8 +3444,8 @@
 			"characters": [
 				458	//Revy
 			],
-			"image": "https://i.postimg.cc/Wz6xhrHW/Monthly-2019-October-Easy.png",
-			"animated": "https://i.postimg.cc/MGM41gLj/Monthly-2019-October-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/10/95k/Monthly-2019-October-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/10/95k/Monthly-2019-October-Easy-Animated-Legacy.gif",
 			"thread": 9458
 		},
 		{	//October 2019 Monthly: Hard Mode
@@ -3455,8 +3455,8 @@
 			"characters": [
 				458	//Revy
 			],
-			"image": "https://i.postimg.cc/RCcks5Z7/Monthly-2019-October-Hard.png",
-			"animated": "https://i.postimg.cc/xdwZ5trp/Monthly-2019-October-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/10/95k/Monthly-2019-October-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/10/95k/Monthly-2019-October-Hard-Animated-Legacy.gif",
 			"thread": 9458
 		},
 		{	//November 2019 Monthly: Easy Mode
@@ -3466,8 +3466,8 @@
 			"characters": [
 				67451	//Ichigo Hoshimiya
 			],
-			"image": "https://i.postimg.cc/3JtbVK5v/Monthly-2019-November-Easy.png",
-			"animated": "https://i.postimg.cc/fLQHmyX6/Monthly-2019-November-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/11/dUJ/Monthly-2019-November-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/11/dUJ/Monthly-2019-November-Easy-Animated-Legacy.gif",
 			"thread": 9881
 		},
 		{	//November 2019 Monthly: Hard Mode
@@ -3477,8 +3477,8 @@
 			"characters": [
 				67451	//Ichigo Hoshimiya
 			],
-			"image": "https://i.postimg.cc/rwzYLvMY/Monthly-2019-November-Hard.png",
-			"animated": "https://i.postimg.cc/Kz70NbD4/Monthly-2019-November-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/11/dUJ/Monthly-2019-November-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/11/dUJ/Monthly-2019-November-Hard-Animated-Legacy.gif",
 			"thread": 9881
 		},
 		{	//December 2019 Monthly: Easy Mode
@@ -3488,8 +3488,8 @@
 			"characters": [
 				81369	//Akatsuki
 			],
-			"image": "https://i.postimg.cc/T29k5RP4/Monthly-2019-December-Easy.png",
-			"animated": "https://i.postimg.cc/3wm18h69/Monthly-2019-December-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/12/Awy/Monthly-2019-December-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/12/Awy/Monthly-2019-December-Easy-Animated-Legacy.gif",
 			"thread": 10154
 		},
 		{	//December 2019 Monthly: Easy Mode (Bonus)
@@ -3499,8 +3499,8 @@
 			"characters": [
 				81369	//Akatsuki
 			],
-			"image": "https://i.postimg.cc/02XcZcDG/Monthly-2019-December-Easy-Bonus.png",
-			"animated": "https://i.postimg.cc/prXJJFd1/Monthly-2019-December-Easy-Bonus.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/12/Awy/Monthly-2019-December-Easy-Static-Legacy-Bonus.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/12/Awy/Monthly-2019-December-Easy-Animated-Legacy-Bonus.gif",
 			"thread": 10154
 		},
 		{	//December 2019 Monthly: Hard Mode
@@ -3510,8 +3510,8 @@
 			"characters": [
 				81369	//Akatsuki
 			],
-			"image": "https://i.postimg.cc/jdSMzGwd/Monthly-2019-December-Hard.png",
-			"animated": "https://i.postimg.cc/NMt4LVvt/Monthly-2019-December-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/12/Awy/Monthly-2019-December-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/12/Awy/Monthly-2019-December-Hard-Animated-Legacy.gif",
 			"thread": 10154
 		},
 		{	//December 2019 Monthly: Hard Mode (Bonus)
@@ -3521,8 +3521,8 @@
 			"characters": [
 				81369	//Akatsuki
 			],
-			"image": "https://i.postimg.cc/CxZJ2ks3/Monthly-2019-December-Hard-Bonus.png",
-			"animated": "https://i.postimg.cc/nrRYRhjV/Monthly-2019-December-Hard-Bonus.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/12/Awy/Monthly-2019-December-Hard-Static-Legacy-Bonus.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2019/12/Awy/Monthly-2019-December-Hard-Animated-Legacy-Bonus.gif",
 			"thread": 10154
 		},
 			/* 2020 */
@@ -3533,8 +3533,8 @@
 			"characters": [
 				126458	//Goblin Slayer
 			],
-			"image": "https://i.postimg.cc/hPKWw9MZ/Monthly-2020-January-Easy.png",
-			"animated": "https://i.postimg.cc/s2jcS4PS/Monthly-2020-January-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/01/ZvQ/Monthly-2020-January-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/01/ZvQ/Monthly-2020-January-Easy-Animated-Legacy.gif",
 			"thread": 10426
 		},
 		{	//January 2020 Monthly: Hard Mode
@@ -3544,8 +3544,8 @@
 			"characters": [
 				126458	//Goblin Slayer
 			],
-			"image": "https://i.postimg.cc/8cH3D0wK/Monthly-2020-January-Hard.png",
-			"animated": "https://i.postimg.cc/cHjMpqpM/Monthly-2020-January-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/01/ZvQ/Monthly-2020-January-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/01/ZvQ/Monthly-2020-January-Hard-Animated-Legacy.gif",
 			"thread": 10426
 		},
 		{	//February 2020 Monthly: Easy Mode
@@ -3556,8 +3556,8 @@
 				22,	//Hikaru Hitachiin
 				24	//Kaoru Hitachiin
 			],
-			"image": "https://i.postimg.cc/HntWJMQS/Monthly-2020-February-Easy.png",
-			"animated": "https://i.postimg.cc/kXfXqxMG/Monthly-2020-February-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/02/pqp/Monthly-2020-February-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/02/pqp/Monthly-2020-February-Easy-Animated-Legacy.gif",
 			"thread": 10817
 		},
 		{	//February 2020 Monthly: Hard Mode
@@ -3568,8 +3568,8 @@
 				22,	//Hikaru Hitachiin
 				24	//Kaoru Hitachiin
 			],
-			"image": "https://i.postimg.cc/SQLx1BwW/Monthly-2020-February-Hard.png",
-			"animated": "https://i.postimg.cc/Jz07nGtq/Monthly-2020-February-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/02/pqp/Monthly-2020-February-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/02/pqp/Monthly-2020-February-Hard-Animated-Legacy.gif",
 			"thread": 10817
 		},
 		{	//March 2020 Monthly: Easy Mode
@@ -3579,8 +3579,8 @@
 			"characters": [
 				127137	//Haru
 			],
-			"image": "https://i.postimg.cc/5N0jHPRL/Monthly-2020-March-Easy.png",
-			"animated": "https://i.postimg.cc/x87QNPX3/Monthly-2020-March-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/03/H0x/Monthly-2020-March-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/03/H0x/Monthly-2020-March-Easy-Animated-Legacy.gif",
 			"thread": 11199
 		},
 		{	//March 2020 Monthly: Hard Mode
@@ -3590,8 +3590,8 @@
 			"characters": [
 				127137	//Haru
 			],
-			"image": "https://i.postimg.cc/KcQR8XJm/Monthly-2020-March-Hard.png",
-			"animated": "https://i.postimg.cc/BQL49RzY/Monthly-2020-March-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/03/H0x/Monthly-2020-March-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/03/H0x/Monthly-2020-March-Hard-Animated-Legacy.gif",
 			"thread": 11199
 		},
 		{	//April 2020 Monthly: Easy Mode
@@ -3601,8 +3601,8 @@
 			"characters": [
 				88976	//Cyan Hijirikawa
 			],
-			"image": "https://i.postimg.cc/bY2SLVTP/Monthly-2020-April-Easy.png",
-			"animated": "https://i.postimg.cc/8zw7s21R/Monthly-2020-April-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/04/phy/Monthly-2020-April-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/04/phy/Monthly-2020-April-Easy-Animated-Legacy.gif",
 			"thread": 11559
 		},
 		{	//April 2020 Monthly: Hard Mode
@@ -3612,8 +3612,8 @@
 			"characters": [
 				88976	//Cyan Hijirikawa
 			],
-			"image": "https://i.postimg.cc/Ghw8fP7y/Monthly-2020-April-Hard.png",
-			"animated": "https://i.postimg.cc/LsXnPxXr/Monthly-2020-April-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/04/phy/Monthly-2020-April-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/04/phy/Monthly-2020-April-Hard-Animated-Legacy.gif",
 			"thread": 11559
 		},
 		{	//May 2020 Monthly: Easy Mode
@@ -3623,8 +3623,8 @@
 			"characters": [
 				1335	//Amuro Ray (Mobile Suit Gundam)
 			],
-			"image": "https://i.postimg.cc/9QsvPMFC/Monthly-2020-May-Easy.png",
-			"animated": "https://i.postimg.cc/JnLvg2kF/Monthly-2020-May-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/05/30U/Monthly-2020-May-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/05/30U/Monthly-2020-May-Easy-Animated-Legacy.gif",
 			"thread": 12234
 		},
 		{	//May 2020 Monthly: Hard Mode
@@ -3634,8 +3634,8 @@
 			"characters": [
 				1335	//Amuro Ray (Mobile Suit Gundam)
 			],
-			"image": "https://i.postimg.cc/fbX18NJX/Monthly-2020-May-Hard.png",
-			"animated": "https://i.postimg.cc/Ssf3pfLx/Monthly-2020-May-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/05/30U/Monthly-2020-May-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/05/30U/Monthly-2020-May-Hard-Animated-Legacy.gif",
 			"thread": 12234
 		},
 		{	//June 2020 Monthly: Easy Mode
@@ -3645,8 +3645,8 @@
 			"characters": [
 				88572	//Emilia
 			],
-			"image": "https://i.postimg.cc/sDYkPyGh/Monthly-2020-June-Easy.png",
-			"animated": "https://i.postimg.cc/G3YVrrQ5/Monthly-June-2020-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/06/b9B/Monthly-2020-June-Easy-Static-Legacy.gif",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/06/b9B/Monthly-2020-June-Easy-Animated-Legacy.gif",
 			"thread": 13031
 		},
 		{	//June 2020 Monthly: Hard Mode
@@ -3656,8 +3656,8 @@
 			"characters": [
 				88572	//Emilia
 			],
-			"image": "https://i.postimg.cc/wTYKs3Mz/Monthly-2020-June-Hard.png",
-			"animated": "https://i.postimg.cc/rFkbwbZF/Monthly-June-2020-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/06/b9B/Monthly-2020-June-Hard-Static-Legacy.gif",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/06/b9B/Monthly-2020-June-Hard-Animated-Legacy.gif",
 			"thread": 13031
 		},
 		{	//July 2020 Monthly: Easy Mode
@@ -3667,8 +3667,8 @@
 			"characters": [
 				128780	//Beelzebub
 			],
-			"image": "https://i.postimg.cc/wjxGhNdC/Monthly-2020-July-Easy.png",
-			"animated": "https://i.postimg.cc/7Ldt8QT4/Monthly-2020-July-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/07/whc/Monthly-2020-July-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/07/whc/Monthly-2020-July-Easy-Animated-Legacy.gif",
 			"thread": 13948
 		},
 		{	//July 2020 Monthly: Hard Mode
@@ -3678,8 +3678,8 @@
 			"characters": [
 				128780	//Beelzebub
 			],
-			"image": "https://i.postimg.cc/zGdPpfzV/Monthly-2020-July-Hard.png",
-			"animated": "https://i.postimg.cc/QCkf78YN/Monthly-2020-July-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/07/whc/Monthly-2020-July-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/07/whc/Monthly-2020-July-Hard-Animated-Legacy.gif",
 			"thread": 13948
 		},
 		{	//August 2020 Monthly: Easy Mode
@@ -3689,8 +3689,8 @@
 			"characters": [
 				22998	//Eijun Sawamura
 			],
-			"image": "https://i.postimg.cc/vBw7vRV4/Monthly-2020-August-Easy.png",
-			"animated": "https://i.postimg.cc/dQ4dhZ4k/Monthly-2020-August-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/08/S3S/Monthly-2020-August-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/08/S3S/Monthly-2020-August-Easy-Animated-Legacy.gif",
 			"thread": 15233
 		},
 		{	//August 2020 Monthly: Hard Mode
@@ -3700,8 +3700,8 @@
 			"characters": [
 				22998	//Eijun Sawamura
 			],
-			"image": "https://i.postimg.cc/d0ymdQLM/Monthly-2020-August-Hard.png",
-			"animated": "https://i.postimg.cc/vHTnf8NP/Monthly-2020-August-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/08/S3S/Monthly-2020-August-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/08/S3S/Monthly-2020-August-Hard-Animated-Legacy.gif",
 			"thread": 15233
 		},
 		{	//September 2020 Monthly: Easy Mode
@@ -3711,8 +3711,8 @@
 			"characters": [
 				28331	//Celty Sturluson
 			],
-			"image": "https://i.postimg.cc/nVRjFbhq/Monthly-2020-September-Easy.png",
-			"animated": "https://i.postimg.cc/pL8pJmYB/Monthly-2020-September-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/09/xSx/Monthly-2020-September-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/09/xSx/Monthly-2020-September-Easy-Animated-Legacy.gif",
 			"thread": 16404
 		},
 		{	//September 2020 Monthly: Hard Mode
@@ -3722,8 +3722,8 @@
 			"characters": [
 				28331	//Celty Sturluson
 			],
-			"image": "https://i.postimg.cc/J4syt6sv/Monthly-2020-September-Hard.png",
-			"animated": "https://i.postimg.cc/s2r163TC/Monthly-2020-September-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/09/xSx/Monthly-2020-September-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/09/xSx/Monthly-2020-September-Hard-Animated-Legacy.gif",
 			"thread": 16404
 		},
 		{	//October 2020 Monthly: Easy Mode
@@ -3733,8 +3733,8 @@
 			"characters": [
 				1789	//Ai Enma
 			],
-			"image": "https://i.postimg.cc/C5zKB5xk/Monthly-2020-October-Easy.png",
-			"animated": "https://i.postimg.cc/cJ047XJs/Monthly-2020-October-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/10/0kK/Monthly-2020-October-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/10/0kK/Monthly-2020-October-Easy-Animated-Legacy.gif",
 			"thread": 17514
 		},
 		{	//October 2020 Monthly: Hard Mode
@@ -3744,8 +3744,8 @@
 			"characters": [
 				1789	//Ai Enma
 			],
-			"image": "https://i.postimg.cc/SR3xW4n5/Monthly-2020-October-Hard.png",
-			"animated": "https://i.postimg.cc/FKpFT3f0/Monthly-2020-October-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/10/0kK/Monthly-2020-October-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/10/0kK/Monthly-2020-October-Hard-Animated-Legacy.gif",
 			"thread": 17514
 		},
 		{	//November 2020 Monthly: Easy Mode
@@ -3755,8 +3755,8 @@
 			"characters": [
 				51737	//Hibiki Tachibana
 			],
-			"image": "https://i.postimg.cc/FF8rC9KC/Monthly-2020-November-Easy.png",
-			"animated": "https://i.postimg.cc/N0sB2FNF/Monthly-2020-November-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/11/Llg/Monthly-2020-November-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/11/Llg/Monthly-2020-November-Easy-Animated-Legacy.gif",
 			"thread": 18860
 		},
 		{	//November 2020 Monthly: Hard Mode
@@ -3766,8 +3766,8 @@
 			"characters": [
 				51737	//Hibiki Tachibana
 			],
-			"image": "https://i.postimg.cc/65Z9DD2W/Monthly-2020-November-Hard.png",
-			"animated": "https://i.postimg.cc/zfx5CNMj/Monthly-2020-November-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/11/Llg/Monthly-2020-November-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/11/Llg/Monthly-2020-November-Hard-Animated-Legacy.gif",
 			"thread": 18860
 		},
 		{	//December 2020 Monthly: Easy Mode
@@ -3777,8 +3777,8 @@
 			"characters": [
 				126375	//Itsuki Nakano
 			],
-			"image": "https://i.postimg.cc/8sgVpzJ1/Monthly-2020-December-Easy.png",
-			"animated": "https://i.postimg.cc/FRbRzDfP/Monthly-2020-December-Easy.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/12/C6j/Monthly-2020-December-Easy-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/12/C6j/Monthly-2020-December-Easy-Animated-Legacy.gif",
 			"thread": 20350
 		},
 		{	//December 2020 Monthly: Hard Mode
@@ -3788,8 +3788,8 @@
 			"characters": [
 				126375	//Itsuki Nakano
 			],
-			"image": "https://i.postimg.cc/Kckk8pkV/Monthly-2020-December-Hard.png",
-			"animated": "https://i.postimg.cc/KjZYMBBm/Monthly-2020-December-Hard.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/12/C6j/Monthly-2020-December-Hard-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2020/12/C6j/Monthly-2020-December-Hard-Animated-Legacy.gif",
 			"thread": 20350
 		},
 			/* 2021 */
@@ -3800,8 +3800,8 @@
 			"characters": [
 				250	//Ayu Tsukimiya
 			],
-			"image": "https://i.postimg.cc/4yGqJDx5/Monthly-2021-January-Easy-Static.png",
-			"animated": "https://i.postimg.cc/pTb1ZwzH/Monthly-2021-January-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/01/J2K/Monthly-2021-January-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/01/J2K/Monthly-2021-January-Easy-Animated.png",
 			"thread": 21957
 		},
 		{	//January 2021 Monthly: Hard Mode
@@ -3811,8 +3811,8 @@
 			"characters": [
 				250	//Ayu Tsukimiya
 			],
-			"image": "https://i.postimg.cc/Y9YTBrM0/Monthly-2021-January-Hard-Static.png",
-			"animated": "https://i.postimg.cc/XqxHnXhj/Monthly-2021-January-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/01/J2K/Monthly-2021-January-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/01/J2K/Monthly-2021-January-Hars-Animated.png",
 			"thread": 21957
 		},
 		{	//February 2021 Monthly: Easy Mode
@@ -3822,8 +3822,8 @@
 			"characters": [
 				83019	//Rin Matsuoka
 			],
-			"image": "https://i.postimg.cc/fb5BTtGh/Monthly-2021-February-Easy-Static.png",
-			"animated": "https://i.postimg.cc/NFXnMG87/Monthly-2021-Febraury-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/02/LJq/Monthly-2021-February-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/02/LJq/Monthly-2021-February-Easy-Animated.png",
 			"thread": 23941
 		},
 		{	//February 2021 Monthly: Hard Mode
@@ -3833,8 +3833,8 @@
 			"characters": [
 				83019	//Rin Matsuoka
 			],
-			"image": "https://i.postimg.cc/PxxKLfHv/Monthly-2021-February-Hard-Static.png",
-			"animated": "https://i.postimg.cc/05KFZZgM/Monthly-2021-Febraury-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/02/LJq/Monthly-2021-February-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/02/LJq/Monthly-2021-February-Hard-Animated.png",
 			"thread": 23941
 		},
 		{	//March 2021 Monthly: Easy Mode
@@ -3844,8 +3844,8 @@
 			"characters": [
 				147	//Kenshin Himura
 			],
-			"image": "https://i.postimg.cc/YCddtmKB/Monthly-2021-March-Easy-Static.png",
-			"animated": "https://i.postimg.cc/2jnTVtRw/Monthly-2021-March-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/03/mew/Monthly-2021-March-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/03/mew/Monthly-2021-March-Easy-Animated.png",
 			"thread": 26122
 		},
 		{	//March 2021 Monthly: Hard Mode
@@ -3855,8 +3855,8 @@
 			"characters": [
 				147	//Kenshin Himura
 			],
-			"image": "https://i.postimg.cc/bvd3rNpD/Monthly-2021-March-Hard-Static.png",
-			"animated": "https://i.postimg.cc/gkDDK60L/Monthly-2021-March-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/03/mew/Monthly-2021-March-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/03/mew/Monthly-2021-March-Hard-Animated.png",
 			"thread": 26122
 		},
 		{	//April 2021 Monthly: Easy Mode
@@ -3866,8 +3866,8 @@
 			"characters": [
 				16	//Edward Wong Hau Pepelu Tivrusky IV
 			],
-			"image": "https://i.postimg.cc/YCDz5KYp/Monthly-2021-April-Easy-Static.png",
-			"animated": "https://i.postimg.cc/sxzYYVdJ/Monthly-2021-April-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/04/JyH/Monthly-2021-April-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/04/JyH/Monthly-2021-April-Easy-Animated.png",
 			"thread": 29066
 		},
 		{	//April 2021 Monthly: Hard Mode
@@ -3877,8 +3877,8 @@
 			"characters": [
 				16	//Edward Wong Hau Pepelu Tivrusky IV
 			],
-			"image": "https://i.postimg.cc/d07jvHjG/Monthly-2021-April-Hard-Static.png",
-			"animated": "https://i.postimg.cc/kGyxwk7P/Monthly-2021-April-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/04/JyH/Monthly-2021-April-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/04/JyH/Monthly-2021-April-Hard-Animated.png",
 			"thread": 29066
 		},
 		{	//May 2021 Monthly: Easy Mode
@@ -3888,8 +3888,8 @@
 			"characters": [
 				1314	//Mahoro Andou
 			],
-			"image": "https://i.postimg.cc/5Nx5jNm4/Monthly-2021-May-Easy-Static.png",
-			"animated": "https://i.postimg.cc/VkhX79Pv/Monthly-2021-May-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/05/ogJ/Monthly-2021-May-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/05/ogJ/Monthly-2021-May-Easy-Animated.png",
 			"thread": 32307
 		},
 		{	//May 2021 Monthly: Hard Mode
@@ -3899,8 +3899,8 @@
 			"characters": [
 				1314	//Mahoro Andou
 			],
-			"image": "https://i.postimg.cc/4NB6ck8z/Monthly-2021-May-Hard-Static.png",
-			"animated": "https://i.postimg.cc/6QGnF7B0/Monthly-2021-May-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/05/ogJ/Monthly-2021-May-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/05/ogJ/Monthly-2021-May-Hard-Animated.png",
 			"thread": 32307
 		},
 		{	//June 2021 Monthly: Easy Mode
@@ -3910,8 +3910,8 @@
 			"characters": [
 				70	//Riza Hawkeye
 			],
-			"image": "https://i.postimg.cc/QNFdyb3R/Monthly-2021-June-Easy-Static.png",
-			"animated": "https://i.postimg.cc/jdNdsSCc/Monthly-2021-June-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/06/xFa/Monthly-2021-June-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/06/xFa/Monthly-2021-June-Easy-Animated.png",
 			"thread": 35113
 		},
 		{	//June 2021 Monthly: Hard Mode
@@ -3921,8 +3921,8 @@
 			"characters": [
 				70	//Riza Hawkeye
 			],
-			"image": "https://i.postimg.cc/CM9xTqMd/Monthly-2021-June-Hard-Static.png",
-			"animated": "https://i.postimg.cc/zGrD3Ygr/Monthly-2021-June-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/06/xFa/Monthly-2021-June-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/06/xFa/Monthly-2021-June-Hard-Animated.png",
 			"thread": 35113
 		},
 		{	//July 2021 Monthly: Easy Mode
@@ -3932,8 +3932,8 @@
 			"characters": [
 				20512	//Ika Musume
 			],
-			"image": "https://i.postimg.cc/9fKCt576/Monthly-2021-July-Easy-Static.png",
-			"animated": "https://i.postimg.cc/sfpsSLDL/Monthly-2021-July-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/07/bhn/Monthly-2021-July-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/07/bhn/Monthly-2021-July-Easy-Animated.png",
 			"thread": 37307
 		},
 		{	//July 2021 Monthly: Hard Mode
@@ -3943,8 +3943,8 @@
 			"characters": [
 				20512	//Ika Musume
 			],
-			"image": "https://i.postimg.cc/k4S9T1NB/Monthly-2021-July-Hard-Static.png",
-			"animated": "https://i.postimg.cc/zX85kkyG/Monthly-2021-July-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/07/bhn/Monthly-2021-July-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/07/bhn/Monthly-2021-July-Hard-Animated.png",
 			"thread": 37307
 		},
 		{	//August 2021 Monthly: Easy Mode
@@ -3954,8 +3954,8 @@
 			"characters": [
 				4835	//Lum
 			],
-			"image": "https://i.postimg.cc/gcVP5cyB/Monthly-2021-August-Easy-Static.png",
-			"animated": "https://i.postimg.cc/C1JsBqTQ/Monthly-2021-August-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/08/N9s/Monthly-2021-August-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/08/N9s/Monthly-2021-August-Easy-Animated.png",
 			"thread": 39659
 		},
 		{	//August 2021 Monthly: Hard Mode
@@ -3965,8 +3965,8 @@
 			"characters": [
 				4835	//Lum
 			],
-			"image": "https://i.postimg.cc/BQNfShVT/Monthly-2021-August-Hard-Static.png",
-			"animated": "https://i.postimg.cc/pLD85FKJ/Monthly-2021-August-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/08/N9s/Monthly-2021-August-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/08/N9s/Monthly-2021-August-Hard-Animated.png",
 			"thread": 39659
 		},
 		{	//September 2021 Monthly: Easy Mode
@@ -3976,8 +3976,8 @@
 			"characters": [
 				4004	//Dio Brando
 			],
-			"image": "https://i.postimg.cc/6QXZsbLB/Monthly-2021-September-Easy-Static.png",
-			"animated": "https://i.postimg.cc/J4HHsCp1/Monthly-2021-September-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/09/c7L/Monthly-2021-September-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/09/c7L/Monthly-2021-September-Easy-Animated.png",
 			"thread": 41792
 		},
 		{	//September 2021 Monthly: Hard Mode
@@ -3987,8 +3987,8 @@
 			"characters": [
 				4004	//Dio Brando
 			],
-			"image": "https://i.postimg.cc/hj47vJ5w/Monthly-2021-September-Hard-Static.png",
-			"animated": "https://i.postimg.cc/MHQZpqqN/Monthly-2021-September-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/09/c7L/Monthly-2021-September-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/09/c7L/Monthly-2021-September-Hard-Animated.png",
 			"thread": 41792
 		},
 		{	//October 2021 Monthly: Easy Mode
@@ -3998,8 +3998,8 @@
 			"characters": [
 				123180	//Azusa Hamaoka
 			],
-			"image": "https://i.postimg.cc/43GdbgqX/Monthly-2021-October-Easy-Static.png",
-			"animated": "https://i.postimg.cc/QMPjYZnB/Monthly-2021-October-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/10/Mly/Monthly-2021-October-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/10/Mly/Monthly-2021-October-Easy-Animated.png",
 			"thread": 43786
 		},
 		{	//October 2021 Monthly: Hard Mode
@@ -4009,8 +4009,8 @@
 			"characters": [
 				123180	//Azusa Hamaoka
 			],
-			"image": "https://i.postimg.cc/rz6cVGLq/Monthly-2021-October-Hard-Static.png",
-			"animated": "https://i.postimg.cc/4N8qQb0y/Monthly-2021-October-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/10/Mly/Monthly-2021-October-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/10/Mly/Monthly-2021-October-Hard-Animated.png",
 			"thread": 43786
 		},
 		{	//November 2021 Monthly: Easy Mode
@@ -4020,8 +4020,8 @@
 			"characters": [
 				215082	//Sarasa Watanabe
 			],
-			"image": "https://i.postimg.cc/3rLsSw-4z/Monthly-2021-November-Easy-Static.png",
-			"animated": "https://i.postimg.cc/xdy7KjVx/Monthly-2021-November-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/11/0Tv/Monthly-2021-November-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/11/0Tv/Monthly-2021-November-Easy-Animated.png",
 			"thread": 45832
 		},
 		{	//November 2021 Monthly: Hard Mode
@@ -4031,8 +4031,8 @@
 			"characters": [
 				215082	//Sarasa Watanabe
 			],
-			"image": "https://i.postimg.cc/vHcppd5T/Monthly-2021-November-Hard-Static.png",
-			"animated": "https://i.postimg.cc/HnjhDQcR/Monthly-2021-November-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/11/0Tv/Monthly-2021-November-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/11/0Tv/Monthly-2021-November-Hard-Animated.png",
 			"thread": 45832
 		},
 		{	//December 2021 Monthly: Easy Mode
@@ -4042,8 +4042,8 @@
 			"characters": [
 				1169	//Lina Inverse
 			],
-			"image": "https://i.postimg.cc/wxChMKq6/Monthly-2021-December-Easy-Static.png",
-			"animated": "https://i.postimg.cc/DZbS3Zb1/Monthly-2021-December-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/12/eNv/Monthly-2021-December-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/12/eNv/Monthly-2021-December-Easy-Animated.png",
 			"thread": 47411
 		},
 		{	//December 2021 Monthly: Hard Mode
@@ -4053,8 +4053,8 @@
 			"characters": [
 				1169	//Lina Inverse
 			],
-			"image": "https://i.postimg.cc/cJL320mc/Monthly-2021-December-Hard-Static.png",
-			"animated": "https://i.postimg.cc/PJWNNRyx/Monthly-2021-December-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/12/eNv/Monthly-2021-December-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2021/12/eNv/Monthly-2021-December-Hard-Animated.png",
 			"thread": 47411
 		},
 			/* 2022 */
@@ -4065,8 +4065,8 @@
 			"characters": [
 				88753	//Isla
 			],
-			"image": "https://i.postimg.cc/SsP4dqGG/Monthly-2022-January-Easy-Static.png",
-			"animated": "https://i.postimg.cc/05LM2qqm/Monthly-2022-January-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/01/MAJ/Monthly-2022-January-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/01/MAJ/Monthly-2022-January-Easy-Animated.png",
 			"thread": 48908
 		},
 		{	//January 2022 Monthly: Hard Mode
@@ -4076,8 +4076,8 @@
 			"characters": [
 				88753	//Isla
 			],
-			"image": "https://i.postimg.cc/yW4HqPtg/Monthly-2022-January-Hard-Static.png",
-			"animated": "https://i.postimg.cc/kgyBc6RF/Monthly-2022-January-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/01/MAJ/Monthly-2022-January-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/01/MAJ/Monthly-2022-January-Hard-Animated.png",
 			"thread": 48908
 		},
 		{	//February 2022 Monthly: Easy Mode
@@ -4087,8 +4087,8 @@
 			"characters": [
 				32799	//Suzu Hagimura
 			],
-			"image": "https://i.postimg.cc/t7QkSN8L/Monthly-2022-February-Easy-Static.png",
-			"animated": "https://i.postimg.cc/fRZnkck2/Monthly-2022-February-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/02/af9/Monthly-2022-February-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/02/af9/Monthly-2022-February-Easy-Animated.png",
 			"thread": 50456
 		},
 		{	//February 2022 Monthly: Hard Mode
@@ -4098,8 +4098,8 @@
 			"characters": [
 				32799	//Suzu Hagimura
 			],
-			"image": "https://i.postimg.cc/zXTYJtDH/Monthly-2022-February-Hard-Static.png",
-			"animated": "https://i.postimg.cc/QMx2JjQc/Monthly-2022-February-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/02/af9/Monthly-2022-February-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/02/af9/Monthly-2022-February-Hard-Animated.png",
 			"thread": 50456
 		},
 		{	//March 2022 Monthly: Easy Mode
@@ -4109,8 +4109,8 @@
 			"characters": [
 				124142	//Senkuu Ishigami
 			],
-			"image": "https://i.postimg.cc/vBY5qrVf/Monthly-2022-March-Easy-Static.png",
-			"animated": "https://i.postimg.cc/gc63M2wM/Monthly-2022-March-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/03/WYd/Monthly-2022-March-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/03/WYd/Monthly-2022-March-Easy-Animated.png",
 			"thread": 51651
 		},
 		{	//March 2022 Monthly: Hard Mode
@@ -4120,8 +4120,8 @@
 			"characters": [
 				124142	//Senkuu Ishigami
 			],
-			"image": "https://i.postimg.cc/BZy1H9Mx/Monthly-2022-March-Hard-Static.png",
-			"animated": "https://i.postimg.cc/L4znYYgM/Monthly-2022-March-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/03/WYd/Monthly-2022-March-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/03/WYd/Monthly-2022-March-Hard-Animated.png",
 			"thread": 51651
 		},
 		{	//April 2022 Monthly: Easy Mode
@@ -4131,8 +4131,8 @@
 			"characters": [
 				80243	//Shouko Nishimiya
 			],
-			"image": "https://i.postimg.cc/6q6TjgG7/Monthly-2022-April-Easy-Static.png",
-			"animated": "https://i.postimg.cc/PqmxtTWp/Monthly-2022-April-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/04/Gcc/Monthly-2022-April-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/04/Gcc/Monthly-2022-April-Easy-Animated.png",
 			"thread": 52918
 		},
 		{	//April 2022 Monthly: Hard Mode
@@ -4142,8 +4142,8 @@
 			"characters": [
 				80243	//Shouko Nishimiya
 			],
-			"image": "https://i.postimg.cc/6qHqDcdM/Monthly-2022-April-Hard-Static.png",
-			"animated": "https://i.postimg.cc/j5tj2mc8/Monthly-2022-April-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/04/Gcc/Monthly-2022-April-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/04/Gcc/Monthly-2022-April-Hard-Animated.png",
 			"thread": 52918
 		},
 		{	//May 2022 Monthly: Easy Mode
@@ -4153,8 +4153,8 @@
 			"characters": [
 				168761	//Siesta no Chichi
 			],
-			"image": "https://i.postimg.cc/7LHjkcg2/Monthly-2022-May-Easy-Static.png",
-			"animated": "https://i.postimg.cc/7P2spDpR/Monthly-2022-May-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/05/0v5/Monthly-2022-May-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/05/0v5/Monthly-2022-May-Easy-Animated.png",
 			"thread": 54234
 		},
 		{	//May 2022 Monthly: Hard Mode
@@ -4164,8 +4164,8 @@
 			"characters": [
 				168761	//Siesta no Chichi
 			],
-			"image": "https://i.postimg.cc/dQkpwGT4/Monthly-2022-May-Hard-Static.png",
-			"animated": "https://i.postimg.cc/3wN99HXn/Monthly-2022-May-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/05/0v5/Monthly-2022-May-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/05/0v5/Monthly-2022-May-Hard-Animated.png",
 			"thread": 54234
 		},
 		{	//June 2022 Monthly: Easy Mode
@@ -4175,8 +4175,8 @@
 			"characters": [
 				129563	//Aurora Suya Rhys Kaymin
 			],
-			"image": "https://i.postimg.cc/7ZwHyx1r/Monthly-2022-June-Easy-Static.png",
-			"animated": "https://i.postimg.cc/vZcPTntr/Monthly-2022-June-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/06/nTs/Monthly-2022-June-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/06/nTs/Monthly-2022-June-Easy-Animated.png",
 			"thread": 55490
 		},
 		{	//June 2022 Monthly: Hard Mode
@@ -4186,8 +4186,8 @@
 			"characters": [
 				129563	//Aurora Suya Rhys Kaymin
 			],
-			"image": "https://i.postimg.cc/LX1K17kV/Monthly-2022-June-Hard-Static.png",
-			"animated": "https://i.postimg.cc/t4BYS1KM/Monthly-2022-June-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/06/nTs/Monthly-2022-June-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/06/nTs/Monthly-2022-June-Hard-Animated.png",
 			"thread": 55490
 		},
 		{	//July 2022 Monthly: Easy Mode
@@ -4197,8 +4197,8 @@
 			"characters": [
 				69503	//Hinata Kuraue
 			],
-			"image": "https://i.postimg.cc/2yt078zb/Monthly-2022-July-Easy-Static.png",
-			"animated": "https://i.postimg.cc/HkvbJPkn/Monthly-2022-July-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/07/0TC/Monthly-2022-July-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/07/0TC/Monthly-2022-July-Easy-Animated.png",
 			"thread": 56620
 		},
 		{	//July 2022 Monthly: Hard Mode
@@ -4208,8 +4208,8 @@
 			"characters": [
 				69503	//Hinata Kuraue
 			],
-			"image": "https://i.postimg.cc/VN7ZkF3W/Monthly-2022-July-Hard-Static.png",
-			"animated": "https://i.postimg.cc/qMzJJmSj/Monthly-2022-July-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/07/0TC/Monthly-2022-July-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/07/0TC/Monthly-2022-July-Hard-Animated.png",
 			"thread": 56620
 		},
 		{	//August 2022 Monthly: Easy Mode
@@ -4219,8 +4219,8 @@
 			"characters": [
 				2769	//Ren Mihashi
 			],
-			"image": "https://i.postimg.cc/NMWm1Qk0/Monthly-2022-August-Easy-Static.png",
-			"animated": "https://i.postimg.cc/BQ5HK9Lq/Monthly-2022-August-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/08/lBN/Monthly-2022-August-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/08/lBN/Monthly-2022-August-Easy-Animated.png",
 			"thread": 57826
 		},
 		{	//August 2022 Monthly: Hard Mode
@@ -4230,8 +4230,8 @@
 			"characters": [
 				2769	//Ren Mihashi
 			],
-			"image": "https://i.postimg.cc/151DX5zC/Monthly-2022-August-Hard-Static.png",
-			"animated": "https://i.postimg.cc/d0fyYJX9/Monthly-2022-August-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/08/lBN/Monthly-2022-August-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/08/lBN/Monthly-2022-August-Hard-Animated.png",
 			"thread": 57826
 		},
 		{	//September 2022 Monthly: Easy Mode
@@ -4242,8 +4242,8 @@
 				30430,	//Shiemi Moriyama
 				47527	//Nii-chan
 			],
-			"image": "https://i.postimg.cc/k4vhy2N0/Monthly-2022-September-Easy-Static.png",
-			"animated": "https://i.postimg.cc/fTcjtGKP/Monthly-2022-September-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/09/dzf/Monthly-2022-September-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/09/dzf/Monthly-2022-September-Easy-Animated.png",
 			"thread": 58790
 		},
 		{	//September 2022 Monthly: Hard Mode
@@ -4254,8 +4254,8 @@
 				30430,	//Shiemi Moriyama
 				47527	//Nii-chan
 			],
-			"image": "https://i.postimg.cc/0jmGCFqb/Monthly-2022-September-Hard-Static.png",
-			"animated": "https://i.postimg.cc/3x3jgtfx/Monthly-2022-September-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/09/dzf/Monthly-2022-September-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/09/dzf/Monthly-2022-September-Hard-Animated.png",
 			"thread": 58790
 		},
 		{	//October 2022 Monthly: Easy Mode
@@ -4265,8 +4265,8 @@
 			"characters": [
 				2392	//Mikan Sakura
 			],
-			"image": "https://i.postimg.cc/J0fvzQRM/Monthly-2022-October-Easy-Static.png",
-			"animated": "https://i.postimg.cc/PxRrK0Qy/Monthly-2022-October-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/10/Rte/Monthly-2022-October-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/10/Rte/Monthly-2022-October-Easy-Animated.png",
 			"thread": 59608
 		},
 		{	//October 2022 Monthly: Hard Mode
@@ -4276,8 +4276,8 @@
 			"characters": [
 				2392	//Mikan Sakura
 			],
-			"image": "https://i.postimg.cc/9MVGCR6K/Monthly-2022-October-Hard-Static.png",
-			"animated": "https://i.postimg.cc/NLhGvTVr/Monthly-2022-October-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/10/Rte/Monthly-2022-October-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/10/Rte/Monthly-2022-October-Hard-Animated.png",
 			"thread": 59608
 		},
 		{	//November 2022 Monthly: Easy Mode
@@ -4287,8 +4287,8 @@
 			"characters": [
 				89853	//Chuuya Nakahara
 			],
-			"image": "https://i.postimg.cc/0QF6Grr7/Monthly-2022-November-Easy-Static.png",
-			"animated": "https://i.postimg.cc/kMy3tzZg/Monthly-2022-November-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/11/8TX/Monthly-2022-November-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/11/8TX/Monthly-2022-November-Easy-Animated.png",
 			"thread": 60451
 		},
 		{	//November 2022 Monthly: Hard Mode
@@ -4298,8 +4298,8 @@
 			"characters": [
 				89853	//Chuuya Nakahara
 			],
-			"image": "https://i.postimg.cc/N0PLYL6Z/Monthly-2022-November-Hard-Static.png",
-			"animated": "https://i.postimg.cc/PfVycMvM/Monthly-2022-November-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/11/8TX/Monthly-2022-November-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/11/8TX/Monthly-2022-November-Hard-Animated.png",
 			"thread": 60451
 		},
 		{	//December 2022 Monthly: Easy Mode
@@ -4309,8 +4309,8 @@
 			"characters": [
 				88787	//Chocola
 			],
-			"image": "https://i.postimg.cc/3Rq2FkhX/Monthly-2022-December-Easy-Static.png",
-			"animated": "https://i.postimg.cc/DwbfSmpV/Monthly-2022-December-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/12/4PG/Monthly-2022-December-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/12/4PG/Monthly-2022-December-Easy-Animated.png",
 			"thread": 61094
 		},
 		{	//December 2022 Monthly: Hard Mode
@@ -4320,8 +4320,8 @@
 			"characters": [
 				88787	//Chocola
 			],
-			"image": "https://i.postimg.cc/y87ndS8x/Monthly-2022-December-Hard-Static.png",
-			"animated": "https://i.postimg.cc/5y6dDkZc/Monthly-2022-December-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/12/4PG/Monthly-2022-December-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2022/12/4PG/Monthly-2022-December-Hard-Animated.png",
 			"thread": 61094
 		},
 			/* 2023 */
@@ -4332,8 +4332,8 @@
 			"characters": [
 				6769	//Susumu Kodai
 			],
-			"image": "https://i.postimg.cc/xCx0M4Xk/Monthly-2023-January-Easy-Static.png",
-			"animated": "https://i.postimg.cc/xTkKJrXz/Monthly-2023-January-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/01/hpH/Monthly-2023-January-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/01/hpH/Monthly-2023-January-Easy-Animated.png",
 			"thread": 61831
 		},
 		{	//January 2023 Monthly: Hard Mode
@@ -4343,8 +4343,8 @@
 			"characters": [
 				6769	//Susumu Kodai
 			],
-			"image": "https://i.postimg.cc/KzH2R3WB/Monthly-2023-January-Hard-Static.png",
-			"animated": "https://i.postimg.cc/RhwJdmKs/Monthly-2023-January-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/01/hpH/Monthly-2023-January-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/01/hpH/Monthly-2023-January-Hard-Animated.png",
 			"thread": 61831
 		},
 		{	//February 2023 Monthly: Easy Mode
@@ -4354,8 +4354,8 @@
 			"characters": [
 				204495	//Kukuru Misakino
 			],
-			"image": "https://i.postimg.cc/J7BtdCKY/Monthly-2023-February-Easy-Static.png",
-			"animated": "https://i.postimg.cc/Hn3N9hJw/Monthly-2023-February-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/02/HUF/Monthly-2023-February-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/02/HUF/Monthly-2023-February-Easy-Animated.png",
 			"thread": 62649
 		},
 		{	//February 2023 Monthly: Hard Mode
@@ -4365,8 +4365,8 @@
 			"characters": [
 				204495	//Kukuru Misakino
 			],
-			"image": "https://i.postimg.cc/v89HtLHp/Monthly-2023-February-Hard-Static.png",
-			"animated": "https://i.postimg.cc/MT3R006c/Monthly-2023-February-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/02/HUF/Monthly-2023-February-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/02/HUF/Monthly-2023-February-Hard-Animated.png",
 			"thread": 62649
 		},
 		{	//March 2023 Monthly: Easy Mode
@@ -4376,8 +4376,8 @@
 			"characters": [
 				88749	//Eriri Spencer Sawamura
 			],
-			"image": "https://i.postimg.cc/fLvh7NFq/Monthly-2023-March-Easy-Static.png",
-			"animated": "https://i.postimg.cc/hv9MQD5h/Monthly-2023-March-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/03/vju/Monthly-2023-March-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/03/vju/Monthly-2023-March-Easy-Animated.png",
 			"thread": 63380
 		},
 		{	//March 2023 Monthly: Hard Mode
@@ -4387,8 +4387,8 @@
 			"characters": [
 				88749	//Eriri Spencer Sawamura
 			],
-			"image": "https://i.postimg.cc/nVsycqVw/Monthly-2023-March-Hard-Static.png",
-			"animated": "https://i.postimg.cc/yYHL4RDR/Monthly-2023-March-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/03/vju/Monthly-2023-March-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/03/vju/Monthly-2023-March-Hard-Animated.png",
 			"thread": 63380
 		},
 		{	//April 2023 Monthly: Easy Mode (Gag)
@@ -4408,8 +4408,8 @@
 			"characters": [
 				147759	//Opera
 			],
-			"image": "https://i.postimg.cc/XYYrFfc1/Monthly-2023-April-Easy-Static.png",
-			"animated": "https://i.postimg.cc/x8TMxwVM/Monthly-2023-April-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/04/6bN/Monthly-2023-April-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/04/6bN/Monthly-2023-April-Easy-Animated.png",
 			"thread": 64140
 		},
 		{	//April 2023 Monthly: Hard Mode (Gag)
@@ -4429,8 +4429,8 @@
 			"characters": [
 				147759	//Opera
 			],
-			"image": "https://i.postimg.cc/vm1D2GKW/Monthly-2023-April-Hard-Static.png",
-			"animated": "https://i.postimg.cc/Z5y3MP27/Monthly-2023-April-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/04/6bN/Monthly-2023-April-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/04/6bN/Monthly-2023-April-Hard-Animated.png",
 			"thread": 64140
 		},
 		{	//May 2023 Monthly: Easy Mode
@@ -4440,8 +4440,8 @@
 			"characters": [
 				168296	//Rinku Aimoto
 			],
-			"image": "https://i.postimg.cc/hjNPtkQj/Monthly-2023-May-Easy-Static.png",
-			"animated": "https://i.postimg.cc/DZ08ZQCC/Monthly-2023-May-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/05/UKe/Monthly-2023-May-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/05/UKe/Monthly-2023-May-Easy-Animated.png",
 			"thread": 64923
 		},
 		{	//May 2023 Monthly: Hard Mode
@@ -4451,8 +4451,8 @@
 			"characters": [
 				168296	//Rinku Aimoto
 			],
-			"image": "https://i.postimg.cc/2SCjyFy4/Monthly-2023-May-Hard-Static.png",
-			"animated": "https://i.postimg.cc/0y56FqYR/Monthly-2023-May-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/05/UKe/Monthly-2023-May-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/05/UKe/Monthly-2023-May-Hard-Animated.png",
 			"thread": 64923
 		},
 		{	//June 2023 Monthly: Easy Mode
@@ -4462,8 +4462,8 @@
 			"characters": [
 				18344	//Tomoe
 			],
-			"image": "https://i.postimg.cc/JtVnyHp7/Monthly-2023-June-Easy-Static.png",
-			"animated": "https://i.postimg.cc/zGkCrqfH/Monthly-2023-June-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/06/DwS/Monthly-2023-June-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/06/DwS/Monthly-2023-June-Easy-Animated.png",
 			"thread": 65635
 		},
 		{	//June 2023 Monthly: Hard Mode
@@ -4473,8 +4473,8 @@
 			"characters": [
 				18344	//Tomoe
 			],
-			"image": "https://i.postimg.cc/5NL5sBd3/Monthly-2023-June-Hard-Static.png",
-			"animated": "https://i.postimg.cc/cJHnGYjP/Monthly-2023-June-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/06/DwS/Monthly-2023-June-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/06/DwS/Monthly-2023-June-Hard-Animated.png",
 			"thread": 65635
 		},
 		{	//July 2023 Monthly: Easy Mode
@@ -4484,8 +4484,8 @@
 			"characters": [
 				127588	//Yuuta Hibiki
 			],
-			"image": "https://i.postimg.cc/50C5Wb1P/Monthly-2023-July-Easy-Static.png",
-			"animated": "https://i.postimg.cc/T1TZKkkX/Monthly-2023-July-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/07/NGw/Monthly-2023-July-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/07/NGw/Monthly-2023-July-Easy-Animated.png",
 			"thread": 66364
 		},
 		{	//July 2023 Monthly: Hard Mode
@@ -4495,8 +4495,8 @@
 			"characters": [
 				127588	//Yuuta Hibiki
 			],
-			"image": "https://i.postimg.cc/zfLKT8LJ/Monthly-2023-July-Hard-Static.png",
-			"animated": "https://i.postimg.cc/D0sPKFQv/Monthly-2023-July-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/07/NGw/Monthly-2023-July-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/07/NGw/Monthly-2023-July-Hard-Animated.png",
 			"thread": 66364
 		},
 		{	//August 2023 Monthly: Easy Mode
@@ -4506,8 +4506,8 @@
 			"characters": [
 				209532	//Bojji
 			],
-			"image": "https://i.postimg.cc/wvGKDYTm/Monthly-2023-August-Easy-Static.png",
-			"animated": "https://i.postimg.cc/wxVv10Nc/Monthly-2023-August-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/08/G7R/Monthly-2023-August-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/08/G7R/Monthly-2023-August-Easy-Animated.png",
 			"thread": 67170
 		},
 		{	//August 2023 Monthly: Hard Mode
@@ -4517,8 +4517,8 @@
 			"characters": [
 				209532	//Bojji
 			],
-			"image": "https://i.postimg.cc/ZnNTR5FR/Monthly-2023-August-Hard-Static.png",
-			"animated": "https://i.postimg.cc/d0gBTG7w/Monthly-2023-August-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/08/G7R/Monthly-2023-August-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/08/G7R/Monthly-2023-August-Hard-Animated.png",
 			"thread": 67170
 		},
 		{	//September 2023 Monthly: Easy Mode
@@ -4528,8 +4528,8 @@
 			"characters": [
 				133597	//Shuu Itsuki
 			],
-			"image": "https://i.postimg.cc/vBthN1XP/Monthly-2023-September-Easy-Static.png",
-			"animated": "https://i.postimg.cc/Zq65BQ8d/Monthly-2023-September-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/09/3qc/Monthly-2023-September-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/09/3qc/Monthly-2023-September-Easy-Animated.png",
 			"thread": 67858
 		},
 		{	//September 2023 Monthly: Hard Mode
@@ -4539,8 +4539,8 @@
 			"characters": [
 				133597	//Shuu Itsuki
 			],
-			"image": "https://i.postimg.cc/T19DxgWs/Monthly-2023-September-Hard-Static.png",
-			"animated": "https://i.postimg.cc/3JbXnkPZ/Monthly-2023-September-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/09/3qc/Monthly-2023-September-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/09/3qc/Monthly-2023-September-Hard-Animated.png",
 			"thread": 67858
 		},
 		{	//October 2023 Monthly: Easy Mode
@@ -4550,8 +4550,8 @@
 			"characters": [
 				90204	//Koyori Tsumujikaze
 			],
-			"image": "https://i.postimg.cc/brT1kTnz/Monthly-2023-October-Easy-Static.png",
-			"animated": "https://i.postimg.cc/ZnCJxYBC/Monthly-2023-October-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/10/mG2/Monthly-2023-October-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/10/mG2/Monthly-2023-October-Easy-Animated.png",
 			"thread": 68503
 		},
 		{	//October 2023 Monthly: Hard Mode
@@ -4561,8 +4561,8 @@
 			"characters": [
 				90204	//Koyori Tsumujikaze
 			],
-			"image": "https://i.postimg.cc/Z506v65S/Monthly-2023-October-Hard-Static.png",
-			"animated": "https://i.postimg.cc/8z8TLS1z/Monthly-2023-October-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/10/mG2/Monthly-2023-October-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/10/mG2/Monthly-2023-October-Hard-Animated.png",
 			"thread": 68503
 		},
 		{	//November 2023 Monthly: Easy Mode
@@ -4572,8 +4572,8 @@
 			"characters": [
 				18323	//Shirayuki
 			],
-			"image": "https://i.postimg.cc/BbL56w1D/Monthly-2023-November-Easy-Static.png",
-			"animated": "https://i.postimg.cc/4dTgm0dc/Monthly-2023-November-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/11/qVw/Monthly-2023-November-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/11/qVw/Monthly-2023-November-Easy-Animated.png",
 			"thread": 69255
 		},
 		{	//November 2023 Monthly: Hard Mode
@@ -4583,8 +4583,8 @@
 			"characters": [
 				18323	//Shirayuki
 			],
-			"image": "https://i.postimg.cc/nVgY5Z61/Monthly-2023-November-Hard-Static.png",
-			"animated": "https://i.postimg.cc/qqJHGC2M/Monthly-2023-November-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/11/qVw/Monthly-2023-November-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/11/qVw/Monthly-2023-November-Hard-Animated.png",
 			"thread": 69255
 		},
 		{	//December 2023 Monthly: Easy Mode
@@ -4594,8 +4594,8 @@
 			"characters": [
 				122466	//Prushka
 			],
-			"image": "https://i.postimg.cc/kXKN5W0g/Monthly-2023-December-Easy-Static.png",
-			"animated": "https://i.postimg.cc/Qt54rVrB/Monthly-2023-December-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/12/JVu/Monthly-2023-December-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/12/JVu/Monthly-2023-December-Easy-Animated.png",
 			"thread": 69917
 		},
 		{	//December 2023 Monthly: Hard Mode
@@ -4605,8 +4605,8 @@
 			"characters": [
 				122466	//Prushka
 			],
-			"image": "https://i.postimg.cc/jqNn6tZ8/Monthly-2023-December-Hard-Static.png",
-			"animated": "https://i.postimg.cc/W1Cwbj80/Monthly-2023-December-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/12/JVu/Monthly-2023-December-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/12/JVu/Monthly-2023-December-Hard-Animated.png",
 			"thread": 69917
 		},
 			/* 2024 */
@@ -4617,8 +4617,8 @@
 			"characters": [
 				2285	//Seiya
 			],
-			"image": "https://i.postimg.cc/qMvvBM44/Monthly-2024-January-Easy-Static.png",
-			"animated": "https://i.postimg.cc/gjSdL8md/Monthly-2024-January-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/01/1nR/Monthly-2024-January-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/01/1nR/Monthly-2024-January-Easy-Animated.png",
 			"thread": 70656
 		},
 		{	//January 2024 Monthly: Hard Mode
@@ -4628,8 +4628,8 @@
 			"characters": [
 				2285	//Seiya
 			],
-			"image": "https://i.postimg.cc/d1FJbJ5M/Monthly-2024-January-Hard-Static.png",
-			"animated": "https://i.postimg.cc/qMF4ks1x/Monthly-2024-January-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/01/1nR/Monthly-2024-January-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/01/1nR/Monthly-2024-January-Hard-Animated.png",
 			"thread": 70656
 		},
 		{	//February 2024 Monthly: Easy Mode
@@ -4639,8 +4639,8 @@
 			"characters": [
 				278662	//Kanade
 			],
-			"image": "https://i.postimg.cc/021GZ0bX/Monthly-2024-February-Easy-Static.png",
-			"animated": "https://i.postimg.cc/j2H7BBLg/Monthly-2024-February-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/02/WYV/Monthly-2024-February-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/02/WYV/Monthly-2024-February-Easy-Animated.png",
 			"thread": 71404
 		},
 		{	//February 2024 Monthly: Hard Mode
@@ -4650,8 +4650,8 @@
 			"characters": [
 				278662	//Kanade
 			],
-			"image": "https://i.postimg.cc/W4ygZMBn/Monthly-2024-February-Hard-Static.png",
-			"animated": "https://i.postimg.cc/xCrqYtrW/Monthly-2024-February-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/02/WYV/Monthly-2024-February-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/02/WYV/Monthly-2024-February-Hard-Animated.png",
 			"thread": 71404
 		},
 		{	//March 2024 Monthly: Easy Mode
@@ -4661,8 +4661,8 @@
 			"characters": [
 				280138	//Nagomi Wahira
 			],
-			"image": "https://i.postimg.cc/FsGzJQm0/Monthly-2024-March-Easy-Static.png",
-			"animated": "https://i.postimg.cc/X7pCkJJn/Monthly-2024-March-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/03/Cq6/Monthly-2024-March-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/03/Cq6/Monthly-2024-March-Easy-Animated.png",
 			"thread": 72023
 		},
 		{	//March 2024 Monthly: Hard Mode
@@ -4672,8 +4672,8 @@
 			"characters": [
 				280138	//Nagomi Wahira
 			],
-			"image": "https://i.postimg.cc/SKYx529G/Monthly-2024-March-Hard-Static.png",
-			"animated": "https://i.postimg.cc/q7d6rxG7/Monthly-2024-March-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/03/Cq6/Monthly-2024-March-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/03/Cq6/Monthly-2024-March-Hard-Animated.png",
 			"thread": 72023
 		},
 		{	//April 2024 Monthly: Easy Mode
@@ -4683,8 +4683,8 @@
 			"characters": [
 				46213	//Marika Katou
 			],
-			"image": "https://i.postimg.cc/Gt3GnQK6/Monthly-2024-April-Easy-Static.png",
-			"animated": "https://i.postimg.cc/tgY9wVFD/Monthly-2024-April-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/04/Eea/Monthly-2024-April-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/04/Eea/Monthly-2024-April-Easy-Animated.png",
 			"thread": 72731
 		},
 		{	//April 2024 Monthly: Hard Mode
@@ -4694,8 +4694,8 @@
 			"characters": [
 				46213	//Marika Katou
 			],
-			"image": "https://i.postimg.cc/5N6Q5jR5/Monthly-2024-April-Hard-Static.png",
-			"animated": "https://i.postimg.cc/SKzwcL60/Monthly-2024-April-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/04/Eea/Monthly-2024-April-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/04/Eea/Monthly-2024-April-Hard-Animated.png",
 			"thread": 72731
 		},
 		{	//May 2024 Monthly: Easy Mode
@@ -4705,8 +4705,8 @@
 			"characters": [
 				155712	//Ushio Kofune
 			],
-			"image": "https://i.postimg.cc/TwTrcK99/Monthly-2024-May-Easy-Static.png",
-			"animated": "https://i.postimg.cc/0jBDxcqW/Monthly-2024-May-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/05/cQS/Monthly-2024-May-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/05/cQS/Monthly-2024-May-Easy-Animated.png",
 			"thread": 73586
 		},
 		{	//May 2024 Monthly: Hard Mode
@@ -4716,8 +4716,8 @@
 			"characters": [
 				155712	//Ushio Kofune
 			],
-			"image": "https://i.postimg.cc/hvjTHNNQ/Monthly-2024-May-Hard-Static.png",
-			"animated": "https://i.postimg.cc/dtgrxH6D/Monthly-2024-May-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/05/cQS/Monthly-2024-May-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/05/cQS/Monthly-2024-May-Hard-Animated.png",
 			"thread": 73586
 		},
 		{	//June 2024 Monthly: Easy Mode
@@ -4727,8 +4727,8 @@
 			"characters": [
 				71343	//Ranko Kanzaki
 			],
-			"image": "https://i.postimg.cc/FKnYxWss/Monthly-2024-June-Easy-Static.png",
-			"animated": "https://i.postimg.cc/d3RQg4vC/Monthly-2024-June-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/06/wzy/Monthly-2024-June-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/06/wzy/Monthly-2024-June-Easy-Animated.png",
 			"thread": 74284
 		},
 		{	//June 2024 Monthly: Hard Mode
@@ -4738,8 +4738,8 @@
 			"characters": [
 				71343	//Ranko Kanzaki
 			],
-			"image": "https://i.postimg.cc/FRd7Cy7b/Monthly-2024-June-Hard-Static.png",
-			"animated": "https://i.postimg.cc/fTZRYnjf/Monthly-2024-June-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/06/wzy/Monthly-2024-June-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/06/wzy/Monthly-2024-June-Hard-Animated.png",
 			"thread": 74284
 		},
 		{	//July 2024 Monthly: Easy Mode
@@ -4749,8 +4749,8 @@
 			"characters": [
 				70739	//Chiho Sasaki
 			],
-			"image": "https://i.postimg.cc/GmdXkMRg/Monthly-2024-July-Easy-Static.png",
-			"animated": "https://i.postimg.cc/JhYn34y6/Monthly-2024-July-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/07/6iU/Monthly-2024-July-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/07/6iU/Monthly-2024-July-Easy-Animated.png",
 			"thread": 75035
 		},
 		{	//July 2024 Monthly: Hard Mode
@@ -4760,8 +4760,8 @@
 			"characters": [
 				70739	//Chiho Sasaki
 			],
-			"image": "https://i.postimg.cc/901rsF47/Monthly-2024-July-Hard-Static.png",
-			"animated": "https://i.postimg.cc/C5kxVGcX/Monthly-2024-July-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/07/6iU/Monthly-2024-July-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/07/6iU/Monthly-2024-July-Hard-Animated.png",
 			"thread": 75035
 		},
 		{	//August 2024 Monthly: Easy Mode
@@ -4771,8 +4771,8 @@
 			"characters": [
 				121776	//Rizu Ogata
 			],
-			"image": "https://i.postimg.cc/Y9bYWDVz/Monthly-2024-August-Easy-Static.png",
-			"animated": "https://i.postimg.cc/zXLKyjkT/Monthly-2024-August-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/08/RWW/Monthly-2024-August-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/08/RWW/Monthly-2024-August-Easy-Animated.png",
 			"thread": 75814
 		},
 		{	//August 2024 Monthly: Hard Mode
@@ -4782,8 +4782,8 @@
 			"characters": [
 				121776	//Rizu Ogata
 			],
-			"image": "https://i.postimg.cc/jq3yq9ys/Monthly-2024-August-Hard-Static.png",
-			"animated": "https://i.postimg.cc/Gt48sLvb/Monthly-2024-August-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/08/RWW/Monthly-2024-August-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/08/RWW/Monthly-2024-August-Hard-Animated.png",
 			"thread": 75814
 		},
 		{	//September 2024 Monthly: Easy Mode
@@ -4793,8 +4793,8 @@
 			"characters": [
 				2388	//Hayato Kazami
 			],
-			"image": "https://i.postimg.cc/9Qjtpxpz/Monthly-2024-September-Easy-Static.png",
-			"animated": "https://i.postimg.cc/KvTCjHjY/Monthly-2024-September-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/09/TxT/Monthly-2024-September-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/09/TxT/Monthly-2024-September-Easy-Animated.png",
 			"thread": 76502
 		},
 		{	//September 2024 Monthly: Hard Mode
@@ -4804,8 +4804,8 @@
 			"characters": [
 				2388	//Hayato Kazami
 			],
-			"image": "https://i.postimg.cc/yd50Snx1/Monthly-2024-September-Hard-Static.png",
-			"animated": "https://i.postimg.cc/1z7vJGXT/Monthly-2024-September-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/09/TxT/Monthly-2024-September-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/09/TxT/Monthly-2024-September-Hard-Animated.png",
 			"thread": 76502
 		},
 		{	//October 2024 Monthly: Easy Mode
@@ -4815,8 +4815,8 @@
 			"characters": [
 				4963	//Yuno Gasai
 			],
-			"image": "https://i.postimg.cc/0Q5WhhWM/Monthly-2024-October-Easy-Static.png",
-			"animated": "https://i.postimg.cc/3J0SMXBB/Monthly-2024-October-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/10/HKR/Monthly-2024-October-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/10/HKR/Monthly-2024-October-Easy-Animated.png",
 			"thread": 77142
 		},
 		{	//October 2024 Monthly: Hard Mode
@@ -4826,8 +4826,8 @@
 			"characters": [
 				4963	//Yuno Gasai
 			],
-			"image": "https://i.postimg.cc/hv62zvST/Monthly-2024-October-Hard-Static.png",
-			"animated": "https://i.postimg.cc/nh8dnXSt/Monthly-2024-October-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/10/HKR/Monthly-2024-October-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/10/HKR/Monthly-2024-October-Hard-Animated.png",
 			"thread": 77142
 		},
 		{	//November 2024 Monthly: Easy Mode
@@ -4859,8 +4859,8 @@
 			"characters": [
 				126669	//Karen Aijou
 			],
-			"image": "https://i.postimg.cc/ZK8FmVGJ/Monthly-2024-December-Easy-Static.png",
-			"animated": "https://i.postimg.cc/cH3tmJZd/Monthly-2024-December-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/12/0wl/Monthly-2024-December-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/12/0wl/Monthly-2024-December-Easy-Animated.png",
 			"thread": 78480
 		},
 		{	//December 2024 Monthly: Hard Mode
@@ -4870,8 +4870,8 @@
 			"characters": [
 				126669	//Karen Aijou
 			],
-			"image": "https://i.postimg.cc/TPwrrGpP/Monthly-2024-December-Hard-Static.png",
-			"animated": "https://i.postimg.cc/Dfqb4mBg/Monthly-2024-December-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/12/0wl/Monthly-2024-December-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2024/12/0wl/Monthly-2024-December-Hard-Animated.png",
 			"thread": 78480
 		},
 			/* 2025 */
@@ -4883,7 +4883,7 @@
 				36074	//Erio Touwa
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/01/zRt/Monthly-2025-January-Easy-Static.png",
-			"animated": "https://i.postimg.cc/Zntgb5Gw/Monthly-2025-January-Easy-Animated.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/01/zRt/Monthly-2025-January-Easy-Animated.png",
 			"thread": 79059
 		},
 		{	//January 2025 Monthly: Hard Mode
@@ -4891,10 +4891,10 @@
 			"id": "monthly2025JanHard",
 			"name": "January 2025 Monthly Challenge: Hard Mode",
 			"characters": [
-				36074	//Erio Touwa
+				36074	//Erio Touwas
 			],
 			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/01/zRt/Monthly-2025-January-Hard-Static.png",
-			"animated": "https://i.postimg.cc/FHs6sq6X/Monthly-2025-January-Hard-Animated.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/01/zRt/Monthly-2025-January-Hard-Animated.png",
 			"thread": 79059
 		},
 		{	//February 2025 Monthly: Easy Mode
@@ -4904,8 +4904,8 @@
 			"characters": [
 				88161	//Hime Arikawa
 			],
-			"image": "https://i.postimg.cc/mDBBwGKL/Monthly-2025-February-Easy-Static.png",
-			"animated": "https://i.postimg.cc/XYdRDzfp/Monthly-2025-February-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/02/4cP/Monthly-2025-February-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/02/4cP/Monthly-2025-February-Easy-Animated.png",
 			"thread": 79762
 		},
 		{	//February 2025 Monthly: Hard Mode
@@ -4915,8 +4915,8 @@
 			"characters": [
 				88161	//Hime Arikawa
 			],
-			"image": "https://i.postimg.cc/q7Xdg5q9/Monthly-2025-February-Hard-Static.png",
-			"animated": "https://i.postimg.cc/fRnFXfGZ/Monthly-2025-February-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/02/4cP/Monthly-2025-February-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/02/4cP/Monthly-2025-February-Hard-Animated.png",
 			"thread": 79762
 		},
 		{	//March 2025 Monthly: Easy Mode
@@ -4926,8 +4926,8 @@
 			"characters": [
 				208523	//Riho Tsukishima
 			],
-			"image": "https://i.postimg.cc/j5ppC1zD/Monthly-2025-March-Easy-Static.png",
-			"animated": "https://i.postimg.cc/bwFDW0x6/Monthly-2025-March-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/03/vo6/Monthly-2025-March-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/03/vo6/Monthly-2025-March-Easy-Animated.png",
 			"thread": 80300
 		},
 		{	//March 2025 Monthly: Hard Mode
@@ -4937,8 +4937,8 @@
 			"characters": [
 				208523	//Riho Tsukishima
 			],
-			"image": "https://i.postimg.cc/fTn3hT0N/Monthly-2025-March-Hard-Static.png",
-			"animated": "https://i.postimg.cc/MGmkX595/Monthly-2025-March-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/03/vo6/Monthly-2025-March-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/03/vo6/Monthly-2025-March-Hard-Animated.png",
 			"thread": 80300
 		},
 		{	//April 2025 Monthly: Easy Mode
@@ -4948,8 +4948,8 @@
 			"characters": [
 				172687	//Cleopatra
 			],
-			"image": "https://i.postimg.cc/c4bbz05R/Monthly-2025-April-Easy-Static.png",
-			"animated": "https://i.postimg.cc/W4L8g3h4/Monthly-2025-April-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/04/0w9/Monthly-2025-April-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/04/0w9/Monthly-2025-April-Easy-Animated.png",
 			"thread": 81035
 		},
 		{	//April 2025 Monthly: Hard Mode
@@ -4959,8 +4959,8 @@
 			"characters": [
 				172687	//Cleopatra
 			],
-			"image": "https://i.postimg.cc/9XR2Fg5Y/Monthly-2025-April-Hard-Static.png",
-			"animated": "https://i.postimg.cc/WbdBTXCc/Monthly-2025-April-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/04/0w9/Monthly-2025-April-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/04/0w9/Monthly-2025-April-Hard-Animated.png",
 			"thread": 81035
 		},
 		{	//May 2025 Monthly: Easy Mode
@@ -4970,8 +4970,8 @@
 			"characters": [
 				148740	//Reze
 			],
-			"image": "https://i.postimg.cc/cJdsY6D1/Monthly-2025-May-Easy-Static.png",
-			"animated": "https://i.postimg.cc/7YvbhPyh/Monthly-2025-May-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/05/MYP/Monthly-2025-May-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/05/MYP/Monthly-2025-May-Easy-Animated.png",
 			"thread": 81742
 		},
 		{	//May 2025 Monthly: Hard Mode
@@ -4981,8 +4981,8 @@
 			"characters": [
 				148740	//Reze
 			],
-			"image": "https://i.postimg.cc/G90Rpp8C/Monthly-2025-May-Hard-Static.png",
-			"animated": "https://i.postimg.cc/g2s0gvLL/Monthly-2025-May-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/05/MYP/Monthly-2025-May-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/05/MYP/Monthly-2025-May-Hard-Animated.png",
 			"thread": 81742
 		},
 		{	//June 2025 Monthly: Easy Mode
@@ -4992,8 +4992,8 @@
 			"characters": [
 				182718	//Kyouko Yamate
 			],
-			"image": "https://i.postimg.cc/vmNVVDyk/Monthly-2025-June-Easy-Static.png",
-			"animated": "https://i.postimg.cc/SNhz8B0S/Monthly-2025-June-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/06/89M/Monthly-2025-June-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/06/89M/Monthly-2025-June-Easy-Animated.png",
 			"thread": 82370
 		},
 		{	//June 2025 Monthly: Hard Mode
@@ -5003,8 +5003,8 @@
 			"characters": [
 				182718	//Kyouko Yamate
 			],
-			"image": "https://i.postimg.cc/5ycQsG6m/Monthly-2025-June-Hard-Static.png",
-			"animated": "https://i.postimg.cc/k4SBRcfR/Monthly-2025-June-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/06/89M/Monthly-2025-June-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/06/89M/Monthly-2025-June-Hard-Animated.png",
 			"thread": 82370
 		},
 		{	//July 2025 Monthly: Easy Mode
@@ -5014,8 +5014,8 @@
 			"characters": [
 				89590	//Vanitas
 			],
-			"image": "https://i.postimg.cc/qqS7Fnwb/Monthly-2025-July-Easy-Static.png",
-			"animated": "https://i.postimg.cc/KYGmJJFc/Monthly-2025-July-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/07/7Qt/Monthly-2025-July-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/07/7Qt/Monthly-2025-July-Easy-Animated.png",
 			"thread": 83011
 		},
 		{	//July 2025 Monthly: Hard Mode
@@ -5025,8 +5025,8 @@
 			"characters": [
 				89590	//Vanitas
 			],
-			"image": "https://i.postimg.cc/FF8sNybG/Monthly-2025-July-Hard-Static.png",
-			"animated": "https://i.postimg.cc/NfvFR8yF/Monthly-2025-July-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/07/7Qt/Monthly-2025-July-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/07/7Qt/Monthly-2025-July-Hard-Animated.png",
 			"thread": 83011
 		},
 		{	//August 2025 Monthly: Easy Mode
@@ -5036,8 +5036,8 @@
 			"characters": [
 				197173	//Akito Yamada
 			],
-			"image": "https://i.postimg.cc/52V4wkdz/Monthly-2025-August-Easy-Static.png",
-			"animated": "https://i.postimg.cc/yxRKR0Ln/Monthly-2025-August-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/08/lLB/Monthly-2025-August-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/08/lLB/Monthly-2025-August-Easy-Animated.png",
 			"thread": 83706
 		},
 		{	//August 2025 Monthly: Hard Mode
@@ -5047,8 +5047,8 @@
 			"characters": [
 				197173	//Akito Yamada
 			],
-			"image": "https://i.postimg.cc/jj8RYxW6/Monthly-2025-August-Hard-Static.png",
-			"animated": "https://i.postimg.cc/X7M4bDvP/Monthly-2025-August-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/08/lLB/Monthly-2025-August-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/08/lLB/Monthly-2025-August-Hard-Animated.png",
 			"thread": 83706
 		},
 		{	//September 2025 Monthly: Easy Mode
@@ -5058,8 +5058,8 @@
 			"characters": [
 				329074	//Live
 			],
-			"image": "https://i.postimg.cc/XNhL6mG7/Monthly-2025-September-Easy-Static.png",
-			"animated": "https://i.postimg.cc/xTM4xnxS/Monthly-2025-September-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/09/1vu/Monthly-2025-September-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/09/1vu/Monthly-2025-September-Easy-Animated.png",
 			"thread": 84423
 		},
 		{	//September 2025 Monthly: Hard Mode
@@ -5069,8 +5069,8 @@
 			"characters": [
 				329074	//Live
 			],
-			"image": "https://i.postimg.cc/QVGcKL1Q/Monthly-2025-September-Hard-Static.png",
-			"animated": "https://i.postimg.cc/J0wQZBWH/Monthly-2025-September-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/09/1vu/Monthly-2025-September-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/09/1vu/Monthly-2025-September-Hard-Animated.png",
 			"thread": 84423
 		},
 		{	//October 2025 Monthly: Easy Mode
@@ -5080,8 +5080,8 @@
 			"characters": [
 				128651	//Hanako
 			],
-			"image": "https://i.postimg.cc/kgZdsJr5/Monthly-2025-October-Easy-Static.png",
-			"animated": "https://i.postimg.cc/tR5Qft0z/Monthly-2025-October-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/10/NqP/Monthly-2025-October-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/10/NqP/Monthly-2025-October-Easy-Animated.png",
 			"thread": 85084
 		},
 		{	//October 2025 Monthly: Hard Mode
@@ -5091,8 +5091,8 @@
 			"characters": [
 				128651	//Hanako
 			],
-			"image": "https://i.postimg.cc/G2nn0Xmd/Monthly-2025-October-Hard-Static.png",
-			"animated": "https://i.postimg.cc/wj1C7C1W/Monthly-2025-October-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/10/NqP/Monthly-2025-October-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/10/NqP/Monthly-2025-October-Hard-Animated.png",
 			"thread": 85084
 		},
 		{	//November 2025 Monthly: Easy Mode
@@ -5103,8 +5103,8 @@
 				1078,	//Miyuki
 				19439	//Kiyoko
 			],
-			"image": "https://i.postimg.cc/tC92Zd92/Monthly-2025-November-Easy-Static.png",
-			"animated": "https://i.postimg.cc/VkpqRXcC/Monthly-2025-November-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/11/K6w/Monthly-2025-November-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/11/K6w/Monthly-2025-November-Easy-Animated.png",
 			"thread": 85674
 		},
 		{	//November 2025 Monthly: Hard Mode
@@ -5115,8 +5115,8 @@
 				1078,	//Miyuki
 				19439	//Kiyoko
 			],
-			"image": "https://i.postimg.cc/QtpJVCwj/Monthly-2025-November-Hard-Static.png",
-			"animated": "https://i.postimg.cc/qvhnzgCf/Monthly-2025-November-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/11/K6w/Monthly-2025-November-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/11/K6w/Monthly-2025-November-Hard-Animated.png",
 			"thread": 85674
 		},
 		{	//December 2025 Monthly: Easy Mode
@@ -5126,8 +5126,8 @@
 			"characters": [
 				36309	//Personal Shopper
 			],
-			"image": "https://i.postimg.cc/zDjHvx2X/Monthly-2025-December-Easy-Static.png",
-			"animated": "https://i.postimg.cc/8c5pjmsk/Monthly-2025-December-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/12/Cqc/Monthly-2025-December-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/12/Cqc/Monthly-2025-December-Easy-Animated.png",
 			"thread": 86237
 		},
 		{	//December 2025 Monthly: Hard Mode
@@ -5137,8 +5137,8 @@
 			"characters": [
 				36309	//Personal Shopper
 			],
-			"image": "https://i.postimg.cc/4dGnNcz9/Monthly-2025-December-Hard-Static.png",
-			"animated": "https://i.postimg.cc/q7wHy6PC/Monthly-2025-December-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/12/Cqc/Monthly-2025-December-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2025/12/Cqc/Monthly-2025-December-Hard-Animated.png",
 			"thread": 86237
 		},
 			/* 2026 */
@@ -5149,8 +5149,8 @@
 			"characters": [
 				183024	//Himeno Toyokawa
 			],
-			"image": "https://i.postimg.cc/g2wLk0nh/Monthly-2026-January-Easy-Static.png",
-			"animated": "https://i.postimg.cc/Xq7pMjTt/Monthly-2026-January-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/01/dSv/Monthly-2026-January-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/01/dSv/Monthly-2026-January-Easy-Animated.png",
 			"thread": 86816
 		},
 		{	//January 2026 Monthly: Hard Mode
@@ -5160,8 +5160,8 @@
 			"characters": [
 				183024	//Himeno Toyokawa
 			],
-			"image": "https://i.postimg.cc/2SPbqfWN/Monthly-2026-January-Hard-Static.png",
-			"animated": "https://i.postimg.cc/Y2bv6FFh/Monthly-2026-January-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/01/dSv/Monthly-2026-January-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/01/dSv/Monthly-2026-January-Hard-Animated.png",
 			"thread": 86816
 		},
 		{	//February 2026 Monthly: Easy Mode
@@ -5171,8 +5171,8 @@
 			"characters": [
 				285560	//Anzu Hoshino
 			],
-			"image": "https://i.postimg.cc/15v6nxzX/Monthly-2026-February-Easy-Static.png",
-			"animated": "https://i.postimg.cc/Y9NLtZVH/Monthly-2026-February-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/02/E3T/Monthly-2026-February-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/02/E3T/Monthly-2026-February-Easy-Animated.png",
 			"thread": 87467
 		},
 		{	//February 2026 Monthly: Hard Mode
@@ -5182,8 +5182,8 @@
 			"characters": [
 				285560	//Anzu Hoshino
 			],
-			"image": "https://i.postimg.cc/Gpys5Hxr/Monthly-2026-February-Hard-Static.png",
-			"animated": "https://i.postimg.cc/1RHV2xwJ/Monthly-2026-February-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/02/E3T/Monthly-2026-February-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/02/E3T/Monthly-2026-February-Hard-Animated.png",
 			"thread": 87467
 		},
 		{	//March 2026 Monthly: Easy Mode
@@ -5193,8 +5193,8 @@
 			"characters": [
 				203922	//Machi Kugui
 			],
-			"image": "https://i.postimg.cc/LX8xd68x/Monthly-2026-March-Easy-Static.png",
-			"animated": "https://i.postimg.cc/4xRwf13f/Monthly-2026-March-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/03/WM1/Monthly-2026-March-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/03/WM1/Monthly-2026-March-Easy-Animated.png",
 			"thread": 88014
 		},
 		{	//March 2026 Monthly: Hard Mode
@@ -5204,8 +5204,8 @@
 			"characters": [
 				203922	//Machi Kugui
 			],
-			"image": "https://i.postimg.cc/MZ4d4w27/Monthly-2026-March-Hard-Static.png",
-			"animated": "https://i.postimg.cc/6QYhhJfG/Monthly-2026-March-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/03/WM1/Monthly-2026-March-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/03/WM1/Monthly-2026-March-Hard-Animated.png",
 			"thread": 88014
 		},
 		{	//April 2026 Monthly: Easy Mode
@@ -5215,8 +5215,8 @@
 			"characters": [
 				207175	//Yuki
 			],
-			"image": "https://i.postimg.cc/Fsm57JCK/Monthly-2026-April-Easy-Static.png",
-			"animated": "https://i.postimg.cc/3NFqgnf7/Monthly-2026-April-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/04/l0m/Monthly-2026-April-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/04/l0m/Monthly-2026-April-Easy-Animated.png",
 			"thread": 88791
 		},
 		{	//April 2026 Monthly: Hard Mode
@@ -5226,8 +5226,8 @@
 			"characters": [
 				207175	//Yuki
 			],
-			"image": "https://i.postimg.cc/jSdphYb5/Monthly-2026-April-Hard-Static.png",
-			"animated": "https://i.postimg.cc/yY7tVCWv/Monthly-2026-April-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/04/l0m/Monthly-2026-April-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/04/l0m/Monthly-2026-April-Hard-Animated.png",
 			"thread": 88791
 		},
 		{	//May 2026 Monthly: Easy Mode
@@ -5237,8 +5237,8 @@
 			"characters": [
 				88520	//Ushio Hinomaru
 			],
-			"image": "https://i.postimg.cc/zBYZgP7r/Monthly-2026-May-Easy-Static.png",
-			"animated": "https://i.postimg.cc/cJQkV1RD/Monthly-2026-May-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/05/WYn/Monthly-2026-May-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/05/WYn/Monthly-2026-May-Easy-Animated.png",
 			"thread": 89523
 		},
 		{	//May 2026 Monthly: Hard Mode
@@ -5248,8 +5248,8 @@
 			"characters": [
 				88520	//Ushio Hinomaru
 			],
-			"image": "https://i.postimg.cc/Y28ZrS5B/Monthly-2026-May-Hard-Static.png",
-			"animated": "https://i.postimg.cc/9Xxg3n9j/Monthly-2026-May-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/05/WYn/Monthly-2026-May-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/05/WYn/Monthly-2026-May-Hard-Animated.png",
 			"thread": 89523
 		},
 		{	//June 2026 Monthly: Easy Mode
@@ -5259,8 +5259,8 @@
 			"characters": [
 				280001	//Rafał
 			],
-			"image": "https://i.postimg.cc/pTgTG5Zt/Monthly-2026-June-Easy-Static.png",
-			"animated": "https://i.postimg.cc/hj74dPqM/Monthly-2026-June-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/06/JsQ/Monthly-2026-June-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/06/JsQ/Monthly-2026-June-Easy-Animated.png",
 			"thread": 90224
 		},
 		{	//June 2026 Monthly: Hard Mode
@@ -5270,8 +5270,8 @@
 			"characters": [
 				280001	//Rafał
 			],
-			"image": "https://i.postimg.cc/Y2Wj48rr/Monthly-2026-June-Hard-Static.png",
-			"animated": "https://i.postimg.cc/sDJjSNbm/Monthly-2026-June-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/06/JsQ/Monthly-2026-June-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/06/JsQ/Monthly-2026-June-Hard-Animated.png",
 			"thread": 90224
 		},
 		{	//July 2026 Monthly: Easy Mode
@@ -5281,8 +5281,8 @@
 			"characters": [
 				129632	//Kazuho Haneyama
 			],
-			"image": "https://i.postimg.cc/SKf9gcMZ/Monthly-2026-July-Easy-Static.png",
-			"animated": "https://i.postimg.cc/c1bnkxvt/Monthly-2026-July-Easy-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/07/BcE/Monthly-2026-July-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/07/BcE/Monthly-2026-July-Easy-Animated.png",
 			"thread": 90921
 		},
 		{	//July 2026 Monthly: Hard Mode
@@ -5292,8 +5292,8 @@
 			"characters": [
 				129632	//Kazuho Haneyama
 			],
-			"image": "https://i.postimg.cc/Y0hm2Vsp/Monthly-2026-July-Hard-Static.png",
-			"animated": "https://i.postimg.cc/y8qSBLX7/Monthly-2026-July-Hard-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/07/BcE/Monthly-2026-July-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/07/BcE/Monthly-2026-July-Hard-Animated.png",
 			"thread": 90921
 		},
 		{	//August 2026 Monthly: Easy Mode
@@ -5430,7 +5430,7 @@
 			"characters": [
 				89119	//Hotaru Shidare
 			],
-			"image": "https://i.postimg.cc/90Hf829w/Puzzle-Double-Dip.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/puzzles/double-dipping/Qt2/Puzzle-DoubleDip-Legacy.png",
 			"thread": 13560
 		},
 		{	//Double Dipping
@@ -5450,7 +5450,7 @@
 			"characters": [
 				88245	//Tensai Ikkyuu
 			],
-			"image": "https://i.postimg.cc/zBsysW-sB/Puzzle-Genre-Jigsaw.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/puzzles/genre-jigsaw/3v6/Puzzle-GenreJigsaw-Legacy.png",
 			"thread": 11405
 		},
 		{	//Genre Jigsaw
@@ -5520,7 +5520,7 @@
 			"characters": [
 				145699	//Emilia
 			],
-			"image": "https://i.postimg.cc/vBfY6KKY/Puzzle-Tag-Domino.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/puzzles/tag-domino/Df9/Puzzle-TagDomino-Legacy.png",
 			"thread": 17048
 		},
 		{	//Tag Domino
@@ -5552,8 +5552,8 @@
 			"characters": [
 				14864	//Hyakkimaru
 			],
-			"image": "https://i.postimg.cc/T34MTTTH/Seasonal-2019-Winter.png",
-			"animated": "https://i.postimg.cc/xCG4NQSQ/Seasonal-2019-Winter.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2019/Winter/yJp/Seasonal-2019-Winter-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2019/Winter/yJp/Seasonal-2019-Winter-Animated-Legacy.gif",
 			"thread": 6207
 		},
 		{	//Spring 2019 Seasonal
@@ -5563,8 +5563,8 @@
 			"characters": [
 				126071	//Tanjirou Kamado
 			],
-			"image": "https://i.postimg.cc/Vk5pG2X9/Seasonal-2019-Spring.png",
-			"animated": "https://i.postimg.cc/XqQ1xgJD/Seasonal-2019-Spring.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2019/Spring/Thb/Seasonal-2019-Spring-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2019/Spring/Thb/Seasonal-2019-Spring-Animated-Legacy.gif",
 			"thread": 6991
 		},
 		{	//Summer 2019 Seasonal
@@ -5574,8 +5574,8 @@
 			"characters": [
 				10138	//Thorfinn Karlsefni
 			],
-			"image": "https://i.postimg.cc/439MZtLm/Seasonal-2019-Summer.png",
-			"animated": "https://i.postimg.cc/Y23Ppt3f/Seasonal-2019-Summer.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2019/Summer/SXK/Seasonal-2019-Summer-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2019/Summer/SXK/Seasonal-2019-Summer-Animated-Legacy.gif",
 			"thread": 8191
 		},
 		{	//Fall 2019 Seasonal
@@ -5585,8 +5585,8 @@
 			"characters": [
 				125168	//Legoshi
 			],
-			"image": "https://i.postimg.cc/LXFWsXwv/Seasonal-2019-Fall.png",
-			"animated": "https://i.postimg.cc/MKpFHg3k/Seasonal-2019-Fall.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2019/Fall/Vsd/Seasonal-2019-Fall-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2019/Fall/Vsd/Seasonal-2019-Fall-Animated-Legacy.gif",
 			"thread": 9459
 		},
 			/* 2020 */
@@ -5597,8 +5597,8 @@
 			"characters": [
 				149676	//Midori Asakusa
 			],
-			"image": "https://i.postimg.cc/N0qD6nDj/Seasonal-2020-Winter.png",
-			"animated": "https://i.postimg.cc/WbqyLC9s/Seasonal-2020-Winter.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2020/Winter/u7f/Seasonal-2020-Winter-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2020/Winter/u7f/Seasonal-2020-Winter-Animated-Legacy.gif",
 			"thread": 10477
 		},
 		{	//Spring 2020 Seasonal
@@ -5608,8 +5608,8 @@
 			"characters": [
 				121101	//Miyuki Shirogane
 			],
-			"image": "https://i.postimg.cc/8cMnWrfj/Seasonal-2020-Spring.png",
-			"animated": "https://i.postimg.cc/Y2WPTTDM/Seasonal-2020-Spring.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2020/Spring/3ef/Seasonal-2020-Spring-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2020/Spring/3ef/Seasonal-2020-Spring-Animated-Legacy.gif",
 			"thread": 11630
 		},
 		{	//Summer 2020 Seasonal
@@ -5619,8 +5619,8 @@
 			"characters": [
 				129330	//Echidna
 			],
-			"image": "https://i.postimg.cc/hP85tTqY/Seasonal-2020-Summer.png",
-			"animated": "https://i.postimg.cc/g2Ntvpjq/Seasonal-2020-Summer.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2020/Summer/T5L/Seasonal-2020-Summer-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2020/Summer/T5L/Seasonal-2020-Summer-Animated-Legacy.gif",
 			"thread": 14055
 		},
 		{	//Fall 2020 Seasonal
@@ -5630,8 +5630,8 @@
 			"characters": [
 				127212	//Yuuji Itadori
 			],
-			"image": "https://i.postimg.cc/QCbgq0z5/2020-Seasonal-Fall.png",
-			"animated": "https://i.postimg.cc/66LhwpQ3/2020-Seasonal-Fall.gif",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2020/Fall/pr5/Seasonal-2020-Fall-Static-Legacy.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2020/Fall/pr5/Seasonal-2020-Fall-Animated-Legacy.gif",
 			"thread": 17645
 		},
 			/* 2021 */
@@ -5642,8 +5642,8 @@
 			"characters": [
 				199892	//Ai Ooto
 			],
-			"image": "https://i.postimg.cc/0y5g3KCL/Seasonal-2021-Winter-Static.png",
-			"animated": "https://i.postimg.cc/ZKc2rKhj/Seasonal-2021-Winter-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2021/Winter/MKb/Seasonal-2021-Winter-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2021/Winter/MKb/Seasonal-2021-Winter-Animated.png",
 			"thread": 22075
 		},
 		{	//Spring 2021 Seasonal
@@ -5653,8 +5653,8 @@
 			"characters": [
 				209903	//Vivy
 			],
-			"image": "https://i.postimg.cc/QCkpLMBM/Seasonal-2021-Spring-Static.png",
-			"animated": "https://i.postimg.cc/qMF7JT8B/Seasonal-2021-Spring-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2021/Spring/zXv/Seasonal-2021-Spring-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2021/Spring/zXv/Seasonal-2021-Spring-Animated.png",
 			"thread": 29268
 		},
 		{	//Summer 2021 Seasonal
@@ -5664,8 +5664,8 @@
 			"characters": [
 				120974	//Kanna Kamui
 			],
-			"image": "https://i.postimg.cc/wTyZQh3M/Seasonal-2021-Summer-Static.png",
-			"animated": "https://i.postimg.cc/c4pj9r8m/Seasonal-2021-Summer-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2021/Summer/2EF/Seasonal-2021-Summer-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2021/Summer/2EF/Seasonal-2021-Summer-Animated.png",
 			"thread": 37560
 		},
 		{	//Fall 2021 Seasonal
@@ -5675,8 +5675,8 @@
 			"characters": [
 				88348	//Rudeus Greyrat
 			],
-			"image": "https://i.postimg.cc/HsX2RXjY/Seasonal-2021-Fall-Static.png",
-			"animated": "https://i.postimg.cc/rwTJkstS/Seasonal-2021-Fall-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2021/Fall/KMb/Seasonal-2021-Fall-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2021/Fall/KMb/Seasonal-2021-Fall-Animated.png",
 			"thread": 43932
 		},
 			/* 2022 */
@@ -5687,8 +5687,8 @@
 			"characters": [
 				133676	//Marin Kitagawa
 			],
-			"image": "https://i.postimg.cc/bwXpFWG5/Seasonal-2022-Winter-Animated.png",
-			"animated": "https://i.postimg.cc/bwXpFWG5/Seasonal-2022-Winter-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2022/Winter/O9A/Seasonal-2022-Winter-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2022/Winter/O9A/Seasonal-2022-Winter-Animated.png",
 			"thread": 48962
 		},
 		{	//Spring 2022 Seasonal
@@ -5698,8 +5698,8 @@
 			"characters": [
 				138100	//Anya Forger
 			],
-			"image": "https://i.postimg.cc/RZq8j6Zh/Seasonal-2022-Spring-Static.png",
-			"animated": "https://i.postimg.cc/yY79kqXF/Seasonal-2022-Spring-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2022/Spring/rWB/Seasonal-2022-Spring-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2022/Spring/rWB/Seasonal-2022-Spring-Animated.png",
 			"thread": 52999
 		},
 		{	//Summer 2022 Seasonal
@@ -5709,8 +5709,8 @@
 			"characters": [
 				260329	//Chisato Nishikigi
 			],
-			"image": "https://i.postimg.cc/BbQS4fxd/Seasonal-2022-Summer-Static.png",
-			"animated": "https://i.postimg.cc/CKsp16LY/Seasonal-2022-Summer-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2022/Summer/VJN/Seasonal-2022-Summer-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2022/Summer/VJN/Seasonal-2022-Summer-Animated.png",
 			"thread": 56687
 		},
 		{	//Fall 2022 Seasonal
@@ -5720,8 +5720,8 @@
 			"characters": [
 				257562	//Hitori Gotou
 			],
-			"image": "https://i.postimg.cc/MH77mVk9/Seasonal-2022-Fall-Static.png",
-			"animated": "https://i.postimg.cc/wxwxcSY5/Seasonal-2022-Fall-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2022/Fall/X5o/Seasonal-2022-Fall-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2022/Fall/X5o/Seasonal-2022-Fall-Animated.png",
 			"thread": 59679
 		},
 			/* 2023 */
@@ -5732,8 +5732,8 @@
 			"characters": [
 				203119	//Anisphia Wynn Palettia
 			],
-			"image": "https://i.postimg.cc/9MNfx17H/Seasonal-2023-Winter-Static.png",
-			"animated": "https://i.postimg.cc/XY0YDrpq/Seasonal-2023-Winter-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2023/Winter/uij/Seasonal-2023-Winter-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2023/Winter/uij/Seasonal-2023-Winter-Animated.png",
 			"thread": 61848
 		},
 		{	//Spring 2023 Seasonal
@@ -5743,8 +5743,8 @@
 			"characters": [
 				172759	//Ai Hoshino
 			],
-			"image": "https://i.postimg.cc/W4ZfmC6w/Seasonal-2023-Spring-Static.png",
-			"animated": "https://i.postimg.cc/Gm8MrVNn/Seasonal-2023-Spring-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2023/Spring/iJY/Seasonal-2023-Spring-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2023/Spring/iJY/Seasonal-2023-Spring-Animated.png",
 			"thread": 64247
 		},
 		{	//Summer 2023 Seasonal
@@ -5754,8 +5754,8 @@
 			"characters": [
 				181965	//Miyo Saimori
 			],
-			"image": "https://i.postimg.cc/D02dBctH/Seasonal-2023-Summer-Static.png",
-			"animated": "https://i.postimg.cc/1tMN51j7/Seasonal-2023-Summer-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2023/Summer/lGs/Seasonal-2023-Summer-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2023/Summer/lGs/Seasonal-2023-Summer-Animated.png",
 			"thread": 66416
 		},
 		{	//Fall 2023 Seasonal
@@ -5765,8 +5765,8 @@
 			"characters": [
 				176754	//Frieren
 			],
-			"image": "https://i.postimg.cc/Hs2FjfkD/Seasonal-2023-Fall-Static.png",
-			"animated": "https://i.postimg.cc/P559D2CL/Seasonal-2023-Fall-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2023/Fall/gEg/Seasonal-2023-Fall-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2023/Fall/gEg/Seasonal-2023-Fall-Animated.png",
 			"thread": 68531
 		},
 			/* 2024 */
@@ -5777,8 +5777,8 @@
 			"characters": [
 				179809	//Yuki Itose
 			],
-			"image": "https://i.postimg.cc/rmcc4jGc/Seasonal-2024-Winter-Static.png",
-			"animated": "https://i.postimg.cc/XYwz5bsG/Seasonal-2024-Winter-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2024/Winter/9IE/Seasonal-2024-Winter-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2024/Winter/9IE/Seasonal-2024-Winter-Animated.png",
 			"thread": 70674
 		},
 		{	//Spring 2024 Seasonal
@@ -5788,8 +5788,8 @@
 			"characters": [
 				180692	//Kafka Hibino
 			],
-			"image": "https://i.postimg.cc/PJQPxg5W/Seasonal-2024-Spring-Static.png",
-			"animated": "https://i.postimg.cc/vHX4dwjM/Seasonal-2024-Spring-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2024/Spring/9AJ/Seasonal-2024-Spring-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2024/Spring/9AJ/Seasonal-2024-Spring-Animated.png",
 			"thread": 72798
 		},
 		{	//Summer 2024 Seasonal
@@ -5799,8 +5799,8 @@
 			"characters": [
 				230873	//Anna Yanami
 			],
-			"image": "https://i.postimg.cc/wTbQqmG6/Seasonal-2024-Summer-Static.png",
-			"animated": "https://i.postimg.cc/L8ckfMSw-/Seasonal-2024-Summer-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2024/Summer/SdB/Seasonal-2024-Summer-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2024/Summer/SdB/Seasonal-2024-Summer-Animated.png",
 			"thread": 75064
 		},
 		{	//Fall 2024 Seasonal
@@ -5810,8 +5810,8 @@
 			"characters": [
 				222594	//Momo Ayase
 			],
-			"image": "https://i.postimg.cc/sX9cHqkr/Seasonal-2024-Fall-Static.png",
-			"animated": "https://i.postimg.cc/BZppTW55/Seasonal-2024-Fall-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2024/Fall/7kr/Seasonal-2024-Fall-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2024/Fall/7kr/Seasonal-2024-Fall-Animated.png",
 			"thread": 77166
 		},
 			/* 2025 */
@@ -5822,8 +5822,8 @@
 			"characters": [
 				197151	//Inori Yuitsuka
 			],
-			"image": "https://i.postimg.cc/sD6fbZFn/Seasonal-2025-Winter-Static.png",
-			"animated": "https://i.postimg.cc/05Z9JJN8/Seasonal-2025-Winter-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2025/Winter/6aQ/Seasonal-2025-Winter-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2025/Winter/6aQ/Seasonal-2025-Winter-Animated.png",
 			"thread": 79155
 		},
 		{	//Spring 2025 Seasonal
@@ -5833,8 +5833,8 @@
 			"characters": [
 				353934	//Yachiyo
 			],
-			"image": "https://i.postimg.cc/c4x33S0k/Seasonal-2025-Spring-Static.png",
-			"animated": "https://i.postimg.cc/P5cv0vZ0/Seasonal-2025-Spring-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2025/Spring/MVk/Seasonal-2025-Spring-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2025/Spring/MVk/Seasonal-2025-Spring-Animated.png",
 			"thread": 81145
 		},
 		{	//Summer 2025 Seasonal
@@ -5844,8 +5844,8 @@
 			"characters": [
 				268676	//Kaoruko Waguri
 			],
-			"image": "https://i.postimg.cc/vBNSW-Hsg/Seasonal-2025-Summer-Static.png",
-			"animated": "https://i.postimg.cc/VsSz2J53/Seasonal-2025-Summer-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2025/Summer/37g/Seasonal-2025-Summer-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2025/Summer/37g/Seasonal-2025-Summer-Animated.png",
 			"thread": 83129
 		},
 		{	//Fall 2025 Seasonal
@@ -5855,8 +5855,8 @@
 			"characters": [
 				96114	//Oguri Cap
 			],
-			"image": "https://i.postimg.cc/y875FM7J/Seasonal-2025-Fall-Static.png",
-			"animated": "https://i.postimg.cc/jdbkbpw9/Seasonal-2025-Fall-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2025/Fall/b8W/Seasonal-2025-Fall-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2025/Fall/b8W/Seasonal-2025-Fall-Animated.png",
 			"thread": 85185
 		},
 			/* 2026 */
@@ -5867,8 +5867,8 @@
 			"characters": [
 				281250	//Miyu Suzuki
 			],
-			"image": "https://i.postimg.cc/mDZxrYf5/Seasonal-2026-Winter-Static.png",
-			"animated": "https://i.postimg.cc/k5cZL266/Seasonal-2026-Winter-Animated.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/seasonals/2026/Winter/ZBC/Seasonal-2026-Winter-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/seasonals/2026/Winter/ZBC/Seasonal-2026-Winter-Animated.png",
 			"thread": 86865
 		},
 		{	//Spring 2026 Seasonal
@@ -6110,7 +6110,7 @@
 			"characters": [
 				43814	//Yona
 			],
-			"image": "https://i.postimg.cc/pT7LnL51/Special-Heros-Dawn.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/specials/heros-dawn/ynt/Special-Heros-Dawn.png",
 			"thread": 45664
 		},
 		{	//Hidden Gems
