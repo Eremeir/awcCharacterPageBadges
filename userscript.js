@@ -334,7 +334,7 @@ function renderBadges(data, characterID, characterDiv) {
 					`Falling back to original animated image.`
 				);
 
-				img.src = usingAnimatedFallback ? getOriginalAnimatedURL(challenge) : challenge.animated;
+				img.src = getOriginalAnimatedURL(challenge);
 				return;
 			}
 			console.warn(`AWC Character Page Badges: Failed to load image for "${challenge.name}".`);

@@ -3,8 +3,11 @@ name: Validate Badge URLs
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
-  validate:
+  validate-URLs:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,4 +20,4 @@ jobs:
           node-version: 24
 
       - name: Validate badge permalinks
-        run: node validateURLs.js
+        run: node scripts/validateURLs.js
