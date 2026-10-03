@@ -1,7 +1,7 @@
 const fs = require("fs");
 const CDN_PREFIX = "https://cdn.awc.moe/";
 const PLACEHOLDER_URL = "https://cdn.awc.moe/static/web/images/badge-placeholder.png";
-const AVIF_CONCURRENCY = 10;
+//const AVIF_CONCURRENCY = 10;
 
 /* ---------------- JSONC STRIPPER ---------------- */
 function parseJSONC(text) {	//Strip comments from JSONC
@@ -20,6 +20,7 @@ function parseJSONC(text) {	//Strip comments from JSONC
 }
 
 /* ---------------- CDN OPTIMIZATION ---------------- */
+/*
 async function checkAVIF(url) {
 	let response = await fetch(url, {
 		method: "HEAD",
@@ -34,7 +35,7 @@ async function checkAVIF(url) {
 
 	const contentType = response.headers.get("content-type")?.toLowerCase();
 	return response.ok && contentType?.startsWith("image/avif");
-}
+}*/
 function getAVIFURL(url) {
 	if(!url.startsWith(CDN_PREFIX)) { return null; }
 
@@ -47,16 +48,17 @@ function getAVIFURL(url) {
 	}
 }
 
+/* ---------------- MAIN ---------------- */
 async function main() {
 	const data = parseJSONC(fs.readFileSync("badges.jsonc", "utf8"));
 
 	let cdnAnimatedCount = 0;
-	let avifAvailableCount = 0;
-	let avifUnavailableCount = 0;
+	//let avifAvailableCount = 0;
+	//let avifUnavailableCount = 0;
 	let pngToAvifCount = 0;
 	let gifToAvifCount = 0;
 
-	const candidates = [];
+	//const candidates = [];
 
 	for(const challenge of data.challenges) {
 		if(!challenge.animated || challenge.animated === PLACEHOLDER_URL) { continue; }
@@ -64,10 +66,17 @@ async function main() {
 		const avif = getAVIFURL(challenge.animated);
 		if(!avif) { continue; }
 
-		candidates.push({ challenge, avif });
+		//candidates.push({ challenge, avif });
 		cdnAnimatedCount++;
+
+		if(avif.originalExtension === "gif") {
+			gifToAvifCount++;
+			challenge.animatedOriginalExtension = ".gif";
+		} else { pngToAvifCount++; }
+		challenge.animated = avif.url;
 	}
 
+	/*
 	for(let i = 0; i < candidates.length; i += AVIF_CONCURRENCY) {
 		const batch = candidates.slice(i, i + AVIF_CONCURRENCY);
 
@@ -94,6 +103,7 @@ async function main() {
 			}
 		}));
 	}
+	*/
 
 	const output = JSON.stringify(data, null, 2);
 	fs.writeFileSync("badges.json", output);
@@ -101,8 +111,8 @@ async function main() {
 	console.log(`Generated badges.json (${data.challenges.length} challenges, ${output.length} bytes)`);
 	console.log(`\nCDN optimization:`);
 	console.log(`\tCDN animated badges: ${cdnAnimatedCount}`);
-	console.log(`\tAVIF available: ${avifAvailableCount}`);
-	console.log(`\tAVIF unavailable: ${avifUnavailableCount}`);
+	//console.log(`\tAVIF available: ${avifAvailableCount}`);
+	//console.log(`\tAVIF unavailable: ${avifUnavailableCount}`);
 	console.log(`\tPNG → AVIF: ${pngToAvifCount}`);
 	console.log(`\tGIF → AVIF: ${gifToAvifCount}`);
 }
