@@ -2,7 +2,7 @@
 // @name         AWC Character Page Badges
 // @namespace    https://github.com/Eremeir
 // @version      1.1.5
-// @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover zoom
+// @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover effects
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
 // @supportURL   https://github.com/Eremeir/awcCharacterPageBadges/issues
@@ -24,8 +24,8 @@
  *   2. The database is indexed by character ID for constant-time lookups.
  *   3. AniList is a single-page app, so history navigation is hooked and the
  *      script re-evaluates the page every time the route changes.
- *   4. Badges render beneath the page's ".character" element, with a
- *      animated/static toggle button on applicable badges and an optional 3D tilt effect on hover.
+ *   4. Badges render beneath the page's ".character" element, with an animated/static toggle button on applicable badges
+ *      and an optional 3D tilt effect with slight simulated lighting on hover.
  */
 (function () {
 "use strict";
@@ -36,7 +36,7 @@ const CACHE_ENABLED = true;
 const CACHE_KEY = "awc_badges_cache";	//localStorage key; stores { data, timestamp }
 const CACHE_TTL = 7 * 24 * 60 * 60 * 1000; //7 Days, in milliseconds
 const SHOW_UNOFFICIAL = false;	//Unofficial Community Badges
-const ENABLE_3D_HOVER = true;	//Steam Trading Card style 3D
+const ENABLE_3D_HOVER = true;	//Steam Trading Card style 3D tilt and lighting
 
 /* ---------------- FETCH DATABASE ---------------- */
 /**
@@ -107,7 +107,9 @@ async function loadDBInternal() {
 			GM_xmlhttpRequest({	//GM_xmlhttpRequest is used rather than fetch() so the request is not blocked by AniList's CORS/CSP rules
 				method: "GET",
 				url: DB_URL,
+				timeout: 15000,
 				onload: res => {
+					if(res.status !== 200) { reject(new Error(`HTTP ${res.status}`)); return; }
 					try {
 						const parsed = JSON.parse(res.responseText);
 						if(CACHE_ENABLED) {	//Store in cache if enabled
@@ -231,7 +233,7 @@ function waitForCharacter(characterID, timeout = 10000) {	//Watch the DOM for pa
 /* ---------------- INJECT STYLES ---------------- */
 /**
  * Injects the script's stylesheet into the page (once).
- * Covers every style the script needs: the basic hover zoom, the animated/static toggle button, and the 3D hover effect.
+ * Covers every style the script needs: the basic hover zoom, the animated/static toggle button, and the 3D hover effect with its lighting layers.
  * The 3D rules are always injected but only take effect when enable3DHover adds their classes.
  */
 function injectStyles() {
@@ -288,17 +290,15 @@ function injectStyles() {
 			animation: awc-glint 2.5s ease-in-out infinite;
 		}
 		/* ---------------- 3D HOVER EFFECT ---------------- */
-		.awc-badge-3d-wrapper {
+		.awc-badge-3d-wrapper {	/* The wrapper supplies the perspective and is raised above its neighbours while hovered */
 			perspective: 1000px;
 			position: relative;
 			z-index: 0;
 		}
-		/* Raise the hovered badge so its enlarged image overlaps its neighbours */
 		.awc-badge-wrapper.awc-hovering {
 			z-index: 1000;
 		}
-		/* Hide the toggle while hovering so it does not clash with the enlarged badge */
-		.awc-badge-wrapper.awc-hovering .awc-badge-toggle {
+		.awc-badge-wrapper.awc-hovering .awc-badge-toggle {	/* Hide the toggle while hovering so it does not clash with the enlarged badge */
 			opacity: 0;
 			transform: translateY(-8px);
 			pointer-events: none;
@@ -308,14 +308,60 @@ function injectStyles() {
 			display: block;
 			transform-style: preserve-3d;
 		}
-		/* !important overrides the basic zoom's transform-origin on the same image */
-		.awc-badge-3d {
-			transform-origin: center center !important;
+		.awc-badge-3d-card {	/* The card is what tilts: the image and both lighting layers move together as one surface */
+			position: relative;
 			transform-style: preserve-3d;
-			transition:
-				transform 0.08s ease-out,
-				filter 0.08s ease-out,
+			isolation: isolate;	/* Blend modes only see the badge, not the page behind it */
+			transition:	/* Slower settle on leave */
+				transform 0.3s ease-out,
+				filter 0.3s ease-out;
+		}
+		.awc-badge-wrapper.awc-hovering .awc-badge-3d-card {	/* --rx/--ry (tilt) and --sx/--sy (shadow offset) are set from JS on every mousemove */
 			will-change: transform;
+			transform:
+				translateZ(20px)
+				scale(1.24)
+				rotateX(var(--rx, 0deg))
+				rotateY(var(--ry, 0deg));
+			filter:
+				drop-shadow(var(--sx, 0px) var(--sy, 0px) 24px rgba(0,0,0,0.35));
+			transition:	/* snappy while tracking */
+				transform 0.08s ease-out,
+				filter 0.08s ease-out;
+		}
+		.awc-badge-3d-card img {	/* The card moves now, so the plain image zoom must not also apply */
+			transform: none !important;
+		}
+		/*
+		 * Lighting layers. Each is a copy of the current badge image (--badge-url, kept in sync by JS)
+		 * recoloured to a solid silhouette, so light only ever appears on the badge's own pixels.
+		 */
+		.awc-badge-light, .awc-badge-shade {
+			position: absolute;
+			inset: 0;
+			border-radius: 6px;
+			pointer-events: none;
+			opacity: 0;
+			transition: opacity 0.15s ease-out;
+			background: var(--badge-url) center / 100% 100% no-repeat;
+			mask-repeat: no-repeat;
+			mask-size: 100% 100%;
+		}
+		.awc-badge-light {	/* Highlight: white silhouette, soft-light blended, revealed by a very wide soft glow at --gx/--gy. Strength comes from --li */
+			filter: brightness(0) invert(1);
+			mix-blend-mode: soft-light;
+			mask-image: radial-gradient(circle at var(--gx, 50%) var(--gy, 50%),
+				rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0.15) 65%, transparent 100%);
+		}
+		.awc-badge-shade {	/* Shading: black silhouette, multiplied, applied uniformly when tilted away from the light. Strength comes from --si */
+			filter: brightness(0);
+			mix-blend-mode: multiply;
+		}
+		.awc-badge-wrapper.awc-hovering .awc-badge-light {	/* Layers only show while hovered; their opacity is driven from JS */
+			opacity: var(--li, 0);
+		}
+		.awc-badge-wrapper.awc-hovering .awc-badge-shade {
+			opacity: var(--si, 0);
 		}
 	`;
 	document.head.appendChild(style);
@@ -323,58 +369,121 @@ function injectStyles() {
 
 /* ---------------- 3D BADGE HOVER ---------------- */
 /**
- * Makes a badge tilt toward the cursor, like a Steam trading card.
+ * Makes a badge tilt under the cursor and catch the light, like a Steam trading card.
  *
- * The cursor's position inside the badge is normalised to -1..1 on each axis and
- * mapped to rotation (up to 15deg) plus an opposing drop shadow, giving the
- * impression of a light source. Does nothing if ENABLE_3D_HOVER is false.
+ * The cursor's position inside the badge is normalised to -1..1 on each axis and mapped to a tilt (up to 15deg, pressing in the side under the cursor)
+ * plus an opposing drop shadow. That tilt also drives the lighting from a fixed virtual light above the badge: a soft highlight whose strength and
+ * position follow the surface angle, and a faint shading when the badge leans away from the light.
+ *
+ * The image is moved into a "card" element alongside two overlay layers (light and shade) so all three tilt together. The overlays are silhouette copies
+ * of the badge image, so light never spills onto transparent areas. Does nothing if ENABLE_3D_HOVER is false.
  *
  * @param {HTMLElement} wrapper Outer badge element; raised above neighbours while hovered.
  * @param {HTMLAnchorElement} link Link around the image; its bounds are the hover area.
- * @param {HTMLImageElement} img The badge image that gets transformed.
+ * @param {HTMLImageElement} img The badge image; moved into the card, which is what gets transformed.
  */
 function enable3DHover(wrapper, link, img) {
 	if(!ENABLE_3D_HOVER) { return; }
+	if(!matchMedia("(hover: hover) and (pointer: fine)").matches || matchMedia("(prefers-reduced-motion: reduce)").matches) { return; }
 
 	wrapper.classList.add("awc-badge-3d-wrapper");
 	link.classList.add("awc-badge-3d-link");
-	img.classList.add("awc-badge-3d");
 
-	link.addEventListener("mouseenter", () => {
-		wrapper.classList.add("awc-hovering");
-	});
+	//Card wraps the image and light layers so they tilt as one surface
+	const card = document.createElement("div");
+	card.className = "awc-badge-3d-card";
+	const light = document.createElement("div");
+	light.className = "awc-badge-light";
+	const shade = document.createElement("div");
+	shade.className = "awc-badge-shade";
+	link.appendChild(card);
+	card.append(img, light, shade);		//Moves the img from the link into the card
 
-	link.addEventListener("mousemove", event => {	//Tilt and shade with mousemoves
+	//Keep the silhouettes in step with whatever the img is showing.
+	//The load event fires after every src change (animated/static toggle, AVIF fallback), so nothing else needs to call this.
+	let active = false;	//The light and shade layers only hold the badge image while hovered, so idle badges don't keep
+	let releaseTimer = 0;	//extra decoded (and, for animated badges, extra animating) copies of their image.
+	function syncSilhouette() {
+		const src = (img.currentSrc || img.src).replace(/"/g, "%22");
+		card.style.setProperty("--badge-url", `url("${src}")`);
+	}
+	img.addEventListener("load", () => { if(active) { syncSilhouette(); } });	//Covers an AVIF fallback or src change mid-hover
+	if(img.complete && img.naturalWidth) { syncSilhouette(); }
+
+	//Virtual light. The viewer looks straight on, along (0, 0, 1); negative y is up.
+	const norm = v => { const l = Math.hypot(...v); return v.map(c => c / l); };
+
+	//Direction toward the light: centered horizontally, slightly above, mostly frontal
+	const L = norm([0, -0.3, 0.95]);
+
+	//Half-vector: the surface normal that reflects the light at the viewer. Its y of about -0.15 puts the glint peak just above the neutral pose
+	const H = norm([L[0], L[1], L[2] + 1]);
+
+	const DEG = Math.PI / 180;
+	const clamp = (v, lo, hi) => Math.min(hi, Math.max(lo, v));
+
+	let frame = 0, lastEvent = null;
+	function update() {	//Runs at most once per frame
+		frame = 0;
 		const rect = link.getBoundingClientRect();
-		//Cursor position relative to the badge's top-left corner
-		const x = event.clientX - rect.left;
-		const y = event.clientY - rect.top;
+		const x = lastEvent.clientX - rect.left;
+		const y = lastEvent.clientY - rect.top;
 
 		//Normalise to -1 (left/top edge) .. 0 (centre) .. 1 (right/bottom edge)
 		const percentX = (x / rect.width) * 2 - 1;
 		const percentY = (y / rect.height) * 2 - 1;
 
-		//Sine easing makes the tilt gentler near the centre. The X rotation is negated so the top edge tilts away from the cursor on hover.
+		//Sine easing makes the tilt gentler near the centre. The X rotation is negated so the side under the cursor is pressed away from the viewer.
 		const rotateY = Math.sin(percentX * Math.PI / 2) * 15;
 		const rotateX = -Math.sin(percentY * Math.PI / 2) * 15;
 
-		//Shadow falls opposite the cursor, as if lit from where the cursor is
-		const shadowX = -percentX * 10;
-		const shadowY = -percentY * 10;
+		//Surface normal's x/y components: the face leans toward the cursor side
+		const nx = Math.sin(rotateY * DEG);
+		const ny = -Math.sin(rotateX * DEG);
 
-		img.style.transform = `
-			translateZ(20px)
-			scale(1.24)
-			rotateX(${rotateX}deg)
-			rotateY(${rotateY}deg)
-		`;
-		img.style.filter =`drop-shadow(${shadowX}px ${shadowY}px 24px rgba(0,0,0,0.35))`;
+		//Specular strength: peaks when the normal matches H and falls off with tilt in any direction, so left and right behave the same.
+		// The 0.15 floor keeps some light on the face at any angle.
+		const d2 = (nx - H[0]) ** 2 + (ny - H[1]) ** 2;
+		const spec = 0.15 + 0.85 * Math.exp(-d2 / (2 * 0.22 * 0.22));
+
+		//Glint position on the face: moves opposite to the tilt, clamped so it cannot leave the badge
+		const gx = clamp(50 + (H[0] - nx) * 120, 0, 100);
+		const gy = clamp(50 + (H[1] - ny) * 120, 0, 100);
+
+		//Diffuse: only vertical lean matters because the light is centered horizontally.
+		//Leaning up toward the light (cursor near the top) brightens; leaning down away from it (cursor near the bottom) darkens a little.
+		const delta = ny * L[1];
+		const lightAmount = clamp(0.17 + spec * 0.7 + Math.max(delta, 0) * 1.5, 0, 1);
+		const shadeAmount = clamp(Math.max(-delta, 0) * 0.8, 0, 0.15);
+
+		const s = card.style;
+		s.setProperty("--rx", `${rotateX}deg`);
+		s.setProperty("--ry", `${rotateY}deg`);
+		s.setProperty("--sx", `${-percentX * 10}px`);	//Shadow falls opposite the cursor, as if lit from where the cursor is
+		s.setProperty("--sy", `${-percentY * 10}px`);
+		s.setProperty("--gx", `${gx}%`);
+		s.setProperty("--gy", `${gy}%`);
+		s.setProperty("--li", lightAmount.toFixed(3));
+		s.setProperty("--si", shadeAmount.toFixed(3));
+	}
+
+	link.addEventListener("mouseenter", event => {
+		active = true;
+		clearTimeout(releaseTimer);
+		if(img.complete && img.naturalWidth) { syncSilhouette(); }	//If it is still loading, the load listener does it
+		wrapper.classList.add("awc-hovering");
+		lastEvent = event;
+		if(!frame) { frame = requestAnimationFrame(update); }	//Apply the lighting immediately rather than waiting for the first mousemove
 	});
-
-	link.addEventListener("mouseleave", () => {	//Reset
-		wrapper.classList.remove("awc-hovering");
-		img.style.transform = "";
-		img.style.filter = "";
+	link.addEventListener("mousemove", event => {
+		lastEvent = event;
+		if(!frame) { frame = requestAnimationFrame(update); }
+	});
+	link.addEventListener("mouseleave", () => {
+		active = false;
+		wrapper.classList.remove("awc-hovering");	//CSS transitions handle the settle back to flat
+		releaseTimer = setTimeout(() => card.style.removeProperty("--badge-url"), 400);
+		if(frame) { cancelAnimationFrame(frame); frame = 0; }
 	});
 }
 
@@ -433,6 +542,9 @@ function renderBadges(data, characterID, characterDiv) {
 		img.decoding = "async";
 		img.src = challenge.animated ?? challenge.image;	// Default to animated if available
 		img.title = challenge.name;
+		img.alt = challenge.name;
+		img.width = 250;
+		img.height = 250;
 
 		//Browsers without AVIF support (or a missing .avif file) fail to load the animated badge.
 		//Retry once with the original PNG/GIF; if that also fails, give up and log it.
