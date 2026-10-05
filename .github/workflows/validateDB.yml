@@ -6,16 +6,16 @@ on:
       - master
     paths:
       - "badges.jsonc"
-      - "validateDB.js"
-      - "buildJSON.js"
-      - ".github/workflows/**"
+      - "scripts/buildJSON.js"
 
   pull_request:
     paths:
       - "badges.jsonc"
-      - "validateDB.js"
-      - "buildJSON.js"
-      - ".github/workflows/**"
+      - "scripts/validateDB.js"
+      - "scripts/buildJSON.js"
+      - ".github/workflows/validateDB.yml"
+
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -23,8 +23,8 @@ permissions:
   id-token: write
 
 concurrency:
-    group: pages
-    cancel-in-progress: true
+  group: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.ref) || 'pages' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   validate-build-deploy:
@@ -54,11 +54,11 @@ jobs:
         uses: actions/configure-pages@v6
 
       - name: Upload Pages artifact
-        if: github.event_name == 'push'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
         uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
       - name: Deploy to GitHub Pages
-        if: github.event_name == 'push'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
         uses: actions/deploy-pages@v5
