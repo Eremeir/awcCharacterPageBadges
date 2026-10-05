@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AWC Character Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.1.5
+// @version      1.1.6
 // @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover effects
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
@@ -20,7 +20,7 @@
  *
  * Overview of how it works:
  *   1. The badge database (badges.json, built from badges.jsonc by buildJSON.js) is
- *      fetched from GitHub Pages and cached in localStorage.
+ *      fetched from GitHub Pages, cached in localStorage, and refreshed in the background (via its ETag) once the cache expires.
  *   2. The database is indexed by character ID for constant-time lookups.
  *   3. AniList is a single-page app, so history navigation is hooked and the
  *      script re-evaluates the page every time the route changes.
@@ -33,8 +33,8 @@
 /* ---------------- CONFIG ---------------- */
 const DB_URL = "https://eremeir.github.io/awcCharacterPageBadges/badges.json";
 const CACHE_ENABLED = true;
-const CACHE_KEY = "awc_badges_cache";	//localStorage key; stores { data, timestamp }
-const CACHE_TTL = 7 * 24 * 60 * 60 * 1000; //7 Days, in milliseconds
+const CACHE_KEY = "awc_badges_cache";	//localStorage key; stores { etag, timestamp, data }.
+const CACHE_TTL = 24 * 60 * 60 * 1000; //1 Day, in milliseconds. Once expired, the cache is used one last time while a background refresh checks for changes.
 const SHOW_UNOFFICIAL = false;	//Unofficial Community Badges
 const ENABLE_3D_HOVER = true;	//Steam Trading Card style 3D tilt and lighting
 
@@ -79,60 +79,122 @@ function loadDB() {
 	return dbPromise;
 }
 /**
+ * Pulls the ETag out of GM_xmlhttpRequest's raw response header string.
+ *
+ * @param {string} [headers] Raw headers: one "Name: value" per CRLF-separated line.
+ * @returns {string|null} The ETag exactly as sent (quotes and any W/ prefix included), or null if there is none.
+ */
+function parseETag(headers) {
+	const match = /^etag:\s*(.+)$/im.exec(headers || "");
+	return match ? match[1].trim() : null;
+}
+/**
+ * Reads the cached database record from localStorage.
+ *
+ * @returns {{etag?: string|null, timestamp: number, data: object}|null} The record, or null if caching is off,
+ *   nothing is stored, storage is unreadable, or the stored value does not look like a database.
+ *   Records saved before ETags were tracked have no `etag` and are still valid.
+ */
+function readCache() {
+	if(!CACHE_ENABLED) { return null; }
+	try {
+		const record = JSON.parse(localStorage.getItem(CACHE_KEY));
+		if(typeof record?.timestamp !== "number" || !Array.isArray(record.data?.challenges)) { return null; }
+		return record;
+	} catch { return null; }	//Corrupt or unavailable storage is treated as a cache miss
+}
+/**
+ * Stores a database record in localStorage.
+ * Failures (quota exceeded, storage blocked) are ignored: the cache is only an optimisation,
+ * so a failed write must never fail a load that otherwise succeeded.
+ *
+ * @param {{etag?: string|null, timestamp: number, data: object}} record
+ */
+function writeCache({etag, timestamp, data}) {
+	if(!CACHE_ENABLED) { return; }
+	try {
+		localStorage.setItem(CACHE_KEY, JSON.stringify({etag: etag ?? null, timestamp, data}));
+	} catch {}
+}
+/**
+ * Downloads badges.json. When the ETag of an earlier response is supplied it is sent as If-None-Match,
+ * so an unchanged file comes back as a tiny 304 instead of a full download.
+ *
+ * @param {string|null} [etag] ETag of the cached copy, if any.
+ * @returns {Promise<{notModified: true}|{data: object, etag: string|null}>}
+ *   Rejects with an Error on a network failure, timeout, unexpected status, malformed JSON,
+ *   or a file without a `challenges` array.
+ */
+function fetchDB(etag) {
+	return new Promise((resolve, reject) => {
+		GM_xmlhttpRequest({	//GM_xmlhttpRequest is used rather than fetch() so the request is not blocked by AniList's CORS/CSP rules
+			method: "GET",
+			url: DB_URL,
+			headers: etag ? {"If-None-Match": etag} : {},
+			timeout: 15000,
+			onload: res => {
+				if(res.status === 304) { resolve({notModified: true}); return; }
+				if(res.status !== 200) { reject(new Error(`HTTP ${res.status}`)); return; }
+				try {
+					const data = JSON.parse(res.responseText);
+					if(!Array.isArray(data?.challenges)) { throw new Error("Unexpected data format"); }
+					resolve({data, etag: parseETag(res.responseHeaders)});
+				} catch (e) { reject(e); }
+			},
+			onerror: () => reject(new Error("Network error")),
+			ontimeout: () => reject(new Error("Request timed out"))
+		});
+	});
+}
+/**
+ * Revalidates an expired cache in the background; the caller has already rendered from it.
+ *
+ * If the file is unchanged only the TTL clock restarts. New data replaces the cache and is also swapped into
+ * dbPromise, so later navigations in the same session use it without a reload. Any failure leaves the old cache
+ * alone, so the next page load simply tries again.
+ *
+ * @param {{etag?: string|null, timestamp: number, data: object}} cached The expired record.
+ */
+function refreshCache(cached) {
+	fetchDB(cached.etag).then(result => {
+		//A 304 means unchanged. A userscript manager that hides the 304 and returns the file again still sends the same ETag back.
+		if(result.notModified || (result.etag && result.etag === cached.etag)) {
+			writeCache({...cached, timestamp: Date.now()});	//Just restart the TTL clock
+			console.info("AWC Character Page Badges: Database is up to date.");
+			return;
+		}
+		const indexed = buildCharacterIndex(result.data);	//Throws on a malformed file, which leaves the old cache untouched
+		writeCache({etag: result.etag, timestamp: Date.now(), data: result.data});
+		dbPromise = Promise.resolve(indexed);
+		console.info("AWC Character Page Badges: Database refreshed in the background.");
+	}).catch(err => {
+		const hours = Math.round((Date.now() - cached.timestamp) / (60 * 60 * 1000));
+		console.warn(`AWC Character Page Badges: Could not refresh the database (${err.message}). Using cached data from ${hours} hours ago.`);
+	});
+}
+/**
  * Loads the database using this order of preference:
- *   1. A localStorage cache younger than CACHE_TTL.
- *   2. A fresh fetch from DB_URL (which then refreshes the cache).
- *   3. An expired cache, if the fetch fails. Badges will be stale but present.
- * If none of these work, the error is rethrown.
+ *   1. A cache younger than CACHE_TTL, used as is with no network request.
+ *   2. An expired cache, used immediately while a background request revalidates it (see refreshCache()).
+ *   3. If nothing usable is cached, a blocking fetch from DB_URL, which then fills the cache.
+ * If that blocking fetch fails, the error is rethrown.
  *
  * @returns {Promise<object>} The database with its character index.
  */
 async function loadDBInternal() {
-	let staleCache = null;
-	let staleCacheTimestamp = null;
-
-	if(CACHE_ENABLED) {	//Attempt to load from cache if enabled
+	const cached = readCache();
+	if(cached) {
 		try {
-			const cached = localStorage.getItem(CACHE_KEY);
-			if(cached) {
-				const parsed = JSON.parse(cached);
-				staleCache = parsed.data;	//Keep the data even if it is expired, as a fallback for a failed fetch
-				staleCacheTimestamp = parsed.timestamp;
-				if(Date.now() - parsed.timestamp < CACHE_TTL) { return buildCharacterIndex(parsed.data); }
-			}
-		} catch {}	//Corrupt or unavailable storage is treated as a cache miss
+			const indexed = buildCharacterIndex(cached.data);
+			if(Date.now() - cached.timestamp >= CACHE_TTL) { refreshCache(cached); }	//Expired: serve it now, revalidate for next time
+			return indexed;
+		} catch (err) { console.warn("AWC Character Page Badges: Cached database is unusable, fetching a fresh copy.", err); }
 	}
-	try {
-		const data = await new Promise((resolve, reject) => {	//Fetch fresh JSON from GitHub
-			GM_xmlhttpRequest({	//GM_xmlhttpRequest is used rather than fetch() so the request is not blocked by AniList's CORS/CSP rules
-				method: "GET",
-				url: DB_URL,
-				timeout: 15000,
-				onload: res => {
-					if(res.status !== 200) { reject(new Error(`HTTP ${res.status}`)); return; }
-					try {
-						const parsed = JSON.parse(res.responseText);
-						if(CACHE_ENABLED) {	//Store in cache if enabled
-							localStorage.setItem(CACHE_KEY, JSON.stringify({
-								data: parsed,
-								timestamp: Date.now()
-							}));
-						}
-						resolve(parsed);
-					} catch (e) { reject(e); }
-				},
-				onerror: reject
-			});
-		});
-		return buildCharacterIndex(data);
-	} catch(err) {
-		if(staleCache) {
-			const cacheAge = Math.round((Date.now() - staleCacheTimestamp) / (24 * 60 * 60 * 1000));
-			console.warn(`AWC Character Page Badges: Failed to fetch fresh database. Using ${cacheAge}-day-old cached data.`);
-			return buildCharacterIndex(staleCache);
-		}
-		throw err;
-	}
+
+	const {data, etag} = await fetchDB();
+	const indexed = buildCharacterIndex(data);	//Index first so a malformed file throws before it is cached
+	writeCache({etag, timestamp: Date.now(), data});
+	return indexed;
 }
 
 /* ---------------- GET CHARACTER ID FROM URL ---------------- */
@@ -333,7 +395,7 @@ function injectStyles() {
 			transform: none !important;
 		}
 		/*
-		 * Lighting layers. Each is a copy of the current badge image (--badge-url, kept in sync by JS)
+		 * Lighting layers. Each is a copy of the current badge image (--badge-url, set by JS while hovered)
 		 * recoloured to a solid silhouette, so light only ever appears on the badge's own pixels.
 		 */
 		.awc-badge-light, .awc-badge-shade {
@@ -399,16 +461,15 @@ function enable3DHover(wrapper, link, img) {
 	link.appendChild(card);
 	card.append(img, light, shade);		//Moves the img from the link into the card
 
-	//Keep the silhouettes in step with whatever the img is showing.
-	//The load event fires after every src change (animated/static toggle, AVIF fallback), so nothing else needs to call this.
-	let active = false;	//The light and shade layers only hold the badge image while hovered, so idle badges don't keep
-	let releaseTimer = 0;	//extra decoded (and, for animated badges, extra animating) copies of their image.
+	//The light and shade layers only hold a copy of the badge image while hovered, so idle badges don't carry
+	//extra decoded (and, for animated badges, extra animating) copies of their image.
+	let active = false;	//True while the pointer is over the badge
+	let releaseTimer = 0;	//Delays dropping the images after mouseleave so the fade-out can finish
 	function syncSilhouette() {
 		const src = (img.currentSrc || img.src).replace(/"/g, "%22");
 		card.style.setProperty("--badge-url", `url("${src}")`);
 	}
 	img.addEventListener("load", () => { if(active) { syncSilhouette(); } });	//Covers an AVIF fallback or src change mid-hover
-	if(img.complete && img.naturalWidth) { syncSilhouette(); }
 
 	//Virtual light. The viewer looks straight on, along (0, 0, 1); negative y is up.
 	const norm = v => { const l = Math.hypot(...v); return v.map(c => c / l); };
