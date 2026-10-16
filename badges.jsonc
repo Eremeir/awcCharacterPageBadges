@@ -5893,6 +5893,17 @@
 			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 91038
 		},
+		{	//Fall 2026 Seasonal
+			//https://anilist.co/forum/thread/93124
+			"id": "seasonal2026SFall",
+			"name": "Fall 2026 Seasonal Challenge PLACEHOLDER",
+			"characters": [
+				46163	//Placeholder
+			],
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"thread": 93124
+		},
 		/* ANIME SPECIAL BADGES */
 			/* Dungeon */
 		{	//Dungeon: Training Grounds
@@ -6103,6 +6114,16 @@
 			"image": "https://i.postimg.cc/DwpzkQkb/Special-Community-Workshop.png",
 			"thread": 59986
 		},
+		{	//Haunted House
+			//https://anilist.co/forum/thread/93399
+			"id": "hauntedHouse",
+			"name": "Haunted House Challenge",
+			"characters": [
+				1274	//Masako Hara
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/specials/haunted-house/Qxl/Special-Haunted-House.png",
+			"thread": 93399
+		},
 		{	//Hero’s Dawn
 			//https://anilist.co/forum/thread/45664
 			"id": "herosDawn",
@@ -6263,7 +6284,7 @@
 			"characters": [
 				89121	//Shalltear Bloodfallen
 			],
-			"image": "https://i.postimg.cc/gjgWn2pV/Special-Trick-or-Treat.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/specials/trick-or-treat/iOS/Special-Trick-or-Treat.png",
 			"thread": 77815
 		},
 			/* Gambler's */
