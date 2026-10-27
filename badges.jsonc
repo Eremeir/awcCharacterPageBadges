@@ -8,7 +8,7 @@
 			"characters": [
 				46163	//Nico Yazawa
 			],
-			"animated": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
 			"thread": 4449
 		},
 		/* END OF YEAR BADGES */
@@ -416,7 +416,7 @@
 			"characters": [
 				121052	//Tanya Degurechaff
 			],
-			"image": "https://i.postimg.cc/pLDXZPP9/2017-Classic-Legacy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2017/nfH/2017-Classic-Legacy.png",
 			"thread": 13347
 		},
 		{	//2017 Classic
@@ -426,7 +426,7 @@
 			"characters": [
 				121052	//Tanya Degurechaff
 			],
-			"image": "https://i.postimg.cc/pT280h0F/2017-Classic.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2017/nfH/2017-Classic.png",
 			"thread": 13347
 		},
 		{	//2018 Classic (Legacy)
@@ -436,7 +436,7 @@
 			"characters": [
 				127613	//Kaede Azusagawa
 			],
-			"image": "https://i.postimg.cc/50Jz3PcJ/2018-Classic-Legacy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2018/Lvl/2018-Classic-Legacy.png",
 			"thread": 7104
 		},
 		{	//2018 Classic
@@ -446,7 +446,7 @@
 			"characters": [
 				127613	//Kaede Azusagawa
 			],
-			"image": "https://i.postimg.cc/tC16mHz2/2018-Classic.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2018/Lvl/2018-Classic.png",
 			"thread": 7104
 		},
 		{	//2019 Classic (Legacy)
@@ -457,7 +457,7 @@
 				133661,	//Carole Stanley
 				133660	//Tuesday Simmons
 			],
-			"image": "https://i.postimg.cc/nc9LXv5G/2019-Classic-Legacy.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2019/jOF/2019-Classic-Legacy.png",
 			"thread": 10377
 		},
 		{	//2019 Classic
@@ -468,7 +468,7 @@
 				133661,	//Carole Stanley
 				133660	//Tuesday Simmons
 			],
-			"image": "https://i.postimg.cc/268bdp6d/2019-Classic.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2019/jOF/2019-Classic.png",
 			"thread": 10377
 		},
 		{	//2020 Classic
@@ -478,7 +478,7 @@
 			"characters": [
 				132799	//Ai Miyashita
 			],
-			"image": "https://i.postimg.cc/nrmc88KR/2020-Classic.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2020/kus/2020-Classic.png",
 			"thread": 22395
 		},
 		{	//2021 Classic
@@ -488,7 +488,7 @@
 			"characters": [
 				123962	//Rimuru Tempest
 			],
-			"image": "https://i.postimg.cc/Jz9KSdx9/2021-Classic.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2021/tLx/2021-Classic.png",
 			"thread": 49205
 		},
 		{	//2022 Classic
@@ -498,7 +498,7 @@
 			"characters": [
 				256379	//Eiko Tsukimi
 			],
-			"image": "https://i.postimg.cc/900XLzsy/2022-Classic.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2022/KOe/2022-Classic.png",
 			"thread": 61944
 		},
 		{	//2023 Classic
@@ -508,7 +508,7 @@
 			"characters": [
 				81737	//Ann Halford
 			],
-			"image": "https://i.postimg.cc/VNV9R11K/2023-Classic.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2023/Qhk/2023-Classic.png",
 			"thread": 70733
 		},
 		{	//2024 Classic
@@ -518,7 +518,7 @@
 			"characters": [
 				127292	//Marcille Donato
 			],
-			"image": "https://i.postimg.cc/J4TGJTpw/2024-Classic.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2024/lsg/2024-Classic.png",
 			"thread": 79260
 		},
 		{	//2025 Classic
@@ -528,7 +528,7 @@
 			"characters": [
 				356984	//Tina Isemi
 			],
-			"image": "https://i.postimg.cc/2SjK6s9n/2025-Classic.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2025/J4m/2025-Classic.png",
 			"thread": 86978
 		},
 		/* ANIME COLLECTION BADGES */
@@ -1050,10 +1050,9 @@
 			"id": "badgeBattle11",
 			"name": "Badge Battle #11: Takasugi vs Onsoku no Sonic",
 			"characters": [
-				2948,	//Shinsuke Takasugi
-				74167	//Onsoku no Sonic
+				2948	//Shinsuke Takasugi
 			],
-			"image": "https://cdn.awc.moe/static/web/images/badge-placeholder.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/badge-battle/11/oKL/Event-Badge-Battle-11.png",
 			"thread": 92659
 		},
 			/* Raffle */
@@ -1115,7 +1114,7 @@
 			"characters": [
 				36309	//Red Eyes Black Dragon
 			],
-			"image": "https://i.postimg.cc/N0DhM4N4/Special-Anniversary-Boss-Battle-Most-Overall.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/anniversary-boss-battle/SuY/Event-Anniversary-Boss-Battle-Most-Overall.png",
 			"thread": 14634
 		},
 		{	//Anniversary Boss Battle (First Hit)
@@ -1125,7 +1124,7 @@
 			"characters": [
 				36309	//Red Eyes Black Dragon
 			],
-			"image": "https://i.postimg.cc/MHvJgQmY/Special-Anniversary-Boss-Battle-First-Overall.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/anniversary-boss-battle/SuY/Event-Anniversary-Boss-Battle-First-Overall.png",
 			"thread": 14634
 		},
 		{	//Anniversary Boss Battle (First Gigamech Plusho)
@@ -1135,7 +1134,7 @@
 			"characters": [
 				36309	//Red Eyes Black Dragon
 			],
-			"image": "https://i.postimg.cc/cLQGqZwP/Special-Anniversary-Boss-Battle-First-Plusho.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/anniversary-boss-battle/SuY/Event-Anniversary-Boss-Battle-First-Plusho.png",
 			"thread": 14634
 		},
 		{	//Anniversary Boss Battle (Final Gigamech Plusho)
@@ -1145,7 +1144,7 @@
 			"characters": [
 				36309	//Red Eyes Black Dragon
 			],
-			"image": "https://i.postimg.cc/VvpPwk7P/Special-Anniversary-Boss-Battle-Final-Plusho.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/anniversary-boss-battle/SuY/Event-Anniversary-Boss-Battle-Final-Plusho.png",
 			"thread": 14634
 		},
 		{	//Anniversary Boss Battle (First Kondozilla)
@@ -1155,7 +1154,7 @@
 			"characters": [
 				36309	//Red Eyes Black Dragon
 			],
-			"image": "https://i.postimg.cc/CMQgkcwr/Special-Anniversary-Boss-Battle-First-Kon.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/anniversary-boss-battle/SuY/Event-Anniversary-Boss-Battle-First-Kon.png",
 			"thread": 14634
 		},
 		{	//Anniversary Boss Battle (Final Kondozilla)
@@ -1165,7 +1164,7 @@
 			"characters": [
 				36309	//Red Eyes Black Dragon
 			],
-			"image": "https://i.postimg.cc/Jh58Xmhj/Special-Anniversary-Boss-Battle-Final-Kon.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/anniversary-boss-battle/SuY/Event-Anniversary-Boss-Battle-Final-Kon.png",
 			"thread": 14634
 		},
 		{	//Anniversary Boss Battle (First Electroalchemist)
@@ -1175,7 +1174,7 @@
 			"characters": [
 				36309	//Red Eyes Black Dragon
 			],
-			"image": "https://i.postimg.cc/HkG1PjcQ/Special-Anniversary-Boss-Battle-First-Ele.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/anniversary-boss-battle/SuY/Event-Anniversary-Boss-Battle-First-Ele.png",
 			"thread": 14634
 		},
 		{	//Anniversary Boss Battle (Final Electroalchemist)
@@ -1185,7 +1184,7 @@
 			"characters": [
 				36309	//Red Eyes Black Dragon
 			],
-			"image": "https://i.postimg.cc/63HNH0n3/Special-Anniversary-Boss-Battle-Final-Ele.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/anniversary-boss-battle/SuY/Event-Anniversary-Boss-Battle-Final-Ele.png",
 			"thread": 14634
 		},
 		{	//Anniversary Boss Battle (First Mohsferatu)
@@ -1195,7 +1194,7 @@
 			"characters": [
 				36309	//Red Eyes Black Dragon
 			],
-			"image": "https://i.postimg.cc/Hs8C2bxY/Special-Anniversary-Boss-Battle-First-Moha.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/anniversary-boss-battle/SuY/Event-Anniversary-Boss-Battle-First-Moha.png",
 			"thread": 14634
 		},
 		{	//Anniversary Boss Battle (Final Mohsferatu)
@@ -1205,7 +1204,7 @@
 			"characters": [
 				36309	//Red Eyes Black Dragon
 			],
-			"image": "https://i.postimg.cc/W3pv6KDC/Special-Anniversary-Boss-Battle-Final-Moha.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/events/anniversary-boss-battle/SuY/Event-Anniversary-Boss-Battle-Final-Moha.png",
 			"thread": 14634
 		},
 		{	//Hero’s War
@@ -1278,6 +1277,16 @@
 			"image": "https://cdn.awc.moe/static/badges/anime/events/heros-war/esK/Heros-War-Review.png",
 			"thread": 57577
 		},
+		{	//Hero’s War (Winner)
+			//https://anilist.co/forum/thread/57577
+			"id": "herosWarWinner",
+			"name": "Hero's War Challenge (Review Clan)",
+			"characters": [
+				75450	//Alice Zuberg
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/events/heros-war/esK/Heros-War-Review-Winner.png",
+			"thread": 57577
+		},
 		{	//Murder Mystery
 			//https://anilist.co/forum/thread/85436
 			"id": "murderMystery",
@@ -1286,7 +1295,7 @@
 				10285,	//Beatrice
 				14040	//Battler Ushiromiya
 			],
-			"image": "https://i.postimg.cc/wjMT5wkX/Special-Murder-Mystery.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/specials/murder-mystery/qdw/Special-MurderMystery.png",
 			"thread": 85436
 		},
 		{	//Valentine's
@@ -4398,7 +4407,7 @@
 			"characters": [
 				147759	//Opera
 			],
-			"image": "https://i.postimg.cc/mZ9C2y8Q/Monthly-2023-April-Easy-Static.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/04/pcF/Monthly-2023-April-Easy-Static.png",
 			"thread": 64140
 		},
 		{	//April 2023 Monthly: Easy Mode
@@ -4419,7 +4428,7 @@
 			"characters": [
 				147759	//Opera
 			],
-			"image": "https://i.postimg.cc/Rh1W1GDy/Monthly-2023-April-Hard-Static.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2023/04/pcF/Monthly-2023-April-Hard-Static.png",
 			"thread": 64140
 		},
 		{	//April 2023 Monthly: Hard Mode
@@ -6295,7 +6304,7 @@
 			"characters": [
 				121889	//Yumeko Jabami
 			],
-			"image": "https://i.postimg.cc/44jTkGWm/Special-Gamblers.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/specials/gamblers1/fhR/Special-Gamblers-1-Legacy.png",
 			"thread": 6171
 		},
 		{	//Gambler’s 1.0
@@ -6813,7 +6822,7 @@
 			"characters": [
 				4201	//Link
 			],
-			"image": "https://i.postimg.cc/9Q8CgnNp/Special-Explorers-Field.png",
+			"image": "https://cdn.awc.moe/static/badges/manga/specials/Explorers/IOS/Special-Explorers-Field-Legacy.png",
 			"thread": 9960
 		},
 		{	//Explorer's Challenge: Mountain Path
@@ -6823,7 +6832,7 @@
 			"characters": [
 				35510	//Buntarou Mori
 			],
-			"image": "https://i.postimg.cc/HksT2g3n/Special-Explorers-Mountain.png",
+			"image": "https://cdn.awc.moe/static/badges/manga/specials/Explorers/IOS/Special-Explorers-Mountain-Legacy.png",
 			"thread": 9960
 		},
 		{	//Explorer's Challenge: Ocean Path
@@ -6833,7 +6842,7 @@
 			"characters": [
 				173093	//Monica
 			],
-			"image": "https://i.postimg.cc/5tX1hShM/Special-Explorers-Ocean.png",
+			"image": "https://cdn.awc.moe/static/badges/manga/specials/Explorers/IOS/Special-Explorers-Ocean-Legacy.png",
 			"thread": 9960
 		},
 		{	//Formula 1
@@ -6913,7 +6922,7 @@
 			"characters": [
 				122753	//Kanata Hoshijima
 			],
-			"image": "https://i.postimg.cc/cJPZ08Wt/Special-Space-Adventurers-Voyager.png",
+			"image": "https://cdn.awc.moe/static/badges/manga/specials/Space-Adventurers/d1j/Special-Space-Adventurers-Voyager-Legacy.png",
 			"thread": 16045
 		},
 		{	//Space Adventurer’s (Invader)
@@ -6923,7 +6932,7 @@
 			"characters": [
 				3694	//Freeza
 			],
-			"image": "https://i.postimg.cc/rF98xm17/Special-Space-Adventurers-Invader.png",
+			"image": "https://cdn.awc.moe/static/badges/manga/specials/Space-Adventurers/d1j/Special-Space-Adventurers-Invader-Legacy.png",
 			"thread": 16045
 		},
 		/* MANGA TIER BADGES */
@@ -6965,7 +6974,7 @@
 			"characters": [
 				71611	//Tooru Oikawa
 			],
-			"image": "https://i.postimg.cc/sXHBdyRW/AWC-Staff-annahoj.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Staff-annahoj.png",
 			"thread": 4449	//Generic About
 		},
 		{	//AWC Staff: breathesunshine
@@ -6995,7 +7004,7 @@
 			"characters": [
 				7373	//Holo
 			],
-			"image": "https://i.postimg.cc/KzpKSFyN/AWC-Staff-Kondor.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Staff-Kondor.png",
 			"thread": 4449	//Generic About
 		},
 		{	//AWC Staff: Shoxi
@@ -7005,7 +7014,7 @@
 			"characters": [
 				378	//Akari Mizunashi
 			],
-			"image": "https://i.postimg.cc/d1N7PvK9/AWC-Staff-Shoxi.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Staff-Shoxi.png",
 			"thread": 4449	//Generic About
 		},
 		{	//AWC Staff: Xeldum
@@ -7015,7 +7024,7 @@
 			"characters": [
 				23602	//Shinobu Oshino
 			],
-			"image": "https://i.postimg.cc/cHkKyZNY/AWC-Staff-Xeldum.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Staff-Xeldum.png",
 			"thread": 4449	//Generic About
 		},
 			/*SUPPORTER*/
@@ -7026,7 +7035,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/rsHLwscW/AWC-Supporter-Ayano-Tateyama.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Ayano-Tateyama.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Basenji
@@ -7036,7 +7045,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/fWqsK2XL/AWC-Supporter-Basenji.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Basenji.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Cracks
@@ -7046,7 +7055,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/bJ3h4LBm/AWC-Supporter-Cracks.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Cracks.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: CZ2128
@@ -7056,7 +7065,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/CKCYswHT/AWC-Supporter-CZ2128.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-CZ2128.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Electrochemist
@@ -7066,7 +7075,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/htdKhLXG/AWC-Supporter-Electrochemist.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Electrochemist.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: fish
@@ -7076,7 +7085,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/N0vBXKXk/AWC-Supporter-fish.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-fish.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Halfblindshinobi
@@ -7086,7 +7095,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/ZRTmfXV9/AWC-Supporter-Halfblindshinobi.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Halfblindshinobi.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Kell
@@ -7096,7 +7105,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/wTtpbXck/AWC-Supporter-Kell.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Kell.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Kelvinoderso
@@ -7106,7 +7115,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/fRmhMMPt/AWC-Supporter-Kelvinoderso.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Kelvinoderso.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Kiyo
@@ -7116,7 +7125,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/NfWchKdv/AWC-Supporter-Kiyo.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Kiyo.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Kondor
@@ -7126,7 +7135,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/vmywBpRP/AWC-Supporter-Kondor.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Kondor.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Koopz
@@ -7136,7 +7145,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/HLtD7BdT/AWC-Supporter-Koopz.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Koopz.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Loli Princess
@@ -7146,7 +7155,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/zBXmwKGK/AWC-Supporter-Loli-Princess.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-LoliPrincess.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: maniccomputer
@@ -7156,7 +7165,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/brsKWPbv/AWC-Supporter-maniccomputer.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-maniccomputer.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Nydaleclya
@@ -7166,7 +7175,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/Bbb03HW4/AWC-Supporter-Nydaleclya.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Nydaleclya.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Nymh
@@ -7176,7 +7185,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/nzdy3rX5/AWC-Supporter-Nymh.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Nymh.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Oblivion2k
@@ -7186,7 +7195,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/3rqMpy50/AWC-Supporter-Oblivion2k.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Oblivion2k.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Plusho
@@ -7196,7 +7205,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/sxqtRL94/AWC-Supporter-Plusho.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Plusho.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Resire
@@ -7206,7 +7215,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/bNS7RzpC/AWC-Supporter-Resire.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Resire.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Seiza
@@ -7216,7 +7225,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/9Q3v8vfW/AWC-Supporter-Seiza.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Seiza.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Sir Durpsalot
@@ -7226,7 +7235,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/Vkj23DSX/AWC-Supporter-Sir-Durpsalot.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-SirDurpsalot.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Tobi
@@ -7236,7 +7245,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/mrBKRCMJ/AWC-Supporter-Tobi.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Tobi.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Trigger
@@ -7246,7 +7255,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/FRKqkvTx/AWC-Supporter-Trigger.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Trigger.png",
 			"thread": 4449	//Generic About
 		},
 		{	//Supporter: Zepp
@@ -7256,7 +7265,7 @@
 			"characters": [
 				36309	//AWC Chan
 			],
-			"image": "https://i.postimg.cc/7L9dLhn6/AWC-Supporter-Zepp.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Supporter-Zepp.png",
 			"thread": 4449	//Generic About
 		},
 		/* ---------------- UNOFFICIAL BADGES ---------------- */
@@ -7267,7 +7276,7 @@
 			"characters": [
 				2515	//Pico
 			],
-			"image": "https://i.postimg.cc/NMCyqYwm/AWC-Staff-Pico.png",
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Staff-Pico.png",
 			"thread": 4449,	//Generic About
 			"unofficial" : true
 		},
