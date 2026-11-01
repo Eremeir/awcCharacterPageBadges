@@ -1280,7 +1280,7 @@
 		{	//Hero’s War (Winner)
 			//https://anilist.co/forum/thread/57577
 			"id": "herosWarWinner",
-			"name": "Hero's War Challenge (Review Clan)",
+			"name": "Hero's War Challenge (Review Clan: Winner)",
 			"characters": [
 				75450	//Alice Zuberg
 			],
@@ -5371,6 +5371,28 @@
 			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/10/dV6/Monthly-2026-October-Hard-Animated.png",
 			"thread": 93068
 		},
+		{	//November 2026 Monthly: Easy Mode
+			//https://anilist.co/forum/thread/93748
+			"id": "monthly2026NovEasy",
+			"name": "November 2026 Monthly Challenge: Easy Mode",
+			"characters": [
+				4950	//Agumon
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/11/iFQ/Monthly-2026-November-Easy-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/11/iFQ/Monthly-2026-November-Easy-Animated.png",
+			"thread": 93748
+		},
+		{	//November 2026 Monthly: Hard Mode
+			//https://anilist.co/forum/thread/93748
+			"id": "monthly2026NovHard",
+			"name": "November 2026 Monthly Challenge: Hard Mode",
+			"characters": [
+				4950	//Agumon
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/11/iFQ/Monthly-2026-November-Hard-Static.png",
+			"animated": "https://cdn.awc.moe/static/badges/anime/monthlies/2026/11/iFQ/Monthly-2026-November-Hard-Animated.png",
+			"thread": 93748
+		},
 		/* ANIME PUZZLE BADGES */
 		{	//2048
 			//https://anilist.co/forum/thread/90780
@@ -6093,6 +6115,16 @@
 			"image": "https://i.postimg.cc/wv86jJtf/Special-Arcade.png",
 			"thread": 76134
 		},
+		{	//Archaeologist (Legacy)
+			//https://anilist.co/forum/thread/9282
+			"id": "archaeologistLGCY",
+			"name": "Archaeologist’s Challenge (Legacy)",
+			"characters": [
+				122443	//Riko
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/specials/archaeologists/qJu/Special-Archaeologists-Legacy.png",
+			"thread": 9282
+		},
 		{	//Archaeologist
 			//https://anilist.co/forum/thread/9282
 			"id": "archaeologist",
@@ -6100,7 +6132,7 @@
 			"characters": [
 				122443	//Riko
 			],
-			"image": "https://i.postimg.cc/c4YGdzzT/Special-Archaeologists.png",
+			"image": "https://cdn.awc.moe/static/badges/anime/specials/archaeologists/new-vnE/Special-Archaeologists.png",
 			"thread": 9282
 		},
 		{	//Board Game
