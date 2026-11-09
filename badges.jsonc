@@ -6775,6 +6775,16 @@
 			"image": "https://i.postimg.cc/3NztXtzh/Manga-City-Park.png",
 			"thread": 52601
 		},
+		{	//Manga City: Planetarium
+			//https://anilist.co/forum/thread/93875
+			"id": "mangaCityPlanetarium",
+			"name": "Manga City - Planetarium Challenge",
+			"characters": [
+				161230	//Isaki Magari
+			],
+			"image": "https://cdn.awc.moe/static/badges/manga/city/planetarium/jhm/Manga-City-Planetarium.png",
+			"thread": 93875
+		},
 		{	//Manga City: Restaurant
 			//https://anilist.co/forum/thread/74621
 			"id": "mangaCityRestaurant",
