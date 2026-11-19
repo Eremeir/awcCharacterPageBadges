@@ -6856,7 +6856,7 @@
 			"image": "https://i.postimg.cc/yd2cQqPG/Special-Connect.png",
 			"thread": 89850
 		},
-			/* Explorer's's */
+			/* Explorer's */
 		{	//Explorer's Challenge: Field Path
 			//https://anilist.co/forum/thread/9960
 			"id": "mangaExplorerField",
@@ -7322,6 +7322,17 @@
 			"thread": 4449,	//Generic About
 			"unofficial" : true
 		},
+		{	//CelestialQueen's Unofficial
+			//https://docs.google.com/document/d/1u8j-SFBZJ4ammBDnn62ILtlY5U5CrD1meIJjRDxWhz8/edit?tab=t.0
+			"id": "unofficialCelestialQueen",
+			"name": "CelestialQueen's Unofficial Challenge",
+			"characters": [
+				127465	//Wuxian Wei
+			],
+			"image": "https://i.imgur.com/aGEfEKQ.png",
+			"thread": 4449,	//Generic About
+			"unofficial" : true
+		},
 		{	//Flo's Unofficial Mecha
 			//xx
 			"id": "unofficialFloMecha",
@@ -7333,14 +7344,18 @@
 			"thread": 4449,	//Generic About
 			"unofficial" : true
 		},
-		{	//CelestialQueen's Unofficial BL
-			//https://docs.google.com/document/d/1u8j-SFBZJ4ammBDnn62ILtlY5U5CrD1meIJjRDxWhz8/edit?tab=t.0
-			"id": "unofficialCQBL",
-			"name": "CelestialQueen's Unofficial BL Challenge",
+		{	//Goldiizz's Unofficial
+			//https://docs.google.com/document/d/1BWnU6Z5T991j3Sa1EeUgr1tn4P7b3nG6ngZwSbrfgrA/edit?tab=t.0#heading=h.spxvhf49l94j
+			"id": "unofficialGoldizz",
+			"name": "Goldiizz's Unofficial Challenge",
 			"characters": [
-				127465	//Wuxian Wei
+				19568,	//Tsumugi Kotobuki
+				19566,	//Mio Akiyama
+				19565,	//Yui Hirasawa
+				21173,	//Azusa Nakano
+				19567	//Ritsu Tainaka
 			],
-			"image": "https://i.imgur.com/aGEfEKQ.png",
+			"image": "https://i.imgur.com/5UEWPVr_d.webp?maxwidth=760&fidelity=grand",
 			"thread": 4449,	//Generic About
 			"unofficial" : true
 		},
