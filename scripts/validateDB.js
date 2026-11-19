@@ -73,7 +73,7 @@ for(const challenge of data.challenges) {
 	if(typeof challenge.id !== "string" || !challenge.id.trim()) {
 		console.error(`Missing or invalid ID: ${challenge.name ?? "(unnamed challenge)"}`);
 		errors++;
-		continue;``
+		continue;
 	}
 	if(seenIDs.has(challenge.id)) {
 		console.error(`Duplicate ID: ${challenge.id}`);

@@ -48,7 +48,7 @@ jobs:
       - name: Create Pages directory
         run: |
           mkdir site
-          cp badges.json site/
+          cp badges.json badgesIndex.json site/
 
       - name: Setup Pages
         uses: actions/configure-pages@v6
