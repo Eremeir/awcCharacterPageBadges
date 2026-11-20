@@ -318,6 +318,16 @@
 			"image": "https://cdn.awc.moe/static/badges/anime/classics/2002/7Y8/2002-Classic.png",
 			"thread": 91169
 		},
+		{	//2006 Classic
+			//https://anilist.co/forum/thread/94146v
+			"id": "animeClassic2006",
+			"name": "2006 Classic Challenge",
+			"characters": [
+				136	//Louise Françoise Le Blanc de La Vallière
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/classics/2006/iOx/2006-Classic.png",
+			"thread": 94146
+		},
 		{	//2007 Classic
 			//https://anilist.co/forum/thread/89679
 			"id": "animeClassic2007",
@@ -6155,6 +6165,46 @@
 			"image": "https://i.postimg.cc/DwpzkQkb/Special-Community-Workshop.png",
 			"thread": 59986
 		},
+		{	//Gambler’s 1.0 (Legacy)
+			//https://anilist.co/forum/thread/6171
+			"id": "gamblers1LGCY",
+			"name": "Gambler’s Challenge 1.0/1.1 (Legacy)",
+			"characters": [
+				121889	//Yumeko Jabami
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/specials/gamblers1/fhR/Special-Gamblers-1-Legacy.png",
+			"thread": 6171
+		},
+		{	//Gambler’s 1.0
+			//https://anilist.co/forum/thread/6171
+			"id": "gamblers1",
+			"name": "Gambler’s Challenge 1.0/1.1",
+			"characters": [
+				121889	//Yumeko Jabami
+			],
+			"image": "https://cdn.awc.moe/static/badges/anime/specials/gamblers1/new-NGo/Special-Gamblers-1.png",
+			"thread": 6171
+		},
+		{	//Gambler’s 2.0
+			//https://anilist.co/forum/thread/28272
+			"id": "gamblers2",
+			"name": "Gambler’s Challenge 2.0",
+			"characters": [
+				122687	//Mary Saotome
+			],
+			"image": "https://i.postimg.cc/kG4KWhrZ/Special-Gamblers-2-0.png",
+			"thread": 28272
+		},
+		{	//Gambler’s 3.0
+			//https://anilist.co/forum/thread/69776
+			"id": "gamblers3",
+			"name": "Gambler’s Challenge 3.0",
+			"characters": [
+				31520	//Rune Balot
+			],
+			"image": "https://i.postimg.cc/kMyqpKxt/Special-Gamblers-3-0.png",
+			"thread": 69776
+		},
 		{	//Haunted House
 			//https://anilist.co/forum/thread/93399
 			"id": "hauntedHouse",
@@ -6300,16 +6350,6 @@
 		},
 		{	//Shelf
 			//https://anilist.co/forum/thread/91418
-			"id": "shelfManga",
-			"name": "Shelf Challenge: Manga",
-			"characters": [
-				296283	//Kiichi Ishidaira
-			],
-			"image": "https://cdn.awc.moe/static/badges/mixed/shelf/Ncb/Special-Shelf-Manga.png",
-			"thread": 91418
-		},
-		{	//Shelf
-			//https://anilist.co/forum/thread/91418
 			"id": "shelfMixed",
 			"name": "Shelf Challenge: Mixed",
 			"characters": [
@@ -6328,48 +6368,6 @@
 			"image": "https://cdn.awc.moe/static/badges/anime/specials/trick-or-treat/iOS/Special-Trick-or-Treat.png",
 			"thread": 77815
 		},
-			/* Gambler's */
-		{	//Gambler’s 1.0 (Legacy)
-			//https://anilist.co/forum/thread/6171
-			"id": "gamblers1LGCY",
-			"name": "Gambler’s Challenge 1.0/1.1 (Legacy)",
-			"characters": [
-				121889	//Yumeko Jabami
-			],
-			"image": "https://cdn.awc.moe/static/badges/anime/specials/gamblers1/fhR/Special-Gamblers-1-Legacy.png",
-			"thread": 6171
-		},
-		{	//Gambler’s 1.0
-			//https://anilist.co/forum/thread/6171
-			"id": "gamblers1",
-			"name": "Gambler’s Challenge 1.0/1.1",
-			"characters": [
-				121889	//Yumeko Jabami
-			],
-			"image": "https://cdn.awc.moe/static/badges/anime/specials/gamblers1/new-NGo/Special-Gamblers-1.png",
-			"thread": 6171
-		},
-		{	//Gambler’s 2.0
-			//https://anilist.co/forum/thread/28272
-			"id": "gamblers2",
-			"name": "Gambler’s Challenge 2.0",
-			"characters": [
-				122687	//Mary Saotome
-			],
-			"image": "https://i.postimg.cc/kG4KWhrZ/Special-Gamblers-2-0.png",
-			"thread": 28272
-		},
-		{	//Gambler’s 3.0
-			//https://anilist.co/forum/thread/69776
-			"id": "gamblers3",
-			"name": "Gambler’s Challenge 3.0",
-			"characters": [
-				31520	//Rune Balot
-			],
-			"image": "https://i.postimg.cc/kMyqpKxt/Special-Gamblers-3-0.png",
-			"thread": 69776
-		},
-			/* Zodiac */
 		{	//Zodiac I: Chinese
 			//https://anilist.co/forum/thread/6553
 			"id": "zodiacCN",
@@ -6482,27 +6480,6 @@
 			"thread": 38849
 		},
 		/* ---------------- MANGA BADGES ---------------- */
-		/* MANGA EVENT BADGES */
-		{	//Kaiju Attack Challenge (Missing)
-			//https://anilist.co/forum/thread/92039
-			"id": "KaijuAttackMissing",
-			"name": "Kaiju Attack Challenge (Missing)",
-			"characters": [
-				26845	//Gojira
-			],
-			"image": "https://cdn.awc.moe/static/badges/manga/specials/Kaiju-Attack/zD8/Special-Kaiju-Attack-Missing.png",
-			"thread": 92039
-		},
-		{	//Kaiju Attack Challenge
-			//https://anilist.co/forum/thread/92039
-			"id": "KaijuAttack",
-			"name": "Kaiju Attack Challenge",
-			"characters": [
-				26845	//Gojira
-			],
-			"image": "https://cdn.awc.moe/static/badges/manga/specials/Kaiju-Attack/real-oz5/Special-Kaiju-Attack.png",
-			"thread": 92039
-		},
 		/* MANGA COLLECTION BADGES */
 		{	//Manga Collection: Akira Toriyama
 			//https://anilist.co/forum/thread/75691
@@ -6856,37 +6833,6 @@
 			"image": "https://i.postimg.cc/yd2cQqPG/Special-Connect.png",
 			"thread": 89850
 		},
-			/* Explorer's */
-		{	//Explorer's Challenge: Field Path
-			//https://anilist.co/forum/thread/9960
-			"id": "mangaExplorerField",
-			"name": "Explorer's Challenge: Field Path",
-			"characters": [
-				4201	//Link
-			],
-			"image": "https://cdn.awc.moe/static/badges/manga/specials/Explorers/IOS/Special-Explorers-Field-Legacy.png",
-			"thread": 9960
-		},
-		{	//Explorer's Challenge: Mountain Path
-			//https://anilist.co/forum/thread/9960
-			"id": "mangaExplorerMountain",
-			"name": "Explorer's Challenge: Mountain Path",
-			"characters": [
-				35510	//Buntarou Mori
-			],
-			"image": "https://cdn.awc.moe/static/badges/manga/specials/Explorers/IOS/Special-Explorers-Mountain-Legacy.png",
-			"thread": 9960
-		},
-		{	//Explorer's Challenge: Ocean Path
-			//https://anilist.co/forum/thread/9960
-			"id": "mangaExplorerOcean",
-			"name": "Explorer's Challenge: Ocean Path",
-			"characters": [
-				173093	//Monica
-			],
-			"image": "https://cdn.awc.moe/static/badges/manga/specials/Explorers/IOS/Special-Explorers-Ocean-Legacy.png",
-			"thread": 9960
-		},
 		{	//Formula 1
 			//https://anilist.co/forum/thread/46422
 			"id": "mangaFormula1",
@@ -6896,6 +6842,26 @@
 			],
 			"image": "https://i.postimg.cc/R08njhBn/Special-Formula1.png",
 			"thread": 46422
+		},
+		{	//Kaiju Attack Challenge (Missing)
+			//https://anilist.co/forum/thread/92039
+			"id": "KaijuAttackMissing",
+			"name": "Kaiju Attack Challenge (Missing)",
+			"characters": [
+				26845	//Gojira
+			],
+			"image": "https://cdn.awc.moe/static/badges/manga/specials/Kaiju-Attack/zD8/Special-Kaiju-Attack-Missing.png",
+			"thread": 92039
+		},
+		{	//Kaiju Attack Challenge
+			//https://anilist.co/forum/thread/92039
+			"id": "KaijuAttack",
+			"name": "Kaiju Attack Challenge",
+			"characters": [
+				26845	//Gojira
+			],
+			"image": "https://cdn.awc.moe/static/badges/manga/specials/Kaiju-Attack/real-oz5/Special-Kaiju-Attack.png",
+			"thread": 92039
 		},
 		{	//Library of Alexandria
 			//https://anilist.co/forum/thread/87218
@@ -6956,6 +6922,46 @@
 			],
 			"image": "https://i.postimg.cc/C1XTtkZR/Special-Recipe.png",
 			"thread": 79505
+		},
+		{	//Shelf
+			//https://anilist.co/forum/thread/91418
+			"id": "shelfManga",
+			"name": "Shelf Challenge: Manga",
+			"characters": [
+				296283	//Kiichi Ishidaira
+			],
+			"image": "https://cdn.awc.moe/static/badges/mixed/shelf/Ncb/Special-Shelf-Manga.png",
+			"thread": 91418
+		},
+		{	//Explorer's Challenge: Field Path
+			//https://anilist.co/forum/thread/9960
+			"id": "mangaExplorerField",
+			"name": "Explorer's Challenge: Field Path",
+			"characters": [
+				4201	//Link
+			],
+			"image": "https://cdn.awc.moe/static/badges/manga/specials/Explorers/IOS/Special-Explorers-Field-Legacy.png",
+			"thread": 9960
+		},
+		{	//Explorer's Challenge: Mountain Path
+			//https://anilist.co/forum/thread/9960
+			"id": "mangaExplorerMountain",
+			"name": "Explorer's Challenge: Mountain Path",
+			"characters": [
+				35510	//Buntarou Mori
+			],
+			"image": "https://cdn.awc.moe/static/badges/manga/specials/Explorers/IOS/Special-Explorers-Mountain-Legacy.png",
+			"thread": 9960
+		},
+		{	//Explorer's Challenge: Ocean Path
+			//https://anilist.co/forum/thread/9960
+			"id": "mangaExplorerOcean",
+			"name": "Explorer's Challenge: Ocean Path",
+			"characters": [
+				173093	//Monica
+			],
+			"image": "https://cdn.awc.moe/static/badges/manga/specials/Explorers/IOS/Special-Explorers-Ocean-Legacy.png",
+			"thread": 9960
 		},
 		{	//Space Adventurer’s (Voyager)
 			//https://anilist.co/forum/thread/16045
@@ -7048,6 +7054,17 @@
 			],
 			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Staff-Kondor.png",
 			"thread": 4449	//Generic About
+		},
+		{	//AWC Staff: Pico
+			//https://anilist.co/user/156535/
+			"id": "staff_pico",
+			"name": "AWC Staff: Pico",
+			"characters": [
+				2515	//Pico
+			],
+			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Staff-Pico.png",
+			"thread": 4449,	//Generic About
+			"unofficial" : true
 		},
 		{	//AWC Staff: Shoxi
 			//https://anilist.co/user/151741/
@@ -7311,17 +7328,6 @@
 			"thread": 4449	//Generic About
 		},
 		/* ---------------- UNOFFICIAL BADGES ---------------- */
-		{	//Boku no Pico
-			//https://anilist.co/user/156535/
-			"id": "staff_pico",
-			"name": "AWC Staff: Pico",
-			"characters": [
-				2515	//Pico
-			],
-			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Staff-Pico.png",
-			"thread": 4449,	//Generic About
-			"unofficial" : true
-		},
 		{	//CelestialQueen's Unofficial
 			//https://docs.google.com/document/d/1u8j-SFBZJ4ammBDnn62ILtlY5U5CrD1meIJjRDxWhz8/edit?tab=t.0
 			"id": "unofficialCelestialQueen",
