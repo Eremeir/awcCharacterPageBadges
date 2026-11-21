@@ -5976,7 +5976,8 @@
 				12669	//Rin Kaga
 			],
 			"image": "https://i.postimg.cc/BQHWSXkZ/2019-Staff-Picks-Static.png",
-			"animated": "https://i.postimg.cc/W1vBhscG/2019-Staff-Picks-Animated.png",
+			"animated": "https://i.postimg.cc/T3XQgN3k/2019-Staff-Picks-Animated.png",
+			//also https://i.postimg.cc/W1vBhscG/2019-Staff-Picks-Animated.png ??
 			"thread": 10366
 		},
 		{	//Staff Picks: 2020
@@ -5987,7 +5988,8 @@
 				80945	//Yasaburou Shimogamo
 			],
 			"image": "https://i.postimg.cc/y8ywR27w/2020-Staff-Picks-Static.png",
-			"animated": "https://i.postimg.cc/9fxK8TRb/2020-Staff-Picks-Animated.png",
+			"animated": "https://i.postimg.cc/rpfJ68Cb/2020-Staff-Picks-Animated.png",
+			//also "https://i.postimg.cc/9fxK8TRb/2020-Staff-Picks-Animated.png" ??
 			"thread": 21631
 		},
 		{	//Staff Picks: 2021
@@ -6012,15 +6014,15 @@
 			"animated": "https://i.postimg.cc/cHJHzzn6/2022-Staff-Picks-Animated.png",
 			"thread": 61647
 		},
-		{	//Staff Picks: 2023 (Timed)
+		{	//Staff Picks: 2023 (Combined)
 			//https://anilist.co/forum/thread/70523
-			"id": "staffPicks2023Timed",
-			"name": "Staff Picks Challenge: 2023 (Timed Mode)",
+			"id": "staffPicks2023Combined",
+			"name": "Staff Picks Challenge: 2023 (Combined)",
 			"characters": [
 				120939	//Satanichia Kurumizawa McDowell
 			],
-			"image": "https://i.postimg.cc/1t71qd0X/2023-Staff-Picks-Timed.png",
-			"animated": "https://i.postimg.cc/vBNCBVM6/2023-Staff-Picks-Timed-Animated.png",
+			"image": "https://i.postimg.cc/XJBLdJqz/2023-Staff-Picks-Combined.png",
+			"animated": "https://i.postimg.cc/fLjTGBFj/2023-Staff-Picks-Combined-Animated.png",
 			"thread": 70523
 		},
 		{	//Staff Picks: 2023 (Hanamaru)
@@ -6034,26 +6036,26 @@
 			"animated": "https://i.postimg.cc/XvvvbcqK/2023-Staff-Picks-Hanamaru-Animated.png",
 			"thread": 70523
 		},
-		{	//Staff Picks: 2023 (Combined)
+		{	//Staff Picks: 2023 (Timed)
 			//https://anilist.co/forum/thread/70523
-			"id": "staffPicks2023Combined",
-			"name": "Staff Picks Challenge: 2023 (Combined)",
+			"id": "staffPicks2023Timed",
+			"name": "Staff Picks Challenge: 2023 (Timed Mode)",
 			"characters": [
 				120939	//Satanichia Kurumizawa McDowell
 			],
-			"image": "https://i.postimg.cc/XJBLdJqz/2023-Staff-Picks-Combined.png",
-			"animated": "https://i.postimg.cc/fLjTGBFj/2023-Staff-Picks-Combined-Animated.png",
+			"image": "https://i.postimg.cc/1t71qd0X/2023-Staff-Picks-Timed.png",
+			"animated": "https://i.postimg.cc/vBNCBVM6/2023-Staff-Picks-Timed-Animated.png",
 			"thread": 70523
 		},
-		{	//Staff Picks: 2024 (Timed)
+		{	//Staff Picks: 2024 (Combined)
 			//https://anilist.co/forum/thread/78940
-			"id": "staffPicks2024Timed",
-			"name": "Staff Picks Challenge: 2024 (Timed Mode)",
+			"id": "staffPicks2024Combined",
+			"name": "Staff Picks Challenge: 2024 (Combined)",
 			"characters": [
 				132494	//YoRHa 2-gou B-gata
 			],
-			"image": "https://i.postimg.cc/vmCFD8PN/2024-Staff-Picks-Timed.png",
-			"animated": "https://i.postimg.cc/L6PqshNr/2024-Staff-Picks-Timed-Animated.png",
+			"image": "https://i.postimg.cc/L8ZcqY7F/2024-Staff-Picks-Combined.png",
+			"animated": "https://i.postimg.cc/Y09VthgV/2024-Staff-Picks-Combined-Animated.png",
 			"thread": 78940
 		},
 		{	//Staff Picks: 2024 (Hanamaru)
@@ -6067,27 +6069,27 @@
 			"animated": "https://i.postimg.cc/pTxMMWsb/2024-Staff-Picks-Hanamaru-Animated.png",
 			"thread": 78940
 		},
-		{	//Staff Picks: 2024 (Combined)
+		{	//Staff Picks: 2024 (Timed)
 			//https://anilist.co/forum/thread/78940
-			"id": "staffPicks2024Combined",
-			"name": "Staff Picks Challenge: 2024 (Combined)",
+			"id": "staffPicks2024Timed",
+			"name": "Staff Picks Challenge: 2024 (Timed Mode)",
 			"characters": [
 				132494	//YoRHa 2-gou B-gata
 			],
-			"image": "https://i.postimg.cc/L8ZcqY7F/2024-Staff-Picks-Combined.png",
-			"animated": "https://i.postimg.cc/Y09VthgV/2024-Staff-Picks-Combined-Animated.png",
+			"image": "https://i.postimg.cc/vmCFD8PN/2024-Staff-Picks-Timed.png",
+			"animated": "https://i.postimg.cc/L6PqshNr/2024-Staff-Picks-Timed-Animated.png",
 			"thread": 78940
 		},
-		{	//Staff Picks: 2025 (Timed)
+		{	//Staff Picks: 2025 (Combined)
 			//https://anilist.co/forum/thread/86706
-			"id": "staffPicks2025Timed",
-			"name": "Staff Picks Challenge: 2025 (Timed Mode)",
+			"id": "staffPicks2025Combined",
+			"name": "Staff Picks Challenge: 2025 (Combined)",
 			"characters": [
 				353780,	//Fuji
 				353785	//Kimi
 			],
-			"image": "https://i.postimg.cc/SxSW-5mwC/2025-Staff-Picks-Timed-Static.png",
-			"animated": "https://i.postimg.cc/bwwtg3tY/2025-Staff-Picks-Timed-Animated.png",
+			"image": "https://i.postimg.cc/m22kWh2m/2025-Staff-Picks-Combined-Static.png",
+			"animated": "https://i.postimg.cc/W3vpW1HM/2025-Staff-Picks-Combined-Animated.png",
 			"thread": 86706
 		},
 		{	//Staff Picks: 2025 (Hanamaru)
@@ -6102,16 +6104,16 @@
 			"animated": "https://i.postimg.cc/VkvJnvxB/2025-Staff-Picks-Hanamaru-Animated.png",
 			"thread": 86706
 		},
-		{	//Staff Picks: 2025 (Combined)
+		{	//Staff Picks: 2025 (Timed)
 			//https://anilist.co/forum/thread/86706
-			"id": "staffPicks2025Combined",
-			"name": "Staff Picks Challenge: 2025 (Combined)",
+			"id": "staffPicks2025Timed",
+			"name": "Staff Picks Challenge: 2025 (Timed Mode)",
 			"characters": [
 				353780,	//Fuji
 				353785	//Kimi
 			],
-			"image": "https://i.postimg.cc/m22kWh2m/2025-Staff-Picks-Combined-Static.png",
-			"animated": "https://i.postimg.cc/W3vpW1HM/2025-Staff-Picks-Combined-Animated.png",
+			"image": "https://i.postimg.cc/SxSW-5mwC/2025-Staff-Picks-Timed-Static.png",
+			"animated": "https://i.postimg.cc/bwwtg3tY/2025-Staff-Picks-Timed-Animated.png",
 			"thread": 86706
 		},
 			/* Special */
@@ -7063,8 +7065,7 @@
 				2515	//Pico
 			],
 			"image": "https://cdn.awc.moe/static/gfx/others/supporter/AWC-Staff-Pico.png",
-			"thread": 4449,	//Generic About
-			"unofficial" : true
+			"thread": 4449	//Generic About
 		},
 		{	//AWC Staff: Shoxi
 			//https://anilist.co/user/151741/

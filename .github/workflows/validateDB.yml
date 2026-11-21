@@ -44,6 +44,8 @@ jobs:
 
       - name: Build badges.json
         run: node scripts/buildJSON.js
+        env:
+          OPEN_EVENTS: ${{ vars.OPEN_EVENTS }}
 
       - name: Create Pages directory
         run: |

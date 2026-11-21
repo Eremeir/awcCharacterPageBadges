@@ -81,7 +81,8 @@ function getAVIFURL(url) {
 badgesIndex.json is a compact copy of the database for scripts that need to know where each badge belongs rather than which characters it is for:
 	{
 		"badges": [ { id, name, image?, animated?, animatedOriginalExtension?, thread, unofficial?, legacy? }, ... ],
-		"sections": [ { name, media?, start, end, groups?: [ { name, start, end }, ... ] }, ... ]
+		"sections": [ { name, media?, start, end, groups?: [ { name, start, end }, ... ] }, ... ],
+		"openEvents"?: { "badge id": "YYYY-MM-DD" | null, ... }
 	}
 */
 
@@ -139,6 +140,34 @@ function readLayout(text) {
 }
 
 /**
+ * Reads the OPEN_EVENTS variable.
+ *
+ * @param {string|undefined} text The variable's value.
+ * @param {Set<string>} knownIDs Every badge ID in the database.
+ * @param {Date} [now=new Date()]
+ * @returns {Record<string, string|null>} Entries still open, by badge ID.
+ */
+function readOpenEvents(text, knownIDs, now = new Date()) {
+	const result = {};
+	if(!text || !text.trim()) { return result; }
+	let entries;
+	try { entries = JSON.parse(text);
+	} catch(error) { console.warn(`::warning::OPEN_EVENTS is not valid JSON, so it was ignored: ${error.message}`); return result; }
+
+	if(entries === null || typeof entries !== "object" || Array.isArray(entries)) { console.warn(`::warning::OPEN_EVENTS must be a JSON object of "badge id": "YYYY-MM-DD" (or null), so it was ignored.`); return result; }
+	for(const [id, closes] of Object.entries(entries)) {
+		if(!knownIDs.has(id)) { console.warn(`::warning::OPEN_EVENTS: no badge has the ID "${id}"; skipped.`); continue; }
+		if(closes === null) { result[id] = null; continue; }
+
+		const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(typeof closes === "string" ? closes : "");
+		if(!match) { console.warn(`::warning::OPEN_EVENTS: "${id}" has the date ${JSON.stringify(closes)}; use YYYY-MM-DD or null. Skipped.`); continue; }
+		if(Date.UTC(+match[1], +match[2] - 1, +match[3]) + 86400000 <= now.getTime()) { console.log(`OPEN_EVENTS: "${id}" closed on ${closes}; left out.`); continue; }
+		result[id] = closes;
+	}
+	return result;
+}
+
+/**
  * Builds the badgesIndex.json contents.
  *
  * Throws, which fails the CI run, if the comments cannot be matched to the badges one for one, if a badge has no section,
@@ -146,7 +175,7 @@ function readLayout(text) {
  *
  * @param {string} text Raw JSONC source, for the comments.
  * @param {{challenges: object[]}} data The parsed (and AVIF-converted) database.
- * @returns {{badges: object[], sections: object[]}}
+ * @returns {{badges: object[], sections: object[], openEvents?: object}}
  */
 function buildIndex(text, data) {
 	const challenges = data.challenges;
@@ -198,7 +227,10 @@ function buildIndex(text, data) {
 		group.end = i + 1;
 	});
 
-	return {badges, sections};
+	const index = {badges, sections};
+	const openEvents = readOpenEvents(process.env.OPEN_EVENTS, new Set(indexOfID.keys()));
+	if(Object.keys(openEvents).length) { index.openEvents = openEvents; }
+	return index;
 }
 
 /* ---------------- MAIN ---------------- */
