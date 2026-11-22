@@ -6847,7 +6847,7 @@
 		},
 		{	//Kaiju Attack Challenge (Missing)
 			//https://anilist.co/forum/thread/92039
-			"id": "KaijuAttackMissing",
+			"id": "kaijuAttackLGCY",
 			"name": "Kaiju Attack Challenge (Missing)",
 			"characters": [
 				26845	//Gojira
@@ -6857,7 +6857,7 @@
 		},
 		{	//Kaiju Attack Challenge
 			//https://anilist.co/forum/thread/92039
-			"id": "KaijuAttack",
+			"id": "kaijuAttack",
 			"name": "Kaiju Attack Challenge",
 			"characters": [
 				26845	//Gojira
@@ -7338,7 +7338,7 @@
 			],
 			"image": "https://i.imgur.com/aGEfEKQ.png",
 			"thread": 4449,	//Generic About
-			"unofficial" : true
+			"unofficial": true
 		},
 		{	//Flo's Unofficial Mecha
 			//xx
@@ -7349,7 +7349,7 @@
 			],
 			"image": "https://i.postimg.cc/pyNNF2Rv/KNnp4Td.png",
 			"thread": 4449,	//Generic About
-			"unofficial" : true
+			"unofficial": true
 		},
 		{	//Goldiizz's Unofficial
 			//https://docs.google.com/document/d/1BWnU6Z5T991j3Sa1EeUgr1tn4P7b3nG6ngZwSbrfgrA/edit?tab=t.0#heading=h.spxvhf49l94j
@@ -7364,7 +7364,7 @@
 			],
 			"image": "https://i.imgur.com/5UEWPVr_d.webp?maxwidth=760&fidelity=grand",
 			"thread": 4449,	//Generic About
-			"unofficial" : true
+			"unofficial": true
 		},
 		{	//Lili's Unofficial Bread
 			//https://docs.google.com/document/d/1U3tiqFXox8on5puL59WS5XfgmHAzMyOwdQhugF39288/edit?tab=t.0
@@ -7376,6 +7376,28 @@
 			"image": "https://i.imgur.com/k7J8K5s.png",
 			"thread": 4449,	//Generic About
 			"unofficial" : true
+		},
+		{	//Raccoon's Unofficial
+			"id": "unofficialRaccoon",
+			"name": "Raccoon's Unofficial Challenge",
+			"characters": [
+				132304,	//Maki Katsuragi
+				148035,	//Yuuta Asuka
+				132303	//Touma Shinjou
+			],
+			"image": "https://i.postimg.cc/cL6W5kGG/Raccoon-s-Unnoficial-challenge-completed.png",
+			"thread": 4449,	//Generic About
+			"unofficial" : true
+		},
+		{	//Simi's Unofficial
+			"id": "unofficialSimi",
+			"name": "Simi's Unofficial Challenge",
+			"characters": [
+				21173	//Azusa Nakano
+			],
+			"image": "https://i.imgur.com/DdMMmcs_d.webp?maxwidth=760&fidelity=grand",
+			"thread": 4449,	//Generic About
+			"unofficial": true
 		}
 	]
 }
