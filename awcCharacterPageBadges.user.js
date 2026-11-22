@@ -1,15 +1,17 @@
 // ==UserScript==
 // @name         AWC Character Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.1.6
+// @version      1.2.0
 // @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover effects
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
 // @supportURL   https://github.com/Eremeir/awcCharacterPageBadges/issues
 // @match        https://anilist.co/*
 // @grant        GM_xmlhttpRequest
+// @grant        GM_getValue
+// @grant        GM_setValue
 // @connect      eremeir.github.io
-// @license      Unilicense
+// @license      Unlicense
 // ==/UserScript==
 
 /**
@@ -35,8 +37,27 @@ const DB_URL = "https://eremeir.github.io/awcCharacterPageBadges/badges.json";
 const CACHE_ENABLED = true;
 const CACHE_KEY = "awc_badges_cache";	//localStorage key; stores { etag, timestamp, data }.
 const CACHE_TTL = 24 * 60 * 60 * 1000; //1 Day, in milliseconds. Once expired, the cache is used one last time while a background refresh checks for changes.
-const SHOW_UNOFFICIAL = false;	//Unofficial Community Badges
-const ENABLE_3D_HOVER = true;	//Steam Trading Card style 3D tilt and lighting
+
+/* ---------------- USER SETTINGS ---------------- */
+//Changed from the gear button beside the badge section title; stored by the userscript manager so they survive script updates.
+const SETTINGS_KEY = "settings";
+const DEFAULT_SETTINGS = {
+	showUnofficial: false,	//Unofficial Community Badges
+	enable3DHover: true,	//Steam Trading Card style 3D tilt and lighting
+	hideLegacyPairs: false	//Hide a (Legacy) badge when its current version features the same character
+};
+const SETTING_OPTIONS = [	//Order and labels for the settings panel
+	{key: "showUnofficial", label: "Show unofficial badges", description: "Community-made badges, marked with a dashed outline"},
+	{key: "enable3DHover", label: "3D tilt effect", description: "Badges tilt and catch the light under the cursor"},
+	{key: "hideLegacyPairs", label: "Hide non-unique legacy badges", description: "Hides a (Legacy) badge unless this character is only on the legacy version"}
+];
+
+/** @returns {typeof DEFAULT_SETTINGS} Saved settings, with defaults filled in for any missing (or newly added) options. */
+function loadSettings() {
+	const saved = GM_getValue(SETTINGS_KEY, {});
+	return {...DEFAULT_SETTINGS, ...(saved && typeof saved === "object" ? saved : {})};
+}
+function saveSettings() { GM_setValue(SETTINGS_KEY, settings); }
 
 /* ---------------- FETCH DATABASE ---------------- */
 /**
@@ -45,14 +66,19 @@ const ENABLE_3D_HOVER = true;	//Steam Trading Card style 3D tilt and lighting
  * The database is organised by challenge (each lists its characters), but pages are
  * viewed per character, so this inverts it once up front instead of scanning every challenge on each page view.
  *
- * @param {{challenges: Array<{characters: number[]}>}} data Raw database.
+ * Also pairs each legacy badge (an ID ending in LGCY) with its current version, using the same rule as buildJSON.js.
+ * The pairs live in their own map rather than on the challenges, since the challenge objects are what gets cached.
+ *
+ * @param {{challenges: Array<{id: string, characters: number[]}>}} data Raw database.
  * @returns {object} Copy of the database with an added `byCharacter` map of
- *   character ID -> array of challenges featuring that character.
+ *   character ID -> array of challenges featuring that character, and a `legacyPairs` Map of legacy challenge -> current challenge.
  */
 function buildCharacterIndex(data) {
 	const byCharacter = {};
+	const byID = new Map();
 
 	for(const challenge of data.challenges) {
+		byID.set(challenge.id, challenge);
 		for(const characterID of challenge.characters) {
 			if(!byCharacter[characterID]) {
 				byCharacter[characterID] = [];
@@ -60,7 +86,13 @@ function buildCharacterIndex(data) {
 			byCharacter[characterID].push(challenge);
 		}
 	}
-	return {...data, byCharacter};
+
+	const legacyPairs = new Map();
+	for(const challenge of data.challenges) {
+		const current = /LGCY$/.test(challenge.id) && byID.get(challenge.id.replace(/LGCY$/, ""));
+		if(current) { legacyPairs.set(challenge, current); }
+	}
+	return {...data, byCharacter, legacyPairs};
 }
 /**
  * Returns the (indexed) database, loading it at most once per page session.
@@ -304,25 +336,92 @@ function injectStyles() {
 	const style = document.createElement("style");
 	style.id = "badge-elem-styles";
 	style.textContent = `
+		/* ---------------- HEADER & SETTINGS ---------------- */
+		.awc-badge-header {
+			display: flex;
+			align-items: center;
+			margin: 25px 0;
+		}
+		.awc-badge-header h2 {
+			margin: 0;
+		}
+		.awc-settings {
+			position: relative;
+			display: flex;
+		}
+		.awc-settings-button {
+			display: flex;
+			padding: 4px;
+			border: none;
+			border-radius: 4px;
+			background: none;
+			color: rgb(var(--color-text-lighter, 146, 153, 161));
+			cursor: pointer;
+			transition: color 0.2s ease;
+		}
+		.awc-settings-button svg {
+			transition: transform 0.3s ease;
+		}
+		.awc-settings-button:hover, .awc-settings-button.awc-open {
+			color: rgb(var(--color-blue, 61, 180, 242));
+		}
+		.awc-settings-button.awc-open svg {
+			transform: rotate(60deg);
+		}
+		.awc-settings-panel {
+			position: absolute;
+			top: calc(100% + 6px);
+			left: 0;
+			z-index: 1001;	/* Above a hovered badge */
+			display: flex;
+			flex-direction: column;
+			padding: 12px 14px;
+			border-radius: 6px;
+			background: rgb(var(--color-foreground, 251, 251, 251));
+			color: rgb(var(--color-text, 92, 114, 138));
+			font-size: 13px;
+			box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+			gap: 10px;
+		}
+		.awc-settings-panel[hidden] {
+			display: none;
+		}
+		.awc-settings-panel label {
+			display: flex;
+			align-items: center;
+			white-space: nowrap;
+			cursor: pointer;
+			gap: 8px
+		}
+		.awc-settings-panel input {
+			margin: 0;
+			cursor: pointer;
+			accent-color: rgb(var(--color-blue, 61, 180, 242));
+		}
+		.awc-badge-empty {
+			color: rgb(var(--color-text-lighter, 146, 153, 161));
+			font-size: 14px;
+		}
+		/* ---------------- BADGES ---------------- */
 		.awc-badge-wrapper img {
 			display: block;
-			transition: transform 0.2s ease;
-			transform-origin: bottom center;
 			cursor: pointer;
+			transform-origin: bottom center;
+			transition: transform 0.2s ease;
 		}
 		.awc-badge-wrapper img:hover {
 			transform: scale(1.08);
 		}
 		.awc-badge-toggle {
+			padding: 3px 10px;
+			border: 1px solid rgba(61, 180, 242, 0.5);
+			border-radius: 20px;
+			background: rgba(61, 180, 242, 0.15);
+			color: #3db4f2;
 			font-size: 10px;
 			font-weight: 600;
 			letter-spacing: 0.5px;
 			text-transform: uppercase;
-			padding: 3px 10px;
-			border-radius: 20px;
-			border: 1px solid rgba(61, 180, 242, 0.5);
-			background: rgba(61, 180, 242, 0.15);
-			color: #3db4f2;
 			cursor: pointer;
 			opacity: 0.85;
 			transition: background 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
@@ -341,7 +440,6 @@ function injectStyles() {
 			overflow: hidden;
 		}
 		.awc-badge-toggle.awc-glint::after {
-			content: '';
 			position: absolute;
 			top: -10%;
 			left: -60%;
@@ -350,20 +448,21 @@ function injectStyles() {
 			background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.45), transparent);
 			transform: skewX(-15deg);
 			animation: awc-glint 2.5s ease-in-out infinite;
+			content: '';
 		}
 		/* ---------------- 3D HOVER EFFECT ---------------- */
 		.awc-badge-3d-wrapper {	/* The wrapper supplies the perspective and is raised above its neighbours while hovered */
-			perspective: 1000px;
 			position: relative;
 			z-index: 0;
+			perspective: 1000px;
 		}
 		.awc-badge-wrapper.awc-hovering {
 			z-index: 1000;
 		}
 		.awc-badge-wrapper.awc-hovering .awc-badge-toggle {	/* Hide the toggle while hovering so it does not clash with the enlarged badge */
+			pointer-events: none;
 			opacity: 0;
 			transform: translateY(-8px);
-			pointer-events: none;
 		}
 		.awc-badge-3d-link {
 			position: relative;
@@ -379,14 +478,14 @@ function injectStyles() {
 				filter 0.3s ease-out;
 		}
 		.awc-badge-wrapper.awc-hovering .awc-badge-3d-card {	/* --rx/--ry (tilt) and --sx/--sy (shadow offset) are set from JS on every mousemove */
-			will-change: transform;
+			filter:
+				drop-shadow(var(--sx, 0px) var(--sy, 0px) 24px rgba(0,0,0,0.35));
 			transform:
 				translateZ(20px)
 				scale(1.24)
 				rotateX(var(--rx, 0deg))
 				rotateY(var(--ry, 0deg));
-			filter:
-				drop-shadow(var(--sx, 0px) var(--sy, 0px) 24px rgba(0,0,0,0.35));
+			will-change: transform;
 			transition:	/* snappy while tracking */
 				transform 0.08s ease-out,
 				filter 0.08s ease-out;
@@ -400,12 +499,12 @@ function injectStyles() {
 		 */
 		.awc-badge-light, .awc-badge-shade {
 			position: absolute;
-			inset: 0;
 			border-radius: 6px;
+			background: var(--badge-url) center / 100% 100% no-repeat;
 			pointer-events: none;
 			opacity: 0;
 			transition: opacity 0.15s ease-out;
-			background: var(--badge-url) center / 100% 100% no-repeat;
+			inset: 0;
 			mask-repeat: no-repeat;
 			mask-size: 100% 100%;
 		}
@@ -438,14 +537,14 @@ function injectStyles() {
  * position follow the surface angle, and a faint shading when the badge leans away from the light.
  *
  * The image is moved into a "card" element alongside two overlay layers (light and shade) so all three tilt together. The overlays are silhouette copies
- * of the badge image, so light never spills onto transparent areas. Does nothing if ENABLE_3D_HOVER is false.
+ * of the badge image, so light never spills onto transparent areas. Does nothing if the 3D tilt setting is off.
  *
  * @param {HTMLElement} wrapper Outer badge element; raised above neighbours while hovered.
  * @param {HTMLAnchorElement} link Link around the image; its bounds are the hover area.
  * @param {HTMLImageElement} img The badge image; moved into the card, which is what gets transformed.
  */
 function enable3DHover(wrapper, link, img) {
-	if(!ENABLE_3D_HOVER) { return; }
+	if(!settings.enable3DHover) { return; }
 	if(!matchMedia("(hover: hover) and (pointer: fine)").matches || matchMedia("(prefers-reduced-motion: reduce)").matches) { return; }
 
 	wrapper.classList.add("awc-badge-3d-wrapper");
@@ -548,13 +647,91 @@ function enable3DHover(wrapper, link, img) {
 	});
 }
 
+/* ---------------- SETTINGS MENU ---------------- */
+const GEAR_PATH = "M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.49.49 0 0 0 .12-.61l-1.92-3.32a.488.488 0 0 0-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.484.484 0 0 0-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58a.49.49 0 0 0-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z";
+
+/**
+ * Builds the gear button and its settings panel. Each checkbox saves immediately and calls onChange.
+ * The panel closes on an outside click or Escape; those document listeners only exist while it is open.
+ *
+ * @param {() => void} onChange Called after any setting changes.
+ * @returns {HTMLElement}
+ */
+function createSettingsMenu(onChange) {
+	const menu = document.createElement("div");
+	menu.className = "awc-settings";
+
+	const button = document.createElement("button");
+	button.type = "button";
+	button.className = "awc-settings-button";
+	button.title = "AWC badge settings";
+	button.setAttribute("aria-label", "AWC badge settings");
+	button.setAttribute("aria-expanded", "false");
+	const svgNS = "http://www.w3.org/2000/svg";
+	const svg = document.createElementNS(svgNS, "svg");	//Built as DOM rather than innerHTML in case the page enforces Trusted Types
+	svg.setAttribute("viewBox", "0 0 24 24");
+	svg.setAttribute("width", "20");
+	svg.setAttribute("height", "20");
+	svg.setAttribute("fill", "currentColor");
+	const path = document.createElementNS(svgNS, "path");
+	path.setAttribute("d", GEAR_PATH);
+	svg.appendChild(path);
+	button.appendChild(svg);
+
+	const panel = document.createElement("div");
+	panel.className = "awc-settings-panel";
+	panel.hidden = true;
+	for(const option of SETTING_OPTIONS) {
+		const label = document.createElement("label");
+		label.title = option.description;
+		const checkbox = document.createElement("input");
+		checkbox.type = "checkbox";
+		checkbox.checked = settings[option.key];
+		checkbox.addEventListener("change", () => {
+			settings[option.key] = checkbox.checked;
+			saveSettings();
+			onChange();
+		});
+		label.append(checkbox, option.label);
+		panel.appendChild(label);
+	}
+
+	const onOutsideClick = event => { if(!menu.contains(event.target)) { setOpen(false); } };
+	const onKey = event => { if(event.key === "Escape") { setOpen(false); button.focus(); } };
+	function setOpen(open) {
+		panel.hidden = !open;
+		button.classList.toggle("awc-open", open);
+		button.setAttribute("aria-expanded", String(open));
+		const method = open ? "addEventListener" : "removeEventListener";
+		document[method]("click", onOutsideClick);
+		document[method]("keydown", onKey);
+	}
+	button.addEventListener("click", () => setOpen(panel.hidden));
+
+	menu.append(button, panel);
+	return menu;
+}
+
 /* ---------------- RENDER BADGES ---------------- */
+/**
+ * The challenges to show for a character under the current settings, in DB order.
+ * A legacy badge counts as a non-unique when its current version also features this character.
+ *
+ * @param {object} data Indexed database from loadDB().
+ * @param {number} characterID
+ * @returns {object[]}
+ */
+function getVisibleBadges(data, characterID) {
+	return (data.byCharacter[characterID] || []).filter(challenge => {
+		if(challenge.unofficial && !settings.showUnofficial) { return false; }
+		if(settings.hideLegacyPairs && data.legacyPairs.get(challenge)?.characters.includes(characterID)) { return false; }
+		return true;
+	});
+}
+
 /**
  * Builds and inserts the "Featuring AWC Badges" section for a character.
  * Does nothing if the section already exists or the character has no badges to show.
- *
- * Each badge is a linked image pointing at its challenge's forum thread. Badges that
- * have both animated and static images also get a button to switch between them.
  *
  * @param {object} data Indexed database from loadDB().
  * @param {number} characterID The character being viewed.
@@ -562,122 +739,152 @@ function enable3DHover(wrapper, link, img) {
  */
 function renderBadges(data, characterID, characterDiv) {
 	if(document.querySelector(".awc-badge-container")) return;	//Avoid duplicate injection
-	const matches = (data.byCharacter[characterID] || []).filter(char => SHOW_UNOFFICIAL || !char.unofficial);	//Get challenges for this character
-	if(!matches.length) { return; }
+	if(!getVisibleBadges(data, characterID).length) { return; }
+
+	injectStyles();	//Inject style effects
 
 	const container = document.createElement("div");	//Create container div
 	container.style.maxWidth = "1300px";	//Match page layout
 	container.style.margin = "0 auto";	//Center horizontally
 	container.className = "awc-badge-container";
 
-	const title = document.createElement("h2");	//Create header
-	title.textContent = "Featuring AWC Badges";
-	title.style.margin = "25px 0";
-	container.appendChild(title);
-
 	const holder = document.createElement("div");	//Create badge holder flex container
 	holder.style.display = "flex";
 	holder.style.flexWrap = "wrap";
 	holder.style.gap = "10px";
-	container.appendChild(holder);
 
+	const header = document.createElement("div");	//Gear button sits to the left of the title
+	header.className = "awc-badge-header";
+	const title = document.createElement("h2");
+	title.textContent = "Featuring AWC Badges";
+	header.append(createSettingsMenu(() => fillBadges(holder, data, characterID)), title);
+
+	container.append(header, holder);
 	characterDiv.insertAdjacentElement("afterend", container);	//Insert container after character div
+	fillBadges(holder, data, characterID);
+}
 
-	injectStyles();	//Inject style effects
+/**
+ * (Re)fills the badge holder for the current settings. Called on first render and after every settings change,
+ * so the header and an open settings panel stay put.
+ * If the settings now hide every badge, a short note stands in so the gear stays reachable.
+ *
+ * @param {HTMLElement} holder
+ * @param {object} data Indexed database from loadDB().
+ * @param {number} characterID
+ */
+function fillBadges(holder, data, characterID) {
+	holder.replaceChildren();
+	const matches = getVisibleBadges(data, characterID);
+	if(!matches.length) {
+		const note = document.createElement("p");
+		note.className = "awc-badge-empty";
+		note.textContent = "No badges to show with the current settings.";
+		holder.appendChild(note);
+		return;
+	}
+	matches.forEach(challenge => holder.appendChild(createBadge(challenge)));	//Add each badge in DB order
+}
 
-	matches.forEach(challenge => {	//Add each badge in DB order
-		const wrapper = document.createElement("div");	//Wrapper stacks the badge image above its (optional) toggle button
-		wrapper.style.display = "flex";
-		wrapper.style.flexDirection = "column";
-		wrapper.style.alignItems = "center";
-		wrapper.style.gap = "4px";
-		wrapper.className = "awc-badge-wrapper";
+/**
+ * Builds one badge: a linked image pointing at its challenge's forum thread. Badges that
+ * have both animated and static images also get a button to switch between them.
+ *
+ * @param {object} challenge
+ * @returns {HTMLElement}
+ */
+function createBadge(challenge) {
+	const wrapper = document.createElement("div");	//Wrapper stacks the badge image above its (optional) toggle button
+	wrapper.style.display = "flex";
+	wrapper.style.flexDirection = "column";
+	wrapper.style.alignItems = "center";
+	wrapper.style.gap = "4px";
+	wrapper.className = "awc-badge-wrapper";
 
-		const link = document.createElement("a");
-		link.href = `https://anilist.co/forum/thread/${challenge.thread}`;
-		link.target = "_blank";
-		link.rel = "noopener noreferrer";	//Isolate tabs
+	const link = document.createElement("a");
+	link.href = `https://anilist.co/forum/thread/${challenge.thread}`;
+	link.target = "_blank";
+	link.rel = "noopener noreferrer";	//Isolate tabs
 
-		const img = document.createElement("img");
-		img.loading = "lazy";
-		img.decoding = "async";
-		img.src = challenge.animated ?? challenge.image;	// Default to animated if available
-		img.title = challenge.name;
-		img.alt = challenge.name;
-		img.width = 250;
-		img.height = 250;
+	const img = document.createElement("img");
+	img.loading = "lazy";
+	img.decoding = "async";
+	img.src = challenge.animated ?? challenge.image;	// Default to animated if available
+	img.title = challenge.name;
+	img.alt = challenge.name;
+	img.width = 250;
+	img.height = 250;
 
-		//Browsers without AVIF support (or a missing .avif file) fail to load the animated badge.
-		//Retry once with the original PNG/GIF; if that also fails, give up and log it.
-		let usingAnimatedFallback = false;
-		img.onerror = () => {
-			if(!usingAnimatedFallback && challenge.animated?.endsWith(".avif")) {
-				usingAnimatedFallback = true;
-				console.warn(
-					`AWC Character Page Badges: Failed to load AVIF for "${challenge.name}". ` +
-					`Falling back to original animated image.`
-				);
+	//Browsers without AVIF support (or a missing .avif file) fail to load the animated badge.
+	//Retry once with the original PNG/GIF; if that also fails, give up and log it.
+	let usingAnimatedFallback = false;
+	img.onerror = () => {
+		if(!usingAnimatedFallback && challenge.animated?.endsWith(".avif")) {
+			usingAnimatedFallback = true;
+			console.warn(
+				`AWC Character Page Badges: Failed to load AVIF for "${challenge.name}". ` +
+				`Falling back to original animated image.`
+			);
 
-				img.src = getOriginalAnimatedURL(challenge);
-				return;
-			}
-			console.warn(`AWC Character Page Badges: Failed to load image for "${challenge.name}".`);
-			img.onerror = null;	//Stop handling errors so a broken fallback cannot loop
-		};
-		img.style.borderRadius = "6px";
-		img.style.maxHeight = "250px";
-		img.style.maxWidth = "250px";
-		if(challenge.unofficial) { img.style.outline = "2px dashed #888"; }	//Add unofficial badge border
-
-		//Badges come in different shapes, so the size is set once the image's real dimensions are known.
-		//Everything is scaled to fit within a 250x250 box.
-		img.onload = () => {	//Resize after image loads based on natural dimensions
-			const w = img.naturalWidth;
-			const h = img.naturalHeight;
-
-			if(w === 720 && h === 720) {	//Standard size badges
-				img.width = 250;
-				img.height = 250;
-			} else if(w === 520 && h === 720) {	//Legacy badges
-				img.width = 181;
-				img.height = 250;
-			} else {	//Scale proportionally for other dimensions
-				const maxWidth = 250;
-				const maxHeight = 250;
-				const aspect = w / h;
-				if(aspect >= 1) {	//Landscape or square: width is the limiting side
-					img.width = Math.min(w, maxWidth);
-					img.height = Math.min(img.width / aspect, maxHeight);
-				} else {	//Portrait: height is the limiting side
-					img.height = Math.min(h, maxHeight);
-					img.width = Math.min(img.height * aspect, maxWidth);
-				}
-			}
-		};
-
-		link.appendChild(img);
-		wrapper.appendChild(link);
-		enable3DHover(wrapper, link, img);
-		if(challenge.animated && challenge.image) {	//Only badges with both versions need a toggle
-			let isAnimated = true;	//The badge defaults to showing the animated version
-			const toggle = document.createElement("button");
-
-			toggle.textContent = "Show Static Version";	// Label for version to switch to
-			toggle.className = "awc-badge-toggle";
-			toggle.addEventListener("click", () => {
-				isAnimated = !isAnimated;
-				if(isAnimated) {
-					//Respect an earlier AVIF failure so switching back does not retry a broken URL
-					img.src = usingAnimatedFallback ? getOriginalAnimatedURL(challenge) : challenge.animated;
-				} else { img.src = challenge.image; }
-				toggle.textContent = isAnimated ? "Show Static Version" : "Show Animated Version";
-				toggle.classList.toggle("awc-glint", !isAnimated);	//Glint draws attention to the way back to animated
-			});
-			wrapper.appendChild(toggle);
+			img.src = getOriginalAnimatedURL(challenge);
+			return;
 		}
+		console.warn(`AWC Character Page Badges: Failed to load image for "${challenge.name}".`);
+		img.onerror = null;	//Stop handling errors so a broken fallback cannot loop
+	};
+	img.style.borderRadius = "6px";
+	img.style.maxHeight = "250px";
+	img.style.maxWidth = "250px";
+	if(challenge.unofficial) { img.style.outline = "2px dashed #888"; }	//Add unofficial badge border
 
-		holder.appendChild(wrapper);
-	});
+	//Badges come in different shapes, so the size is set once the image's real dimensions are known.
+	//Everything is scaled to fit within a 250x250 box.
+	img.onload = () => {	//Resize after image loads based on natural dimensions
+		const w = img.naturalWidth;
+		const h = img.naturalHeight;
+
+		if(w === 720 && h === 720) {	//Standard size badges
+			img.width = 250;
+			img.height = 250;
+		} else if(w === 520 && h === 720) {	//Legacy badges
+			img.width = 181;
+			img.height = 250;
+		} else {	//Scale proportionally for other dimensions
+			const maxWidth = 250;
+			const maxHeight = 250;
+			const aspect = w / h;
+			if(aspect >= 1) {	//Landscape or square: width is the limiting side
+				img.width = Math.min(w, maxWidth);
+				img.height = Math.min(img.width / aspect, maxHeight);
+			} else {	//Portrait: height is the limiting side
+				img.height = Math.min(h, maxHeight);
+				img.width = Math.min(img.height * aspect, maxWidth);
+			}
+		}
+	};
+
+	link.appendChild(img);
+	wrapper.appendChild(link);
+	enable3DHover(wrapper, link, img);
+	if(challenge.animated && challenge.image) {	//Only badges with both versions need a toggle
+		let isAnimated = true;	//The badge defaults to showing the animated version
+		const toggle = document.createElement("button");
+
+		toggle.textContent = "Show Static Version";	// Label for version to switch to
+		toggle.className = "awc-badge-toggle";
+		toggle.addEventListener("click", () => {
+			isAnimated = !isAnimated;
+			if(isAnimated) {
+				//Respect an earlier AVIF failure so switching back does not retry a broken URL
+				img.src = usingAnimatedFallback ? getOriginalAnimatedURL(challenge) : challenge.animated;
+			} else { img.src = challenge.image; }
+			toggle.textContent = isAnimated ? "Show Static Version" : "Show Animated Version";
+			toggle.classList.toggle("awc-glint", !isAnimated);	//Glint draws attention to the way back to animated
+		});
+		wrapper.appendChild(toggle);
+	}
+
+	return wrapper;
 }
 
 /* ---------------- MAIN ---------------- */
@@ -685,6 +892,7 @@ let lastRenderedCharacterID = null;	//Character whose badges are currently displ
 let currentInitToken = 0;	//Increment on new init calls to discard old async loaded elements
 let scriptLogged = false;	//Ensures the startup info message is only printed once
 let dbPromise = null;	//Memoised database load; see loadDB()
+let settings = loadSettings();	//See USER SETTINGS
 
 /**
  * Entry point for every page load and route change.
@@ -713,7 +921,7 @@ async function init() {
 		const db = await loadDB();
 		if(token !== currentInitToken) { return; }	//Superseded while the database loaded
 		if(!scriptLogged) {
-			console.info(`AWC Character Page Badges: ${db.challenges.length} badges loaded in database. Cache is ${CACHE_ENABLED ? "enabled." : "disabled."} Unofficial Badges are ${SHOW_UNOFFICIAL ? "enabled." : "disabled."} 3D Hover is ${ENABLE_3D_HOVER ? "enabled." : "disabled."}`);
+			console.info(`AWC Character Page Badges: ${db.challenges.length} badges loaded in database. Cache is ${CACHE_ENABLED ? "enabled." : "disabled."} Settings: ${JSON.stringify(settings)}`);
 			scriptLogged = true;
 		}
 

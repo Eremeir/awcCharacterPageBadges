@@ -26,9 +26,10 @@ This third-party userscript injects a section to display [Anime Watch Club](http
   - Legacy 520×720 badges → 181×250px
   - Badges wrap neatly if somehow a character has been featured in more than ~5 badges
 - Hover effect: badges slightly zoom on hover for better visibility
-- Dynamic 3D tilt effect: badges now also tilt responsively to your cursor, can be disabled in the [config](#configuration)
+- Dynamic 3D tilt effect: badges now also tilt responsively to your cursor, can be turned off in the [settings](#settings)
 - Multiple badges for a character are displayed **in the order they appear in the JSON database**
 - Static variants of animated badges can be seen with a toggle
+- A [settings](#settings) gear beside the section title to adjust persistent script settings.
 
 ---
 
@@ -41,16 +42,24 @@ This third-party userscript injects a section to display [Anime Watch Club](http
 ---
 
 ## Configuration
-A few options can be changed by editing the constants in the `CONFIG` section at the top of the script. Open your userscript manager's dashboard, click **AWC Character Page Badges** to open the editor, change a value, and save.
+### Settings
+Click the **gear** to the left of the "Featuring AWC Badges" title. Changes apply immediately and are saved by your userscript manager, so they survive script updates.
+
+| Setting | Default | Description |
+|---|---|---|
+| Show unofficial badges | Off | Also show unofficial community badges, which are marked with a dashed outline. |
+| 3D tilt effect | On | The 3D tilt and lighting effect on hover. Turn off for a plain zoom instead. |
+| Hide non-unique legacy badges | Off | Hides a (Legacy) badge when its current version features the same character. Legacy badges for a character who only appears on the legacy version still show. |
+
+### Advanced
+The cache can be changed by editing the constants in the `CONFIG` section at the top of the script.
 
 | Option | Default | Description |
 |---|---|---|
-| `ENABLE_3D_HOVER` | `true` | The 3D tilt and lighting effect on hover. Set to `false` for a plain zoom instead. |
-| `SHOW_UNOFFICIAL` | `false` | Also show unofficial community badges, which are marked with a dashed outline. |
 | `CACHE_ENABLED` | `true` | Cache the badge database in your browser's local storage so pages load faster. |
 | `CACHE_TTL` | `24 * 60 * 60 * 1000` | How long cached data is used before it is refreshed in the background (1 day, in milliseconds). |
 
-> **Note:** When the script updates, your manager may replace the whole file and overwrite your edits. If you customize the config, turn off automatic updates for this script in your manager's settings, or reapply your changes after updating. Proper settings options will come eventually.
+> **Note:** When the script updates, your manager may replace the whole file and overwrite edits to these constants.
 
 ---
 
@@ -100,6 +109,28 @@ The DB is stored as JSONC so comments should be used. The challenge name and for
 ```
 </details>
 
+<details>
+<summary>Field reference</summary>
+
+| Field | Required | Description |
+|---|---|---|
+| `id` | Yes | Unique identifier, usually camelCase. |
+| `name` | Yes | Full display name, shown as the badge's tooltip. |
+| `characters` | Yes | AniList character IDs, in the order the challenge thread names them. |
+| `image` | One of `image`/`animated` | Static badge permalink. |
+| `animated` | One of `image`/`animated` | Animated badge permalink. When both are present, the animated version shows by default with a toggle to the static one. CDN-hosted PNG/GIFs are switched to AVIF by the build. |
+| `thread` | Yes | AniList forum thread ID. |
+| `unofficial` | No | `true` for unofficial community badges; hidden unless enabled in settings. |
+</details>
+
+### Section comments
+The build reads the header comments to group badges, so they follow a fixed format, each on a line of its own:
+- `/* ---------------- NAME ---------------- */` starts a top-level block (e.g. `ANIME BADGES`)
+- `/* ANIME GENRE BADGES */`: a title ending in `BADGES` starts a section within it
+- `/* Action */`: any other title starts a group within the section
+
+Every badge must sit under at least a top-level block or section.
+
 ---
 
 ### Badge Grouping & Ordering
@@ -128,5 +159,5 @@ To maintain consistency with AWC.moe leaderboard listings, badges should be grou
 - AWC Staff
 - Supporter
 - Unofficial Badges
-	- Have an unofficial badge? As long as there's an image permalink it can be added! Unofficial badge displays can be turned on in the script config.
+	- Have an unofficial badge? As long as there's an image permalink it can be added! Unofficial badge displays can be turned on from the settings gear.
 
