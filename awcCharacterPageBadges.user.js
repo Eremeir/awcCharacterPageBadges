@@ -42,13 +42,13 @@ const CACHE_TTL = 24 * 60 * 60 * 1000; //1 Day, in milliseconds. Once expired, t
 //Changed from the gear button beside the badge section title; stored by the userscript manager so they survive script updates.
 const SETTINGS_KEY = "settings";
 const DEFAULT_SETTINGS = {
-	showUnofficial: false,	//Unofficial Community Badges
 	enable3DHover: true,	//Steam Trading Card style 3D tilt and lighting
+	showUnofficial: false,	//Unofficial Community Badges
 	hideLegacyPairs: false	//Hide a (Legacy) badge when its current version features the same character
 };
 const SETTING_OPTIONS = [	//Order and labels for the settings panel
-	{key: "showUnofficial", label: "Show unofficial badges", description: "Community-made badges, marked with a dashed outline"},
 	{key: "enable3DHover", label: "3D tilt effect", description: "Badges tilt and catch the light under the cursor"},
+	{key: "showUnofficial", label: "Show unofficial badges", description: "Community-made badges, marked with a dashed outline"},
 	{key: "hideLegacyPairs", label: "Hide non-unique legacy badges", description: "Hides a (Legacy) badge unless this character is only on the legacy version"}
 ];
 

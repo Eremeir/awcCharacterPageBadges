@@ -47,8 +47,8 @@ Click the **gear** to the left of the "Featuring AWC Badges" title. Changes appl
 
 | Setting | Default | Description |
 |---|---|---|
-| Show unofficial badges | Off | Also show unofficial community badges, which are marked with a dashed outline. |
 | 3D tilt effect | On | The 3D tilt and lighting effect on hover. Turn off for a plain zoom instead. |
+| Show unofficial badges | Off | Also show unofficial community badges, which are marked with a dashed outline. |
 | Hide non-unique legacy badges | Off | Hides a (Legacy) badge when its current version features the same character. Legacy badges for a character who only appears on the legacy version still show. |
 
 ### Advanced
