@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AWC Challenger Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.0.0
+// @version      1.0.1
 // @description  Shows the badges a challenger has not earned yet inside their categories on awc.moe, with a switch in the page header
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
@@ -37,11 +37,11 @@
 /* ---------------- CONFIG ---------------- */
 const DB_URL = "https://eremeir.github.io/awcCharacterPageBadges/badgesIndex.json";
 const GITHUB_URL = "https://github.com/Eremeir/awcCharacterPageBadges";	//The repository both scripts share; also where issues and suggestions go
-const GREASYFORK_URL = "";	//This script's Greasy Fork page. Its link is left out of the settings panel while this is empty
-const SISTER_URL = "";	//The Character Page script's Greasy Fork page. The "sister script" line is left out of the settings panel while this is empty
+const GREASYFORK_URL = "https://greasyfork.org/en/scripts/606817-awc-challenger-page-badges";	//This script's Greasy Fork page.
+const SISTER_URL = "https://greasyfork.org/en/scripts/569079-awc-character-page-badges";	//The Character Page script's Greasy Fork page.
 const CACHE_ENABLED = true;	//Keep the downloaded database in localStorage. Set to false to download it on every page load
 const CACHE_KEY = "awc_badges_index_cache";	//localStorage key; stores { etag, timestamp, data }. Rename it (e.g. add _v2) to discard everyone's cached copy after a data-format change
-const CACHE_TTL = 24 * 60 * 60 * 1000;	//1 Day, in milliseconds. Once expired, the cache is used one last time while a background refresh checks for changes
+const CACHE_TTL = 2 * 24 * 60 * 60 * 1000;	//2 Days, in milliseconds. Once expired, the cache is used one last time while a background refresh checks for changes
 const SEASON_WEEKS = 17;	//How long a seasonal badge stays obtainable after its season starts
 const MONTHS = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
 const unreadableWarned = new Set();
@@ -870,10 +870,10 @@ function injectStyles() {
 			font-variant-numeric: tabular-nums;
 		}
 		.awc-un-bar {
+			overflow: hidden;
 			height: 7px;
 			border-radius: 4px;
 			background: rgba(255, 255, 255, 0.2);
-			overflow: hidden;
 		}
 		.awc-un-bar-fill {
 			height: 100%;
@@ -903,15 +903,15 @@ function injectStyles() {
 			background: rgba(244, 67, 54, 0.16);
 		}
 		.awc-un-club-tag {
+			padding-left: 6px;
 			font-size: 0.7em;
 			font-weight: 700;
 			letter-spacing: 0.12em;
 			opacity: 0.75;
-			padding-left: 6px;
 		}
 		.awc-un-notice {
-			text-align: center;
 			font-weight: 500;
+			text-align: center;
 		}
 		.awc-un-collapse {
 			position: absolute;
@@ -932,8 +932,8 @@ function injectStyles() {
 			transform: translateY(-50%);
 		}
 		.awc-un-collapse:hover, .awc-un-collapse:focus-visible {
-			opacity: 1; background: rgba(255, 255, 255, 0.14);
 			outline: none;
+			opacity: 1; background: rgba(255, 255, 255, 0.14);
 		}
 		.awc-un-gear {
 			display: flex;
@@ -958,12 +958,12 @@ function injectStyles() {
 			position: fixed;
 			z-index: 2147483000;
 			display: flex;
+			overflow-y: auto;
 			flex-direction: column;
 			box-sizing: border-box;
 			width: 350px;
 			max-width: calc(100vw - 16px);
 			padding: 18px 20px 14px;
-			overflow-y: auto;
 			border: 1px solid rgba(255, 255, 255, 0.16);
 			border-radius: 10px;
 			background: rgb(16, 22, 32);	/* Solid: the page behind must not show through the text */
@@ -986,8 +986,8 @@ function injectStyles() {
 			padding-left: 24px;
 		}
 		.awc-un-gear-panel label.awc-un-off {
-			opacity: 0.4;
 			cursor: default;
+			opacity: 0.4;
 		}
 		.awc-un-owner {
 			display: flex;
@@ -996,8 +996,8 @@ function injectStyles() {
 			gap: 6px;
 		}
 		.awc-un-owner.awc-un-off {
-			opacity: 0.4;
 			pointer-events: none;
+			opacity: 0.4;
 		}
 		.awc-un-owner-row {
 			display: flex;
@@ -1019,8 +1019,8 @@ function injectStyles() {
 			color: inherit;
 			font: inherit;
 			font-size: 12px;
-			cursor: pointer;
 			white-space: nowrap;
+			cursor: pointer;
 		}
 		.awc-un-purge[hidden] {
 			display: none;
@@ -1076,12 +1076,12 @@ function injectStyles() {
 			background: rgba(255, 255, 255, 0.1);
 			color: inherit;
 			font: inherit;
-			cursor: pointer;
 			white-space: nowrap;
+			cursor: pointer;
 		}
 		.awc-un-foot-data button:disabled {
-			opacity: 0.6;
 			cursor: default;
+			opacity: 0.6;
 		}
 		.awc-un-foot-links {
 			display: flex;
@@ -1126,25 +1126,28 @@ function injectStyles() {
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			box-sizing: border-box;
 			width: 44px;
 			height: 44px;
-			border: 0;
+			border: 2px solid rgb(var(--color-blue, 61, 180, 242));
 			border-radius: 50%;
-			background: rgb(var(--color-blue, 61, 180, 242));
-			color: rgb(11, 22, 34);
+			background: rgb(16, 24, 34);
+			color: rgb(var(--color-blue, 61, 180, 242));
 			pointer-events: none;
 			cursor: pointer;
 			opacity: 0;
-			transition: opacity 0.2s ease-out, transform 0.15s, filter 0.15s;
+			transition: opacity 0.2s ease-out, transform 0.15s, background 0.15s, color 0.15s, box-shadow 0.15s;
 			box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
 		}
 		#awc-un-lift.awc-un-lift-show {
-			opacity: 1;
 			pointer-events: auto;
+			opacity: 1;
 		}
 		#awc-un-lift:hover {
-			filter: brightness(1.12);
+			background: rgb(var(--color-blue, 61, 180, 242));
+			color: rgb(11, 22, 34);
 			transform: translateY(-2px);
+			box-shadow: 0 6px 18px rgba(61, 180, 242, 0.35);
 		}
 		#awc-un-lift:active {
 			transform: none;
@@ -1181,17 +1184,17 @@ function injectStyles() {
 			gap: 3px 8px;
 		}
 		.awc-un-dash-row:hover, .awc-un-dash-row:focus-visible {
-			background: rgba(255, 255, 255, 0.1);
 			outline: none;
+			background: rgba(255, 255, 255, 0.1);
 		}
 		.awc-un-dash-row .awc-un-bar {
 			grid-column: 1 / -1; height: 5px;
 		}
 		.awc-un-dash-name {
 			overflow: hidden;
-			text-overflow: ellipsis;
-			white-space: nowrap;
 			text-align: left;
+			white-space: nowrap;
+			text-overflow: ellipsis;
 		}
 		.awc-un-fallback {	/* Used only when the page's layout is not recognised */
 			margin: 30px 0;
