@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AWC Character Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.2.0
+// @version      1.2.1
 // @description  Display Anime Watch Club badges on AniList Character pages with caching, SPA support, and hover effects
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
@@ -34,9 +34,12 @@
 
 /* ---------------- CONFIG ---------------- */
 const DB_URL = "https://eremeir.github.io/awcCharacterPageBadges/badges.json";
+const GITHUB_URL = "https://github.com/Eremeir/awcCharacterPageBadges";	//The repository both scripts share; also where issues and suggestions go
+const GREASYFORK_URL = "https://greasyfork.org/en/scripts/569079-awc-character-page-badges";	//This script's Greasy Fork page.
+const SISTER_URL = "https://greasyfork.org/en/scripts/606817-awc-challenger-page-badges";	//The Challenger Page script's Greasy Fork page.
 const CACHE_ENABLED = true;
 const CACHE_KEY = "awc_badges_cache";	//localStorage key; stores { etag, timestamp, data }.
-const CACHE_TTL = 24 * 60 * 60 * 1000; //1 Day, in milliseconds. Once expired, the cache is used one last time while a background refresh checks for changes.
+const CACHE_TTL = 2 * 24 * 60 * 60 * 1000; //2 Days, in milliseconds. Once expired, the cache is used one last time while a background refresh checks for changes.
 
 /* ---------------- USER SETTINGS ---------------- */
 //Changed from the gear button beside the badge section title; stored by the userscript manager so they survive script updates.
@@ -375,13 +378,17 @@ function injectStyles() {
 			z-index: 1001;	/* Above a hovered badge */
 			display: flex;
 			flex-direction: column;
-			padding: 12px 14px;
-			border-radius: 6px;
+			box-sizing: border-box;
+			width: 340px;
+			max-width: calc(100vw - 32px);
+			padding: 16px 18px 14px;
+			border: 1px solid rgba(var(--color-text, 92, 114, 138), 0.22);
+			border-radius: 10px;
 			background: rgb(var(--color-foreground, 251, 251, 251));
 			color: rgb(var(--color-text, 92, 114, 138));
-			font-size: 13px;
-			box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
-			gap: 10px;
+			font-size: 14px;
+			box-shadow: 0 8px 28px rgba(0, 0, 0, 0.3);
+			gap: 12px;
 		}
 		.awc-settings-panel[hidden] {
 			display: none;
@@ -397,6 +404,76 @@ function injectStyles() {
 			margin: 0;
 			cursor: pointer;
 			accent-color: rgb(var(--color-blue, 61, 180, 242));
+		}
+		.awc-foot {
+			display: flex;
+			flex-direction: column;
+			padding-top: 12px;
+			border-top: 1px solid rgba(var(--color-text, 92, 114, 138), 0.22);
+			color: rgb(var(--color-text-lighter, 146, 153, 161));
+			font-size: 12px;
+			gap: 7px;
+		}
+		.awc-foot-title {
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+			color: rgb(var(--color-text, 92, 114, 138));
+			font-weight: 600;
+		}
+		.awc-foot-title span {
+			color: rgb(var(--color-text-lighter, 146, 153, 161));
+			font-weight: 400;
+		}
+		.awc-foot-data {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 8px;
+			font-variant-numeric: tabular-nums;
+		}
+		.awc-foot-data button {
+			padding: 4px 9px;
+			border: 1px solid rgba(var(--color-text, 92, 114, 138), 0.4);
+			border-radius: 5px;
+			background: rgba(var(--color-text, 92, 114, 138), 0.1);
+			color: inherit;
+			font: inherit;
+			white-space: nowrap;
+			cursor: pointer;
+		}
+		.awc-foot-data button:disabled {
+			cursor: default;
+			opacity: 0.6;
+		}
+		.awc-foot-links {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 4px 14px;
+		}
+		.awc-foot a {
+			color: rgb(var(--color-blue, 61, 180, 242));
+			text-decoration: none;
+		}
+		.awc-foot a:hover {
+			text-decoration: underline;
+		}
+		.awc-foot-note {
+			margin-top: -6px;
+			font-size: 11px;
+			opacity: 0.8;
+		}
+		.awc-sister {
+			margin-top: 3px;
+			padding: 6px 9px;
+			border: 1px solid rgba(61, 180, 242, 0.28);
+			border-radius: 7px;
+			background: rgba(61, 180, 242, 0.1);
+			font-size: 11.5px;
+			line-height: 1.35;
+		}
+		.awc-sister a {
+			font-weight: 600;
 		}
 		.awc-badge-empty {
 			color: rgb(var(--color-text-lighter, 146, 153, 161));
@@ -651,10 +728,68 @@ function enable3DHover(wrapper, link, img) {
 const GEAR_PATH = "M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.49.49 0 0 0 .12-.61l-1.92-3.32a.488.488 0 0 0-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.484.484 0 0 0-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58a.49.49 0 0 0-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z";
 
 /**
- * Builds the gear button and its settings panel. Each checkbox saves immediately and calls onChange.
+ * Builds the bottom of the settings panel: name and version, how fresh the badge data is (with a button to download it again), the links,
+ * and a line pointing to the sister script.
+ *
+ * @param {(key: string) => Promise<void>|void} onChange Called with "refreshData" when the button is pressed.
+ * @returns {{element: HTMLElement, update: () => void}} The footer, and a function that refreshes the data line.
+ */
+function createFooter(onChange) {
+	const make = (tag, className, text) => {
+		const el = document.createElement(tag);
+		if(className) { el.className = className; }
+		if(text !== undefined) { el.textContent = text; }
+		return el;
+	};
+	const link = (href, text) => {
+		const a = make("a", "", text);
+		a.href = href;
+		a.target = "_blank";
+		a.rel = "noopener noreferrer";
+		return a;
+	};
+	const footer = make("div", "awc-foot");
+
+	const title = make("div", "awc-foot-title", GM_info.script.name);
+	title.appendChild(make("span", "", `v${GM_info.script.version}`));
+
+	const data = make("div", "awc-foot-data");
+	const status = make("span");
+	status.title = "When the badge list was last checked for changes";
+	const refresh = make("button", "", "Refresh");
+	refresh.type = "button";
+	refresh.title = "Download the badge list again";
+	data.append(status, refresh);
+	const update = () => {
+		const record = readCache();
+		const when = record ? new Date(record.timestamp).toLocaleString(undefined, {month: "short", day: "numeric", hour: "numeric", minute: "2-digit"}) : "just downloaded";
+		status.textContent = `Badge data: ${when}${record ? ` · ${record.data.challenges.length} badges` : ""}`;
+	};
+	refresh.addEventListener("click", async () => {
+		refresh.disabled = true;
+		refresh.textContent = "Refreshing…";
+		try { await onChange("refreshData"); refresh.textContent = "Refresh"; } catch { refresh.textContent = "Failed, retry"; }
+		refresh.disabled = false;
+		update();
+	});
+
+	const links = make("div", "awc-foot-links");
+	links.append(link(GITHUB_URL, "GitHub"), link(GREASYFORK_URL, "Greasy Fork"), link(`${GITHUB_URL}/issues`, "Issues & suggestions"));
+	const discord = make("div", "awc-foot-note", "or @Eremeir on the AWC Discord");
+
+	const sister = make("div", "awc-sister");
+	sister.append(link(SISTER_URL, "Try the sister script! ↗"), " · See which badges you haven't earned right on awc.moe challenger pages!");
+
+	footer.append(title, data, links, discord, sister);
+	update();
+	return {element: footer, update};
+}
+
+/**
+ * Builds the gear button and its settings panel. Each checkbox saves immediately and calls onChange(key).
  * The panel closes on an outside click or Escape; those document listeners only exist while it is open.
  *
- * @param {() => void} onChange Called after any setting changes.
+ * @param {(key: string) => Promise<void>|void} onChange Called after any setting changes, and with "refreshData" when the refresh button is pressed.
  * @returns {HTMLElement}
  */
 function createSettingsMenu(onChange) {
@@ -690,15 +825,18 @@ function createSettingsMenu(onChange) {
 		checkbox.addEventListener("change", () => {
 			settings[option.key] = checkbox.checked;
 			saveSettings();
-			onChange();
+			onChange(option.key);
 		});
 		label.append(checkbox, option.label);
 		panel.appendChild(label);
 	}
+	const footer = createFooter(onChange);
+	panel.appendChild(footer.element);
 
 	const onOutsideClick = event => { if(!menu.contains(event.target)) { setOpen(false); } };
 	const onKey = event => { if(event.key === "Escape") { setOpen(false); button.focus(); } };
 	function setOpen(open) {
+		if(open) { footer.update(); }
 		panel.hidden = !open;
 		button.classList.toggle("awc-open", open);
 		button.setAttribute("aria-expanded", String(open));
@@ -757,7 +895,14 @@ function renderBadges(data, characterID, characterDiv) {
 	header.className = "awc-badge-header";
 	const title = document.createElement("h2");
 	title.textContent = "Featuring AWC Badges";
-	header.append(createSettingsMenu(() => fillBadges(holder, data, characterID)), title);
+	header.append(createSettingsMenu(async key => {
+		if(key === "refreshData") {	//Throws the cached database away and downloads it again
+			try { localStorage.removeItem(CACHE_KEY); } catch { /* storage blocked: nothing cached to remove */ }
+			dbPromise = null;
+			data = await loadDB();
+		}
+		fillBadges(holder, data, characterID);
+	}), title);
 
 	container.append(header, holder);
 	characterDiv.insertAdjacentElement("afterend", container);	//Insert container after character div
