@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AWC Challenger Page Badges
 // @namespace    https://github.com/Eremeir
-// @version      1.0.1
+// @version      1.0.2
 // @description  Shows the badges a challenger has not earned yet inside their categories on awc.moe, with a switch in the page header
 // @author       Eremeir
 // @homepageURL  https://github.com/Eremeir/awcCharacterPageBadges
@@ -114,6 +114,8 @@ function remember(key, value) {
 	settings[key] = value;
 	saveSettings();
 }
+const THIS_YEAR = new Date().getUTCFullYear();	//Years below run up to now, so a new year needs no edit here
+const yearsFrom = first => Array.from({length: THIS_YEAR - first + 1}, (_, i) => first + i);
 const LINKED_OWNERSHIP = {	//Owning the badge on the left counts as owning the badges on the right (they are shown as owned, not dimmed, and only while the script is on): "id": ["id", ...]
 	"monthly2018DecEasyWreath": ["monthly2018DecEasy"],
 	"monthly2018DecHardWreath": ["monthly2018DecHard"],
@@ -122,7 +124,7 @@ const LINKED_OWNERSHIP = {	//Owning the badge on the left counts as owning the b
 	"monthly2019DecEasyBonus": ["monthly2019DecEasy"],
 	"monthly2019DecHardBonus": ["monthly2019DecHard"]
 };
-for(const year of [2019, 2020, 2021, 2022, 2023, 2024, 2025]) {	//End of Year: Hard counts as Easy, and Easy as Participation (so Hard counts as both)
+for(const year of yearsFrom(2019)) {	//End of Year: Hard counts as Easy, and Easy as Participation (so Hard counts as both)
 	LINKED_OWNERSHIP[`animeYearly${year}Hard`] = [`animeYearly${year}Easy`];
 	LINKED_OWNERSHIP[`animeYearly${year}Easy`] = [`animeYearly${year}Part`];
 }
@@ -134,7 +136,7 @@ const MANUAL_LEGACY_PAIRS = {};	//Pairs the database does not mark (an id ending
 
 /* ---------------- SITE CATEGORIES ---------------- */
 const BOXES = ["Special", "Anime", "Manga"];	//The page's three boxes, in order
-const MONTHLY_YEARS = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026];
+const MONTHLY_YEARS = yearsFrom(2018);
 const CATEGORY_ORDER = {	//Each box's headers in the order the page shows them; used to place a header the page does not have yet
 	Special: ["End of Year", "Supporter", "Unofficial"],
 	Anime: ["Classic", "Collection", "Event", "Gacha", "Genre", ...MONTHLY_YEARS.map(year => `Monthly ${year}`), "Puzzle", "Seasonal", "Special", "Tier"],
@@ -498,6 +500,11 @@ function prepareIndex(index) {
 			threadToGroups.get(thread).add(i);
 		}
 	});
+	for(const group of groups) {	//A Staff Picks Combined badge stays open for whoever owns that year's Timed badge (it waits for Hanamaru); without it, both close together
+		const year = /^Staff Picks Challenge:\s*(\d{4}) \(Combined\)/.exec(badges[group.current].name)?.[1];
+		const timed = year && badges.findIndex(badge => badge.name === `Staff Picks Challenge: ${year} (Timed Mode)`);
+		if(timed > -1) { group.opensWith = timed; }
+	}
 	const stemToIndex = new Map([...stemCount].filter(([, i]) => i !== -1));
 	const captionCount = new Map();	//Words of a badge's name (sorted) -> the badge's index, or -1 if several share them; matches the labels the page prints under some badges
 	badges.forEach((badge, i) => {
@@ -1397,9 +1404,9 @@ function placeholderLabel(name) {
  * @param {{makeToggle: Function|null}} page From readPage().
  * @returns {HTMLElement}
  */
-function buildBadge(group, badges, page, granted = false) {
+function buildBadge(group, badges, page, granted = false, closed = group.unobtainable) {
 	const badge = document.createElement("div");
-	badge.className = `badge awc-un-badge${DIM_UNOWNED && !granted ? " awc-un-dim" : ""}${granted ? " awc-un-granted" : ""}${group.unobtainable ? " awc-un-unobtainable" : ""}`;	//A badge counted as owned is not dimmed
+	badge.className = `badge awc-un-badge${DIM_UNOWNED && !granted ? " awc-un-dim" : ""}${granted ? " awc-un-granted" : ""}${closed ? " awc-un-unobtainable" : ""}`;	//A badge counted as owned is not dimmed
 
 	const versions = [{entry: badges[group.current], legacySide: false}];
 	if(group.legacy !== null) { versions.push({entry: badges[group.legacy], legacySide: true}); }
@@ -1769,9 +1776,22 @@ function restoreRows() {
 }
 
 /**
+ * When a group stops being obtainable for this challenger: its own closing time, except that a Combined Staff Picks badge never closes for someone who owns the Timed one.
+ *
+ * @param {{closes: number, opensWith?: number}} group From prepareIndex().
+ * @param {{owned: Set<number>, granted: Set<number>}} scan From scanOwned().
+ * @returns {number} As closingTime().
+ */
+function closesFor(group, scan) {
+	return group.opensWith !== undefined && (scan.owned.has(group.opensWith) || scan.granted.has(group.opensWith)) ? Infinity : group.closes;
+}
+/** @returns {boolean} Whether the group can no longer be earned by this challenger (see closesFor()). */
+function closedFor(group, scan) { return Date.now() >= closesFor(group, scan); }
+
+/**
  * Works out when a badge stops being obtainable, from its section and name, so the database needs no dates of its own.
  *   Event: closed, unless listed in `openEvents`. Supporter/Staff: always closed. Monthly: the first of the next month.
- *   Seasonal: 17 weeks after its season starts (Jan, Apr, Jul or Oct 1st). Staff Picks: the end of Dec 25 of the next year (not the Hanamaru Mode ones, which never close).
+ *   Seasonal: 17 weeks after its season starts (Jan, Apr, Jul or Oct 1st). Staff Picks: the end of Dec 25 of the next year (not the Hanamaru Mode ones, which never close; see closesFor() for the Combined one).
  *   End of Year: the first of the next year. Anything else stays open. All in UTC.
  * A badge in `openEvents` uses that entry instead of any rule. A name the rules cannot read counts as open (and is logged once).
  *
@@ -1861,7 +1881,7 @@ function linkEndOfYear(data, scan) {
  * @returns {{placed: number, spoofed: number, leftover: object[]}}
  */
 function placeUnowned(page, data, scan, includeAll) {
-	const unowned = data.groups.filter(group => !scan.owned.has(group.current) && (group.legacy === null || !scan.owned.has(group.legacy)) && (includeAll || !group.unobtainable || scan.granted.has(group.current)) && !hiddenSupporter(group, scan.granted.has(group.current)));
+	const unowned = data.groups.filter(group => !scan.owned.has(group.current) && (group.legacy === null || !scan.owned.has(group.legacy)) && (includeAll || !closedFor(group, scan) || scan.granted.has(group.current)) && !hiddenSupporter(group, scan.granted.has(group.current)));
 	const byCategory = new Map();	//"Box/title" -> groups
 	for(const group of unowned) {
 		const key = `${group.target.box}/${normTitle(group.target.title)}`;
@@ -1892,7 +1912,7 @@ function placeUnowned(page, data, scan, includeAll) {
 		}
 		for(const [sub, members] of bySub) {
 			const display = displayFor(unit, page, data, sub || null, target, members[0].order, positions);
-			const cards = members.map(group => ({el: track(decorateUnofficial(buildBadge(group, data.badges, page, scan.granted.has(group.current)), group, data)), order: group.order}));
+			const cards = members.map(group => ({el: track(decorateUnofficial(buildBadge(group, data.badges, page, scan.granted.has(group.current), closedFor(group, scan)), group, data)), order: group.order}));
 			const lists = siblingDisplays(unit, display, data, positions);
 			if(lists.length > 1) { insertAcrossDisplays(lists, cards, positions); } else { insertInOrder(display, cards, positions); }
 			placed += cards.length;
@@ -2094,7 +2114,7 @@ function addDashboard(data, scan, includeAll) {
 	const rows = new Map();	//"Box/label" -> {box, label, owned, total}
 	for(const group of data.groups) {
 		const isOwned = scan.owned.has(group.current) || (group.legacy !== null && scan.owned.has(group.legacy)) || scan.granted.has(group.current);
-		if(!isOwned && ((group.unobtainable && !includeAll) || hiddenSupporter(group, false))) { continue; }
+		if(!isOwned && ((closedFor(group, scan) && !includeAll) || hiddenSupporter(group, false))) { continue; }
 		const {box, title} = group.target;
 		const label = /^Monthly\b/.test(title) ? "Monthly" : title;
 		const key = `${box}/${label}`;
@@ -2103,7 +2123,7 @@ function addDashboard(data, scan, includeAll) {
 		if(!row.titles.includes(title)) { row.titles.push(title); }
 		row.total++;
 		if(isOwned) { row.owned++; }
-		else if(Number.isFinite(group.closes) && !group.unobtainable && !hiddenSupporter(group, false)) { row.closing = (row.closing ?? 0) + 1; }	//Open now, with a close date: it will not be around forever
+		else if(Number.isFinite(closesFor(group, scan)) && !closedFor(group, scan) && !hiddenSupporter(group, false)) { row.closing = (row.closing ?? 0) + 1; }	//Open now, with a close date: it will not be around forever
 	}
 	const list = [...rows.values()];
 	if(!list.length) { return; }
